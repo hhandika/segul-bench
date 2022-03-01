@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 set INPUT_DIR "shrew-nexus-clean-trimmed/"
-set OUTPUT_DIR "Summary_results"
+set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "summary_bench.log"
 set CORES "24"
 
