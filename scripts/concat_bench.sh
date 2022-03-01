@@ -26,6 +26,7 @@ for dir in $INPUT_DIRS
     echo ""
     for i in (seq 10)
         rm -r $OUTPUT_DIR;
+        echo ""
         echo "Iteration $i"
         # We append the STDERR to the log file because gnu time output to STDERR
         env time -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
@@ -52,6 +53,7 @@ for dir in $INPUT_DIRS
     echo ""
     for i in (seq 10)
         rm concatenated.out && rm partitions.txt
+        echo ""
         echo "Iteration $i"
         env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
     end 
@@ -76,6 +78,7 @@ for dir in $INPUT_DIRS
     echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
     echo ""
     for i in (seq 10)
+        echo ""
         echo "Iteration $i"
         env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
     end 
