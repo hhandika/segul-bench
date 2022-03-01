@@ -8,6 +8,10 @@ if test -f $OUTPUT_LOG
     rm $OUTPUT_LOG
 end
 
+if [ -d $OUTPUT_DIR ] 
+rm -r $OUTPUT_DIR
+end
+
 echo "Warming up..."
 
 segul summary -d $INPUT_DIR -f nexus -o $OUTPUT_DIR
@@ -23,6 +27,10 @@ for i in (seq 10) do
 end
 
 conda activate phyluce
+
+if [ -d $OUTPUT_DIR ] 
+rm -r $OUTPUT_DIR
+end
 
 echo "Warming up..."
 
