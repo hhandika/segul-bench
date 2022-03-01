@@ -14,7 +14,7 @@ if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
 
-echo -e "\nWarming up..."
+echo -e "Warming up..."
 
 segul concat -d "esselstyn_2021_nexus_trimmed" -f nexus -o $OUTPUT_DIR -F phylip
 
@@ -22,8 +22,8 @@ echo -e "\nBenchmarking Alignment Concatenation"
 
 echo -e "\nBenchmarking SEGUL\n" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
-    echo ""
     echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+    echo ""
     for i in (seq 10)
         rm -r $OUTPUT_DIR;
         echo "Iteration $i"
@@ -48,8 +48,8 @@ AMAS.py concat -i esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -c $CORES
 echo -e "\nBenchmarking AMAS\n" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
-    echo ""
     echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+    echo ""
     for i in (seq 10)
         rm concatenated.out && rm partitions.txt
         echo "Iteration $i"
@@ -73,8 +73,8 @@ phyluce_align_concatenate_alignments --alignments "esselstyn_2021_nexus_trimmed"
 echo -e "\nBenchmarking Phyluce\n" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
-    echo ""
     echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+    echo ""
     for i in (seq 10)
         echo "Iteration $i"
         env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
