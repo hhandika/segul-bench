@@ -15,7 +15,7 @@ end
 
 echo "Warming up..."
 
-segul summary -d "shrew-nexus-clean-trimmed/" -f nexus -o $OUTPUT_DIR
+segul concat -d "shrew-nexus-clean-trimmed" -f nexus -o $OUTPUT_DIR -F phylip
 
 echo "Benchmarking Alignment Concatenation"
 
@@ -38,7 +38,7 @@ end
 
 echo "Warming up..."
 
-phyluce_align_get_align_summary_data --alignments "shrew-nexus-clean-trimmed/" --core $CORES
+phyluce_align_concatenate_alignments --alignments "shrew-nexus-clean-trimmed" --output $OUTPUT_DIR --phylip
 
 echo "Benchmarking Phyluce" | tee $OUTPUT_LOG
 
