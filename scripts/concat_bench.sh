@@ -23,7 +23,6 @@ echo -e "\nBenchmarking Alignment Concatenation"
 echo -e "\nBenchmarking SEGUL\n" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
     echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-    echo ""
     for i in (seq 10)
         rm -r $OUTPUT_DIR;
         echo ""
@@ -50,7 +49,6 @@ echo -e "\nBenchmarking AMAS\n" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
     echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-    echo ""
     for i in (seq 10)
         rm concatenated.out && rm partitions.txt
         echo ""
@@ -76,7 +74,6 @@ echo -e "\nBenchmarking Phyluce\n" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
     echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-    echo ""
     for i in (seq 10)
         echo ""
         echo "Iteration $i"
