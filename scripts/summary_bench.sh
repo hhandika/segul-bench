@@ -19,9 +19,9 @@ segul summary -d "shrew-nexus-clean-trimmed/" -f nexus -o $OUTPUT_DIR
 
 echo "Benchmarking Summary Statistics"
 
-echo "Benchmarking SEGUL" | tee $OUTPUT_LOG
+echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
-    echo "Dataset path: $dir" | tee $OUTPUT_LOG
+    echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
     for i in (seq 10)
         rm -r $OUTPUT_DIR;
         echo "Iteration $i"
@@ -40,10 +40,10 @@ echo "Warming up..."
 
 phyluce_align_get_align_summary_data --alignments "shrew-nexus-clean-trimmed/" --core $CORES
 
-echo "Benchmarking Phyluce" | tee $OUTPUT_LOG
+echo "Benchmarking Phyluce" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
-    echo "Dataset path: $dir" | tee $OUTPUT_LOG
+    echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
     for i in (seq 10)
         echo "Iteration $i"
         env time -f "%E %M %P" phyluce_align_get_align_summary_data --alignments $dir --core $CORES 2>> $OUTPUT_LOG;

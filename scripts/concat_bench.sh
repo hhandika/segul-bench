@@ -19,9 +19,9 @@ segul concat -d "shrew-nexus-clean-trimmed" -f nexus -o $OUTPUT_DIR -F phylip
 
 echo "Benchmarking Alignment Concatenation"
 
-echo "Benchmarking SEGUL" | tee $OUTPUT_LOG
+echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
-    echo "Dataset path: $dir" | tee $OUTPUT_LOG
+    echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
     for i in (seq 10)
         rm -r $OUTPUT_DIR;
         echo "Iteration $i"
@@ -40,10 +40,10 @@ echo "Warming up..."
 
 phyluce_align_concatenate_alignments --alignments "shrew-nexus-clean-trimmed" --output $OUTPUT_DIR --phylip
 
-echo "Benchmarking Phyluce" | tee $OUTPUT_LOG
+echo "Benchmarking Phyluce" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
-    echo "Dataset path: $dir" | tee $OUTPUT_LOG
+    echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
     for i in (seq 10)
         echo "Iteration $i"
         env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
