@@ -17,9 +17,9 @@ echo "Benchmarking Alignment Concatenation"
 echo "Benchmarking SEGUL" >> $OUTPUT_LOG
 
 for i in (seq 10) do
+    rm -r $OUTPUT_DIR;
     echo "Iteration $i"
     env time -f "%E %M %P" segul concat -d $INPUT_DIR -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
-    rm -r $OUTPUT_DIR;
 end
 
 conda activate phyluce
@@ -31,8 +31,8 @@ phyluce_align_concatenate_alignments --alignments $INPUT_DIR --output $OUTPUT_DI
 echo "Benchmarking Phyluce" >> $OUTPUT_LOG
 
 for i in (seq 10) do
+    rm -r $OUTPUT_DIR;
     echo "Iteration $i"
     env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $INPUT_DIR --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
-    rm -r $OUTPUT_DIR;
 end
 
