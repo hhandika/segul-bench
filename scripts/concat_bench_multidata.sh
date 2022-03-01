@@ -17,7 +17,7 @@ echo "Warming up..."
 
 segul summary -d "shrew-nexus-clean-trimmed/" -f nexus -o $OUTPUT_DIR
 
-echo "Benchmarking Alignment Concatenation"
+echo "Benchmarking Summary Statistics"
 
 echo "Benchmarking SEGUL" | tee $OUTPUT_LOG
 for dir in $INPUT_DIRS
@@ -26,7 +26,7 @@ for dir in $INPUT_DIRS
         rm -r $OUTPUT_DIR;
         echo "Iteration $i"
         # We append the STDERR to the log file because gnu time output to STDERR
-        env time -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+        env time -f "%E %M %P" segul summary -d $dir -f nexus -o $OUTPUT_DIR 2>> $OUTPUT_LOG;
     end
 end
 
@@ -46,6 +46,6 @@ for dir in $INPUT_DIRS
     echo "Dataset path: $dir" | tee $OUTPUT_LOG
     for i in (seq 10)
         echo "Iteration $i"
-        env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
+        env time -f "%E %M %P" phyluce_align_get_align_summary_data --alignments $dir --core $CORES 2>> $OUTPUT_LOG;
     end 
 end
