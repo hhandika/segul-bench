@@ -29,14 +29,19 @@ bench |>
     labs(x = "Execution time (secs)", y = "Memory usage")
 ```
 ```{r}
-bench |>
-  dplyr::filter(Analyses == "summary_stats") |>
+plot_bench <- function(.analyses) {
+  bench |>
+  dplyr::filter(Analyses == .analyses) |>
   dplyr::mutate("memory_usage_in_kb" = memory_usage/1e3) |>
   ggplot(aes(x = execution_time_secs, y = memory_usage_in_kb, color = Programs)) +
     geom_point() +
     theme_classic() +
     labs(x = "Execution time (secs)", y = "Memory usage")
-```
+}
+
+plot_bench(.analyses = "summary_stats")
+plot_bench(.analyses = "concat_aln")
+  
 ```
 
 ```{r}
