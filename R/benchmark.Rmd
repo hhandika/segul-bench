@@ -1,0 +1,49 @@
+---
+title: "SEGUL Benchmark"
+output: html_document
+---
+
+```{r}
+library(here)
+library(ggplot2)
+library(readr)
+library(dplyr)
+library(stringr)
+```
+
+
+```{r}
+bench <- readr::read_csv(here("data", "bench_spectre.csv")) |>
+  dplyr::mutate_at("cpu_usage", stringr::str_remove_all, "%") |>
+  dplyr::mutate_at("cpu_usage", readr::parse_number)
+
+```
+
+```{r}
+bench |>
+  dplyr::filter(Analyses == "concat_aln") |>
+  dplyr::mutate("memory_usage_in_kb" = memory_usage/1e3) |>
+  ggplot(aes(x = execution_time_secs, y = memory_usage_in_kb, color = Programs)) +
+    geom_point() +
+    theme_classic() +
+    labs(x = "Execution time (secs)", y = "Memory usage")
+```
+```{r}
+bench |>
+  dplyr::filter(Analyses == "summary_stats") |>
+  dplyr::mutate("memory_usage_in_kb" = memory_usage/1e3) |>
+  ggplot(aes(x = execution_time_secs, y = memory_usage_in_kb, color = Programs)) +
+    geom_point() +
+    theme_classic() +
+    labs(x = "Execution time (secs)", y = "Memory usage")
+```
+```
+
+```{r}
+bench |>
+  ggplot(aes(x = execution_time_secs, y = cpu_usage, color = interaction(Analyses, Programs))) +
+    geom_boxplot() +
+    theme_classic() +
+    labs(x = "Execution time (secs)", y = "CPU usage")
+```
+
