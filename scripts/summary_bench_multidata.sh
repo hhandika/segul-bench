@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-set INPUT_DIR "shrew-nexus-clean-trimmed/" "oliveros_2019_trimmed_80p" "jarvis_2014_uce_filtered_w_gator"
+set INPUT_DIR "shrew-nexus-clean-trimmed" "oliveros_2019_trimmed_80p" "jarvis_2014_uce_filtered_w_gator"
 set OUTPUT_DIR "Summary_results"
 set OUTPUT_LOG "summary_bench.log"
 set CORES "24"
