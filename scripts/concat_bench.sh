@@ -1,8 +1,8 @@
 #!/usr/bin/env fish
 
-set INPUT_DIRS "esselstyn_2021_nexus_trimmed" "oliveros_2019_80p_trimmed" "jarvis_2014_uce_filtered_w_gator"
+set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
 set OUTPUT_DIR "concat_results"
-set OUTPUT_LOG "concat_bench.log"
+set OUTPUT_LOG "data/concat_bench.log"
 set CORES "24"
 
 
@@ -16,7 +16,7 @@ end
 
 echo -e "Warming up..."
 
-segul concat -d "esselstyn_2021_nexus_trimmed" -f nexus -o $OUTPUT_DIR -F phylip
+segul concat -d alignments/esselstyn_2021_nexus_trimmed -f nexus -o $OUTPUT_DIR -F phylip
 
 echo -e "\nBenchmarking Alignment Concatenation"
 
@@ -44,7 +44,7 @@ end
 
 echo -e "\nWarming up..."
 
-AMAS.py concat -i esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -c $CORES
+AMAS.py concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
@@ -70,7 +70,7 @@ end
 
 echo -e "\nWarming up..."
 
-phyluce_align_concatenate_alignments --alignments "esselstyn_2021_nexus_trimmed" --output $OUTPUT_DIR --phylip
+phyluce_align_concatenate_alignments --alignments alignments/esselstyn_2021_nexus_trimmed --output $OUTPUT_DIR --phylip
 
 echo -e "\nBenchmarking Phyluce" | tee -a $OUTPUT_LOG
 
@@ -83,4 +83,10 @@ for dir in $INPUT_DIRS
         env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
     end 
 end
+
+### Push results to github
+
+mv OUTPUT_LOG data/concat_benchmark_raw.txt
+
+git add -A && git commit -m "Add concatenation benchmark" && git push
 
