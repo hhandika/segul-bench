@@ -7,10 +7,10 @@ set CORES "24"
 
 
 if test -f $OUTPUT_LOG
-    rm $OUTPUT_LOG
+rm $OUTPUT_LOG
 end
 
-if [ -d $OUTPUT_DIR ] 
+if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
 
@@ -22,22 +22,22 @@ echo -e "\nBenchmarking Alignment Concatenation"
 
 echo -e "\nBenchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
-    echo ""
-    echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-    for i in (seq 10)
-        rm -r $OUTPUT_DIR;
-        echo ""
-        echo "Iteration $i"
-        # We append the STDERR to the log file because gnu time output to STDERR
-        env time -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
-    end
+echo ""
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm -r $OUTPUT_DIR;
+echo ""
+echo "Iteration $i"
+# We append the STDERR to the log file because gnu time output to STDERR
+env time -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+end
 end
 
 #### AMAS ####
 
 conda activate pytools
 
-if [ -d $OUTPUT_DIR ] 
+if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
 
@@ -49,14 +49,14 @@ AMAS.py concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
-    echo ""
-    echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-    for i in (seq 10)
-        rm concatenated.out && rm partitions.txt
-        echo ""
-        echo "Iteration $i"
-        env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
-    end 
+echo ""
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm concatenated.out && rm partitions.txt
+echo ""
+echo "Iteration $i"
+env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
+end
 end
 
 
@@ -64,7 +64,7 @@ end
 
 conda activate phyluce
 
-if [ -d $OUTPUT_DIR ] 
+if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
 
@@ -75,18 +75,22 @@ phyluce_align_concatenate_alignments --alignments alignments/esselstyn_2021_nexu
 echo -e "\nBenchmarking Phyluce" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
-    echo ""
-    echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-    for i in (seq 10)
-        echo ""
-        echo "Iteration $i"
-        env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
-    end 
+echo ""
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+echo ""
+echo "Iteration $i"
+env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
+end
 end
 
 ### Push results to github
 
-mv OUTPUT_LOG data/concat_benchmark_raw.txt
+set Date (date +%F)
+
+set fname "concat_bench_raw_$Date.txt"
+
+mv OUTPUT_LOG data/$fname
 
 git add -A && git commit -m "Add concatenation benchmark" && git push
 
