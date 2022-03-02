@@ -43,3 +43,13 @@ for i in (seq 10) do
     echo "Iteration $i"
     env time -f "%E %M %P" phyluce_align_get_align_summary_data --alignments $INPUT_DIR --core $CORES 2>> $OUTPUT_LOG;
 end
+
+### Push results to github
+
+set Date (date +%F)
+
+set fname "summary_bench_raw_$Date.txt"
+
+mv OUTPUT_LOG data/$fname
+
+git add -A && git commit -m "Add summary benchmark $Date" && git push

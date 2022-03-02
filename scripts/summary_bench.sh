@@ -6,10 +6,10 @@ set OUTPUT_LOG "summary_bench.log"
 set CORES "24"
 
 if test -f $OUTPUT_LOG
-    rm $OUTPUT_LOG
+rm $OUTPUT_LOG
 end
 
-if [ -d $OUTPUT_DIR ] 
+if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
 
@@ -21,18 +21,18 @@ echo "Benchmarking Summary Statistics"
 
 echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
-    echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-    for i in (seq 10)
-        rm -r $OUTPUT_DIR;
-        echo "Iteration $i"
-        # We append the STDERR to the log file because gnu time output to STDERR
-        env time -f "%E %M %P" segul summary -d $dir -f nexus -o $OUTPUT_DIR 2>> $OUTPUT_LOG;
-    end
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm -r $OUTPUT_DIR;
+echo "Iteration $i"
+# We append the STDERR to the log file because gnu time output to STDERR
+env time -f "%E %M %P" segul summary -d $dir -f nexus -o $OUTPUT_DIR 2>> $OUTPUT_LOG;
+end
 end
 
 conda activate phyluce
 
-if [ -d $OUTPUT_DIR ] 
+if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
 
@@ -43,9 +43,19 @@ phyluce_align_get_align_summary_data --alignments "shrew-nexus-clean-trimmed/" -
 echo "Benchmarking Phyluce" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
-    echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-    for i in (seq 10)
-        echo "Iteration $i"
-        env time -f "%E %M %P" phyluce_align_get_align_summary_data --alignments $dir --core $CORES 2>> $OUTPUT_LOG;
-    end 
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+echo "Iteration $i"
+env time -f "%E %M %P" phyluce_align_get_align_summary_data --alignments $dir --core $CORES 2>> $OUTPUT_LOG;
 end
+end
+
+### Push results to github
+
+set Date (date +%F)
+
+set fname "summary_bench_raw_$Date.txt"
+
+mv OUTPUT_LOG data/$fname
+
+git add -A && git commit -m "Add summary benchmark $Date" && git push
