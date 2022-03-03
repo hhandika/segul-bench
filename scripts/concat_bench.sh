@@ -2,7 +2,7 @@
 
 set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
 set OUTPUT_DIR "concat_results"
-set OUTPUT_LOG "data/concat_bench.log"
+set OUTPUT_LOG "data/concat_bench.txt"
 set CORES "24"
 
 
@@ -91,7 +91,7 @@ set Date (date +%F)
 
 set fname "concat_bench_raw_$Date.txt"
 
-mv OUTPUT_LOG data/$fname
+mv $OUTPUT_LOG data/$fname
 
 ### Cleaning up ###
 
