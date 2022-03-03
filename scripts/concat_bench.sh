@@ -59,6 +59,7 @@ env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>
 end
 end
 
+rm concatenated.out && rm partitions.txt
 
 #### Phyluce ####
 
@@ -78,19 +79,28 @@ for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
+rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
 end
 end
 
-### Push results to github
+
+### Final touches ###
 
 set Date (date +%F)
 
 set fname "concat_bench_raw_$Date.txt"
 
 mv OUTPUT_LOG data/$fname
+
+### Cleaning up ###
+
+rm -r $OUTPUT_DIR
+rm *.log
+
+### Push to Github ###
 
 git add -A && git commit -m "Add concatenation benchmark" && git push
 

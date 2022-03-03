@@ -45,17 +45,25 @@ echo "Benchmarking Phyluce" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
+rm -r $OUTPUT_DIR;
 echo "Iteration $i"
 env time -f "%E %M %P" phyluce_align_get_align_summary_data --alignments $dir --core $CORES 2>> $OUTPUT_LOG;
 end
 end
 
-### Push results to github
+### Final touches ###
 
 set Date (date +%F)
 
-set fname "summary_bench_raw_$Date.txt"
+set fname "concat_bench_raw_$Date.txt"
 
 mv OUTPUT_LOG data/$fname
 
-git add -A && git commit -m "Add summary benchmark $Date" && git push
+### Cleaning up ###
+
+rm -r $OUTPUT_DIR
+rm *.log
+
+### Push to Github ###
+
+git add -A && git commit -m "Add concatenation benchmark" && git push

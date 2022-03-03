@@ -15,3 +15,13 @@ Cargo.lock
 *.log
 
 alignments/
+
+*.nex
+*.phy
+*.phylip
+*.fasta
+*.fas
+*.nexus
+
+concat_results/
+summary_results/
