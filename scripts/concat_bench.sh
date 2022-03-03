@@ -59,8 +59,6 @@ env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>
 end
 end
 
-rm concatenated.out && rm partitions.txt
-
 #### Phyluce ####
 
 conda activate phyluce
@@ -99,6 +97,7 @@ mv OUTPUT_LOG data/$fname
 
 rm -r $OUTPUT_DIR
 rm *.log
+rm concatenated.out && rm partitions.txt
 
 ### Push to Github ###
 
