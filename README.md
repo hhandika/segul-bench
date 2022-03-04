@@ -7,3 +7,7 @@ Benchmarking segul performance with other similar programs.
 ### Summary statistics
 
 ![results](figures/summary_stats.png)
+
+### Concat statistics
+
+![results](figures/concat_stats.png)
