@@ -15,7 +15,7 @@ end
 
 echo "Warming up..."
 
-segul summary -d "shrew-nexus-clean-trimmed/" -f nexus -o $OUTPUT_DIR
+segul summary -d "alignments/esselstyn_2021_nexus_trimmed" -f nexus -o $OUTPUT_DIR
 
 echo "Benchmarking Summary Statistics"
 
@@ -26,7 +26,7 @@ for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-gtime -f "%E %M %P" segul summary -d $dir -f nexus -o $OUTPUT_DIR 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" segul summary -i $dir/*.nex -f nexus -o $OUTPUT_DIR 2>> $OUTPUT_LOG;
 end
 end
 

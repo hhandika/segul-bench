@@ -1,0 +1,6 @@
+Benchmarking SEGUL
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:02.09 59280 608%
+0:01.88 57616 692%
+Command terminated by signal 2
+0:00.12 42896 666%

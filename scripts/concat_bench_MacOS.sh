@@ -16,7 +16,7 @@ end
 
 echo -e "Warming up..."
 
-segul concat -d alignments/esselstyn_2021_nexus_trimmed -f nexus -o $OUTPUT_DIR -F phylip
+segul concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -o $OUTPUT_DIR -F phylip
 
 echo -e "\nBenchmarking Alignment Concatenation"
 
@@ -29,7 +29,20 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-gtime -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F fasta 2>> $OUTPUT_LOG;
+end
+end
+
+echo -e "Benchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
+for dir in $INPUT_DIRS
+echo ""
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm -r $OUTPUT_DIR;
+echo ""
+echo "Iteration $i"
+# We append the STDERR to the log file because gnu time output to STDERR
+gtime -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F fasta-int --datatype ignore 2>> $OUTPUT_LOG;
 end
 end
 
