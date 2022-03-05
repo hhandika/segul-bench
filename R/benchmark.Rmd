@@ -13,11 +13,7 @@ library(stringr)
 
 
 ```{r}
-bench <- readr::read_csv(here("data", "bench_spectre.csv")) |>
-  dplyr::mutate_at("cpu_usage", stringr::str_remove_all, "%") |>
-  dplyr::mutate_at("cpu_usage", readr::parse_number)
-
-concat_bench <- readr::read_csv(here("data", "concat_bench_raw_2022-03-03.csv")) |>
+bench <- readr::read_csv(here("data", "benchmark_results.csv")) |>
   dplyr::mutate_at("cpu_usage", stringr::str_remove_all, "%") |>
   dplyr::mutate_at("cpu_usage", readr::parse_number)
 ```
@@ -25,15 +21,19 @@ concat_bench <- readr::read_csv(here("data", "concat_bench_raw_2022-03-03.csv"))
 ```{r}
 plot_bench <- function(.analyses) {
   bench |>
-  dplyr::filter(Analyses == .analyses) |>
-  dplyr::mutate("memory_usage_in_kb" = memory_usage/1e3) |>
-  ggplot(aes(x = execution_time_secs, y = memory_usage_in_kb, color = Programs)) +
+  dplyr::filter(analyses == .analyses) |>
+  ggplot(aes(x = execution_time_secs, y = ram_usage_Mb, color = programs, shape = dataset)) +
     geom_point() +
     theme_classic() +
     labs(x = "Execution time (secs)", y = "Memory usage (kb)")
 }
 
-plot_bench(.analyses = "summary_stats")
+```
+
+### Plot summary
+
+```{r}
+plot_bench(.analyses = "Summary statistics")
 
 ggsave(here("figures", "summary_stats.png"), width = 8, height = 4, units = "in")
 ```
