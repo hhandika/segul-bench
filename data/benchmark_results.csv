@@ -1,151 +1,151 @@
-﻿programs,dataset,analyses,cpu,core_counts,thread_counts,ram_size_gb,os,kernel,execution_time,execution_time_secs,ram_usage,ram_usage_Mb,cpu_usage
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.376,4.4.0-22000-Microsoft,00:05.3,5.27,"603,044",603.044,146%
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.377,4.4.0-22000-Microsoft,00:05.3,5.27,"601,660",601.660,149%
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.378,4.4.0-22000-Microsoft,00:05.3,5.28,"601,924",601.924,149%
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.379,4.4.0-22000-Microsoft,00:05.2,5.25,"602,216",602.216,146%
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.380,4.4.0-22000-Microsoft,00:05.3,5.26,"603,376",603.376,153%
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.381,4.4.0-22000-Microsoft,00:05.3,5.29,"606,380",606.380,149%
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.382,4.4.0-22000-Microsoft,00:05.2,5.20,"603,144",603.144,149%
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.383,4.4.0-22000-Microsoft,00:05.2,5.25,"602,932",602.932,151%
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.384,4.4.0-22000-Microsoft,00:05.2,5.22,"602,420",602.420,144%
-SEGUL,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.385,4.4.0-22000-Microsoft,00:05.2,5.23,"597,288",597.288,144%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.386,4.4.0-22000-Microsoft,00:04.4,4.40,"656,672",656.672,161%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.387,4.4.0-22000-Microsoft,00:04.5,4.54,"655,700",655.700,167%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.388,4.4.0-22000-Microsoft,00:04.4,4.37,"654,952",654.952,168%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.389,4.4.0-22000-Microsoft,00:04.4,4.37,"654,220",654.220,167%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.390,4.4.0-22000-Microsoft,00:04.4,4.39,"656,464",656.464,165%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.391,4.4.0-22000-Microsoft,00:04.4,4.36,"657,636",657.636,172%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.392,4.4.0-22000-Microsoft,00:04.5,4.52,"658,844",658.844,166%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.393,4.4.0-22000-Microsoft,00:04.5,4.54,"655,640",655.640,177%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.394,4.4.0-22000-Microsoft,00:04.4,4.38,"655,032",655.032,173%
-SEGUL,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.395,4.4.0-22000-Microsoft,00:04.4,4.38,"655,656",655.656,163%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.396,4.4.0-22000-Microsoft,00:04.2,4.20,"485,060",485.060,173%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.397,4.4.0-22000-Microsoft,00:04.2,4.18,"493,252",493.252,164%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.398,4.4.0-22000-Microsoft,00:04.2,4.17,"492,252",492.252,167%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.399,4.4.0-22000-Microsoft,00:04.2,4.20,"493,608",493.608,178%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.400,4.4.0-22000-Microsoft,00:04.2,4.20,"493,336",493.336,171%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.401,4.4.0-22000-Microsoft,00:04.3,4.26,"487,492",487.492,169%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.402,4.4.0-22000-Microsoft,00:04.2,4.24,"492,756",492.756,169%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.403,4.4.0-22000-Microsoft,00:04.2,4.24,"487,884",487.884,164%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.404,4.4.0-22000-Microsoft,00:04.2,4.18,"487,136",487.136,167%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.405,4.4.0-22000-Microsoft,00:04.2,4.17,"488,532",488.532,170%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406,4.4.0-22000-Microsoft,00:24.1,24.12,"2,060,468","2,060.468",142%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.407,4.4.0-22000-Microsoft,00:23.9,23.92,"2,060,400","2,060.400",144%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.408,4.4.0-22000-Microsoft,00:23.8,23.80,"2,060,608","2,060.608",143%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.409,4.4.0-22000-Microsoft,00:23.6,23.61,"2,060,828","2,060.828",144%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.410,4.4.0-22000-Microsoft,00:24.5,24.54,"2,060,464","2,060.464",142%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.411,4.4.0-22000-Microsoft,00:23.9,23.90,"2,060,472","2,060.472",144%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.412,4.4.0-22000-Microsoft,00:23.7,23.72,"2,060,468","2,060.468",144%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.413,4.4.0-22000-Microsoft,00:24.7,24.74,"2,060,472","2,060.472",141%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.414,4.4.0-22000-Microsoft,00:23.9,23.86,"2,060,472","2,060.472",143%
-AMAS,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.415,4.4.0-22000-Microsoft,00:23.6,23.63,"2,060,476","2,060.476",144%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.416,4.4.0-22000-Microsoft,00:26.0,26.04,"2,475,260","2,475.260",164%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.417,4.4.0-22000-Microsoft,00:26.0,25.96,"2,475,264","2,475.264",165%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.418,4.4.0-22000-Microsoft,00:25.6,25.60,"2,475,208","2,475.208",164%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.419,4.4.0-22000-Microsoft,00:25.8,25.84,"2,475,236","2,475.236",165%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.420,4.4.0-22000-Microsoft,00:26.0,26.01,"2,475,256","2,475.256",164%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.421,4.4.0-22000-Microsoft,00:25.6,25.63,"2,475,208","2,475.208",165%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.422,4.4.0-22000-Microsoft,00:25.6,25.58,"2,475,116","2,475.116",166%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.423,4.4.0-22000-Microsoft,00:26.4,26.37,"2,475,208","2,475.208",162%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.424,4.4.0-22000-Microsoft,00:25.8,25.81,"2,475,232","2,475.232",165%
-AMAS,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.425,4.4.0-22000-Microsoft,00:25.5,25.49,"2,475,208","2,475.208",165%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.426,4.4.0-22000-Microsoft,00:18.8,18.77,"1,844,164","1,844.164",183%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.427,4.4.0-22000-Microsoft,00:20.0,20.04,"1,843,772","1,843.772",179%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.428,4.4.0-22000-Microsoft,00:21.0,21.03,"1,844,536","1,844.536",174%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.429,4.4.0-22000-Microsoft,00:19.0,19.04,"1,843,872","1,843.872",185%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.430,4.4.0-22000-Microsoft,00:19.3,19.34,"1,843,788","1,843.788",181%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.431,4.4.0-22000-Microsoft,00:21.4,21.42,"1,845,016","1,845.016",173%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.432,4.4.0-22000-Microsoft,00:18.3,18.32,"1,843,632","1,843.632",187%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.433,4.4.0-22000-Microsoft,00:20.4,20.36,"1,843,920","1,843.920",177%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.434,4.4.0-22000-Microsoft,00:18.8,18.78,"1,843,600","1,843.600",186%
-AMAS,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.435,4.4.0-22000-Microsoft,00:19.9,19.89,"1,843,632","1,843.632",179%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.436,4.4.0-22000-Microsoft,03:54.3,234.28,"13,486,308","13,486.308",100%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.437,4.4.0-22000-Microsoft,03:55.9,235.90,"13,480,252","13,480.252",100%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.438,4.4.0-22000-Microsoft,03:51.5,231.47,"13,480,172","13,480.172",100%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.439,4.4.0-22000-Microsoft,03:50.7,230.73,"13,480,544","13,480.544",100%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.440,4.4.0-22000-Microsoft,03:58.0,237.97,"13,488,304","13,488.304",100%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.441,4.4.0-22000-Microsoft,03:53.4,233.44,"13,500,040","13,500.040",100%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.442,4.4.0-22000-Microsoft,03:51.7,231.70,"13,496,004","13,496.004",100%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.443,4.4.0-22000-Microsoft,03:53.1,233.13,"13,494,508","13,494.508",100%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.444,4.4.0-22000-Microsoft,03:50.2,230.23,"13,488,736","13,488.736",100%
-Phyluce,esselstyn_2021_nexus_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.445,4.4.0-22000-Microsoft,03:57.5,237.47,"13,500,588","13,500.588",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.446,4.4.0-22000-Microsoft,04:22.0,261.99,"6,508,132","6,508.132",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.447,4.4.0-22000-Microsoft,04:16.8,256.80,"6,508,788","6,508.788",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.448,4.4.0-22000-Microsoft,04:20.5,260.50,"6,508,264","6,508.264",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.449,4.4.0-22000-Microsoft,04:18.4,258.38,"6,506,688","6,506.688",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.450,4.4.0-22000-Microsoft,04:20.2,260.20,"6,509,404","6,509.404",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.451,4.4.0-22000-Microsoft,04:22.3,262.30,"6,505,652","6,505.652",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.452,4.4.0-22000-Microsoft,04:16.8,256.83,"6,509,500","6,509.500",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.453,4.4.0-22000-Microsoft,04:26.3,266.29,"6,507,124","6,507.124",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.454,4.4.0-22000-Microsoft,04:21.2,261.18,"6,509,392","6,509.392",100%
-Phyluce,oliveros_2019_80p_trimmed,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.455,4.4.0-22000-Microsoft,04:23.6,263.65,"6,508,028","6,508.028",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.456,4.4.0-22000-Microsoft,04:22.8,262.78,"20,661,916","20,661.916",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.457,4.4.0-22000-Microsoft,04:17.7,257.74,"20,616,868","20,616.868",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.458,4.4.0-22000-Microsoft,04:17.4,257.41,"20,658,812","20,658.812",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.459,4.4.0-22000-Microsoft,04:18.7,258.66,"20,646,228","20,646.228",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.460,4.4.0-22000-Microsoft,04:25.1,265.05,"20,629,016","20,629.016",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.461,4.4.0-22000-Microsoft,04:17.6,257.61,"20,619,840","20,619.840",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.462,4.4.0-22000-Microsoft,04:24.0,264.00,"20,627,032","20,627.032",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.463,4.4.0-22000-Microsoft,04:20.9,260.86,"20,618,756","20,618.756",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.464,4.4.0-22000-Microsoft,04:19.5,259.46,"20,635,164","20,635.164",100%
-Phyluce,jarvis_2014_uce_filtered_w_gator,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.465,4.4.0-22000-Microsoft,04:25.3,265.29,"20,593,224","20,593.224",100%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,59184,59.184,738%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,APPLe M1,4,8,8,MacOS,,00:01.8,1.78,57648,57.648,738%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,58272,58.272,736%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,58288,58.288,739%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.77,57984,57.984,745%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,58448,58.448,740%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,58000,58.000,739%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.9,1.85,58256,58.256,708%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.77,59344,59.344,741%
-SEGUL,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.77,58176,58.176,743%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.6,2.62,137008,137.008,607%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,114160,114.160,717%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.28,114464,114.464,712%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.28,116336,116.336,711%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.28,117712,117.712,708%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,115728,115.728,717%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,115280,115.280,719%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.25,115056,115.056,722%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,116688,116.688,719%
-SEGUL,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,115024,115.024,718%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.6,2.56,44320,44.320,682%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.39,44368,44.368,717%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.36,44864,44.864,741%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.33,43712,43.712,757%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.33,44800,44.800,758%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.33,44736,44.736,756%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.34,44064,44.064,752%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.39,44112,44.112,737%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.35,44080,44.080,742%
-SEGUL,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.35,43456,43.456,744%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:34.4,34.40,954544,954.544,465%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:34.7,34.72,973504,973.504,465%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:34.5,34.50,967104,967.104,467%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:37.0,36.99,952016,952.016,431%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:35.4,35.44,952336,952.336,457%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:36.0,36.02,987104,987.104,450%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:36.0,35.98,959616,959.616,449%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:35.7,35.73,967440,967.440,454%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:36.1,36.11,971152,971.152,451%
-AMAS,esselstyn_2021_nexus_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,00:37.3,37.26,995552,995.552,434%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:12.8,132.81,1444240,"1,444.240",200%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:20.2,140.17,1453872,"1,453.872",187%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:34.7,154.67,1442944,"1,442.944",166%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:15.6,135.60,1449328,"1,449.328",196%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:16.1,136.10,1454704,"1,454.704",194%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:41.9,161.92,1454784,"1,454.784",157%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:12.4,132.42,1443808,"1,443.808",201%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:11.1,131.07,1450608,"1,450.608",203%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:42.8,162.78,1459552,"1,459.552",157%
-AMAS,oliveros_2019_80p_trimmed,Summary statistics,Apple M1,4,8,8,MacOS,,02:19.2,139.22,1439552,"1,439.552",189%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:17.7,77.72,1083360,"1,083.360",285%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:14.5,74.50,1104016,"1,104.016",300%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:29.2,89.15,1102368,"1,102.368",239%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:26.3,86.30,1107904,"1,107.904",247%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:25.4,85.41,1093584,"1,093.584",255%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:18.2,78.22,1100560,"1,100.560",283%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:16.7,76.71,1091168,"1,091.168",293%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:20.7,80.73,1106848,"1,106.848",274%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:25.9,85.87,1115120,"1,115.120",247%
-AMAS,jarvis_2014_uce_filtered_w_gator,Summary statistics,Apple M1,4,8,8,MacOS,,01:30.1,90.08,1093760,"1,093.760",238%
+﻿programs,datasets,datatype,analyses,cpu,core_counts,thread_counts,ram_size_gb,os,kernel,execution_time,execution_time_secs,ram_usage,ram_usage_Mb,cpu_usage
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.376,4.4.0-22000-Microsoft,00:05.3,5.27,"603,044",603.044,146%
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.377,4.4.0-22000-Microsoft,00:05.3,5.27,"601,660",601.660,149%
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.378,4.4.0-22000-Microsoft,00:05.3,5.28,"601,924",601.924,149%
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.379,4.4.0-22000-Microsoft,00:05.2,5.25,"602,216",602.216,146%
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.380,4.4.0-22000-Microsoft,00:05.3,5.26,"603,376",603.376,153%
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.381,4.4.0-22000-Microsoft,00:05.3,5.29,"606,380",606.380,149%
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.382,4.4.0-22000-Microsoft,00:05.2,5.20,"603,144",603.144,149%
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.383,4.4.0-22000-Microsoft,00:05.2,5.25,"602,932",602.932,151%
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.384,4.4.0-22000-Microsoft,00:05.2,5.22,"602,420",602.420,144%
+SEGUL,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.385,4.4.0-22000-Microsoft,00:05.2,5.23,"597,288",597.288,144%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.386,4.4.0-22000-Microsoft,00:04.4,4.40,"656,672",656.672,161%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.387,4.4.0-22000-Microsoft,00:04.5,4.54,"655,700",655.700,167%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.388,4.4.0-22000-Microsoft,00:04.4,4.37,"654,952",654.952,168%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.389,4.4.0-22000-Microsoft,00:04.4,4.37,"654,220",654.220,167%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.390,4.4.0-22000-Microsoft,00:04.4,4.39,"656,464",656.464,165%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.391,4.4.0-22000-Microsoft,00:04.4,4.36,"657,636",657.636,172%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.392,4.4.0-22000-Microsoft,00:04.5,4.52,"658,844",658.844,166%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.393,4.4.0-22000-Microsoft,00:04.5,4.54,"655,640",655.640,177%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.394,4.4.0-22000-Microsoft,00:04.4,4.38,"655,032",655.032,173%
+SEGUL,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.395,4.4.0-22000-Microsoft,00:04.4,4.38,"655,656",655.656,163%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.396,4.4.0-22000-Microsoft,00:04.2,4.20,"485,060",485.060,173%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.397,4.4.0-22000-Microsoft,00:04.2,4.18,"493,252",493.252,164%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.398,4.4.0-22000-Microsoft,00:04.2,4.17,"492,252",492.252,167%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.399,4.4.0-22000-Microsoft,00:04.2,4.20,"493,608",493.608,178%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.400,4.4.0-22000-Microsoft,00:04.2,4.20,"493,336",493.336,171%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.401,4.4.0-22000-Microsoft,00:04.3,4.26,"487,492",487.492,169%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.402,4.4.0-22000-Microsoft,00:04.2,4.24,"492,756",492.756,169%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.403,4.4.0-22000-Microsoft,00:04.2,4.24,"487,884",487.884,164%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.404,4.4.0-22000-Microsoft,00:04.2,4.18,"487,136",487.136,167%
+SEGUL,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.405,4.4.0-22000-Microsoft,00:04.2,4.17,"488,532",488.532,170%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406,4.4.0-22000-Microsoft,00:24.1,24.12,"2,060,468","2,060.468",142%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.407,4.4.0-22000-Microsoft,00:23.9,23.92,"2,060,400","2,060.400",144%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.408,4.4.0-22000-Microsoft,00:23.8,23.80,"2,060,608","2,060.608",143%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.409,4.4.0-22000-Microsoft,00:23.6,23.61,"2,060,828","2,060.828",144%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.410,4.4.0-22000-Microsoft,00:24.5,24.54,"2,060,464","2,060.464",142%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.411,4.4.0-22000-Microsoft,00:23.9,23.90,"2,060,472","2,060.472",144%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.412,4.4.0-22000-Microsoft,00:23.7,23.72,"2,060,468","2,060.468",144%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.413,4.4.0-22000-Microsoft,00:24.7,24.74,"2,060,472","2,060.472",141%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.414,4.4.0-22000-Microsoft,00:23.9,23.86,"2,060,472","2,060.472",143%
+AMAS,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.415,4.4.0-22000-Microsoft,00:23.6,23.63,"2,060,476","2,060.476",144%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.416,4.4.0-22000-Microsoft,00:26.0,26.04,"2,475,260","2,475.260",164%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.417,4.4.0-22000-Microsoft,00:26.0,25.96,"2,475,264","2,475.264",165%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.418,4.4.0-22000-Microsoft,00:25.6,25.60,"2,475,208","2,475.208",164%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.419,4.4.0-22000-Microsoft,00:25.8,25.84,"2,475,236","2,475.236",165%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.420,4.4.0-22000-Microsoft,00:26.0,26.01,"2,475,256","2,475.256",164%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.421,4.4.0-22000-Microsoft,00:25.6,25.63,"2,475,208","2,475.208",165%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.422,4.4.0-22000-Microsoft,00:25.6,25.58,"2,475,116","2,475.116",166%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.423,4.4.0-22000-Microsoft,00:26.4,26.37,"2,475,208","2,475.208",162%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.424,4.4.0-22000-Microsoft,00:25.8,25.81,"2,475,232","2,475.232",165%
+AMAS,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.425,4.4.0-22000-Microsoft,00:25.5,25.49,"2,475,208","2,475.208",165%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.426,4.4.0-22000-Microsoft,00:18.8,18.77,"1,844,164","1,844.164",183%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.427,4.4.0-22000-Microsoft,00:20.0,20.04,"1,843,772","1,843.772",179%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.428,4.4.0-22000-Microsoft,00:21.0,21.03,"1,844,536","1,844.536",174%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.429,4.4.0-22000-Microsoft,00:19.0,19.04,"1,843,872","1,843.872",185%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.430,4.4.0-22000-Microsoft,00:19.3,19.34,"1,843,788","1,843.788",181%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.431,4.4.0-22000-Microsoft,00:21.4,21.42,"1,845,016","1,845.016",173%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.432,4.4.0-22000-Microsoft,00:18.3,18.32,"1,843,632","1,843.632",187%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.433,4.4.0-22000-Microsoft,00:20.4,20.36,"1,843,920","1,843.920",177%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.434,4.4.0-22000-Microsoft,00:18.8,18.78,"1,843,600","1,843.600",186%
+AMAS,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.435,4.4.0-22000-Microsoft,00:19.9,19.89,"1,843,632","1,843.632",179%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.436,4.4.0-22000-Microsoft,03:54.3,234.28,"13,486,308","13,486.308",100%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.437,4.4.0-22000-Microsoft,03:55.9,235.90,"13,480,252","13,480.252",100%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.438,4.4.0-22000-Microsoft,03:51.5,231.47,"13,480,172","13,480.172",100%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.439,4.4.0-22000-Microsoft,03:50.7,230.73,"13,480,544","13,480.544",100%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.440,4.4.0-22000-Microsoft,03:58.0,237.97,"13,488,304","13,488.304",100%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.441,4.4.0-22000-Microsoft,03:53.4,233.44,"13,500,040","13,500.040",100%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.442,4.4.0-22000-Microsoft,03:51.7,231.70,"13,496,004","13,496.004",100%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.443,4.4.0-22000-Microsoft,03:53.1,233.13,"13,494,508","13,494.508",100%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.444,4.4.0-22000-Microsoft,03:50.2,230.23,"13,488,736","13,488.736",100%
+Phyluce,Esselstyn et al. 2021,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.445,4.4.0-22000-Microsoft,03:57.5,237.47,"13,500,588","13,500.588",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.446,4.4.0-22000-Microsoft,04:22.0,261.99,"6,508,132","6,508.132",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.447,4.4.0-22000-Microsoft,04:16.8,256.80,"6,508,788","6,508.788",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.448,4.4.0-22000-Microsoft,04:20.5,260.50,"6,508,264","6,508.264",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.449,4.4.0-22000-Microsoft,04:18.4,258.38,"6,506,688","6,506.688",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.450,4.4.0-22000-Microsoft,04:20.2,260.20,"6,509,404","6,509.404",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.451,4.4.0-22000-Microsoft,04:22.3,262.30,"6,505,652","6,505.652",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.452,4.4.0-22000-Microsoft,04:16.8,256.83,"6,509,500","6,509.500",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.453,4.4.0-22000-Microsoft,04:26.3,266.29,"6,507,124","6,507.124",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.454,4.4.0-22000-Microsoft,04:21.2,261.18,"6,509,392","6,509.392",100%
+Phyluce,Oliveros et al. 2019,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.455,4.4.0-22000-Microsoft,04:23.6,263.65,"6,508,028","6,508.028",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.456,4.4.0-22000-Microsoft,04:22.8,262.78,"20,661,916","20,661.916",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.457,4.4.0-22000-Microsoft,04:17.7,257.74,"20,616,868","20,616.868",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.458,4.4.0-22000-Microsoft,04:17.4,257.41,"20,658,812","20,658.812",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.459,4.4.0-22000-Microsoft,04:18.7,258.66,"20,646,228","20,646.228",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.460,4.4.0-22000-Microsoft,04:25.1,265.05,"20,629,016","20,629.016",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.461,4.4.0-22000-Microsoft,04:17.6,257.61,"20,619,840","20,619.840",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.462,4.4.0-22000-Microsoft,04:24.0,264.00,"20,627,032","20,627.032",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.463,4.4.0-22000-Microsoft,04:20.9,260.86,"20,618,756","20,618.756",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.464,4.4.0-22000-Microsoft,04:19.5,259.46,"20,635,164","20,635.164",100%
+Phyluce,Jarvis et al. 2014,DNA,Alignment concatenation,AMD Ryzen 3900x,12,24,32,Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.465,4.4.0-22000-Microsoft,04:25.3,265.29,"20,593,224","20,593.224",100%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,59184,59.184,738%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,APPLe M1,4,8,8,MacOS,,00:01.8,1.78,57648,57.648,738%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,58272,58.272,736%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,58288,58.288,739%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.77,57984,57.984,745%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,58448,58.448,740%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.78,58000,58.000,739%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.9,1.85,58256,58.256,708%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.77,59344,59.344,741%
+SEGUL,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:01.8,1.77,58176,58.176,743%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.6,2.62,137008,137.008,607%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,114160,114.160,717%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.28,114464,114.464,712%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.28,116336,116.336,711%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.28,117712,117.712,708%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,115728,115.728,717%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,115280,115.280,719%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.25,115056,115.056,722%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,116688,116.688,719%
+SEGUL,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.26,115024,115.024,718%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.6,2.56,44320,44.320,682%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.39,44368,44.368,717%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.36,44864,44.864,741%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.33,43712,43.712,757%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.33,44800,44.800,758%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.33,44736,44.736,756%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.3,2.34,44064,44.064,752%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.39,44112,44.112,737%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.35,44080,44.080,742%
+SEGUL,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:02.4,2.35,43456,43.456,744%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:34.4,34.40,954544,954.544,465%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:34.7,34.72,973504,973.504,465%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:34.5,34.50,967104,967.104,467%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:37.0,36.99,952016,952.016,431%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:35.4,35.44,952336,952.336,457%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:36.0,36.02,987104,987.104,450%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:36.0,35.98,959616,959.616,449%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:35.7,35.73,967440,967.440,454%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:36.1,36.11,971152,971.152,451%
+AMAS,Esselstyn et al. 2021,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,00:37.3,37.26,995552,995.552,434%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:12.8,132.81,1444240,"1,444.240",200%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:20.2,140.17,1453872,"1,453.872",187%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:34.7,154.67,1442944,"1,442.944",166%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:15.6,135.60,1449328,"1,449.328",196%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:16.1,136.10,1454704,"1,454.704",194%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:41.9,161.92,1454784,"1,454.784",157%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:12.4,132.42,1443808,"1,443.808",201%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:11.1,131.07,1450608,"1,450.608",203%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:42.8,162.78,1459552,"1,459.552",157%
+AMAS,Oliveros et al. 2019,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,02:19.2,139.22,1439552,"1,439.552",189%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:17.7,77.72,1083360,"1,083.360",285%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:14.5,74.50,1104016,"1,104.016",300%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:29.2,89.15,1102368,"1,102.368",239%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:26.3,86.30,1107904,"1,107.904",247%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:25.4,85.41,1093584,"1,093.584",255%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:18.2,78.22,1100560,"1,100.560",283%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:16.7,76.71,1091168,"1,091.168",293%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:20.7,80.73,1106848,"1,106.848",274%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:25.9,85.87,1115120,"1,115.120",247%
+AMAS,Jarvis et al. 2014,DNA,Summary statistics,Apple M1,4,8,8,MacOS,,01:30.1,90.08,1093760,"1,093.760",238%
