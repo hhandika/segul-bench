@@ -31,9 +31,6 @@ end
 end
 
 #### AMAS ####
-
-conda activate pytools
-
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
