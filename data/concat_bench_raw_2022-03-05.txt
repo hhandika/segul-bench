@@ -63,6 +63,27 @@ time: illegal option -- f
 usage: time [-al] [-h | -p] [-o file] utility [argument ...]
 time: illegal option -- f
 usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+Dataset path: do
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
 
 Benchmarking AMAS
 Dataset path: alignments/esselstyn_2021_nexus_trimmed

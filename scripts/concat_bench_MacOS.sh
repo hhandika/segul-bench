@@ -1,4 +1,4 @@
-#!/usr/bin/env fish
+#!/opt/homebrew/bin/fish
 
 set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
 set OUTPUT_DIR "concat_results"
@@ -21,7 +21,7 @@ segul concat -d alignments/esselstyn_2021_nexus_trimmed -f nexus -o $OUTPUT_DIR 
 echo -e "\nBenchmarking Alignment Concatenation"
 
 echo -e "\nBenchmarking SEGUL" | tee -a $OUTPUT_LOG
-for dir in $INPUT_DIRS
+for dir in $INPUT_DIRS do
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
