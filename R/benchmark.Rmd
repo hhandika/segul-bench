@@ -9,6 +9,7 @@ library(ggplot2)
 library(readr)
 library(dplyr)
 library(stringr)
+library(RColorBrewer)
 ```
 
 
@@ -25,6 +26,7 @@ plot_bench <- function(.analyses) {
   ggplot(aes(x = execution_time_secs, y = ram_usage_Mb, color = programs, shape = dataset)) +
     geom_point() +
     theme_classic() +
+    scale_colour_brewer(palette = "Set1") +
     labs(x = "Execution time (secs)", y = "Memory usage (kb)")
 }
 
