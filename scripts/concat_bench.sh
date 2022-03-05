@@ -20,7 +20,7 @@ segul concat -d alignments/esselstyn_2021_nexus_trimmed -f nexus -o $OUTPUT_DIR 
 
 echo -e "\nBenchmarking Alignment Concatenation"
 
-echo -e "\nBenchmarking SEGUL" | tee -a $OUTPUT_LOG
+echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG

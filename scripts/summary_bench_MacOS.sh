@@ -1,10 +1,9 @@
-#!/opt/homebrew/bin/fish
+#!/usr/bin/env fish
 
 set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
-set OUTPUT_DIR "concat_results"
-set OUTPUT_LOG "data/concat_bench.txt"
+set OUTPUT_DIR "summary_results"
+set OUTPUT_LOG "data/summary_bench.txt"
 set CORES 8
-
 
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG
@@ -14,26 +13,26 @@ if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
 
-echo -e "Warming up..."
+echo "Warming up..."
 
-segul concat -d alignments/esselstyn_2021_nexus_trimmed -f nexus -o $OUTPUT_DIR -F phylip
+segul summary -d "shrew-nexus-clean-trimmed/" -f nexus -o $OUTPUT_DIR
 
-echo -e "\nBenchmarking Alignment Concatenation"
+echo "Benchmarking Summary Statistics"
 
-echo -e "\nBenchmarking SEGUL" | tee -a $OUTPUT_LOG
+echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
-echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm -r $OUTPUT_DIR;
-echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-gtime -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" segul summary -d $dir -f nexus -o $OUTPUT_DIR 2>> $OUTPUT_LOG;
 end
 end
 
 #### AMAS ####
+
+conda activate pytools
 
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
@@ -42,7 +41,7 @@ end
 
 echo -e "\nWarming up..."
 
-AMAS.py concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -c $CORES
+AMAS.py summary -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
@@ -50,10 +49,10 @@ for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
-rm concatenated.out && rm partitions.txt
+rm summary.txt
 echo ""
 echo "Iteration $i"
-gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" AMAS.py summary -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
 end
 end
 
@@ -61,7 +60,7 @@ end
 
 set Date (date +%F)
 
-set fname "concat_bench_raw_MacMini_$Date.txt"
+set fname "summary_bench_raw_MacMini_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
@@ -69,9 +68,8 @@ mv $OUTPUT_LOG data/$fname
 
 rm -r $OUTPUT_DIR
 rm *.log
-rm concatenated.out && rm partitions.txt
+rm summary.txt
 
 ### Push to Github ###
 
 git add -A && git commit -m "Add concatenation benchmark" && git push
-
