@@ -23,7 +23,7 @@ bench <- readr::read_csv(here("data", "benchmark_results.csv")) |>
 plot_bench <- function(.analyses) {
   bench |>
   dplyr::filter(analyses == .analyses) |>
-  ggplot(aes(x = execution_time_secs, y = ram_usage_Mb, color = programs, shape = dataset)) +
+  ggplot(aes(x = execution_time_secs, y = ram_usage_Mb, color = programs, shape = datasets)) +
     geom_point() +
     theme_classic() +
     scale_colour_brewer(palette = "Set1") +
@@ -40,13 +40,10 @@ plot_bench(.analyses = "Summary statistics")
 ggsave(here("figures", "summary_stats.png"), width = 8, height = 4, units = "in")
 ```
 
+## Plot alignment concatenation
+
 ```{r}
-concat_bench |>
-  dplyr::mutate("ram_usage_gb" = ram_usage_Mb/1e3) |>
-  ggplot(aes(x = execution_time_secs, y = ram_usage_gb, color = programs, shape = dataset)) +
-    geom_point() +
-    theme_classic() +
-    labs(x = "Execution time (secs)", y = "RAM usage (Gb)")
+plot_bench(.analyses = "Alignment concatenation")
 
 ggsave(here("figures", "concat_stats.png"), width = 8, height = 4, units = "in")
 ```
