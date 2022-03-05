@@ -6,6 +6,9 @@ set OUTPUT_LOG "data/concat_bench.txt"
 set CORES "24"
 
 
+# Get system information
+uname -v | tee -a $OUTPUT_LOG
+
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG
 end
@@ -30,6 +33,21 @@ echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
 env time -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+end
+end
+
+### SEGUL ignore datatype ###
+
+echo -e "Benchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
+for dir in $INPUT_DIRS
+echo ""
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm -r $OUTPUT_DIR;
+echo ""
+echo "Iteration $i"
+# We append the STDERR to the log file because gnu time output to STDERR
+env time -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F fasta-int --datatype ignore 2>> $OUTPUT_LOG;
 end
 end
 

@@ -5,6 +5,9 @@ set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "summary_bench.txt"
 set CORES "24"
 
+# Get system information
+uname -v | tee -a $OUTPUT_LOG
+
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG
 end

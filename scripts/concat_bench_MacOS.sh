@@ -5,6 +5,8 @@ set OUTPUT_DIR "concat_results"
 set OUTPUT_LOG "data/concat_bench.txt"
 set CORES 8
 
+# Get system information
+uname -v | tee -a $OUTPUT_LOG
 
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG
