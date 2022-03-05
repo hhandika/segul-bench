@@ -1,0 +1,130 @@
+
+Benchmarking SEGUL
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+Dataset path: alignments/oliveros_2019_80p_trimmed
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+
+Benchmarking AMAS
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+Dataset path: alignments/oliveros_2019_80p_trimmed
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+time: illegal option -- f
+usage: time [-al] [-h | -p] [-o file] utility [argument ...]
