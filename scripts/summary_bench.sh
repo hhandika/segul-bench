@@ -1,8 +1,8 @@
 #!/usr/bin/env fish
 
-set INPUT_DIRS "shrew-nexus-clean-trimmed" "oliveros_2019_trimmed_80p" "jarvis_2014_uce_filtered_w_gator"
+set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
 set OUTPUT_DIR "summary_results"
-set OUTPUT_LOG "summary_bench.log"
+set OUTPUT_LOG "summary_bench.txt"
 set CORES "24"
 
 if test -f $OUTPUT_LOG
@@ -51,18 +51,46 @@ env time -f "%E %M %P" phyluce_align_get_align_summary_data --alignments $dir --
 end
 end
 
+
+#### AMAS ####
+
+conda activate pytools
+
+if [ -d $OUTPUT_DIR ]
+rm -r $OUTPUT_DIR
+end
+
+
+echo -e "\nWarming up..."
+
+AMAS.py summary -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -c $CORES
+
+echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
+
+for dir in $INPUT_DIRS
+echo ""
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm summary.txt
+echo ""
+echo "Iteration $i"
+env time -f "%E %M %P" AMAS.py summary -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
+end
+end
+
 ### Final touches ###
 
 set Date (date +%F)
 
-set fname "concat_bench_raw_$Date.txt"
+set fname "summary_bench_raw_$Date.txt"
 
-mv OUTPUT_LOG data/$fname
+mv $OUTPUT_LOG data/$fname
 
 ### Cleaning up ###
 
 rm -r $OUTPUT_DIR
 rm *.log
+rm summary.txt
 
 ### Push to Github ###
 
