@@ -1,4 +1,4 @@
-#!/usr/bin/env fish
+#!/opt/homebrew/bin/fish
 
 set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
 set OUTPUT_DIR "summary_results"
