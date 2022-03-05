@@ -21,7 +21,7 @@ segul concat -d alignments/esselstyn_2021_nexus_trimmed -f nexus -o $OUTPUT_DIR 
 echo -e "\nBenchmarking Alignment Concatenation"
 
 echo -e "\nBenchmarking SEGUL" | tee -a $OUTPUT_LOG
-for dir in $INPUT_DIRS do
+for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
@@ -29,7 +29,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
 end
 end
 
@@ -53,7 +53,7 @@ for i in (seq 10)
 rm concatenated.out && rm partitions.txt
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
 end
 end
 
