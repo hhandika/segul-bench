@@ -27,7 +27,7 @@ plot_bench <- function(.analyses) {
     geom_point() +
     theme_classic() +
     scale_colour_brewer(palette = "Set1") +
-    labs(x = "Execution time (secs)", y = "Memory usage (kb)")
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 }
 
 ```
