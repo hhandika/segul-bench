@@ -72,6 +72,19 @@ gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $
 end
 end
 
+echo -e "\nBenchmarking AMAS Check Aligned" | tee -a $OUTPUT_LOG
+
+for dir in $INPUT_DIRS
+echo ""
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm concatenated.out && rm partitions.txt
+echo ""
+echo "Iteration $i"
+gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES --check-align 2>> $OUTPUT_LOG;
+end
+end
+
 ### Final touches ###
 
 set Date (date +%F)
