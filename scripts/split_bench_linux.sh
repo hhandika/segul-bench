@@ -31,7 +31,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I PARTITION -p raxml -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
 end
 
 ### SEGUL ignore datatype ###
@@ -42,7 +42,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I PARTITION -p raxml -o $OUTPUT_DIR -F phylip --datatype ignore 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR -F phylip --datatype ignore 2>> $OUTPUT_LOG;
 end
 
 #### AMAS ####
@@ -56,13 +56,12 @@ echo -e "\nWarming up..."
 AMAS.py split -i $INPUT_FILE -f phylip -d dna -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
-rm $INPUT_FILE/alignment_all-combined_*
+
 for i in (seq 10)
-rm 
+rm $INPUT_FILE/alignment_all-combined_*
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip --remove-empty -c $CORES 2>> $OUTPUT_LOG;
-end
 end
 
 
@@ -78,7 +77,7 @@ mv $OUTPUT_LOG data/$fname
 
 rm -r $OUTPUT_DIR
 rm *.log
-rm $INPUT_FILE/alignment_all-combined_*
+rm alignments/Onn_2020_all_combined/alignment_all-combined_*
 
 ### Push to Github ###
 
