@@ -1,4 +1,4 @@
-
+OS: macOS Monterey v12.1
 Benchmarking SEGUL
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:03.55 786432 122%
@@ -33,6 +33,7 @@ Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
 0:03.11 624608 129%
 0:03.13 634896 128%
 0:03.10 794032 129%
+
 Benchmarking SEGUL ignore datatype
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:01.88 707264 122%

@@ -26,3 +26,6 @@ alignments/
 concat_results/
 summary_results/
 *.out
+
+
+.DS_Store
