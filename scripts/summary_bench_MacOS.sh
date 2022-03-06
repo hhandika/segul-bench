@@ -74,4 +74,4 @@ rm summary.txt
 
 ### Push to Github ###
 
-git add -A && git commit -m "Add concatenation benchmark" && git push
+git add -A && git commit -m "Add summary benchmark" && git push
