@@ -46,4 +46,4 @@ Test bench: Desktop PC
 
 OS: Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406
 
-![results](figures/Linux_concat_stats.png)
+![results](figures/WindowsWSL_concat_stats.png)
