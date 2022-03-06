@@ -32,7 +32,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F fasta-int 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul concat -d $dir -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
 end
 end
 
@@ -47,7 +47,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F fasta-int --datatype ignore 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F phylip --datatype ignore 2>> $OUTPUT_LOG;
 end
 end
 
@@ -62,7 +62,7 @@ end
 
 echo -e "\nWarming up..."
 
-AMAS.py concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -c $CORES
+AMAS.py concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
@@ -73,7 +73,7 @@ for i in (seq 10)
 rm concatenated.out && rm partitions.txt
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES -u phylip 2>> $OUTPUT_LOG;
 end
 end
 
@@ -98,7 +98,7 @@ for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
 end
 end
 
@@ -107,7 +107,7 @@ end
 
 set Date (date +%F)
 
-set fname "concat_bench_raw_$Date.txt"
+set fname "concat_bench_raw_OpenSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
