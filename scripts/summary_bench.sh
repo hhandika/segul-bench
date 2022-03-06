@@ -42,7 +42,6 @@ if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
 
-
 echo -e "\nWarming up..."
 
 AMAS.py summary -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -c $CORES
