@@ -9,6 +9,7 @@ Comparing [SEGUL](https://github.com/hhandika/segul) performance with other simi
 #### Benchmark 1
 
 Test bench: MacMini (M1 2020)
+
 OS: macOS Monterey v12.1
 
 ![results](figures/macOS_summary_stats.png)
@@ -16,6 +17,7 @@ OS: macOS Monterey v12.1
 #### Benchmark 2
 
 Test bench: Desktop PC
+
 OS: openSUSE Tumbleweed x86_64
 
 ![results](figures/Linux_summary_stats.png)
@@ -25,6 +27,7 @@ OS: openSUSE Tumbleweed x86_64
 #### Benchmark 1
 
 Test bench: MacMini (M1 2020)
+
 OS: macOS Monterey v12.1
 
 ![results](figures/macOS_concat_stats.png)
@@ -32,6 +35,7 @@ OS: macOS Monterey v12.1
 #### Benchmark 2
 
 Test bench: Desktop PC
+
 OS: openSUSE Tumbleweed x86_64
 
 ![results](figures/Linux_concat_stats.png)
@@ -39,6 +43,7 @@ OS: openSUSE Tumbleweed x86_64
 #### Benchmark 3
 
 Test bench: Desktop PC
+
 OS: Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406
 
 ![results](figures/Linux_concat_stats.png)
