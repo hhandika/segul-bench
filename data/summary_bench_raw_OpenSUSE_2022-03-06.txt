@@ -1,3 +1,5 @@
+OS: openSUSE Tumbleweed x86_64
+Kernel: 5.16.11-1-default
 Benchmarking SEGUL
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:00.72 62940 1975%

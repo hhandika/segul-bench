@@ -1,3 +1,5 @@
+OS: openSUSE Tumbleweed x86_64
+Kernel: 5.16.11-1-default
 Benchmarking SEGUL
 0:02.44 349420 161%
 0:02.46 346820 181%
