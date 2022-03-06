@@ -52,9 +52,6 @@ end
 end
 
 #### AMAS ####
-
-conda activate pytools
-
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
@@ -74,6 +71,21 @@ rm concatenated.out && rm partitions.txt
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES -u phylip 2>> $OUTPUT_LOG;
+end
+end
+
+### AMAS Check Align ####
+
+echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
+
+for dir in $INPUT_DIRS
+echo ""
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm concatenated.out && rm partitions.txt
+echo ""
+echo "Iteration $i"
+env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES -u phylip --check-align 2>> $OUTPUT_LOG;
 end
 end
 

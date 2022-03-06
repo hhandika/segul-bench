@@ -1,0 +1,126 @@
+Benchmarking SEGUL
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:02.17 607580 150%
+0:02.40 601816 154%
+0:02.13 613628 159%
+0:02.38 607276 152%
+0:02.10 608688 153%
+0:02.16 607496 153%
+0:02.20 606420 155%
+0:02.18 601896 152%
+0:02.17 607036 154%
+0:02.12 602556 156%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:03.51 659016 150%
+0:03.53 658712 150%
+0:03.73 660700 148%
+0:03.51 655584 152%
+0:03.49 654944 150%
+0:03.51 656660 150%
+0:03.40 662516 155%
+0:03.51 656640 152%
+0:03.46 658536 154%
+0:03.53 659888 150%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:03.51 529172 135%
+0:03.94 531764 135%
+0:03.81 524940 137%
+0:03.53 526852 135%
+0:03.44 522720 136%
+0:03.53 529840 135%
+0:03.54 530648 136%
+0:03.51 525660 135%
+0:03.43 532384 138%
+0:03.93 529212 139%
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:01.21 608100 202%
+0:01.00 608520 217%
+0:01.02 606076 223%
+0:01.17 601116 205%
+0:01.01 611960 220%
+0:01.01 613228 210%
+0:01.21 606924 208%
+0:01.00 614520 225%
+0:01.27 602492 211%
+0:01.04 607520 209%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:01.55 661412 218%
+0:01.57 656224 219%
+0:01.63 662232 222%
+0:01.60 660444 216%
+0:01.60 656152 230%
+0:01.62 658124 235%
+0:01.59 661016 217%
+0:01.73 657372 208%
+0:01.62 656224 199%
+0:01.62 663512 213%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:01.00 526712 231%
+0:01.01 523480 231%
+0:01.00 527672 228%
+0:00.99 530796 239%
+0:01.01 532572 228%
+0:01.02 532664 248%
+0:01.00 522884 235%
+0:01.22 530924 221%
+0:01.01 528700 241%
+0:01.20 525380 228%
+
+Benchmarking AMAS
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:01.67 2053356 810%
+0:01.69 2052780 794%
+0:01.71 2053424 789%
+0:01.68 2053012 793%
+0:01.69 2053220 784%
+0:01.66 2053148 812%
+0:01.70 2056404 780%
+0:01.61 2052864 831%
+0:01.63 2052772 829%
+0:01.65 2055568 813%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:03.70 2316592 642%
+0:03.72 2316844 636%
+0:03.63 2316692 648%
+0:03.67 2316784 646%
+0:03.64 2319788 646%
+0:03.69 2317052 641%
+0:03.65 2316868 649%
+0:03.68 2316520 642%
+0:03.71 2320596 624%
+0:03.63 2316968 651%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:01.55 1844112 1118%
+0:01.60 1841624 1099%
+0:01.57 1842120 1120%
+0:01.59 1843852 1097%
+0:01.59 1842136 1108%
+0:01.62 1842772 1080%
+0:01.61 1845164 1081%
+0:01.59 1844924 1109%
+0:01.57 1844140 1105%
+0:01.58 1842124 1108%
+
+Benchmarking Phyluce
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+3:31.43 2056028 100%
+3:30.92 2019604 100%
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/envs/phyluce/bin/phyluce_align_concatenate_alignments", line 147, in <module>
+    main()
+  File "/home/hhandika/anaconda3/envs/phyluce/bin/phyluce_align_concatenate_alignments", line 96, in main
+    for fname in alignment_files
+  File "/home/hhandika/anaconda3/envs/phyluce/bin/phyluce_align_concatenate_alignments", line 96, in <listcomp>
+    for fname in alignment_files
+  File "/home/hhandika/anaconda3/envs/phyluce/lib/python3.6/site-packages/Bio/Nexus/Nexus.py", line 668, in __init__
+    self.read(input)
+  File "/home/hhandika/anaconda3/envs/phyluce/lib/python3.6/site-packages/Bio/Nexus/Nexus.py", line 702, in read
+    commandlines = _get_command_lines(file_contents)
+  File "/home/hhandika/anaconda3/envs/phyluce/lib/python3.6/site-packages/Bio/Nexus/Nexus.py", line 2137, in _get_command_lines
+    lines = _kill_comments_and_break_lines(file_contents)
+  File "/home/hhandika/anaconda3/envs/phyluce/lib/python3.6/site-packages/Bio/Nexus/Nexus.py", line 498, in _kill_comments_and_break_lines
+    not quotelevel
+KeyboardInterrupt
+Command exited with non-zero status 1
+0:20.07 177552 107%
