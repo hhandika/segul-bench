@@ -102,7 +102,7 @@ Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
 0:01.62 1841880 1088%
 0:01.57 1842120 1119%
 
-Benchmarking AMAS
+Benchmarking AMAS Check Aligned
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:10.96 2057052 208%
 0:10.94 2052644 206%
