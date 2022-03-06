@@ -58,6 +58,10 @@ ggsave(here("figures", stat_fname_1), width = 8, height = 4, units = "in")
 plot_bench(.analyses = "Summary statistics", .os = os_2)
 stat_fname_2 <- fname(os_2, stat_fname)
 ggsave(here("figures", stat_fname_2), width = 8, height = 4, units = "in")
+
+plot_bench(.analyses = "Summary statistics", .os = os_3)
+stat_fname_3 <- fname(os_2, stat_fname)
+ggsave(here("figures", stat_fname_3), width = 8, height = 4, units = "in")
 ```
 
 ## Plot alignment concatenation
