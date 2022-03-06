@@ -20,9 +20,10 @@ bench <- readr::read_csv(here("data", "benchmark_results.csv")) |>
 ```
 
 ```{r}
-plot_bench <- function(.analyses) {
+plot_bench <- function(.analyses, .os) {
   bench |>
   dplyr::filter(analyses == .analyses) |>
+    dplyr::filter(os_name == .os) |>
   ggplot(aes(x = execution_time_secs, y = ram_usage_Mb, color = programs, shape = datasets)) +
     geom_point() +
     theme_classic() +
@@ -32,19 +33,40 @@ plot_bench <- function(.analyses) {
 
 ```
 
+### Names
+
+```{r}
+os_1 <- "macOS"
+os_2 <- "WindowsWSL"
+os_3 <- "Linux"
+
+fname <- function(os, analysis_name) {
+  paste0(os, "_", analysis_name)
+}
+```
+
+
 ### Plot summary
 
 ```{r}
-plot_bench(.analyses = "Summary statistics")
+stat_fname <- "summary_stats.png"
 
-ggsave(here("figures", "summary_stats.png"), width = 8, height = 4, units = "in")
+plot_bench(.analyses = "Summary statistics", .os = system_1)
+
+stat_fname_1 <- fname(os_1, stat_fname)
+
+ggsave(here("figures", fname_1), width = 8, height = 4, units = "in")
 ```
 
 ## Plot alignment concatenation
 
 ```{r}
-plot_bench(.analyses = "Alignment concatenation")
+concat_fname <- "concat_stats.png"
 
-ggsave(here("figures", "concat_stats.png"), width = 8, height = 4, units = "in")
+plot_bench(.analyses = "Alignment concatenation", .os = "WindowsWSL")
+
+fname_1 <- fname(os_2, concat_fname)
+
+ggsave(here("figures", fname_1), width = 8, height = 4, units = "in")
 ```
 

@@ -6,10 +6,12 @@ Benchmarking segul performance with other similar programs.
 
 ### Summary statistics
 
-#### System 1
+#### System 1 (Apple M1 macOS)
 
-![results](figures/summary_stats.png)
+![results](figures/macOS_summary_stats.png)
 
 ### Concat statistics
 
-![results](figures/concat_stats.png)
+#### System 2 (Windows WSL AMD Ryzen 3900x)
+
+![results](figures/WindowsWSL_concat_stats.png)
