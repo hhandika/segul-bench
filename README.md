@@ -12,6 +12,6 @@ Benchmarking segul performance with other similar programs.
 
 ### Concat statistics
 
-#### System 2 (Windows WSL AMD Ryzen 3900x)
+#### System 2 (AMD Ryzen 3900x Windows WSL)
 
 ![results](figures/WindowsWSL_concat_stats.png)
