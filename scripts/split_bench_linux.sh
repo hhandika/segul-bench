@@ -36,7 +36,7 @@ end
 
 ### SEGUL ignore datatype ###
 
-echo -e "Benchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo ""
@@ -53,7 +53,7 @@ end
 
 echo -e "\nWarming up..."
 
-AMAS.py split -i $INPUT_FILE -f phylip -d dna -u phylip -c $CORES
+AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -d dna -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
@@ -75,6 +75,17 @@ echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip --remove-empty 2>> $OUTPUT_LOG;
 end
 
+### AMAS with empty sequences ###
+
+echo -e "\nBenchmarking AMAS Single CORE" | tee -a $OUTPUT_LOG
+
+for i in (seq 10)
+rm alignments/Onn_2020_all_combined//alignment_all-combined_*
+echo ""
+echo "Iteration $i"
+env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip 2>> $OUTPUT_LOG;
+end
+
 ### Final touches ###
 
 set Date (date +%F)
@@ -84,8 +95,10 @@ set fname "split_bench_raw_OpenSUSE_$Date.txt"
 mv $OUTPUT_LOG data/$fname
 
 ### Cleaning up ###
-
+if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
+end
+
 rm *.log
 rm alignments/Onn_2020_all_combined/alignment_all-combined_*
 
