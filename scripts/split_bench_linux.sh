@@ -77,13 +77,13 @@ end
 
 ### AMAS with empty sequences ###
 
-echo -e "\nBenchmarking AMAS Single CORE" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking AMAS KEEP EMPTY" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
 rm alignments/Onn_2020_all_combined//alignment_all-combined_*
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip -c $CORES 2>> $OUTPUT_LOG;
 end
 
 ### Final touches ###
