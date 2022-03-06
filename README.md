@@ -1,6 +1,6 @@
 # segul-bench
 
-Benchmarking segul performance with other similar programs.
+Comparing [SEGUL](https://github.com/hhandika/segul) performance with other similar programs. In progress...
 
 ## Results
 
