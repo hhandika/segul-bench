@@ -1,0 +1,488 @@
+Benchmarking SEGUL
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4704 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4884 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4752 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4868 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4688 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4904 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4704 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4808 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4780 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4824 100%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4692 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4728 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4792 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4812 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4748 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4796 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4828 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4768 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4812 85%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4772 100%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4964 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4924 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4964 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4784 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4832 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 5028 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4692 80%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4868 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4736 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4852 100%
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4748 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4824 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4712 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4936 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4964 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4828 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4712 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4816 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4812 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4844 100%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4700 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4700 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4760 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4748 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4724 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4624 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4940 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4812 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4700 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4696 100%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4904 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4740 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4736 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 5028 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4780 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4868 80%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4984 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4932 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4804 100%
+error: Found argument '-F' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    segul summary [OPTIONS] --datatype <DATATYPE> --input <INPUT-PATH>... --input-format <SEQ-FORMAT> --output <STRING>
+
+For more information try --help
+Command exited with non-zero status 1
+0:00.00 4732 100%
