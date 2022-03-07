@@ -1,70 +1,40 @@
 
 Benchmarking SEGUL
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+0:03.65 619392 115%
+0:03.54 765568 123%
+0:03.59 662288 121%
+0:03.52 748656 123%
+0:03.57 628384 122%
 Dataset path: alignments/oliveros_2019_80p_trimmed
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+0:04.63 618752 96%
+0:03.34 766848 136%
+0:03.16 692272 143%
+0:03.28 754304 139%
+0:03.17 691952 142%
 Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+0:03.60 506384 110%
+0:03.11 564096 130%
+0:03.11 680832 130%
+0:03.19 678208 127%
+0:03.11 680320 130%
 
 Benchmarking SEGUL
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+0:03.46 576080 106%
+0:03.10 803264 123%
+0:03.00 689408 124%
+0:03.09 682256 124%
+0:03.08 805760 128%
 Dataset path: alignments/oliveros_2019_80p_trimmed
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+0:03.89 649904 114%
+0:03.31 700768 138%
+0:03.40 847296 136%
+0:03.28 691840 139%
+0:03.38 781424 136%
 Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
-time: illegal option -- f
-usage: time [-al] [-h | -p] [-o file] utility [argument ...]
+0:03.48 576416 111%
+0:03.12 788992 128%
+0:03.16 681168 126%
+0:03.17 678768 126%
+0:03.10 574368 128%
