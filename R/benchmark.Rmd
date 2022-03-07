@@ -9,37 +9,95 @@ library(ggplot2)
 library(readr)
 library(dplyr)
 library(stringr)
+library(RColorBrewer)
 ```
 
 
 ```{r}
-bench <- readr::read_csv(here("data", "bench_spectre.csv")) |>
-  dplyr::mutate_at("cpu_usage", stringr::str_remove_all, "%") |>
-  dplyr::mutate_at("cpu_usage", readr::parse_number)
-
+bench <- readr::read_csv(here("data", "benchmark_results.csv")) |>
+  dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>
+  dplyr::mutate_at("CPU_usage", readr::parse_number)
 ```
 
 ```{r}
-plot_bench <- function(.analyses) {
+plot_bench <- function(.analyses, .os) {
   bench |>
   dplyr::filter(Analyses == .analyses) |>
-  dplyr::mutate("memory_usage_in_kb" = memory_usage/1e3) |>
-  ggplot(aes(x = execution_time_secs, y = memory_usage_in_kb, color = Programs)) +
+    dplyr::filter(OS_name == .os) |>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
     geom_point() +
     theme_classic() +
-    labs(x = "Execution time (secs)", y = "Memory usage (kb)")
+    scale_colour_brewer(palette = "Set1") +
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 }
 
-plot_bench(.analyses = "summary_stats")
-
-ggsave(here("figures", "summary_stats.png"), width = 8, height = 4, units = "in")
 ```
 
+### Names
+
 ```{r}
-bench |>
-  ggplot(aes(x = execution_time_secs, y = cpu_usage, color = interaction(Analyses, Programs))) +
-    geom_boxplot() +
-    theme_classic() +
-    labs(x = "Execution time (secs)", y = "CPU usage")
+os_1 <- "macOS"
+os_2 <- "Linux"
+os_3 <- "WindowsWSL"
+
+fname <- function(os, analysis_name) {
+  paste0(os, "_", analysis_name)
+}
+```
+
+
+### Plot summary
+
+```{r}
+stat_fname <- "summary_stats.png"
+
+## Benchmark 1
+plot_bench(.analyses = "Summary statistics", .os = os_1)
+stat_fname_1 <- fname(os_1, stat_fname)
+ggsave(here("figures", stat_fname_1), width = 8, height = 4, units = "in")
+
+## Benchmark 2
+plot_bench(.analyses = "Summary statistics", .os = os_2)
+stat_fname_2 <- fname(os_2, stat_fname)
+ggsave(here("figures", stat_fname_2), width = 8, height = 4, units = "in")
+
+## Benchmark 3
+plot_bench(.analyses = "Summary statistics", .os = os_3)
+stat_fname_3 <- fname(os_3, stat_fname)
+ggsave(here("figures", stat_fname_3), width = 8, height = 4, units = "in")
+```
+
+## Plot alignment concatenation
+
+```{r}
+concat_fname <- "concat_stats.png"
+
+## Benchmark 1
+plot_bench(.analyses = "Alignment concatenation", .os = os_1)
+concat_fname_1 <- fname(os_1, concat_fname)
+ggsave(here("figures", concat_fname_1), width = 8, height = 4, units = "in")
+
+## Benchmark 2
+plot_bench(.analyses = "Alignment concatenation", .os = os_2)
+concat_fname_2 <- fname(os_2, concat_fname)
+ggsave(here("figures", concat_fname_2), width = 8, height = 4, units = "in")
+
+## Benchmark 3
+plot_bench(.analyses = "Alignment concatenation", .os = os_3)
+concat_fname_3 <- fname(os_3, concat_fname)
+ggsave(here("figures", concat_fname_3), width = 8, height = 4, units = "in")
+```
+
+## Plot split alignments
+
+```{r}
+split_fname <- "split_alignment.png"
+
+## Benchmark 1
+
+## Benchmark 1
+plot_bench(.analyses = "Alignment splitting", .os = os_2)
+split_fname_2 <- fname(os_2, split_fname)
+ggsave(here("figures", split_fname_2), width = 8, height = 4, units = "in")
 ```
 

@@ -1,0 +1,378 @@
+Benchmarking SEGUL
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:02.50 604704 143%
+0:02.48 607912 144%
+0:02.51 606600 147%
+0:02.75 612412 146%
+0:02.48 606344 150%
+0:02.49 609168 148%
+0:02.53 606620 150%
+0:02.50 613016 150%
+0:02.53 609184 147%
+0:02.54 608104 148%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:03.86 658284 149%
+0:03.70 655804 148%
+0:03.76 658008 148%
+0:03.76 661556 148%
+0:03.83 655360 147%
+0:03.76 656820 147%
+0:03.88 663816 151%
+0:03.74 658008 147%
+0:03.83 655332 151%
+0:03.94 655844 148%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:03.79 529568 134%
+0:04.19 532484 137%
+0:03.75 525644 136%
+0:03.76 532664 134%
+0:04.17 533428 136%
+0:03.81 529576 137%
+0:04.27 531464 132%
+0:03.88 533512 133%
+0:04.19 536952 135%
+0:03.73 529432 133%
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:01.60 609540 177%
+0:01.29 609244 191%
+0:01.34 607568 194%
+0:01.59 606936 183%
+0:01.31 606816 187%
+0:01.64 606116 188%
+0:01.30 609148 194%
+0:01.34 606176 188%
+0:01.33 606472 186%
+0:01.32 611656 188%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:01.91 657196 205%
+0:01.91 661404 185%
+0:01.89 663776 185%
+0:01.88 650652 201%
+0:01.90 662632 202%
+0:01.88 658332 212%
+0:01.90 657888 202%
+0:01.83 656688 202%
+0:01.88 655324 199%
+0:01.89 661456 196%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:01.37 529408 201%
+0:01.31 536972 197%
+0:01.54 534836 191%
+0:01.33 530916 204%
+0:01.38 533408 185%
+0:01.38 532508 202%
+0:01.52 528996 205%
+0:01.29 532364 208%
+0:01.34 532324 206%
+0:01.35 528676 198%
+
+Benchmarking AMAS
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:03.08 2070536 481%
+0:03.16 2069884 471%
+0:03.16 2068220 471%
+0:03.26 2068032 464%
+0:03.06 2070396 487%
+0:02.99 2068752 493%
+0:03.02 2068012 492%
+0:03.07 2068524 483%
+0:02.99 2070532 495%
+0:03.03 2069612 486%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:05.40 2330444 470%
+0:05.39 2331284 472%
+0:05.72 2331280 448%
+0:05.57 2330536 457%
+0:05.47 2332060 466%
+0:05.39 2330540 473%
+0:05.98 2330640 432%
+0:05.27 2331668 479%
+0:05.54 2330280 461%
+0:05.59 2330512 458%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:02.78 1851564 662%
+0:02.65 1855000 705%
+0:02.83 1845440 674%
+0:03.05 1854560 625%
+0:02.72 1853988 688%
+0:02.68 1852908 697%
+0:02.75 1854052 683%
+0:02.84 1853716 661%
+0:02.79 1854668 664%
+0:02.79 1852484 668%
+
+Benchmarking Phyluce
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37576 1098%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37316 1082%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37532 1054%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37396 1118%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37432 1119%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37468 1114%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37564 1115%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.18 37372 973%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 39420 1120%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37368 1115%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 39348 1105%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.18 37604 971%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37416 1113%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37336 1119%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.16 43480 1101%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 39640 1114%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37516 1112%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.16 37740 1056%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37512 1112%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37448 1111%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37412 1115%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37524 1116%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37612 1115%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37432 1108%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.18 41580 968%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 39616 1117%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 41444 1114%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37324 1111%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 37412 1105%
+usage: phyluce_align_concatenate_alignments [-h] --alignments ALIGNMENTS
+                                            [--input-format {fasta,nexus,phylip,clustal,emboss,stockholm}]
+                                            --output OUTPUT
+                                            [--verbosity {INFO,WARN,CRITICAL}]
+                                            [--log-path LOG_PATH]
+                                            (--nexus | --phylip)
+phyluce_align_concatenate_alignments: error: one of the arguments --nexus --phylip is required
+Command exited with non-zero status 2
+0:00.15 39740 1106%
