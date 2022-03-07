@@ -15,16 +15,16 @@ library(RColorBrewer)
 
 ```{r}
 bench <- readr::read_csv(here("data", "benchmark_results.csv")) |>
-  dplyr::mutate_at("cpu_usage", stringr::str_remove_all, "%") |>
-  dplyr::mutate_at("cpu_usage", readr::parse_number)
+  dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>
+  dplyr::mutate_at("CPU_usage", readr::parse_number)
 ```
 
 ```{r}
 plot_bench <- function(.analyses, .os) {
   bench |>
-  dplyr::filter(analyses == .analyses) |>
-    dplyr::filter(os_name == .os) |>
-  ggplot(aes(x = execution_time_secs, y = ram_usage_Mb, color = programs, shape = datasets)) +
+  dplyr::filter(Analyses == .analyses) |>
+    dplyr::filter(OS_name == .os) |>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
     geom_point() +
     theme_classic() +
     scale_colour_brewer(palette = "Set1") +
@@ -37,8 +37,8 @@ plot_bench <- function(.analyses, .os) {
 
 ```{r}
 os_1 <- "macOS"
-os_2 <- "WindowsWSL"
-os_3 <- "Linux"
+os_2 <- "Linux"
+os_3 <- "WindowsWSL"
 
 fname <- function(os, analysis_name) {
   paste0(os, "_", analysis_name)
@@ -51,11 +51,20 @@ fname <- function(os, analysis_name) {
 ```{r}
 stat_fname <- "summary_stats.png"
 
-plot_bench(.analyses = "Summary statistics", .os = system_1)
-
+## Benchmark 1
+plot_bench(.analyses = "Summary statistics", .os = os_1)
 stat_fname_1 <- fname(os_1, stat_fname)
+ggsave(here("figures", stat_fname_1), width = 8, height = 4, units = "in")
 
-ggsave(here("figures", fname_1), width = 8, height = 4, units = "in")
+## Benchmark 2
+plot_bench(.analyses = "Summary statistics", .os = os_2)
+stat_fname_2 <- fname(os_2, stat_fname)
+ggsave(here("figures", stat_fname_2), width = 8, height = 4, units = "in")
+
+## Benchmark 3
+plot_bench(.analyses = "Summary statistics", .os = os_3)
+stat_fname_3 <- fname(os_3, stat_fname)
+ggsave(here("figures", stat_fname_3), width = 8, height = 4, units = "in")
 ```
 
 ## Plot alignment concatenation
@@ -63,10 +72,19 @@ ggsave(here("figures", fname_1), width = 8, height = 4, units = "in")
 ```{r}
 concat_fname <- "concat_stats.png"
 
-plot_bench(.analyses = "Alignment concatenation", .os = "WindowsWSL")
+## Benchmark 1
+plot_bench(.analyses = "Alignment concatenation", .os = os_1)
+concat_fname_1 <- fname(os_1, concat_fname)
+ggsave(here("figures", concat_fname_1), width = 8, height = 4, units = "in")
 
-fname_1 <- fname(os_2, concat_fname)
+## Benchmark 2
+plot_bench(.analyses = "Alignment concatenation", .os = os_2)
+concat_fname_2 <- fname(os_2, concat_fname)
+ggsave(here("figures", concat_fname_2), width = 8, height = 4, units = "in")
 
-ggsave(here("figures", fname_1), width = 8, height = 4, units = "in")
+## Benchmark 3
+plot_bench(.analyses = "Alignment concatenation", .os = os_3)
+concat_fname_3 <- fname(os_3, concat_fname)
+ggsave(here("figures", concat_fname_3), width = 8, height = 4, units = "in")
 ```
 

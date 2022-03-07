@@ -18,7 +18,7 @@ end
 
 echo -e "Warming up..."
 
-segul concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -o $OUTPUT_DIR -F phylip
+segul concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -o $OUTPUT_DIR -F fasta-int
 
 echo -e "\nBenchmarking Alignment Concatenation"
 
@@ -31,7 +31,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-gtime -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F fasta 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F fasta-int 2>> $OUTPUT_LOG;
 end
 end
 
@@ -69,6 +69,19 @@ rm concatenated.out && rm partitions.txt
 echo ""
 echo "Iteration $i"
 gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
+end
+end
+
+echo -e "\nBenchmarking AMAS Check Aligned" | tee -a $OUTPUT_LOG
+
+for dir in $INPUT_DIRS
+echo ""
+echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm concatenated.out && rm partitions.txt
+echo ""
+echo "Iteration $i"
+gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES --check-align 2>> $OUTPUT_LOG;
 end
 end
 
