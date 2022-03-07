@@ -36,7 +36,7 @@ end
 
 
 #### SEGUL DEV ####
-echo -e "\nBenchmarking SEGUL" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking SEGUL DEV" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
