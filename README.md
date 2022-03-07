@@ -47,3 +47,11 @@ Test bench: Desktop PC
 OS: Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406
 
 ![results](figures/WindowsWSL_concat_stats.png)
+
+### Alignment Splitting
+
+Test bench: Desktop PC
+
+OS: openSUSE Tumbleweed x86_64
+
+![results](figures/Linux_split_alignment.png)

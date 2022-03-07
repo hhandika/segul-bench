@@ -88,3 +88,16 @@ concat_fname_3 <- fname(os_3, concat_fname)
 ggsave(here("figures", concat_fname_3), width = 8, height = 4, units = "in")
 ```
 
+## Plot split alignments
+
+```{r}
+split_fname <- "split_alignment.png"
+
+## Benchmark 1
+
+## Benchmark 1
+plot_bench(.analyses = "Alignment splitting", .os = os_2)
+split_fname_2 <- fname(os_2, split_fname)
+ggsave(here("figures", split_fname_2), width = 8, height = 4, units = "in")
+```
+
