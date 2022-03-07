@@ -1,8 +1,8 @@
 #!/usr/bin/env fish
 
 set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
-set OUTPUT_DIR "concat_results"
-set OUTPUT_LOG "data/concat_bench.txt"
+set OUTPUT_DIR "segul_results"
+set OUTPUT_LOG "data/segul_bench.txt"
 
 
 if test -f $OUTPUT_LOG
