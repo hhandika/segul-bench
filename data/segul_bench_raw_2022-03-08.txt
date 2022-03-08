@@ -1,0 +1,50 @@
+
+Benchmarking SEGUL
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:03.48 295736 132%
+0:03.46 298008 132%
+0:04.05 295952 128%
+0:04.25 296940 132%
+0:04.27 295900 134%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:07.35 639820 131%
+0:06.82 639764 150%
+0:07.35 642804 174%
+0:06.54 638080 151%
+0:06.47 637952 172%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+Command terminated by signal 6
+0:00.00 4888 37%
+Command terminated by signal 6
+0:00.00 4940 100%
+Command terminated by signal 6
+0:00.00 4724 100%
+Command terminated by signal 6
+0:00.00 4840 100%
+Command terminated by signal 6
+0:00.00 4664 100%
+
+Benchmarking SEGUL
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:04.52 295728 144%
+0:04.48 296772 137%
+0:04.13 296508 143%
+0:04.21 299724 139%
+0:04.00 300084 130%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:05.66 641528 168%
+0:06.42 641896 157%
+0:06.33 636524 146%
+0:05.66 639952 180%
+0:06.17 641876 149%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+Command terminated by signal 6
+0:00.00 4956 100%
+Command terminated by signal 6
+0:00.00 4956 100%
+Command terminated by signal 6
+0:00.00 5016 50%
+Command terminated by signal 6
+0:00.00 5096 50%
+Command terminated by signal 6
+0:00.00 4948 100%
