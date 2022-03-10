@@ -3,15 +3,20 @@
 set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
 set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "data/summary_bench.txt"
-set CORES "24"
+set CORES 24
 
-
-# Get system information
-uname -v >> $OUTPUT_LOG
+git pull
 
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG
 end
+
+# Get system information
+lscpu | egrep 'Model name|Thread|CPU\(s\)|Core\(s\) per socket' | tee -a $OUTPUT_LOG
+uname -r  | tee -a $OUTPUT_LOG
+
+# Get segul version
+segul -V | tee -a $OUTPUT_LOG
 
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
@@ -19,7 +24,7 @@ end
 
 echo -e "Warming up..."
 
-segul summary -d alignments/esselstyn_2021_nexus_trimmed -f nexus -o $OUTPUT_DIR
+segul summary -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -o $OUTPUT_DIR
 
 echo -e "\nBenchmarking Summary Stats"
 
@@ -87,7 +92,7 @@ end
 
 set Date (date +%F)
 
-set fname "summary_bench_raw_PC_$Date.txt"
+set fname "summary_bench_raw_openSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 

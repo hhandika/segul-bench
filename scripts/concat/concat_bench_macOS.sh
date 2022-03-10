@@ -1,8 +1,8 @@
 #!/opt/homebrew/bin/fish
 
-set INPUT_DIRS "alignments/wu_2018_aa_loci/" "alignments/shen_2018_loci_aa/"
-set OUTPUT_DIR "concat_results_aa"
-set OUTPUT_LOG "data/concat_bench_aa.txt"
+set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator" "alignments/chan_2020_loci/"
+set OUTPUT_DIR "concat_results"
+set OUTPUT_LOG "data/concat_bench.txt"
 set CORES 8
 
 git pull
@@ -24,7 +24,7 @@ end
 
 echo -e "Warming up..."
 
-segul concat -i alignments/wu_2018_aa_loci/*.nex -f nexus -o $OUTPUT_DIR -F phylip --datatype aa
+segul concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -o $OUTPUT_DIR -F phylip
 
 echo -e "\nBenchmarking Alignment Concatenation AA"
 
@@ -37,7 +37,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-gtime -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F phylip --datatype aa 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
 end
 end
 
@@ -60,10 +60,9 @@ if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
 
-
 echo -e "\nWarming up..."
 
-AMAS.py concat -i alignments/wu_2018_aa_loci/*.nex -f nexus -d aa -u phylip -c $CORES
+AMAS.py concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
@@ -74,7 +73,7 @@ for i in (seq 10)
 rm concatenated.out && rm partitions.txt
 echo ""
 echo "Iteration $i"
-gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d aa -u phylip -c $CORES 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -u phylip -c $CORES 2>> $OUTPUT_LOG;
 end
 end
 
@@ -87,7 +86,7 @@ for i in (seq 10)
 rm concatenated.out && rm partitions.txt
 echo ""
 echo "Iteration $i"
-gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d aa -u phylip -c $CORES --check-align 2>> $OUTPUT_LOG;
+gtime -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -u phylip -c $CORES --check-align 2>> $OUTPUT_LOG;
 end
 end
 
@@ -95,7 +94,7 @@ end
 
 set Date (date +%F)
 
-set fname "concat_bench_raw_aa_MacMini_$Date.txt"
+set fname "concat_bench_raw_MacMini_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
