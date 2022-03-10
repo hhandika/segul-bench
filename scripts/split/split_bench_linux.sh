@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
-set INPUT_FILE "alignments/Onn_2020_all_combined/alignment_all-combined.phy"
-set PARTITION "alignments/Onn_2020_all_combined/partitions_all-combined.txt"
+set INPUT_FILE "alignments/Chan_2020_all_combined/alignment_all-combined.phy"
+set PARTITION "alignments/Chan_2020_all_combined/partitions_all-combined.txt"
 set OUTPUT_DIR "split_results"
 set OUTPUT_LOG "data/split_bench.txt"
 set CORES 24
@@ -20,7 +20,7 @@ end
 
 echo -e "Warming up..."
 
-segul split -i $INPUT_FILE -f phylip -I $PARTITION -o $OUTPUT_DIR -F phylip
+segul split -i $INPUT_FILE -f phylip -I $PARTITION -o $OUTPUT_DIR --output-format phylip
 
 echo -e "\nBenchmarking Alignment Splitting"
 
@@ -31,7 +31,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR --output-format phylip 2>> $OUTPUT_LOG;
 end
 
 ### SEGUL ignore datatype ###
@@ -42,7 +42,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR -F phylip --datatype ignore 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR --output-format phylip --datatype ignore 2>> $OUTPUT_LOG;
 end
 
 #### AMAS ####
