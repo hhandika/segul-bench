@@ -12,7 +12,7 @@ end
 
 # Get system information
 lscpu | egrep 'Model name|Thread|CPU\(s\)|Core\(s\) per socket' | tee -a $OUTPUT_LOG
-uname -v  | tee -a $OUTPUT_LOG
+uname -r  | tee -a $OUTPUT_LOG
 
 # Get segul version
 segul -V | tee -a $OUTPUT_LOG
