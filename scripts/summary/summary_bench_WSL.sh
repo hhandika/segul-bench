@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
+set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator" "alignments/chan_2020_loci/"
 set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "data/summary_bench.txt"
 set CORES 24
