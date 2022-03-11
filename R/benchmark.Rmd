@@ -23,7 +23,8 @@ bench <- readr::read_csv(here("data", "benchmark_results.csv")) |>
 plot_bench <- function(.analyses, .os) {
   bench |>
   dplyr::filter(Analyses == .analyses) |>
-    dplyr::filter(OS_name == .os) |>
+  dplyr::filter(OS_name == .os) |>
+  dplyr::filter(Benchmark_dates == '3/10/22') |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
     geom_point() +
     theme_classic() +
