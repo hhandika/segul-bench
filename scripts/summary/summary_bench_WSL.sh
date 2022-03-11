@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator"
+set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator" "alignments/chan_2020_loci/"
 set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "data/summary_bench.txt"
 set CORES 24
@@ -31,7 +31,7 @@ echo -e "\nBenchmarking Summary Stats"
 echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
-echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo ""
@@ -55,7 +55,7 @@ echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""
-echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm summary.txt
 echo ""
@@ -80,7 +80,7 @@ echo -e "\nBenchmarking Phyluce" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""
-echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 echo ""
 echo "Iteration $i"

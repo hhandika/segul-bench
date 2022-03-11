@@ -31,7 +31,7 @@ echo -e "\nBenchmarking Summary Stats"
 echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
-echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo ""
@@ -55,7 +55,7 @@ echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""
-echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm summary.txt
 echo ""
