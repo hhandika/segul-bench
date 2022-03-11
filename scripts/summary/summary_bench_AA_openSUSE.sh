@@ -68,7 +68,7 @@ end
 
 set Date (date +%F)
 
-set fname "summary_bench_raw_openSUSE_$Date.txt"
+set fname "summary_bench_raw_AA_openSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
