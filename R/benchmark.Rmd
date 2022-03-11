@@ -102,3 +102,18 @@ split_fname_2 <- fname(os_2, split_fname)
 ggsave(here("figures", split_fname_2), width = 8, height = 4, units = "in")
 ```
 
+# Facet wrap
+
+```{r}
+bench |>
+  dplyr::filter(Benchmark_dates == '3/10/22') |>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
+    geom_point() +
+    facet_wrap(~ Analyses + OS_name) +
+    theme_classic() +
+    scale_colour_brewer(palette = "Set1") +
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+
+ggsave(here("figures", "bench_all.png"), width = 8, height = 4, units = "in")
+```
+
