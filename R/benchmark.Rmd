@@ -24,7 +24,7 @@ plot_bench <- function(.analyses, .os) {
   bench |>
   dplyr::filter(Analyses == .analyses) |>
   dplyr::filter(OS_name == .os) |>
-  dplyr::filter(Benchmark_dates == '3/10/22') |>
+  dplyr::filter(Latest_bench == TRUE) |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
     geom_point() +
     theme_classic() +
@@ -106,14 +106,16 @@ ggsave(here("figures", split_fname_2), width = 8, height = 4, units = "in")
 
 ```{r}
 bench |>
-  dplyr::filter(Benchmark_dates == '3/10/22') |>
+  dplyr::filter(Latest_bench == TRUE) |>
+  dplyr::filter(Analyses != "Alignment splitting") |>
+  dplyr::filter(Apps != "Phyluce") |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
     geom_point() +
-    facet_wrap(~ Analyses + OS_name) +
-    theme_classic() +
+    facet_wrap(~ Analyses + OS_name, scales = "free_y") +
     scale_colour_brewer(palette = "Set1") +
+    theme_classic() +
     labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 
-ggsave(here("figures", "bench_all.png"), width = 8, height = 4, units = "in")
+ggsave(here("figures", "bench_all.png"), width = 10, height = 4, units = "in")
 ```
 
