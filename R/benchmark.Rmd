@@ -110,7 +110,7 @@ bench |>
   dplyr::filter(Analyses != "Alignment splitting") |>
   dplyr::filter(Apps != "Phyluce") |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
-    geom_point() +
+    geom_point( size = 2) +
     facet_wrap(~ Analyses + OS_name, scales = "free_y") +
     scale_colour_brewer(palette = "Set1") +
     theme_classic() +
