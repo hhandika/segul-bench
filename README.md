@@ -22,6 +22,14 @@ OS: openSUSE Tumbleweed x86_64
 
 ![results](figures/Linux_summary_stats.png)
 
+#### Benchmark 3
+
+Test bench: Desktop PC
+
+OS: Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406
+
+![results](figures/WindowsWSL_summary_stats.png)
+
 ### Concat statistics
 
 #### Benchmark 1
