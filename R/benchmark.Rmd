@@ -117,5 +117,6 @@ bench |>
     labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 
 ggsave(here("figures", "bench_all.png"), width = 10, height = 4, units = "in")
+ggsave(here("figures", "bench_all.pdf"), width = 10, height = 4, units = "in")
 ```
 
