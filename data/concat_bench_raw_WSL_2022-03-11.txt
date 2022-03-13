@@ -5,8 +5,8 @@ Core(s) per socket:  12
 Model name:          AMD Ryzen 9 3900X 12-Core Processor
 4.4.0-22000-Microsoft
 segul 0.16.3
-Benchmarking SEGUL
 
+Benchmarking SEGUL
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:05.30 608300 152%
 0:05.29 598376 151%
@@ -54,8 +54,8 @@ Dataset path: alignments/chan_2020_loci/
 0:04.00 385192 228%
 0:03.94 382376 228%
 0:03.99 388916 226%
-Benchmarking SEGUL ignore datatype
 
+Benchmarking SEGUL ignore datatype
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:02.74 604012 203%
 0:02.60 607532 206%
@@ -105,7 +105,6 @@ Dataset path: alignments/chan_2020_loci/
 0:03.20 387588 261%
 
 Benchmarking AMAS
-
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:26.71 2060460 140%
 0:26.81 2060468 138%
@@ -154,8 +153,56 @@ Dataset path: alignments/chan_2020_loci/
 0:10.81 1291500 208%
 0:11.03 1291504 206%
 
-Benchmarking Phyluce
+Benchmarking AMAS Check Align
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:40.56 2062384 124%
+0:40.00 2157720 124%
+0:38.91 2165412 125%
+0:39.09 2127212 124%
+0:39.48 2062836 124%
+0:38.61 2157836 124%
+0:40.47 2127124 124%
+0:38.69 2062384 125%
+0:38.10 2157544 125%
+0:38.27 2157540 126%
 
+Dataset path: alignments/oliveros_2019_80p_trimmed
+4:02.25 2485276 106%
+4:05.27 2485152 106%
+3:53.06 2477772 107%
+3:58.11 2485528 106%
+3:59.47 2486412 106%
+3:51.05 2477808 107%
+3:52.34 2477472 107%
+3:59.89 2485916 106%
+3:52.21 2477784 107%
+3:59.61 2486112 106%
+
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:26.44 1847292 155%
+0:30.90 1847668 149%
+0:27.08 1845960 154%
+0:29.09 1847220 151%
+0:25.48 1845440 158%
+0:30.74 1847320 147%
+0:25.19 1848464 157%
+0:26.44 1847324 156%
+0:36.70 1845320 139%
+0:29.71 1844876 150%
+
+Dataset path: alignments/chan_2020_loci/
+0:21.72 1292564 153%
+0:21.21 1292560 155%
+0:21.75 1292504 154%
+0:21.47 1292568 154%
+0:21.68 1292560 152%
+0:21.39 1292876 155%
+0:21.32 1292872 153%
+0:21.64 1292568 152%
+0:21.24 1292876 154%
+0:21.66 1292564 154%
+
+Benchmarking Phyluce
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 3:53.06 13482112 100%
 3:55.68 13489304 100%

@@ -5,8 +5,8 @@ Core(s) per socket:  12
 Model name:          AMD Ryzen 9 3900X 12-Core Processor
 4.4.0-22000-Microsoft
 segul 0.16.3
-Benchmarking SEGUL
 
+Benchmarking SEGUL
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:00.99 61904 1814%
 0:00.99 62728 1792%
@@ -56,7 +56,6 @@ Dataset path: alignments/chan_2020_loci/
 0:01.22 85024 1521%
 
 Benchmarking AMAS
-
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 2:02.09 5807736 99%
 1:57.73 5807740 99%
@@ -106,7 +105,6 @@ Dataset path: alignments/chan_2020_loci/
 1:43.71 5052256 100%
 
 Benchmarking Phyluce
-
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:29.33 39536 2200%
 0:29.69 39536 2196%
