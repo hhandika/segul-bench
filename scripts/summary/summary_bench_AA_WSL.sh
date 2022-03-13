@@ -49,7 +49,7 @@ end
 
 echo -e "\nWarming up..."
 
-AMAS.py summary -i alignments/wu_2018_aa_loci/*.nex -f nexus -d aa -c $CORES
+AMAS.py summary -i alignments/wu_2018_aa_loci/*.nex -f nexus -d aa 
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
@@ -60,7 +60,7 @@ for i in (seq 10)
 rm summary.txt
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py summary -i $dir/*.nex -f nexus -d aa -c $CORES 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py summary -i $dir/*.nex -f nexus -d aa 2>> $OUTPUT_LOG;
 end
 end
 
