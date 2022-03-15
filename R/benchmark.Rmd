@@ -17,6 +17,9 @@ library(RColorBrewer)
 bench <- readr::read_csv(here("data", "benchmark_results.csv")) |>
   dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>
   dplyr::mutate_at("CPU_usage", readr::parse_number)
+
+latest_bench  <- bench |> 
+  dplyr::filter(Latest_bench == TRUE)
 ```
 
 ```{r}
@@ -105,8 +108,7 @@ ggsave(here("figures", split_fname_2), width = 8, height = 4, units = "in")
 # Facet wrap
 
 ```{r}
-bench |>
-  dplyr::filter(Latest_bench == TRUE) |>
+latest_bench |>
   dplyr::filter(Analyses != "Alignment splitting") |>
   dplyr::filter(Apps != "Phyluce") |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
@@ -118,5 +120,10 @@ bench |>
 
 ggsave(here("figures", "bench_all.png"), width = 10, height = 4, units = "in")
 ggsave(here("figures", "bench_all.pdf"), width = 10, height = 4, units = "in")
+```
+
+```{r}
+bench |>
+  dplyr::filter()
 ```
 
