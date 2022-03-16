@@ -123,15 +123,24 @@ ggsave(here("figures", "bench_all.pdf"), width = 10, height = 4, units = "in")
 ```
 
 ```{r}
+## By apps, OS name and analyses.
 summary <- bench |>
-  dplyr::group_by(Apps, Analyses, OS_name) |>
+  dplyr::group_by(Analyses, OS_name, Apps) |>
   dplyr::summarise_if(is.numeric, mean)
   # summarise(mean_execution_time = mean(Execution_time))
   # summarise(mean_RAM_usage_Mb) = mean(RAM_usage_Mb)
 readr::write_csv(summary, here("data", "summary_bench.csv"))
 
-summary_all <- bench |>
+## By apps and analyses
+summary_analyses <- bench |>
   dplyr::group_by(Apps, Analyses) |>
+  dplyr::summarise_if(is.numeric, mean)
+
+readr::write_csv(summary_analyses, here("data", "summary_bench_analyses.csv"))
+
+## By apps, analyses, and datasets.
+summary_all <- bench |>
+  dplyr::group_by(Apps, Analyses, Datasets) |>
   dplyr::summarise_if(is.numeric, mean)
 
 readr::write_csv(summary_all, here("data", "summary_bench_all.csv"))
