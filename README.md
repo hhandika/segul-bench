@@ -1,8 +1,8 @@
 # segul-bench
 
-This repo hosts benchmark results that compare [SEGUL](https://github.com/hhandika/segul) performance with other similar programs. The main focus is comparing to AMAS. AMAS is the fastest app available for alignment manipulation and generating alignment summary statistics (see [Borowiec, 2016](https://peerj.com/articles/1660/)). We also include Phyluce for some benchmark out of curiosity. It is not necessarily similar app, but has some overlap functions with SEGUL.
+This repo hosts benchmark results that compare [SEGUL](https://github.com/hhandika/segul) performance with other similar programs. The main focus is comparing to AMAS. AMAS is the fastest app available for alignment manipulation and generating alignment summary statistics (see [Borowiec, 2016](https://peerj.com/articles/1660/)). We also include [Phyluce](https://github.com/faircloth-lab/phyluce) for some benchmarks out of curiosity. It is not quite similar app because Phyluce does more than SEGUL, but has some overlap functions.
 
-The benchmark is conducted in three different computer system. For Windows, we benchmark on Windows Subsystem for Linux because it tends to be the default choice when using bioinformatics command-line application.
+The benchmark is conducted in all three major operating system (Linux, macOS, and Windows). For Windows, we benchmark on Windows Subsystem for Linux because it tends to be the default choice when using bioinformatics command-line application.
 
 ## Results
 
