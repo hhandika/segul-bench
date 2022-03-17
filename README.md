@@ -6,12 +6,6 @@ The benchmark is conducted in all three major operating system (Linux, macOS, an
 
 ## Results
 
-## All Benchmark
-
-![results](figures/bench_all.png)
-
-## Per operating system benchmark
-
 ### Summary statistics
 
 #### Benchmark 1
