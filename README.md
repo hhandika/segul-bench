@@ -24,7 +24,7 @@ OS: macOS Monterey v12.1
 
 #### Benchmark 2
 
-Test bench: Desktop PC
+Test bench: Desktop PC (AMD Ryzen 3900x)
 
 OS: openSUSE Tumbleweed x86_64
 
@@ -32,7 +32,7 @@ OS: openSUSE Tumbleweed x86_64
 
 #### Benchmark 3
 
-Test bench: Desktop PC
+Test bench: Desktop PC (AMD Ryzen 3900x)
 
 OS: Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406
 
@@ -50,7 +50,7 @@ OS: macOS Monterey v12.1
 
 #### Benchmark 2
 
-Test bench: Desktop PC
+Test bench: Desktop PC (AMD Ryzen 3900x)
 
 OS: openSUSE Tumbleweed x86_64
 
@@ -58,7 +58,7 @@ OS: openSUSE Tumbleweed x86_64
 
 #### Benchmark 3
 
-Test bench: Desktop PC
+Test bench: Desktop PC (AMD Ryzen 3900x)
 
 OS: Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406
 
@@ -66,7 +66,7 @@ OS: Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406
 
 ### Alignment Splitting
 
-Test bench: Desktop PC
+Test bench: Desktop PC (AMD Ryzen 3900x)
 
 OS: openSUSE Tumbleweed x86_64
 
