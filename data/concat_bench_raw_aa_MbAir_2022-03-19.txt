@@ -12,6 +12,7 @@ Dataset path: alignments/wu_2018_aa_loci/
 0:08.58 317336 115%
 0:08.64 316836 114%
 0:08.98 317684 114%
+
 Dataset path: alignments/shen_2018_loci_aa/
 0:21.51 462716 100%
 0:17.85 462632 105%
@@ -23,6 +24,7 @@ Dataset path: alignments/shen_2018_loci_aa/
 0:17.58 464632 108%
 0:14.72 467128 114%
 0:14.58 463824 114%
+
 Benchmarking SEGUL ignore datatype
 Dataset path: alignments/wu_2018_aa_loci/
 0:05.56 315276 122%
@@ -35,6 +37,7 @@ Dataset path: alignments/wu_2018_aa_loci/
 0:03.85 317640 135%
 0:04.08 316952 130%
 0:03.85 317552 138%
+
 Dataset path: alignments/shen_2018_loci_aa/
 0:07.68 462116 124%
 0:06.13 457564 141%
@@ -59,6 +62,7 @@ Dataset path: alignments/wu_2018_aa_loci/
 0:19.24 1286092 307%
 0:23.02 1144472 261%
 0:19.83 1280480 296%
+
 Dataset path: alignments/shen_2018_loci_aa/
 0:22.51 1324616 226%
 0:24.07 1728308 209%
@@ -83,6 +87,7 @@ Dataset path: alignments/wu_2018_aa_loci/
 1:12.09 1286700 152%
 1:13.77 1283172 150%
 1:10.11 1279040 156%
+
 Dataset path: alignments/shen_2018_loci_aa/
 18:54.79 1181412 102%
 18:56.13 1428100 102%

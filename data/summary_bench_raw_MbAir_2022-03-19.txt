@@ -13,6 +13,7 @@ Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:14.54 43352 277%
 0:14.96 43696 269%
 0:16.81 41192 242%
+
 Dataset path: alignments/oliveros_2019_80p_trimmed
 0:21.79 84808 234%
 0:21.82 83860 236%
@@ -24,6 +25,7 @@ Dataset path: alignments/oliveros_2019_80p_trimmed
 0:19.61 81820 252%
 0:17.81 95460 274%
 0:18.02 95016 268%
+
 Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
 0:21.54 29400 271%
 0:20.57 29332 274%
@@ -35,6 +37,7 @@ Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
 0:20.47 29472 277%
 0:20.48 29984 276%
 0:20.01 29596 282%
+
 Dataset path: alignments/chan_2020_loci/
 0:16.07 76388 253%
 0:14.59 76436 256%
@@ -59,6 +62,7 @@ Dataset path: alignments/esselstyn_2021_nexus_trimmed
 5:05.26 2399812 96%
 4:59.69 2080456 96%
 5:00.47 2273536 96%
+
 Dataset path: alignments/oliveros_2019_80p_trimmed
 10:59.42 2362340 85%
 10:00.86 2106516 93%
@@ -70,6 +74,7 @@ Dataset path: alignments/oliveros_2019_80p_trimmed
 11:33.62 2343680 84%
 10:03.84 2195928 93%
 9:31.97 2362208 94%
+
 Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
 8:03.69 2422768 94%
 8:01.74 2319808 95%
@@ -81,6 +86,7 @@ Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
 7:55.94 2374872 94%
 8:05.93 2356860 95%
 8:00.20 2485888 95%
+
 Dataset path: alignments/chan_2020_loci/
 4:23.68 2209472 95%
 4:36.33 2520332 95%
