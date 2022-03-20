@@ -140,9 +140,23 @@ readr::write_csv(summary_analyses, here("data", "summary_bench_analyses.csv"))
 
 ## By apps, analyses, and datasets.
 summary_all <- bench |>
-  dplyr::group_by(Apps, Analyses, Datasets) |>
+  dplyr::group_by(Apps, Analyses, Datasets, OS_name) |>
   dplyr::summarise_if(is.numeric, mean)
 
 readr::write_csv(summary_all, here("data", "summary_bench_all.csv"))
+```
+
+```{r}
+summary_all |>
+  dplyr::filter(Analyses != "Alignment splitting") |>
+  dplyr::filter(Apps != "Phyluce") |>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
+    geom_point( size = 2) +
+    facet_wrap(~ Analyses + OS_name, scales = "free_y") +
+    scale_colour_brewer(palette = "Dark2") +
+    theme_classic() +
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+
+ggsave(here("figures", "summary_all.png"), width = 10, height = 4, units = "in")
 ```
 
