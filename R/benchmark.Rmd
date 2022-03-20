@@ -24,7 +24,7 @@ latest_bench  <- bench |>
 
 ```{r}
 plot_bench <- function(.analyses, .os) {
-  bench |>
+  latest_bench |>
   dplyr::filter(Analyses == .analyses) |>
   dplyr::filter(OS_name == .os) |>
   dplyr::filter(Latest_bench == TRUE) |>
@@ -42,7 +42,7 @@ plot_bench <- function(.analyses, .os) {
 ```{r}
 os_1 <- "macOS"
 os_2 <- "Linux"
-os_3 <- "WindowsWSL"
+os_3 <- "Windows (WSL)"
 
 fname <- function(os, analysis_name) {
   paste0(os, "_", analysis_name)
@@ -67,7 +67,7 @@ ggsave(here("figures", stat_fname_2), width = 8, height = 4, units = "in")
 
 ## Benchmark 3
 plot_bench(.analyses = "Summary statistics", .os = os_3)
-stat_fname_3 <- fname(os_3, stat_fname)
+stat_fname_3 <- fname("WindowsWSL", stat_fname)
 ggsave(here("figures", stat_fname_3), width = 8, height = 4, units = "in")
 ```
 
@@ -152,11 +152,11 @@ summary_all |>
   dplyr::filter(Apps != "Phyluce") |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
     geom_point( size = 2) +
-    facet_wrap(~ Analyses + OS_name, scales = "free_y") +
+    facet_wrap(~ Analyses + OS_name, scales = "free", ncol = 2) +
     scale_colour_brewer(palette = "Dark2") +
     theme_classic() +
     labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 
-ggsave(here("figures", "summary_all.png"), width = 10, height = 4, units = "in")
+ggsave(here("figures", "summary_all.png"), width = 8, height = 8, units = "in")
 ```
 
