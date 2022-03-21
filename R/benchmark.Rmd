@@ -46,11 +46,13 @@ summary_by_os <- latest_bench.pub |>
   dplyr::group_by(Analyses, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 
+
 readr::write_csv(summary_by_os, here("data", "mean_bench_by_os.csv"))
 
 summary_by_analyses <- latest_bench.pub |>
   dplyr::group_by(Analyses, Apps) |>
   dplyr::summarise_at(bench_results, mean)
+
 
 readr::write_csv(summary_by_analyses, here("data", "mean_bench_by_analyses.csv"))
 
@@ -145,7 +147,7 @@ ggsave(here("figures", concat_fname_2), width = 8, height = 4, units = "in")
 
 ## Benchmark 3
 plot_bench(.analyses = "Alignment concatenation", .os = os_3)
-concat_fname_3 <- fname(os_3, concat_fname)
+concat_fname_3 <- fname("WindowsWSL", concat_fname)
 ggsave(here("figures", concat_fname_3), width = 8, height = 4, units = "in")
 ```
 
