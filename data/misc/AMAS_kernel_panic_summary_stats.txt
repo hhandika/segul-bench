@@ -1,0 +1,24 @@
+panic(cpu 3 caller 0xffffff801a1cf1c9): "compressed PTE 0xffffffb09130bc18 0xc000000000000000 has extra bits 0x8000000000000000: corrupted? Adjacent PTEs: 0x0@0xfffffebb9eb66f98, 0x4000000000000000@0xfffffebb9eb66fa8"@/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/xnu/xnu-7195.50.7/osfmk/i386/pmap_internal.h:869
+Backtrace (CPU 3), Frame : Return Address
+0xffffffb09130b8f0 : 0xffffff801a0bc66d 
+0xffffffb09130b940 : 0xffffff801a1ff073 
+0xffffffb09130b980 : 0xffffff801a1ef6aa 
+0xffffffb09130b9d0 : 0xffffff801a061a2f 
+0xffffffb09130b9f0 : 0xffffff801a0bbf0d 
+0xffffffb09130bb10 : 0xffffff801a0bc1f8 
+0xffffffb09130bb80 : 0xffffff801a8bee1a 
+0xffffffb09130bbf0 : 0xffffff801a1cf1c9 
+0xffffffb09130bce0 : 0xffffff801a1cf456 
+0xffffffb09130bd40 : 0xffffff801a15c4d5 
+0xffffffb09130be90 : 0xffffff801a15be23 
+0xffffffb09130bec0 : 0xffffff801a0add5e 
+0xffffffb09130bef0 : 0xffffff801a1d3823 
+0xffffffb09130bfa0 : 0xffffff801a062216 
+
+Process name corresponding to current thread: python3.8
+
+Mac OS version:
+20B50
+
+Kernel version:
+Darwin Kernel Version 20.1.0: Sat Oct 31 00:07:11 PDT 2020; root:xnu-7195.50.7~2/RELEASE_X86_64
