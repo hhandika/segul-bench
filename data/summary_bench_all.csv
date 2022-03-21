@@ -1,17 +1,17 @@
 Apps,Analyses,Datasets,OS_name,ntax,alignment_counts,site_counts,Core_counts,Thread_counts,RAM_size_gb,RAM_usage_kb,CPU_usage,Execution_time_secs,RAM_usage_Mb
-AMAS,Alignment concatenation,Chan et al. 2020 (DNA),Linux,50,13181,6180393,12,24,32,1292265.2,707.9,1.734,1292.2652
+AMAS,Alignment concatenation,Chan et al. 2020 (DNA),Linux,50,13181,6180393,12,24,32,1292676.2,717.25,1.71,1292.6761999999999
 AMAS,Alignment concatenation,Chan et al. 2020 (DNA),macOS,50,13181,6180393,8,8,8,1413867.2,434.3,2.785,1413.8672
 AMAS,Alignment concatenation,Chan et al. 2020 (DNA),macOS (Mb Air),50,13181,6180393,2,4,4,1345673.6,255,12.669,1345.6736
 AMAS,Alignment concatenation,Chan et al. 2020 (DNA),Windows (WSL),50,13181,6180393,12,24,32,1291503.2,206.5,10.871,1291.5031999999999
-AMAS,Alignment concatenation,Esselstyn et al. 2021 (DNA),Linux,102,4040,5398947,12,24,32,2054199.8,809.1,1.6575,2054.1998
-AMAS,Alignment concatenation,Esselstyn et al. 2021 (DNA),macOS,102,4040,5398947,8,8,8,1842837.6,379.6,3.821,1842.8376
+AMAS,Alignment concatenation,Esselstyn et al. 2021 (DNA),Linux,102,4040,5398947,12,24,32,2054269.7333333334,813.3,1.6433333333333333,2054.2697333333335
+AMAS,Alignment concatenation,Esselstyn et al. 2021 (DNA),macOS,102,4040,5398947,8,8,8,1842837.6,379.6,3.8209999999999997,1842.8376
 AMAS,Alignment concatenation,Esselstyn et al. 2021 (DNA),macOS (Mb Air),102,4040,5398947,2,4,4,1806207.2,230.7,16.434,1806.2072
 AMAS,Alignment concatenation,Esselstyn et al. 2021 (DNA),Windows (WSL),102,4040,5398947,12,24,32,2060605.6,140.7,25.536,2060.6056
-AMAS,Alignment concatenation,Jarvis et al. 2014 (DNA),Linux,49,3679,9251694,12,24,32,1843010.2,1109.35,1.5785,1843.0102
-AMAS,Alignment concatenation,Jarvis et al. 2014 (DNA),macOS,49,3679,9251694,8,8,8,1939936.8,466.45,3.7750000000000004,1939.9368
+AMAS,Alignment concatenation,Jarvis et al. 2014 (DNA),Linux,49,3679,9251694,12,24,32,1842903.7333333334,1106.5333333333333,1.5786666666666667,1842.9037333333333
+AMAS,Alignment concatenation,Jarvis et al. 2014 (DNA),macOS,49,3679,9251694,8,8,8,1939936.8,466.45,3.775,1939.9368
 AMAS,Alignment concatenation,Jarvis et al. 2014 (DNA),macOS (Mb Air),49,3679,9251694,2,4,4,1840904,257.2,17.112,1840.904
 AMAS,Alignment concatenation,Jarvis et al. 2014 (DNA),Windows (WSL),49,3679,9251694,12,24,32,1844149.8,177.1,20.566,1844.1498
-AMAS,Alignment concatenation,Oliveros et al. 2019 (DNA),Linux,221,4060,2464926,12,24,32,2317183.4,643.25,3.6735,2317.1834
+AMAS,Alignment concatenation,Oliveros et al. 2019 (DNA),Linux,221,4060,2464926,12,24,32,2317185.7333333334,641.9666666666667,3.6653333333333333,2317.1857333333332
 AMAS,Alignment concatenation,Oliveros et al. 2019 (DNA),macOS,221,4060,2464926,8,8,8,2166244,365.5,6.766,2166.244
 AMAS,Alignment concatenation,Oliveros et al. 2019 (DNA),macOS (Mb Air),221,4060,2464926,2,4,4,1992426.4,218.8,29.352,1992.4264
 AMAS,Alignment concatenation,Oliveros et al. 2019 (DNA),Windows (WSL),221,4060,2464926,12,24,32,2475218,161.75,27.0685,2475.218
@@ -48,19 +48,19 @@ AMAS,Summary statistics,Wu et al. 2018 (AA),Linux,90,5162,3050198,12,24,32,10026
 AMAS,Summary statistics,Wu et al. 2018 (AA),macOS,90,5162,3050198,8,8,8,799204.8,456.6,26.778000000000002,799.2048
 AMAS,Summary statistics,Wu et al. 2018 (AA),macOS (Mb Air),90,5162,3050198,2,4,4,2336159.2,94.9,259.52,2336.1592
 AMAS,Summary statistics,Wu et al. 2018 (AA),Windows (WSL),90,5162,3050198,12,24,32,5072152.4,99.4,89.687,5072.152400000001
-AMAS (--check-align),Alignment concatenation,Chan et al. 2020 (DNA),Linux,50,13181,6180393,12,24,32,1291574.4,202.7,10.299,1291.5744
+AMAS (--check-align),Alignment concatenation,Chan et al. 2020 (DNA),Linux,50,13181,6180393,12,24,32,1291163,201.15,10.4895,1291.163
 AMAS (--check-align),Alignment concatenation,Chan et al. 2020 (DNA),macOS,50,13181,6180393,8,8,8,1423816,210.8,8.466000000000001,1423.8159999999998
 AMAS (--check-align),Alignment concatenation,Chan et al. 2020 (DNA),macOS (Mb Air),50,13181,6180393,2,4,4,1343991.6,166.1,30.369,1343.9916
 AMAS (--check-align),Alignment concatenation,Chan et al. 2020 (DNA),Windows (WSL),50,13181,6180393,12,24,32,1292651.2,153.6,21.508,1292.6512
-AMAS (--check-align),Alignment concatenation,Esselstyn et al. 2021 (DNA),Linux,102,4040,5398947,12,24,32,2053996,203.8,11.2905,2053.996
+AMAS (--check-align),Alignment concatenation,Esselstyn et al. 2021 (DNA),Linux,102,4040,5398947,12,24,32,2054061.0666666667,204.1,11.235333333333333,2054.0610666666666
 AMAS (--check-align),Alignment concatenation,Esselstyn et al. 2021 (DNA),macOS,102,4040,5398947,8,8,8,1863260,189.2,11.5835,1863.26
 AMAS (--check-align),Alignment concatenation,Esselstyn et al. 2021 (DNA),macOS (Mb Air),102,4040,5398947,2,4,4,1812339.6,153.9,39.859,1812.3396
 AMAS (--check-align),Alignment concatenation,Esselstyn et al. 2021 (DNA),Windows (WSL),102,4040,5398947,12,24,32,2123799.2,124.5,39.218,2123.7992
-AMAS (--check-align),Alignment concatenation,Jarvis et al. 2014 (DNA),Linux,49,3679,9251694,12,24,32,1843127,382.15,5.66,1843.127
+AMAS (--check-align),Alignment concatenation,Jarvis et al. 2014 (DNA),Linux,49,3679,9251694,12,24,32,1842592.8,381.93333333333334,5.644333333333333,1842.5928
 AMAS (--check-align),Alignment concatenation,Jarvis et al. 2014 (DNA),macOS,49,3679,9251694,8,8,8,1901779.2,307.3,6.553,1901.7792
 AMAS (--check-align),Alignment concatenation,Jarvis et al. 2014 (DNA),macOS (Mb Air),49,3679,9251694,2,4,4,1765895.6,197,26.985,1765.8955999999998
 AMAS (--check-align),Alignment concatenation,Jarvis et al. 2014 (DNA),Windows (WSL),49,3679,9251694,12,24,32,1846688.4,151.6,28.777,1846.6884
-AMAS (--check-align),Alignment concatenation,Oliveros et al. 2019 (DNA),Linux,221,4060,2464926,12,24,32,2315196.8,109.45,207.187,2315.1967999999997
+AMAS (--check-align),Alignment concatenation,Oliveros et al. 2019 (DNA),Linux,221,4060,2464926,12,24,32,2315968.2666666666,109.36666666666666,207.195,2315.9682666666668
 AMAS (--check-align),Alignment concatenation,Oliveros et al. 2019 (DNA),macOS,221,4060,2464926,8,8,8,1832239.2,110,166.28,1832.2392
 AMAS (--check-align),Alignment concatenation,Oliveros et al. 2019 (DNA),macOS (Mb Air),221,4060,2464926,2,4,4,1580896,106.3,480.25,1580.896
 AMAS (--check-align),Alignment concatenation,Oliveros et al. 2019 (DNA),Windows (WSL),221,4060,2464926,12,24,32,2482523.2,106.4,237.326,2482.5232
@@ -90,19 +90,19 @@ Phyluce,Summary statistics,Jarvis et al. 2014 (DNA),Linux,49,3679,9251694,12,24,
 Phyluce,Summary statistics,Jarvis et al. 2014 (DNA),Windows (WSL),49,3679,9251694,12,24,32,39043.2,2289.9,36.415,39.0432
 Phyluce,Summary statistics,Oliveros et al. 2019 (DNA),Linux,221,4060,2464926,12,24,32,47819.2,2292.85,35.4715,47.8192
 Phyluce,Summary statistics,Oliveros et al. 2019 (DNA),Windows (WSL),221,4060,2464926,12,24,32,40386.4,2251,39.230000000000004,40.386399999999995
-SEGUL,Alignment concatenation,Chan et al. 2020 (DNA),Linux,50,13181,6180393,12,24,32,387489.6,211,1.9129999999999998,387.4896
+SEGUL,Alignment concatenation,Chan et al. 2020 (DNA),Linux,50,13181,6180393,12,24,32,387470.4,207.35,1.9124999999999999,387.4704
 SEGUL,Alignment concatenation,Chan et al. 2020 (DNA),macOS,50,13181,6180393,8,8,8,397760,145.4,2.137,397.76
 SEGUL,Alignment concatenation,Chan et al. 2020 (DNA),macOS (Mb Air),50,13181,6180393,2,4,4,365503.2,124.7,7.688,365.5032
 SEGUL,Alignment concatenation,Chan et al. 2020 (DNA),Windows (WSL),50,13181,6180393,12,24,32,384870.8,233.1,3.955,384.8708
-SEGUL,Alignment concatenation,Esselstyn et al. 2021 (DNA),Linux,102,4040,5398947,12,24,32,608189.4,142.15,2.975,608.1894
+SEGUL,Alignment concatenation,Esselstyn et al. 2021 (DNA),Linux,102,4040,5398947,12,24,32,608075.7333333333,138.63333333333333,3.2373333333333334,608.0757333333333
 SEGUL,Alignment concatenation,Esselstyn et al. 2021 (DNA),macOS,102,4040,5398947,8,8,8,647956.8,122.1,3.7105,647.9568
 SEGUL,Alignment concatenation,Esselstyn et al. 2021 (DNA),macOS (Mb Air),102,4040,5398947,2,4,4,570698,104.6,11.945,570.698
 SEGUL,Alignment concatenation,Esselstyn et al. 2021 (DNA),Windows (WSL),102,4040,5398947,12,24,32,603545.4,151.25,5.2524999999999995,603.5454
-SEGUL,Alignment concatenation,Jarvis et al. 2014 (DNA),Linux,49,3679,9251694,12,24,32,529035.8,142.75,3.2225,529.0358
+SEGUL,Alignment concatenation,Jarvis et al. 2014 (DNA),Linux,49,3679,9251694,12,24,32,529038.6666666666,143.5,3.1096666666666666,529.0386666666666
 SEGUL,Alignment concatenation,Jarvis et al. 2014 (DNA),macOS,49,3679,9251694,8,8,8,607048.8,126.45,3.329,607.0488
 SEGUL,Alignment concatenation,Jarvis et al. 2014 (DNA),macOS (Mb Air),49,3679,9251694,2,4,4,465144,111.5,10.744,465.144
 SEGUL,Alignment concatenation,Jarvis et al. 2014 (DNA),Windows (WSL),49,3679,9251694,12,24,32,490354.8,170.45,4.177,490.3548
-SEGUL,Alignment concatenation,Oliveros et al. 2019 (DNA),Linux,221,4060,2464926,12,24,32,658324.2,156.6,3.2465,658.3242
+SEGUL,Alignment concatenation,Oliveros et al. 2019 (DNA),Linux,221,4060,2464926,12,24,32,658467.4666666667,157.53333333333333,3.179333333333333,658.4674666666666
 SEGUL,Alignment concatenation,Oliveros et al. 2019 (DNA),macOS,221,4060,2464926,8,8,8,703405.6,137.25,3.4435000000000002,703.4055999999999
 SEGUL,Alignment concatenation,Oliveros et al. 2019 (DNA),macOS (Mb Air),221,4060,2464926,2,4,4,588654.8,118.7,12.497,588.6548
 SEGUL,Alignment concatenation,Oliveros et al. 2019 (DNA),Windows (WSL),221,4060,2464926,12,24,32,656224.8,169.05,4.405,656.2248
@@ -139,20 +139,20 @@ SEGUL,Summary statistics,Wu et al. 2018 (AA),Linux,90,5162,3050198,12,24,32,7621
 SEGUL,Summary statistics,Wu et al. 2018 (AA),macOS,90,5162,3050198,8,8,8,71964.8,729.3,1.486,71.9648
 SEGUL,Summary statistics,Wu et al. 2018 (AA),macOS (Mb Air),90,5162,3050198,2,4,4,59690.4,329.2,10.34,59.690400000000004
 SEGUL,Summary statistics,Wu et al. 2018 (AA),Windows (WSL),90,5162,3050198,12,24,32,74071.2,1642.3,0.945,74.0712
-SEGUL (--datatype ignore),Alignment concatenation,Chan et al. 2020 (DNA),Linux,50,13181,6180393,12,24,32,387167.2,311.5,0.986,387.1672
+SEGUL (--datatype ignore),Alignment concatenation,Chan et al. 2020 (DNA),Linux,50,13181,6180393,12,24,32,387461.2,317.4,0.9704999999999999,387.4612
 SEGUL (--datatype ignore),Alignment concatenation,Chan et al. 2020 (DNA),macOS,50,13181,6180393,8,8,8,421611.2,185.8,1.137,421.6112
 SEGUL (--datatype ignore),Alignment concatenation,Chan et al. 2020 (DNA),macOS (Mb Air),50,13181,6180393,2,4,4,366226,134.9,5.286,366.226
 SEGUL (--datatype ignore),Alignment concatenation,Chan et al. 2020 (DNA),Windows (WSL),50,13181,6180393,12,24,32,386381.2,256.6,3.233,386.3812
-SEGUL (--datatype ignore),Alignment concatenation,Esselstyn et al. 2021 (DNA),Linux,102,4040,5398947,12,24,32,607939,214.85,1.0625,607.939
+SEGUL (--datatype ignore),Alignment concatenation,Esselstyn et al. 2021 (DNA),Linux,102,4040,5398947,12,24,32,608278.8,215.6,1.0466666666666666,608.2788
 SEGUL (--datatype ignore),Alignment concatenation,Esselstyn et al. 2021 (DNA),macOS,102,4040,5398947,8,8,8,637785.6,160.85,1.3535000000000001,637.7855999999999
 SEGUL (--datatype ignore),Alignment concatenation,Esselstyn et al. 2021 (DNA),macOS (Mb Air),102,4040,5398947,2,4,4,575717.2,111.5,5.916,575.7171999999999
 SEGUL (--datatype ignore),Alignment concatenation,Esselstyn et al. 2021 (DNA),Windows (WSL),102,4040,5398947,12,24,32,605041.2,201.4,2.749,605.0412
-SEGUL (--datatype ignore),Alignment concatenation,Jarvis et al. 2014 (DNA),Linux,49,3679,9251694,12,24,32,528695.8,234.25,1.0425,528.6958
+SEGUL (--datatype ignore),Alignment concatenation,Jarvis et al. 2014 (DNA),Linux,49,3679,9251694,12,24,32,528770.8,235.4,1.0326666666666666,528.7708
 SEGUL (--datatype ignore),Alignment concatenation,Jarvis et al. 2014 (DNA),macOS,49,3679,9251694,8,8,8,602626.4,165.75,1.361,602.6264
 SEGUL (--datatype ignore),Alignment concatenation,Jarvis et al. 2014 (DNA),macOS (Mb Air),49,3679,9251694,2,4,4,463082.4,125.1,5.563,463.0824
 SEGUL (--datatype ignore),Alignment concatenation,Jarvis et al. 2014 (DNA),Windows (WSL),49,3679,9251694,12,24,32,493950,213.7,2.7960000000000003,493.95
-SEGUL (--datatype ignore),Alignment concatenation,Oliveros et al. 2019 (DNA),Linux,221,4060,2464926,12,24,32,658580.2,215.35,1.5965,658.5802
-SEGUL (--datatype ignore),Alignment concatenation,Oliveros et al. 2019 (DNA),macOS,221,4060,2464926,8,8,8,698962.4,168.1,1.908,698.9624
+SEGUL (--datatype ignore),Alignment concatenation,Oliveros et al. 2019 (DNA),Linux,221,4060,2464926,12,24,32,659123.6,217.16666666666666,1.5886666666666667,659.1236
+SEGUL (--datatype ignore),Alignment concatenation,Oliveros et al. 2019 (DNA),macOS,221,4060,2464926,8,8,8,698962.4,168.1,1.9080000000000001,698.9624
 SEGUL (--datatype ignore),Alignment concatenation,Oliveros et al. 2019 (DNA),macOS (Mb Air),221,4060,2464926,2,4,4,589428.4,124.7,9.111,589.4284
 SEGUL (--datatype ignore),Alignment concatenation,Oliveros et al. 2019 (DNA),Windows (WSL),221,4060,2464926,12,24,32,657724.8,192.2,3.507,657.7248
 SEGUL (--datatype ignore),Alignment concatenation,Shen et al. 2018 (AA),Linux,343,2408,1162805,12,24,32,610548.4,215.5,1.343,610.5484
