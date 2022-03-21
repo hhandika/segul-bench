@@ -9,7 +9,7 @@ The benchmark is conducted in all three major operating system (Linux, macOS, an
 ```Bash
 .
 ├── R # R scripts to analyses the data
-├── data
+├── data # Benchmark results
 │   ├── misc # Miscellaneous files from benchmarks (e.g., panic error messages)
 │   └── raw # Raw results piped from GNU Time
 ├── figures # All the plots
