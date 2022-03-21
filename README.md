@@ -4,6 +4,22 @@ This repo hosts benchmark results that compare [SEGUL](https://github.com/hhandi
 
 The benchmark is conducted in all three major operating system (Linux, macOS, and Windows). For Windows, we benchmark on Windows Subsystem for Linux because it tends to be the default choice when using bioinformatics command-line application.
 
+## Folder structure
+
+```Bash
+.
+├── R # R scripts to analyses the data
+├── data
+│   ├── misc # Miscellaneous files from benchmarks (e.g., panic error messages)
+│   └── raw # Raw results piped from GNU Time
+├── figures # All the plots
+└── scripts # All the SHELL scripts to run the benchmarks
+    ├── concat
+    ├── segul-dev
+    ├── split
+    └── summary
+```
+
 ## Results
 
 ### Summary statistics
