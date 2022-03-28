@@ -80,6 +80,29 @@ summary_by_datasets |>
 ggsave(here("figures", "summary_all.png"), width = 8, height = 8, units = "in")
 ggsave(here("figures", "summary_all.pdf"), width = 8, height = 8, units = "in")
 ```
+
+## Generate plots summary for Linux only
+
+```{r}
+summary_linux_dna <- latest_bench |>
+  dplyr::filter(Analyses == "Alignment concatenation") |>
+  dplyr::filter(OS_name == "Linux") |>
+  dplyr::filter(Datatype == "DNA") |>
+  dplyr::group_by(Analyses, Apps) |>
+  dplyr::summarise_at(bench_results, mean)
+
+summary_linux_dna |>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Apps)) +
+    geom_point( size = 2) +
+    scale_shape_manual(values=c(19,3,8,4,7,10,9,13,14)) +
+    scale_colour_brewer(palette = "Dark2") +
+    theme_classic() +
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+
+ggsave(here("figures", "summary_linux.png"), width = 8, height = 8, units = "in")
+ggsave(here("figures", "summary_linux.pdf"), width = 8, height = 8, units = "in")
+```
+
 ## Generate bivariate plots for each benchmark result
 
 ```{r}
