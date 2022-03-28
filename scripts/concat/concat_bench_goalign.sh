@@ -71,7 +71,7 @@ for dir in $INPUT_DIRS
 echo ""
 echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
-rm concatenated.out && rm partitions.txt
+rm $OUTPUT_FILE
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" goalign concat -i $dir/*.nex --nexus -o $OUTPUT_FILE 2>> $OUTPUT_LOG;
@@ -86,7 +86,7 @@ for dir in $INPUT_DIRS
 echo ""
 echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
-rm concatenated.out && rm partitions.txt
+rm $OUTPUT_FILE
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" goalign concat -i $dir/*.nex --nexus -o $OUTPUT_FILE -t $CORES 2>> $OUTPUT_LOG;
