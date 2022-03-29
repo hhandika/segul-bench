@@ -13,6 +13,9 @@ library(readr)
 library(dplyr)
 library(stringr)
 library(RColorBrewer)
+library(tidyr)
+
+sessionInfo()
 ```
 
 
@@ -28,6 +31,8 @@ latest_bench  <- bench |>
 ## Summarize benchmark results
 
 ```{r}
+colnames(latest_bench)
+
 bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "CPU_usage")
 
 latest_bench.pub <- latest_bench |>
@@ -46,13 +51,11 @@ summary_by_os <- latest_bench.pub |>
   dplyr::group_by(Analyses, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 
-
 readr::write_csv(summary_by_os, here("data", "mean_bench_by_os.csv"))
 
 summary_by_analyses <- latest_bench.pub |>
   dplyr::group_by(Analyses, Apps) |>
   dplyr::summarise_at(bench_results, mean)
-
 
 readr::write_csv(summary_by_analyses, here("data", "mean_bench_by_analyses.csv"))
 
@@ -61,10 +64,23 @@ summary_by_datasets <- latest_bench.pub |>
   dplyr::summarise_at(bench_results, mean)
 
 readr::write_csv(summary_by_datasets, here("data", "mean_bench_by_dataset.csv"))
+
+summary_by_datasets_only <- latest_bench.pub |>
+  dplyr::group_by(Analyses, Datasets, Apps) |>
+  dplyr::summarise_at(bench_results, mean)
+
+readr::write_csv(summary_by_datasets, here("data", "mean_bench_by_dataset_only.csv"))
+
+summary_by_platform <- latest_bench.pub |>
+  dplyr::group_by(Analyses, Comp_type, Apps) |>
+  dplyr::summarise_at(bench_results, mean)
+
+readr::write_csv(summary_by_platform, here("data", "mean_bench_by_platform.csv"))
+```
 ```
 ## Generate plots using the mean of benchmark results for each datasets
 
-The plots generated below is used for Figure 1 in the manuscript.
+The plot generated below is or Figure 1 in the manuscript.
 
 ```{r}
 summary_by_datasets |>
@@ -75,11 +91,12 @@ summary_by_datasets |>
     facet_wrap(~ Analyses + OS_name, scales = "free", ncol = 2) +
     scale_colour_brewer(palette = "Dark2") +
     theme_classic() +
-    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+    labs(x = "Execution time (secs)", y = "RAM usage (Mb)")
 
 ggsave(here("figures", "summary_all.png"), width = 8, height = 8, units = "in")
 ggsave(here("figures", "summary_all.pdf"), width = 8, height = 8, units = "in")
 ```
+
 ## Generate bivariate plots for each benchmark result
 
 ```{r}
