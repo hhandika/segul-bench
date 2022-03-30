@@ -187,4 +187,3 @@ split_fname_2 <- fname(os_2, split_fname)
 ggsave(here("figures", split_fname_2), width = 8, height = 4, units = "in")
 ```
 
-
