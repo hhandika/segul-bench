@@ -100,7 +100,7 @@ summary_linux_dna |>
     labs(x = "Execution time (secs)", y = "RAM usage (Mb)")
 
 ggsave(here("figures", "summary_linux.png"), width = 8, height = 4, units = "in")
-ggsave(here("figures", "summary_linux.pdf"), width = 8, height = 8, units = "in")
+ggsave(here("figures", "summary_linux.pdf"), width = 8, height = 4, units = "in")
 ```
 
 ## Generate bivariate plots for each benchmark result
