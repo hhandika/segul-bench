@@ -93,13 +93,13 @@ summary_linux_dna <- latest_bench |>
 
 summary_linux_dna |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Apps)) +
-    geom_point( size = 2) +
+    geom_point( size = 3) +
     scale_shape_manual(values=c(19,3,8,4,7,10,9,13,14)) +
     scale_colour_brewer(palette = "Dark2") +
     theme_classic() +
-    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+    labs(x = "Execution time (secs)", y = "RAM usage (Mb)")
 
-ggsave(here("figures", "summary_linux.png"), width = 8, height = 8, units = "in")
+ggsave(here("figures", "summary_linux.png"), width = 8, height = 4, units = "in")
 ggsave(here("figures", "summary_linux.pdf"), width = 8, height = 8, units = "in")
 ```
 
