@@ -24,7 +24,7 @@ end
 
 echo -e "Warming up..."
 
-segul concat -i alignments/wu_2018_aa_loci/*.nex -f nexus -o $OUTPUT_DIR -F phylip
+segul concat -i alignments/wu_2018_aa_loci/*.nex -f nexus --datatype aa -o $OUTPUT_DIR -F phylip
 
 echo -e "\nBenchmarking Alignment Concatenation AA"
 
@@ -37,7 +37,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul concat -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul concat -i $dir/*.nex -f nexus --datatype aa -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
 end
 end
 
