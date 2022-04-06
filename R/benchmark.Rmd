@@ -67,6 +67,27 @@ readr::write_csv(summary_by_datasets, here("data", "mean_bench_by_dataset.csv"))
 The plots generated below is used for Figure 1 in the manuscript.
 
 ```{r}
+# subset_apps <- c("AMAS (--check-align)", "goalign", "SEGUL (--datatype ignore)", "SEGUL", "AMAS")
+subset_apps <- c("goalign",  "SEGUL", "AMAS")
+subset_dataset <- c("Oliveros et al. 2019 (DNA)", "Jarvis et al. 2014 (DNA)", "Shen et al. 2018 (AA)")
+summary_by_datasets |>
+  dplyr::filter(Analyses != "Alignment splitting") |>
+   dplyr::filter(OS_name == "Linux") |>
+  dplyr::filter(Apps %in% subset_apps) |>
+  dplyr::filter(Datasets %in% subset_dataset)|>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
+    geom_point( size = 3) +
+    facet_wrap(~ Analyses, scales = "free", ncol = 2) +
+    scale_colour_brewer(palette = "Dark2") +
+    theme_classic() +
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+
+ggsave(here("figures", "summary_fig1.png"), width = 8, height = 4, units = "in")
+ggsave(here("figures", "summary_fig1.pdf"), width = 8, height = 4, units = "in")
+```
+## Re-plot for main text
+
+```{r}
 summary_by_datasets |>
   dplyr::filter(Analyses != "Alignment splitting") |>
   dplyr::filter(Apps != "Phyluce") |>
@@ -80,6 +101,7 @@ summary_by_datasets |>
 ggsave(here("figures", "summary_all.png"), width = 8, height = 8, units = "in")
 ggsave(here("figures", "summary_all.pdf"), width = 8, height = 8, units = "in")
 ```
+
 
 ## Generate plots summary for Linux only
 
