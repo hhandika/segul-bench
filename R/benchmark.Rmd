@@ -56,6 +56,34 @@ summary_by_analyses <- latest_bench.pub |>
 
 readr::write_csv(summary_by_analyses, here("data", "mean_bench_by_analyses.csv"))
 
+segul_val <- summary_by_analyses |>
+  filter(Apps == "SEGUL")
+
+segul_exe_concat <- segul_val |>
+  filter(Analyses == "Alignment concatenation") |>
+  pull(Execution_time_secs)
+
+segul_mem_concat <- segul_val |>
+  filter(Analyses == "Alignment concatenation") |>
+  pull(RAM_usage_Mb)
+
+segul_exe_stats <- segul_val |>
+  filter(Analyses == "Summary statistics") |>
+  pull(Execution_time_secs)
+
+segul_mem_stats <- segul_val |>
+  filter(Analyses == "Summary statistics") |>
+  pull(RAM_usage_Mb)
+
+segul_exe_concat
+segul_exe_stats
+segul_mem_concat
+segul_mem_stats
+
+summary_by_analyses_mean <- summary_by_analyses |>
+  dplyr::mutate(diff_SEGUL = Execution_time_secs / segul_exe_concat) |>
+  dplyr::mutate(diff_SEGUL_ignore = Execution_time_secs / 2.818750)
+
 summary_by_datasets <- latest_bench.pub |>
   dplyr::group_by(Analyses, Datasets, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
