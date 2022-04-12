@@ -73,6 +73,8 @@ Alignment concatenation,Oliveros et al. 2019 (DNA),Windows (WSL),SEGUL,4.385,656
 Alignment concatenation,Oliveros et al. 2019 (DNA),Windows (WSL),SEGUL (--datatype ignore),3.507,657.7248,192.2
 Alignment concatenation,Shen et al. 2018 (AA),Linux,AMAS,3.753,1778.474,450.9
 Alignment concatenation,Shen et al. 2018 (AA),Linux,AMAS (--check-align),481.112,1781.4012,102
+Alignment concatenation,Shen et al. 2018 (AA),Linux,goalign,6.798,2194.8556,100
+Alignment concatenation,Shen et al. 2018 (AA),Linux,goalign (nt),7.745,2417.334,104.4
 Alignment concatenation,Shen et al. 2018 (AA),Linux,SEGUL,5.557,606.4348,127.4
 Alignment concatenation,Shen et al. 2018 (AA),Linux,SEGUL (--datatype ignore),1.343,610.5484,215.5
 Alignment concatenation,Shen et al. 2018 (AA),macOS,AMAS,5.26,1823.4816,313.4
@@ -89,6 +91,8 @@ Alignment concatenation,Shen et al. 2018 (AA),Windows (WSL),SEGUL,6.745,779.1244
 Alignment concatenation,Shen et al. 2018 (AA),Windows (WSL),SEGUL (--datatype ignore),2.501,778.7452,184
 Alignment concatenation,Wu et al. 2018 (AA),Linux,AMAS,1.979,1171.3532,1001.5
 Alignment concatenation,Wu et al. 2018 (AA),Linux,AMAS (--check-align),24.331,1171.598,174.4
+Alignment concatenation,Wu et al. 2018 (AA),Linux,goalign,4.034,1658.5112,100
+Alignment concatenation,Wu et al. 2018 (AA),Linux,goalign (nt),4.92,1584.6491999999998,105.5
 Alignment concatenation,Wu et al. 2018 (AA),Linux,SEGUL,2.956,353.5516,134
 Alignment concatenation,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.796,353.6824,229
 Alignment concatenation,Wu et al. 2018 (AA),macOS,AMAS,3.664,1288.9296,540.1

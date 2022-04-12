@@ -68,7 +68,7 @@ The plots generated below is used for Figure 1 in the manuscript.
 
 ```{r}
 # subset_apps <- c("AMAS (--check-align)", "goalign", "SEGUL (--datatype ignore)", "SEGUL", "AMAS")
-subset_apps <- c("goalign",  "SEGUL", "AMAS")
+subset_apps <- c("goalign",  "SEGUL", "AMAS", "SEGUL (--datatype ignore)")
 subset_dataset <- c("Oliveros et al. 2019 (DNA)", "Jarvis et al. 2014 (DNA)", "Shen et al. 2018 (AA)")
 summary_by_datasets |>
   dplyr::filter(Analyses != "Alignment splitting") |>
@@ -82,8 +82,8 @@ summary_by_datasets |>
     theme_classic() +
     labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 
-ggsave(here("figures", "summary_fig1.png"), width = 8, height = 4, units = "in")
-ggsave(here("figures", "summary_fig1.pdf"), width = 8, height = 4, units = "in")
+ggsave(here("figures", "summary_fig1.png"), width = 9, height = 4, units = "in")
+ggsave(here("figures", "summary_fig1.pdf"), width = 9, height = 4, units = "in")
 ```
 ## Re-plot for main text
 
