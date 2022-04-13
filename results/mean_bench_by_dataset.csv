@@ -1,0 +1,157 @@
+Analyses,Datasets,OS_name,Apps,Execution_time_secs,RAM_usage_Mb,CPU_usage
+Alignment concatenation,Chan et al. 2020 (DNA),Linux,AMAS,1.686,1293.0872,726.6
+,,,AMAS (--check-align),10.68,1290.7516,199.6
+,,,goalign,4.288,1766.1216,100
+,,,goalign (nt),5.149,1936.5916,105.2
+,,,SEGUL,1.912,387.4512,203.7
+,,,SEGUL (--datatype ignore),0.955,387.7552,323.3
+,,macOS,AMAS,2.785,1413.8672,434.3
+,,,AMAS (--check-align),8.466,1423.816,210.8
+,,,SEGUL,2.137,397.76,145.4
+,,,SEGUL (--datatype ignore),1.137,421.6112,185.8
+,,macOS (Mb Air),AMAS,12.669,1345.6736,255
+,,,AMAS (--check-align),30.369,1343.9916,166.1
+,,,SEGUL,7.688,365.5032,124.7
+,,,SEGUL (--datatype ignore),5.286,366.226,134.9
+,,Windows (WSL),AMAS,10.871,1291.5032,206.5
+,,,AMAS (--check-align),21.508,1292.6512,153.6
+,,,SEGUL,3.955,384.8708,233.1
+,,,SEGUL (--datatype ignore),3.233,386.3812,256.6
+,Esselstyn et al. 2021 (DNA),Linux,AMAS,1.615,2054.4096,821.7
+,,,AMAS (--check-align),11.125,2054.1912,204.7
+,,,goalign,5.941,3228.1632,100
+,,,goalign (nt),6.743,3128.7384,104
+,,,SEGUL,3.762,607.8484,131.6
+,,,SEGUL (--datatype ignore),1.015,608.9584,217.1
+,,macOS,AMAS,3.139,2012.2624,431.8
+,,,AMAS (--check-align),10.872,2001.264,195.1
+,,,SEGUL,3.452,642.56,122.4
+,,,SEGUL (--datatype ignore),1.087,631.568,170.2
+,,macOS (Mb Air),AMAS,16.434,1806.2072,230.7
+,,,AMAS (--check-align),39.859,1812.3396,153.9
+,,,SEGUL,11.945,570.698,104.6
+,,,SEGUL (--datatype ignore),5.916,575.7172,111.5
+,,Windows (WSL),AMAS,27.088,2060.6984,138.3
+,,,AMAS (--check-align),39.218,2123.7992,124.5
+,,,SEGUL,5.253,604.6524,154.5
+,,,SEGUL (--datatype ignore),2.749,605.0412,201.4
+,Jarvis et al. 2014 (DNA),Linux,AMAS,1.579,1842.6908,1100.9
+,,,AMAS (--check-align),5.613,1841.5244,381.5
+,,,goalign,6.325,2626.3148,100
+,,,goalign (nt),7.27,2531.344,104.9
+,,,SEGUL,2.884,529.0444,145
+,,,SEGUL (--datatype ignore),1.013,528.9208,237.7
+,,macOS,AMAS,3.214,1971.1904,521.7
+,,,AMAS (--check-align),5.986,1956.696,326.3
+,,,SEGUL,3.135,596.3504,126.7
+,,,SEGUL (--datatype ignore),1.102,600.6144,177.7
+,,macOS (Mb Air),AMAS,17.112,1840.904,257.2
+,,,AMAS (--check-align),26.985,1765.8956,197
+,,,SEGUL,10.744,465.144,111.5
+,,,SEGUL (--datatype ignore),5.563,463.0824,125.1
+,,Windows (WSL),AMAS,21.433,1844.3064,173.8
+,,,AMAS (--check-align),28.777,1846.6884,151.6
+,,,SEGUL,4.15,490.5788,171.7
+,,,SEGUL (--datatype ignore),2.796,493.95,213.7
+,Oliveros et al. 2019 (DNA),Linux,AMAS,3.649,2317.1904,639.4
+,,,AMAS (--check-align),207.211,2317.5112,109.2
+,,,goalign,8.935,3063.048,100
+,,,goalign (nt),10.027,3097.1308,104.7
+,,,SEGUL,3.045,658.754,159.4
+,,,SEGUL (--datatype ignore),1.573,660.2104,220.8
+,,macOS,AMAS,6.179,2249.7744,388.9
+,,,AMAS (--check-align),164.803,2058.4272,110
+,,,SEGUL,3.227,697.176,138
+,,,SEGUL (--datatype ignore),1.654,698.7744,174.2
+,,macOS (Mb Air),AMAS,29.352,1992.4264,218.8
+,,,AMAS (--check-align),480.25,1580.896,106.3
+,,,SEGUL,12.497,588.6548,118.7
+,,,SEGUL (--datatype ignore),9.111,589.4284,124.7
+,,Windows (WSL),AMAS,28.304,2475.2164,159
+,,,AMAS (--check-align),237.326,2482.5232,106.4
+,,,SEGUL,4.385,656.368,170.2
+,,,SEGUL (--datatype ignore),3.507,657.7248,192.2
+,Shen et al. 2018 (AA),Linux,AMAS,3.753,1778.474,450.9
+,,,AMAS (--check-align),481.112,1781.4012,102
+,,,goalign,6.798,2194.8556,100
+,,,goalign (nt),7.745,2417.334,104.4
+,,,SEGUL,5.557,606.4348,127.4
+,,,SEGUL (--datatype ignore),1.343,610.5484,215.5
+,,macOS,AMAS,5.26,1823.4816,313.4
+,,,AMAS (--check-align),403.033,1829.9712,102
+,,,SEGUL,5.083,600.4208,120.9
+,,,SEGUL (--datatype ignore),1.335,606.3856,183.4
+,,macOS (Mb Air),AMAS,22.459,1692.682,222.8
+,,,AMAS (--check-align),1142.847,1331.2828,102
+,,,SEGUL,17.006,463.8844,108
+,,,SEGUL (--datatype ignore),6.931,460.5384,131.1
+,,Windows (WSL),AMAS,6.413,1782.8944,282.9
+,,,AMAS (--check-align),493.569,1785.936,102
+,,,SEGUL,6.745,779.1244,130.2
+,,,SEGUL (--datatype ignore),2.501,778.7452,184
+,Wu et al. 2018 (AA),Linux,AMAS,1.979,1171.3532,1001.5
+,,Linux,AMAS (--check-align),24.331,1171.598,174.4
+,,Linux,goalign,4.034,1658.5112,100
+,,Linux,goalign (nt),4.92,1584.6492,105.5
+,,Linux,SEGUL,2.956,353.5516,134
+,,Linux,SEGUL (--datatype ignore),0.796,353.6824,229
+,,macOS,AMAS,3.664,1288.9296,540.1
+,,macOS,AMAS (--check-align),20.843,1294.8272,177
+,,macOS,SEGUL,2.6,385.496,125.9
+,,macOS,SEGUL (--datatype ignore),0.826,381.0224,181.6
+,,macOS (Mb Air),AMAS,21.249,1245.4612,280.9
+,,macOS (Mb Air),AMAS (--check-align),71.798,1283.716,153.3
+,,macOS (Mb Air),SEGUL,9.304,316.9704,111.7
+,,macOS (Mb Air),SEGUL (--datatype ignore),4.358,316.5276,129.4
+,,Windows (WSL),AMAS,3.18,1165.7056,722
+,,Windows (WSL),AMAS (--check-align),23.913,1165.51,183.2
+,,Windows (WSL),SEGUL,3.804,349.5484,162.5
+,,Windows (WSL),SEGUL (--datatype ignore),1.863,350.0028,236.5
+Summary statistics,Chan et al. 2020 (DNA),Linux,AMAS,40.063,1006.6548,415.8
+,,Linux,SEGUL,0.729,89.6696,1729.6
+,,macOS,AMAS,29.287,817.2144,474.7
+,,macOS,SEGUL,1.588,98.3952,666.4
+,,macOS (Mb Air),AMAS,271.298,2234.02,95
+,,macOS (Mb Air),SEGUL,13.644,76.4988,263.8
+,,Windows (WSL),AMAS,103.961,5052.2312,99.6
+,,Windows (WSL),SEGUL,1.262,85.294,1452.4
+,Esselstyn et al. 2021 (DNA),Linux,AMAS,41.718,1244.2008,427.1
+,,Linux,SEGUL,0.744,63.4304,2094.7
+,,macOS,AMAS,34.559,970.8992,463.6
+,,macOS,SEGUL,1.744,58.1872,754.3
+,,macOS (Mb Air),AMAS,326.973,2199.862,95.6
+,,macOS (Mb Air),SEGUL,15.211,43.3028,265.2
+,,Windows (WSL),AMAS,118.362,5807.734,99.5
+,,Windows (WSL),SEGUL,1.002,62.2464,1800.4
+,Jarvis et al. 2014 (DNA),Linux,AMAS,48.424,1473.99,492.8
+,Jarvis et al. 2014 (DNA),Linux,SEGUL,0.888,51.91,2218
+,,macOS,AMAS,64.526,1099.9984,344.9
+,,macOS,SEGUL,2.333,43.7024,759.5
+,,macOS (Mb Air),AMAS,484.541,2342.5216,94.5
+,,macOS (Mb Air),SEGUL,20.587,29.4668,276.4
+,,Windows (WSL),AMAS,175.902,8923.7328,99.8
+,,Windows (WSL),SEGUL,1.103,50.9152,1985.9
+,Oliveros et al. 2019 (DNA),Linux,AMAS,79.21,2022.7076,391.5
+,,Linux,SEGUL,1.016,111.6324,1871.9
+,,macOS,AMAS,119.311,1448.5824,218.7
+,,macOS,SEGUL,2.263,118.9632,721.9
+,,macOS (Mb Air),AMAS,615.363,2288.9928,90.5
+,,macOS (Mb Air),SEGUL,20.06,87.9972,250.5
+,,Windows (WSL),AMAS,191.152,9878.5268,99.9
+,,Windows (WSL),SEGUL,1.317,110.9244,1641.6
+,Shen et al. 2018 (AA),Linux,AMAS,64.46,1724.7904,371.3
+,,Linux,SEGUL,1.118,155.1024,1885.5
+,,macOS,AMAS,75.14,1239.7104,276.2
+,,macOS,SEGUL,2.492,177.408,729.6
+,,macOS (Mb Air),AMAS,509.86,2283.6584,87.6
+,,macOS (Mb Air),SEGUL,14.6,115.7676,336.5
+,,Windows (WSL),AMAS,142.666,7268.8684,99.4
+,,Windows (WSL),SEGUL,1.435,157.948,1553.6
+,Wu et al. 2018 (AA),Linux,AMAS,38.648,1002.6352,386.2
+,,Linux,SEGUL,0.686,76.212,1907.7
+,,macOS,AMAS,26.778,799.2048,456.6
+,,macOS,SEGUL,1.486,71.9648,729.3
+,,macOS (Mb Air),AMAS,259.52,2336.1592,94.9
+,,macOS (Mb Air),SEGUL,10.34,59.6904,329.2
+,,Windows (WSL),AMAS,89.687,5072.1524,99.4
+,,Windows (WSL),SEGUL,0.945,74.0712,1642.3
