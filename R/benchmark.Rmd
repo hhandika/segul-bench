@@ -62,6 +62,8 @@ summary_by_analyses <- latest_bench.pub |>
   dplyr::group_by(Analyses, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 
+readr::write_csv(summary_by_analyses, here("data", "mean_bench_by_analyses.csv"))
+
 segul_val <- summary_by_analyses |>
   filter(Apps == "SEGUL")
 
@@ -100,7 +102,7 @@ summary_by_analyses <- summary_by_analyses |>
   dplyr::mutate(diff_SEGUL_exe_sum = Execution_time_secs / segul_exe_sum) |>
   dplyr::mutate(diff_SEGUL_mem_sum = segul_mem_sum / RAM_usage_Mb)
 
-readr::write_csv(summary_by_analyses, here("data", "mean_bench_by_analyses.csv"))
+readr::write_csv(summary_by_analyses, here("data", "diff_mean_bench_by_analyses.csv"))
 ```
 
 
@@ -112,22 +114,24 @@ The plots generated below is used for Figure 1 in the manuscript.
 # subset_apps <- c("AMAS (--check-align)", "goalign", "SEGUL (--datatype ignore)", "SEGUL", "AMAS")
 subset_apps <- c("goalign",  "SEGUL", "AMAS", "SEGUL (--datatype ignore)")
 subset_dataset <- c("Oliveros et al. 2019 (DNA)", "Jarvis et al. 2014 (DNA)", "Shen et al. 2018 (AA)")
+
 summary_by_datasets |>
   dplyr::filter(Analyses != "Alignment splitting") |>
    dplyr::filter(OS_name == "Linux") |>
   dplyr::filter(Apps %in% subset_apps) |>
   dplyr::filter(Datasets %in% subset_dataset)|>
-  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
-    geom_point( size = 3) +
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
+    geom_point(size = 2.5, aes(color = Apps, shape = Datasets)) +
     facet_wrap(~ Analyses, scales = "free", ncol = 2) +
     scale_colour_brewer(palette = "Dark2") +
+    scale_shape_manual(values = c(15,16,17)) +
     theme_classic() +
     labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 
-ggsave(here("figures", "summary_fig1.png"), width = 9, height = 4, units = "in")
-ggsave(here("figures", "summary_fig1.pdf"), width = 9, height = 4, units = "in")
+ggsave(here("figures", "summary_fig1.png"), width = 8, height = 4, units = "in")
+ggsave(here("figures", "summary_fig1.pdf"), width = 8, height = 4, units = "in")
 ```
-## Re-plot for main text
+## Re-plot for all
 
 ```{r}
 summary_by_datasets |>
@@ -145,7 +149,7 @@ ggsave(here("figures", "summary_all.pdf"), width = 8, height = 8, units = "in")
 ```
 
 
-## Generate plots summary for Linux only
+## Generate plots summary for all
 
 ```{r}
 summary_linux_dna <- latest_bench |>
