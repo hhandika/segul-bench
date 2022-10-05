@@ -97,7 +97,7 @@ end
 
 set Date (date +%F)
 
-set fname "other_bench_raw_OpenSUSE_$Date.txt"
+set fname "convert_bench_raw_OpenSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
@@ -109,5 +109,5 @@ rm concatenated.out && rm partitions.txt
 
 ### Push to Github ###
 
-git add -A && git commit -m "Add concatenation benchmark" && git push
+git add -A && git commit -m "Add conversion benchmark" && git push
 
