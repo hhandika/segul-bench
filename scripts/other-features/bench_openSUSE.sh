@@ -24,7 +24,7 @@ end
 
 echo -e "Warming up..."
 
-segul concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -o $OUTPUT_DIR -F phylip
+segul convert -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -o $OUTPUT_DIR -F phylip
 
 echo -e "\nBenchmarking Alignment Conversion..."
 
