@@ -1,0 +1,285 @@
+CPU(s):                          12
+On-line CPU(s) list:             0-11
+Thread(s) per core:              2
+Core(s) per socket:              6
+Model name:                      AMD Ryzen 5 3600X 6-Core Processor
+5.10.102.1-microsoft-standard-WSL2
+segul 0.18.0
+Benchmarking SEGUL Convert Nexus to Phylip
+
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:00.53 18140 1018%
+0:00.50 20384 1058%
+0:00.53 18396 1028%
+0:00.51 18320 1047%
+0:00.52 17856 1039%
+0:00.57 18628 962%
+0:00.51 19652 1076%
+0:00.51 18500 1038%
+0:00.51 18520 1048%
+0:00.52 17572 1030%
+
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:00.69 24436 1006%
+0:00.69 21120 1024%
+0:00.67 21028 1030%
+0:00.66 21116 1032%
+0:00.69 20768 1030%
+0:00.66 22736 1046%
+0:00.67 21156 1010%
+0:00.67 22024 1047%
+0:00.65 21680 1040%
+0:00.67 21272 1032%
+
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:00.63 18392 1049%
+0:00.63 18144 1026%
+0:00.63 16720 1074%
+0:00.63 16660 1024%
+0:00.59 16300 1072%
+0:00.63 16716 1033%
+0:00.59 16940 1067%
+0:00.62 16624 1040%
+0:00.62 16400 1029%
+0:00.61 16512 1055%
+
+Dataset path: alignments/chan_2020_loci/
+Benchmarking SEGUL ignore datatype
+
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:00.21 17980 922%
+0:00.26 18596 927%
+0:00.22 19068 894%
+0:00.22 20928 891%
+0:00.21 18836 1021%
+0:00.23 18256 919%
+0:00.21 19480 950%
+0:00.26 18324 956%
+0:00.27 20632 913%
+0:00.23 20708 894%
+
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:00.35 25284 962%
+0:00.30 21272 1002%
+0:00.34 24240 948%
+0:00.34 22452 958%
+0:00.33 24500 959%
+0:00.34 23204 971%
+0:00.34 21764 964%
+0:00.35 23116 972%
+0:00.35 21856 928%
+0:00.36 24100 923%
+
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:00.25 18928 932%
+0:00.25 19224 912%
+0:00.28 16500 919%
+0:00.24 16776 923%
+0:00.25 17312 910%
+0:00.30 18780 940%
+0:00.29 16848 902%
+0:00.25 18772 930%
+0:00.27 17908 903%
+0:00.24 19048 943%
+
+Dataset path: alignments/chan_2020_loci/
+
+Benchmarking AMAS convert nexus to phylip
+
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1316 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1180 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1292 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1312 54%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1308 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1296 53%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1312 55%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1256 54%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1264 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1292 52%
+
+Dataset path: alignments/oliveros_2019_80p_trimmed
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1244 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1280 54%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1284 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1240 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1244 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1136 54%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1268 54%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1180 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1248 54%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1228 51%
+
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1204 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1216 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1264 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1156 53%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1244 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1288 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1324 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1276 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1304 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1320 53%
+
+Dataset path: alignments/chan_2020_loci/
+
+Benchmarking AMAS Check Align convert nexus to phylip
+
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1304 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1204 49%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1260 49%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1196 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1192 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1260 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1256 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1152 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1188 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1292 54%
+
+Dataset path: alignments/oliveros_2019_80p_trimmed
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1200 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1176 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1180 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1140 55%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1180 54%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1284 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.06 1140 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1140 53%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1292 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1300 52%
+
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1216 54%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1244 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1212 52%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1196 53%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1260 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1320 53%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1200 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.04 1272 51%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1244 50%
+time: cannot run AMAS.py: No such file or directory
+Command exited with non-zero status 127
+0:00.05 1216 50%
+
+Dataset path: alignments/chan_2020_loci/

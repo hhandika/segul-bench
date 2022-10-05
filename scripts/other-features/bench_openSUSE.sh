@@ -2,7 +2,7 @@
 
 set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator" "alignments/chan_2020_loci/"
 set OUTPUT_DIR "other_results"
-set OUTPUT_LOG_CONVERT "data/other_bench.txt"
+set OUTPUT_LOG "data/other_bench.txt"
 set CORES 24
 
 # Remove existing log file
