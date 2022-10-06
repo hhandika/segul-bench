@@ -53,44 +53,33 @@ end
 
 echo -e "\nWarming up..."
 
-AMAS.py remove -i $INPUT_DIR/*.nex -f phylip -d dna -l $PARTITION -d dna -u phylip -c $CORES
+AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
-
+rm reduced*
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py remove -i $INPUT_DIR/*.nex -f phylip -d dna -l $PARTITION -u phylip --remove-empty -c $CORES 2>> $OUTPUT_LOG;
-end
-
-### AMAS single core ###
-
-echo -e "\nBenchmarking AMAS Single CORE" | tee -a $OUTPUT_LOG
-
-for i in (seq 10)
-rm alignments/Onn_2020_all_combined//alignment_all-combined_*
-echo ""
-echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip --remove-empty 2>> $OUTPUT_LOG;
+AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip -c $CORES 2>> $OUTPUT_LOG;
 end
 
 ### AMAS with empty sequences ###
 
-echo -e "\nBenchmarking AMAS KEEP EMPTY" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking AMAS Check Align" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
-rm alignments/Onn_2020_all_combined//alignment_all-combined_*
+rm reduced*
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip -c $CORES 2>> $OUTPUT_LOG;
+AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip --check-align -c $CORES 2>> $OUTPUT_LOG;
 end
 
 ### Final touches ###
 
 set Date (date +%F)
 
-set fname "split_bench_raw_OpenSUSE_$Date.txt"
+set fname "remove_bench_raw_OpenSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
@@ -100,9 +89,9 @@ rm -r $OUTPUT_DIR
 end
 
 rm *.log
-rm alignments/Onn_2020_all_combined/alignment_all-combined_*
+rm reduced*
 
 ### Push to Github ###
 
-git add -A && git commit -m "Add concatenation benchmark" && git push
+git add -A && git commit -m "Add remove benchmark" && git push
 
