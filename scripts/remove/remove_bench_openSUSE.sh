@@ -61,7 +61,7 @@ for i in (seq 10)
 rm reduced*
 echo ""
 echo "Iteration $i"
-AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip -c $CORES 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip -c $CORES 2>> $OUTPUT_LOG;
 end
 
 ### AMAS with empty sequences ###
@@ -72,7 +72,7 @@ for i in (seq 10)
 rm reduced*
 echo ""
 echo "Iteration $i"
-AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip --check-align -c $CORES 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip --check-align -c $CORES 2>> $OUTPUT_LOG;
 end
 
 ### Final touches ###
