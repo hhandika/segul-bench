@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator" "alignments/chan_2020_loci/"
+set INPUT_DIRS "alignments/wu_2018_aa_loci/" "alignments/shen_2018_loci_aa/"
 set OUTPUT_DIR "other_results"
 set OUTPUT_LOG "data/convert_bench.txt"
 set CORES 24
@@ -24,7 +24,7 @@ end
 
 echo -e "Warming up..."
 
-segul convert -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -o $OUTPUT_DIR -F phylip
+segul convert -i alignments/wu_2018_aa_loci/*.nex -f nexus -o $OUTPUT_DIR -F phylip --datatype aa
 
 echo -e "\nBenchmarking Alignment Conversion..."
 
@@ -37,7 +37,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul convert -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F phylip 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul convert -i $dir/*.nex -f nexus -o $OUTPUT_DIR -F phylip --datatype aa 2>> $OUTPUT_LOG;
 end
 end
 
@@ -63,7 +63,7 @@ end
 
 echo -e "\nWarming up..."
 
-AMAS.py convert -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d dna -u phylip -c $CORES
+AMAS.py convert -i alignments/esselstyn_2021_nexus_trimmed/*.nex -f nexus -d aa -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS convert nexus to phylip" | tee -a $OUTPUT_LOG
 
@@ -74,7 +74,7 @@ for i in (seq 10)
 rm *out.phy
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py convert -i $dir/*.nex -f nexus -d dna -c $CORES -u phylip 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py convert -i $dir/*.nex -f nexus -d aa -c $CORES -u phylip 2>> $OUTPUT_LOG;
 end
 end
 
@@ -89,15 +89,14 @@ for i in (seq 10)
 rm *out.phy
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py convert -i $dir/*.nex -f nexus -d dna -c $CORES -u phylip --check-align 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py convert -i $dir/*.nex -f nexus -d aa -c $CORES -u phylip --check-align 2>> $OUTPUT_LOG;
 end
 end
 
 ### Final touches ###
-
 set Date (date +%F)
 
-set fname "convert_bench_raw_OpenSUSE_$Date.txt"
+set fname "convert_bench_raw_aa_OpenSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
