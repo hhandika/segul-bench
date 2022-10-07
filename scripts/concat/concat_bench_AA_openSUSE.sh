@@ -93,6 +93,28 @@ env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d aa -u phylip -c 
 end
 end
 
+#### goalign ####
+if [ -d $OUTPUT_DIR ]
+rm -r $OUTPUT_DIR
+end
+
+echo -e "\nWarming up..."
+
+goalign concat -i alignments/wu_2018_aa_loci/*.nex --nexus -o $OUTPUT_FILE
+
+echo -e "\nBenchmarking goalign st" | tee -a $OUTPUT_LOG
+
+for dir in $INPUT_DIRS
+echo ""
+echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm $OUTPUT_FILE
+echo ""
+echo "Iteration $i"
+env time -f "%E %M %P" goalign concat -i $dir/*.nex --nexus -o $OUTPUT_FILE 2>> $OUTPUT_LOG;
+end
+end
+
 
 ### Final touches ###
 
