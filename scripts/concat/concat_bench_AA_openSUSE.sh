@@ -2,6 +2,7 @@
 
 set INPUT_DIRS "alignments/wu_2018_aa_loci/" "alignments/shen_2018_loci_aa/"
 set OUTPUT_DIR "concat_results_aa"
+set OUTPUT_FILE "concat"
 set OUTPUT_LOG "data/concat_bench_aa.txt"
 set CORES 24
 
@@ -16,6 +17,7 @@ uname -r  | tee -a $OUTPUT_LOG
 
 # Get segul version
 segul -V | tee -a $OUTPUT_LOG
+goalign version | tee -a $OUTPUT_LOG
 
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR

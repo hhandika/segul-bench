@@ -2,6 +2,7 @@
 
 set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator" "alignments/chan_2020_loci/"
 set OUTPUT_DIR "concat_results"
+set OUTPUT_FILE "concat"
 set OUTPUT_LOG "data/concat_bench.txt"
 set CORES 24
 
@@ -16,6 +17,7 @@ uname -r  | tee -a $OUTPUT_LOG
 
 # Get segul version
 segul -V | tee -a $OUTPUT_LOG
+goalign version | tee -a $OUTPUT_LOG
 
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
