@@ -1,0 +1,588 @@
+CPU(s):                          24
+On-line CPU(s) list:             0-23
+Model name:                      AMD Ryzen 9 3900X 12-Core Processor
+Thread(s) per core:              2
+Core(s) per socket:              12
+NUMA node0 CPU(s):               0-23
+5.16.11-1-default
+segul 0.18.1
+Benchmarking SEGUL
+Dataset path: alignments/wu_2018_aa_loci/
+0:02.66 355644 131%
+0:02.62 345836 134%
+0:02.57 350856 136%
+0:02.61 346984 135%
+0:02.59 347728 135%
+0:02.60 350188 134%
+0:02.60 350200 133%
+0:02.59 354736 136%
+0:02.59 353040 132%
+0:02.61 350060 136%
+Dataset path: alignments/shen_2018_loci_aa/
+0:05.25 601724 127%
+0:05.14 603900 125%
+0:05.26 595936 129%
+0:05.22 600948 127%
+0:05.19 611756 127%
+0:05.10 606304 131%
+0:05.19 599640 129%
+0:05.08 599404 127%
+0:05.24 601336 128%
+0:05.12 600328 128%
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/wu_2018_aa_loci/
+0:00.73 353256 223%
+0:00.74 355032 228%
+0:00.75 355764 224%
+0:00.76 352724 221%
+0:00.73 353012 221%
+0:00.74 353068 218%
+0:00.73 355312 228%
+0:00.74 351300 229%
+0:00.75 352804 234%
+0:00.74 351064 239%
+Dataset path: alignments/shen_2018_loci_aa/
+0:01.20 603500 221%
+0:01.21 603052 220%
+0:01.23 604872 216%
+0:01.20 601456 219%
+0:01.22 600540 224%
+0:01.24 601984 221%
+0:01.21 612384 236%
+0:01.23 605268 214%
+0:01.22 601872 217%
+0:01.21 599572 217%
+
+Benchmarking AMAS
+Dataset path: alignments/wu_2018_aa_loci/
+0:02.03 1169952 969%
+0:01.98 1170536 1009%
+0:01.94 1172076 1019%
+0:01.99 1171204 990%
+0:01.93 1172728 1033%
+0:02.05 1171220 967%
+0:01.90 1170948 1041%
+0:01.92 1170524 1029%
+0:01.95 1170132 1010%
+0:01.95 1172976 1016%
+Dataset path: alignments/shen_2018_loci_aa/
+0:03.67 1783536 458%
+0:03.69 1783312 456%
+0:03.77 1782148 443%
+0:03.71 1778884 457%
+0:03.73 1783972 446%
+0:03.63 1782760 462%
+0:03.77 1773504 446%
+0:03.69 1783312 459%
+0:03.69 1776072 465%
+0:03.70 1783484 457%
+
+Benchmarking AMAS
+Dataset path: alignments/wu_2018_aa_loci/
+0:22.71 1172472 178%
+0:23.33 1170896 177%
+0:22.93 1170760 178%
+0:22.62 1170640 179%
+0:22.60 1171476 179%
+0:22.75 1170804 179%
+0:22.63 1172932 179%
+0:23.18 1170672 177%
+0:22.94 1170840 177%
+0:22.63 1171092 179%
+Dataset path: alignments/shen_2018_loci_aa/
+7:49.89 1779820 102%
+8:19.71 1776468 102%
+8:07.51 1784316 102%
+8:00.68 1776260 102%
+8:36.26 1776496 102%
+8:00.95 1776516 102%
+7:54.25 1777364 102%
+7:49.69 1778876 102%
+8:22.97 1778792 102%
+8:06.89 1777412 102%
+
+Benchmarking goalign st
+
+Dataset path: alignments/wu_2018_aa_loci/
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13568 85%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13564 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13556 85%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13556 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 15504 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13556 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13568 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 15488 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13984 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13556 100%
+
+Dataset path: alignments/shen_2018_loci_aa/
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 11128 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 11396 133%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 11128 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 11536 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13104 133%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 11128 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 11144 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 13148 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 11548 100%
+Error: flag needs an argument: 'o' in -o
+Usage:
+  goalign concat [flags]
+
+Flags:
+  -h, --help            help for concat
+  -o, --output string   Alignment output file (default "stdout")
+
+Global Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Command exited with non-zero status 1
+0:00.00 10296 100%
