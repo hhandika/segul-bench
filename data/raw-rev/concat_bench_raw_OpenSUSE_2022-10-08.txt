@@ -6,7 +6,7 @@ Core(s) per socket:              12
 NUMA node0 CPU(s):               0-23
 5.16.11-1-default
 segul 0.18.1
-v0.3.5
+goalign v0.3.5
 Benchmarking SEGUL
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:02.36 606716 142%

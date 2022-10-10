@@ -17,7 +17,9 @@ library(RColorBrewer)
 
 
 ```{r}
-bench <- readr::read_csv(here("data", "benchmark_results.csv")) |>
+file_path <- here("data", "benchmark_results.csv")
+temp_path <- here("data", "initial_results.csv")
+bench <- readr::read_csv(temp_path) |>
   dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>
   dplyr::mutate_at("CPU_usage", readr::parse_number)
 
