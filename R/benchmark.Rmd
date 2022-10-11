@@ -116,7 +116,7 @@ The plots generated below is used for Figure 1 in the manuscript.
 
 ```{r}
 # subset_apps <- c("AMAS (--check-align)", "goalign", "SEGUL (--datatype ignore)", "SEGUL", "AMAS")
-subset_apps <- c("goalign",  "SEGUL", "AMAS", "SEGUL (--datatype ignore)")
+subset_apps <- c("goalign",  "SEGUL", "AMAS", "SEGUL (--datatype ignore)", "AMAS (--check-align)")
 subset_dataset <- c("Oliveros et al. 2019 (DNA)", "Jarvis et al. 2014 (DNA)", "Shen et al. 2018 (AA)")
 
 summary_by_datasets |>

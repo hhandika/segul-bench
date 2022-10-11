@@ -81,6 +81,10 @@ Alignment Conversion,Wu et al. 2018 (AA),Linux,AMAS,1.557,351.084765625,1250.6
 Alignment Conversion,Wu et al. 2018 (AA),Linux,AMAS (--check-align),22.455000000000002,350.596875,179.7
 Alignment Conversion,Wu et al. 2018 (AA),Linux,SEGUL,0.238,30.630078125,1905.4
 Alignment Conversion,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.131,30.140625,1351.8
+Sequence Removal,Oliveros et al. 2019 (DNA),Linux,AMAS,2.212,722.48828125,990.4
+Sequence Removal,Oliveros et al. 2019 (DNA),Linux,AMAS (--check-align),19.377,721.662109375,109.6
+Sequence Removal,Oliveros et al. 2019 (DNA),Linux,SEGUL,0.354,35.186328125,1949.7
+Sequence Removal,Oliveros et al. 2019 (DNA),Linux,SEGUL (--datatype ignore),0.17700000000000002,34.503515625,1783.1
 Summary Statistics,Chan et al. 2020 (DNA),Linux,AMAS,39.931,982.88046875,415.3
 Summary Statistics,Chan et al. 2020 (DNA),Linux,Phyluce,19.442,65.80859375,2281.9
 Summary Statistics,Chan et al. 2020 (DNA),Linux,SEGUL,0.858,234.477734375,1669.4
