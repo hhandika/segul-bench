@@ -1,3 +1,11 @@
+CPU(s):                          24
+On-line CPU(s) list:             0-23
+Model name:                      AMD Ryzen 9 3900X 12-Core Processor
+Thread(s) per core:              2
+Core(s) per socket:              12
+NUMA node0 CPU(s):               0-23
+5.16.11-1-default
+segul 0.18.1
 Benchmarking SEGUL Remove
 0:00.36 36208 1865%
 0:00.36 37200 1880%
@@ -34,7 +42,7 @@ Benchmarking AMAS
 0:02.18 738556 1007%
 0:02.24 738988 988%
 
-Benchmarking AMAS Check Align
+Benchmarking AMAS Check Aligned
 3:13.17 738744 110%
 3:15.18 738724 110%
 3:23.85 738656 109%

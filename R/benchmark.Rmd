@@ -18,10 +18,12 @@ library(RColorBrewer)
 
 ```{r}
 file_path <- here("data", "benchmark_results.csv")
-temp_path <- here("data", "initial_results.csv")
-bench <- readr::read_csv(temp_path) |>
-  dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>
-  dplyr::mutate_at("CPU_usage", readr::parse_number)
+temp_path <- here("data", "initial-results.csv")
+bench <- readr::read_csv(temp_path) 
+
+#|>
+ # dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>
+ # dplyr::mutate_at("CPU_usage", readr::parse_number)
 
 latest_bench  <- bench |> 
   dplyr::filter(Latest_bench == TRUE)
@@ -30,11 +32,10 @@ latest_bench  <- bench |>
 ## Summarize benchmark results
 
 ```{r}
-bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "CPU_usage")
+bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage")
 
 latest_bench.pub <- latest_bench |>
-  dplyr::filter(Apps != "Phyluce") |>
-  dplyr::filter(Analyses != "Alignment splitting")
+  dplyr::filter(Apps != "Phyluce")
 
 # Check the benchmark for each dataset contains 10 iterations
 counts <- latest_bench.pub |>
@@ -42,16 +43,17 @@ counts <- latest_bench.pub |>
 
 mean(counts$n)
 
+
 # Generate mean of each benchmark result
 
-summary_by_os <- latest_bench.pub |>
+summary_by_os <- latest_bench |>
   dplyr::group_by(Analyses, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 
 
 readr::write_csv(summary_by_os, here("results", "mean_bench_by_os.csv"))
 
-summary_by_datasets <- latest_bench.pub |>
+summary_by_datasets <- latest_bench |>
   dplyr::group_by(Analyses, Datasets, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 
@@ -73,27 +75,27 @@ segul_ig_val <- summary_by_analyses |>
   filter(Apps == "SEGUL (--datatype ignore)")
 
 segul_exe_concat <- segul_val |>
-  filter(Analyses == "Alignment concatenation") |>
+  filter(Analyses == "Alignment Concatenation")|>
   pull(Execution_time_secs)
 
 segul_ig_exe_concat <- segul_ig_val |>
-  filter(Analyses == "Alignment concatenation") |>
+  filter(Analyses == "Alignment Concatenation") |>
   pull(Execution_time_secs)
 
 segul_mem_concat <- segul_val |>
-  filter(Analyses == "Alignment concatenation") |>
+  filter(Analyses == "Alignment Concatenation") |>
   pull(RAM_usage_Mb)
 
 segul_ig_mem_concat <- segul_ig_val |>
-  filter(Analyses == "Alignment concatenation") |>
+  filter(Analyses == "Alignment Concatenation") |>
   pull(RAM_usage_Mb)
 
 segul_exe_sum <- segul_val |>
-  filter(Analyses == "Summary statistics") |>
+  filter(Analyses == "Summary Statistics") |>
   pull(Execution_time_secs)
 
 segul_mem_sum <- segul_val |>
-  filter(Analyses == "Summary statistics") |>
+  filter(Analyses == "Summary Statistics") |>
   pull(RAM_usage_Mb)
 
 diff_summary_by_analyses <- summary_by_analyses |>

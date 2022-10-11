@@ -144,7 +144,7 @@ Dataset path: alignments/chan_2020_loci/
 0:01.73 1291944 713%
 0:01.70 1292348 725%
 
-Benchmarking AMAS
+Benchmarking AMAS Check Aligned
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:11.00 2052540 206%
 0:10.88 2056548 207%

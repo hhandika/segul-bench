@@ -83,7 +83,7 @@ Dataset path: alignments/shen_2018_loci_aa/
 0:01.68 602184 887%
 0:01.69 594084 883%
 
-Benchmarking AMAS Check Align convert nexus to phylip
+Benchmarking AMAS Check Aligned convert nexus to phylip
 
 Dataset path: alignments/wu_2018_aa_loci/
 0:22.17 362020 180%

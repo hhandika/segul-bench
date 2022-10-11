@@ -78,7 +78,7 @@ Dataset path: alignments/shen_2018_loci_aa/
 0:03.70 1782760 442%
 0:03.72 1777636 450%
 
-Benchmarking AMAS
+Benchmarking AMAS Check Aligned
 Dataset path: alignments/wu_2018_aa_loci/
 0:23.43 1172864 176%
 0:22.76 1170948 177%
