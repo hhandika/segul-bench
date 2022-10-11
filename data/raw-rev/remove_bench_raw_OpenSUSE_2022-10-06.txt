@@ -7,6 +7,7 @@ NUMA node0 CPU(s):               0-23
 5.16.11-1-default
 segul 0.18.1
 Benchmarking SEGUL Remove
+Dataset path: alignments/oliveros_2019_80p_trimmed
 0:00.36 36208 1865%
 0:00.36 37200 1880%
 0:00.35 37416 1922%
@@ -19,6 +20,7 @@ Benchmarking SEGUL Remove
 0:00.34 36956 2014%
 
 Benchmarking SEGUL ignore datatype
+Dataset path: alignments/oliveros_2019_80p_trimmed
 0:00.17 34792 1782%
 0:00.18 36452 1827%
 0:00.18 33652 1808%
@@ -31,6 +33,7 @@ Benchmarking SEGUL ignore datatype
 0:00.17 36340 1815%
 
 Benchmarking AMAS
+Dataset path: alignments/oliveros_2019_80p_trimmed
 0:02.19 740672 996%
 0:02.19 742212 998%
 0:02.18 738948 1008%
@@ -43,6 +46,7 @@ Benchmarking AMAS
 0:02.24 738988 988%
 
 Benchmarking AMAS Check Aligned
+Dataset path: alignments/oliveros_2019_80p_trimmed
 3:13.17 738744 110%
 3:15.18 738724 110%
 3:23.85 738656 109%
