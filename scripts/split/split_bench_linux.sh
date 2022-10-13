@@ -4,6 +4,7 @@ set INPUT_FILE "alignments/chan_2020_all_combined/alignment_all-combined.phy"
 set PARTITION "alignments/chan_2020_all_combined/partitions_all-combined.txt"
 set OUTPUT_DIR "split_results"
 set OUTPUT_LOG "data/split_bench.txt"
+set AMAS_OUTPUT "alignments/chan_2020_all_combined/alignment_all-combined_*"
 set CORES 24
 
 
@@ -52,13 +53,12 @@ end
 
 
 echo -e "\nWarming up..."
-
 AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -d dna -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
-rm alignments/Onn_2020_all_combined//alignment_all-combined_*
+rm $AMAS_OUTPUT
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip --remove-empty -c $CORES 2>> $OUTPUT_LOG;
@@ -69,7 +69,7 @@ end
 echo -e "\nBenchmarking AMAS Single CORE" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
-rm alignments/Onn_2020_all_combined//alignment_all-combined_*
+rm $AMAS_OUTPUT
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip --remove-empty 2>> $OUTPUT_LOG;
@@ -80,7 +80,7 @@ end
 echo -e "\nBenchmarking AMAS KEEP EMPTY" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
-rm alignments/Onn_2020_all_combined//alignment_all-combined_*
+rm $AMAS_OUTPUT
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip -c $CORES 2>> $OUTPUT_LOG;
@@ -100,7 +100,7 @@ rm -r $OUTPUT_DIR
 end
 
 rm *.log
-rm alignments/Onn_2020_all_combined/alignment_all-combined_*
+rm $AMAS_OUTPUT
 
 ### Push to Github ###
 
