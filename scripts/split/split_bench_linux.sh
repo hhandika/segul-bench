@@ -7,10 +7,19 @@ set OUTPUT_LOG "data/split_bench.txt"
 set AMAS_OUTPUT "alignments/chan_2020_all_combined/alignment_all-combined_*"
 set CORES 24
 
+# Remove existing log file
+if test -f $OUTPUT_LOG
+rm $OUTPUT_LOG
+end
 
 # Get system information
-uname -r | tee $OUTPUT_LOG
+lscpu | egrep 'Model name|Thread|CPU\(s\)|Core\(s\) per socket' | tee -a $OUTPUT_LOG
+uname -r  | tee -a $OUTPUT_LOG
 
+# Get segul version
+segul -V | tee -a $OUTPUT_LOG
+
+# Clean unnecessary files
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG
 end
@@ -26,7 +35,7 @@ segul split -i $INPUT_FILE -f phylip -I $PARTITION -o $OUTPUT_DIR --output-forma
 echo -e "\nBenchmarking Alignment Splitting"
 
 echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
-
+echo "Dataset path: $INPUT_FILE" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo ""
@@ -38,6 +47,8 @@ end
 ### SEGUL ignore datatype ###
 
 echo -e "\nBenchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
+echo "Dataset path: $INPUT_FILE" | tee -a $OUTPUT_LOG
+
 for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo ""
@@ -56,6 +67,7 @@ echo -e "\nWarming up..."
 AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -d dna -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS (--remove-empty)" | tee -a $OUTPUT_LOG
+echo "Dataset path: $INPUT_FILE" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
 rm alignments/chan_2020_all_combined/alignment_all-combined_*
@@ -67,6 +79,7 @@ end
 ### AMAS with empty sequences ###
 
 echo -e "\nBenchmarking AMAS KEEP EMPTY" | tee -a $OUTPUT_LOG
+echo "Dataset path: $INPUT_FILE" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
 rm alignments/chan_2020_all_combined/alignment_all-combined_*

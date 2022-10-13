@@ -6,9 +6,17 @@ set OUTPUT_DIR "remove_results"
 set OUTPUT_LOG "data/remove_bench.txt"
 set CORES 24
 
+# Remove existing log file
+if test -f $OUTPUT_LOG
+rm $OUTPUT_LOG
+end
 
 # Get system information
-uname -r | tee $OUTPUT_LOG
+lscpu | egrep 'Model name|Thread|CPU\(s\)|Core\(s\) per socket' | tee -a $OUTPUT_LOG
+uname -r  | tee -a $OUTPUT_LOG
+
+# Get segul version
+segul -V | tee -a $OUTPUT_LOG
 
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG
@@ -25,7 +33,7 @@ segul remove -i $INPUT_DIR/*.nex -f nexus --id $RM_TAXA_LIST -o $OUTPUT_DIR --ou
 echo -e "\nBenchmarking Alignment Taxon Removal"
 
 echo "Benchmarking SEGUL Remove" | tee -a $OUTPUT_LOG
-
+echo "Dataset path: $INPUT_DIR" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo ""

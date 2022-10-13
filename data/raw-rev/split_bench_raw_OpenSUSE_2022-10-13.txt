@@ -1,4 +1,13 @@
+CPU(s):                          24
+On-line CPU(s) list:             0-23
+Model name:                      AMD Ryzen 9 3900X 12-Core Processor
+Thread(s) per core:              2
+Core(s) per socket:              12
+NUMA node0 CPU(s):               0-23
+5.16.11-1-default
+segul 0.18.1
 Benchmarking SEGUL
+Dataset path: alignments/chan_2020_all_combined/
 0:02.42 326616 171%
 0:02.42 325032 165%
 0:02.46 321988 166%
@@ -11,6 +20,7 @@ Benchmarking SEGUL
 0:02.42 323900 164%
 
 Benchmarking SEGUL ignore datatype
+Dataset path: alignments/chan_2020_all_combined/
 0:00.65 324240 358%
 0:00.64 324444 297%
 0:00.65 323868 333%
@@ -23,6 +33,7 @@ Benchmarking SEGUL ignore datatype
 0:00.64 323588 329%
 
 Benchmarking AMAS (--remove-empty)
+Dataset path: alignments/chan_2020_all_combined/
 0:05.58 634024 101%
 0:05.63 633996 101%
 0:05.64 633964 100%
@@ -35,6 +46,7 @@ Benchmarking AMAS (--remove-empty)
 0:05.71 634056 101%
 
 Benchmarking AMAS KEEP EMPTY
+Dataset path: alignments/chan_2020_all_combined/
 0:05.03 716876 99%
 0:05.12 716796 99%
 0:05.10 716832 100%
