@@ -1,0 +1,395 @@
+Benchmarking SEGUL
+0:02.64 322444 159%
+0:02.52 323716 168%
+0:02.57 322344 166%
+0:02.48 322536 172%
+0:02.53 326468 163%
+0:02.51 324620 155%
+0:02.54 325108 166%
+0:02.44 325208 162%
+0:02.56 324512 162%
+0:02.56 324852 158%
+
+Benchmarking SEGUL ignore datatype
+0:00.66 321812 360%
+0:00.65 324788 332%
+0:00.67 323228 320%
+0:00.64 325540 293%
+0:00.65 323188 311%
+0:00.66 327196 329%
+0:00.67 323120 350%
+0:00.66 323628 338%
+0:00.67 325372 340%
+0:00.64 327052 283%
+
+Benchmarking AMAS
+0:05.77 634048 101%
+0:05.84 633868 101%
+0:05.83 634084 100%
+0:05.85 633892 101%
+0:05.98 633996 99%
+0:05.83 634116 101%
+0:05.84 633964 99%
+0:05.98 634020 99%
+0:06.06 634056 99%
+0:05.73 634188 101%
+
+Benchmarking AMAS KEEP EMPTY
+0:05.58 718856 100%
+Process ForkPoolWorker-7:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-20:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-12:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-19:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-8:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-5:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-11:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-6:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-15:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-9:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-17:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-13:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-21:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-18:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-14:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-22:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-24:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-3:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-4:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-23:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-2:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 352, in get
+    res = self._reader.recv_bytes()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Process ForkPoolWorker-16:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-10:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-1:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home/hhandika/Program/AMAS.py", line 1352, in get_alignment_object
+    aln = DNAAlignment(alignment, self.in_format, self.data_type)
+  File "/home/hhandika/Program/AMAS.py", line 682, in __init__
+    self.parsed_aln = self.get_parsed_aln()
+  File "/home/hhandika/Program/AMAS.py", line 698, in get_parsed_aln
+    parsed_aln = aln_input.phylip_parse()
+  File "/home/hhandika/Program/AMAS.py", line 466, in phylip_parse
+    seq_match = self.translate_ambiguous(seq_match)
+  File "/home/hhandika/Program/AMAS.py", line 615, in translate_ambiguous
+    seq = seq.replace("{ACG}","V")
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/hhandika/Program/AMAS.py", line 2075, in <module>
+    main()
+  File "/home/hhandika/Program/AMAS.py", line 2040, in main
+    meta_aln = MetaAlignment(**kwargs)
+  File "/home/hhandika/Program/AMAS.py", line 1047, in __init__
+    self.alignment_objects = self.get_alignment_objects()
+  File "/home/hhandika/Program/AMAS.py", line 1362, in get_alignment_objects
+    alignments = pool.map(self.get_alignment_object, self.in_files)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 651, in get
+    self.wait(timeout)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 648, in wait
+    self._event.wait(timeout)
+  File "/home/hhandika/anaconda3/lib/python3.7/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/hhandika/anaconda3/lib/python3.7/threading.py", line 296, in wait
+    waiter.acquire()
+KeyboardInterrupt
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/util.py", line 277, in _run_finalizers
+    finalizer()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/util.py", line 201, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 581, in _terminate_pool
+    cls._help_stuff_finish(inqueue, task_handler, len(pool))
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 566, in _help_stuff_finish
+    inqueue._rlock.acquire()
+KeyboardInterrupt
+Command exited with non-zero status 1
+0:01.86 20280 2%

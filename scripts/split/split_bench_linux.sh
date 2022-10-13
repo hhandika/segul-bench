@@ -55,24 +55,13 @@ end
 echo -e "\nWarming up..."
 AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -d dna -u phylip -c $CORES
 
-echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking AMAS (--remove-empty)" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
-rm $AMAS_OUTPUT
+rm alignments/chan_2020_all_combined/alignment_all-combined_*
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip --remove-empty -c $CORES 2>> $OUTPUT_LOG;
-end
-
-### AMAS single core ###
-
-echo -e "\nBenchmarking AMAS Single CORE" | tee -a $OUTPUT_LOG
-
-for i in (seq 10)
-rm $AMAS_OUTPUT
-echo ""
-echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip --remove-empty 2>> $OUTPUT_LOG;
 end
 
 ### AMAS with empty sequences ###
@@ -80,7 +69,7 @@ end
 echo -e "\nBenchmarking AMAS KEEP EMPTY" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
-rm $AMAS_OUTPUT
+rm alignments/chan_2020_all_combined/alignment_all-combined_*
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -u phylip -c $CORES 2>> $OUTPUT_LOG;
@@ -100,7 +89,7 @@ rm -r $OUTPUT_DIR
 end
 
 rm *.log
-rm $AMAS_OUTPUT
+rm alignments/chan_2020_all_combined/alignment_all-combined_*
 
 ### Push to Github ###
 
