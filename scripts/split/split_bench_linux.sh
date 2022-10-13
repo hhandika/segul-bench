@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
-set INPUT_FILE "alignments/Chan_2020_all_combined/alignment_all-combined.phy"
-set PARTITION "alignments/Chan_2020_all_combined/partitions_all-combined.txt"
+set INPUT_FILE "alignments/chan_2020_all_combined/alignment_all-combined.phy"
+set PARTITION "alignments/chan_2020_all_combined/partitions_all-combined.txt"
 set OUTPUT_DIR "split_results"
 set OUTPUT_LOG "data/split_bench.txt"
 set CORES 24
