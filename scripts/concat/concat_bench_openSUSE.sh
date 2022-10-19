@@ -2,6 +2,7 @@
 
 set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_2019_80p_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator" "alignments/chan_2020_loci/"
 set OUTPUT_DIR "concat_results"
+set OUTPUT_FILE "concat"
 set OUTPUT_LOG "data/concat_bench.txt"
 set CORES 24
 
@@ -16,6 +17,7 @@ uname -r  | tee -a $OUTPUT_LOG
 
 # Get segul version
 segul -V | tee -a $OUTPUT_LOG
+goalign version | tee -a $OUTPUT_LOG
 
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
@@ -89,6 +91,28 @@ rm concatenated.out && rm partitions.txt
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES -u phylip --check-align 2>> $OUTPUT_LOG;
+end
+end
+
+#### goalign ####
+if [ -d $OUTPUT_DIR ]
+rm -r $OUTPUT_DIR
+end
+
+echo -e "\nWarming up..."
+
+goalign concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex --nexus -o $OUTPUT_FILE
+
+echo -e "\nBenchmarking goalign st" | tee -a $OUTPUT_LOG
+
+for dir in $INPUT_DIRS
+echo ""
+echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm $OUTPUT_FILE
+echo ""
+echo "Iteration $i"
+env time -f "%E %M %P" goalign concat -i $dir/*.nex --nexus -o $OUTPUT_FILE 2>> $OUTPUT_LOG;
 end
 end
 
