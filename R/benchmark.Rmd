@@ -117,7 +117,7 @@ subset_dataset <- c("Oliveros et al. 2019 (DNA)", "Jarvis et al. 2014 (DNA)", "S
 
 summary_by_datasets |>
   dplyr::filter(Analyses != "Alignment splitting") |>
-   dplyr::filter(OS_name == "Linux") |>
+  dplyr::filter(OS_name == "Linux") |>
   dplyr::filter(Apps %in% subset_apps) |>
   dplyr::filter(Datasets %in% subset_dataset)|>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
