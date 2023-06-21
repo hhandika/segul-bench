@@ -1,0 +1,31 @@
+CPU(s):                          24
+On-line CPU(s) list:             0-23
+Model name:                      AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:              2
+Core(s) per socket:              12
+CPU(s) scaling MHz:              56%
+NUMA node0 CPU(s):               0-23
+6.3.7-1-default
+segul 0.19.0
+Benchmarking SEGUL Convert Nexus to Phylip
+
+Dataset path: alignments/wu_2018_aa_loci/
+
+Dataset path: alignments/shen_2018_loci_aa/
+Benchmarking SEGUL ignore datatype
+
+Dataset path: alignments/wu_2018_aa_loci/
+
+Dataset path: alignments/shen_2018_loci_aa/
+
+Benchmarking AMAS convert nexus to phylip
+
+Dataset path: alignments/wu_2018_aa_loci/
+
+Dataset path: alignments/shen_2018_loci_aa/
+
+Benchmarking AMAS Check Align convert nexus to phylip
+
+Dataset path: alignments/wu_2018_aa_loci/
+
+Dataset path: alignments/shen_2018_loci_aa/
