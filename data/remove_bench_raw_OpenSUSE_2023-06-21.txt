@@ -1,0 +1,8 @@
+Benchmarking SEGUL Remove
+Dataset path: alignments/oliveros_2019_80p_trimmed
+
+Benchmarking SEGUL ignore datatype
+
+Benchmarking AMAS
+
+Benchmarking AMAS Check Align
