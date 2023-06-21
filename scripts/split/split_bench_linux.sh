@@ -30,7 +30,7 @@ end
 
 echo -e "Warming up..."
 
-segul split -i $INPUT_FILE -f phylip -I $PARTITION -o $OUTPUT_DIR --output-format phylip
+segul align split -i $INPUT_FILE -f phylip -I $PARTITION -o $OUTPUT_DIR --output-format phylip
 
 echo -e "\nBenchmarking Alignment Splitting"
 
@@ -41,7 +41,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR --output-format phylip 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul align split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR --output-format phylip 2>> $OUTPUT_LOG;
 end
 
 ### SEGUL ignore datatype ###
@@ -54,7 +54,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR --output-format phylip --datatype ignore 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul align split -i $INPUT_FILE -f phylip -I $PARTITION -p raxml -o $OUTPUT_DIR --output-format phylip --datatype ignore 2>> $OUTPUT_LOG;
 end
 
 #### AMAS ####

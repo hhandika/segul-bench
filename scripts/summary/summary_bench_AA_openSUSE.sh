@@ -1,4 +1,4 @@
-#!/usr/bin/env fish
+align #!/usr/bin/env fish
 
 set INPUT_DIRS  "alignments/wu_2018_aa_loci/" "alignments/shen_2018_loci_aa/"
 set OUTPUT_DIR "summary_results"
@@ -24,7 +24,7 @@ end
 
 echo -e "Warming up..."
 
-segul summary -i alignments/wu_2018_aa_loci/*.nex -f nexus -o $OUTPUT_DIR --datatype aa
+segul align summary -i alignments/wu_2018_aa_loci/*.nex -f nexus -o $OUTPUT_DIR --datatype aa
 
 echo -e "\nBenchmarking Summary Stats"
 
@@ -37,7 +37,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul summary -i $dir/*.nex -f nexus -o $OUTPUT_DIR --datatype aa 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul align summary -i $dir/*.nex -f nexus -o $OUTPUT_DIR --datatype aa 2>> $OUTPUT_LOG;
 end
 end
 

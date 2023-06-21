@@ -28,7 +28,7 @@ end
 
 echo -e "Warming up..."
 
-segul remove -i $INPUT_DIR/*.nex -f nexus --id $RM_TAXA_LIST -o $OUTPUT_DIR --output-format phylip
+segul sequence remove -i $INPUT_DIR/*.nex -f nexus --id $RM_TAXA_LIST -o $OUTPUT_DIR --output-format phylip
 
 echo -e "\nBenchmarking Alignment Taxon Removal"
 
@@ -39,7 +39,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul remove -i $INPUT_DIR/*.nex -f nexus --id $RM_TAXA_LIST -o $OUTPUT_DIR --output-format phylip 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul sequence remove -i $INPUT_DIR/*.nex -f nexus --id $RM_TAXA_LIST -o $OUTPUT_DIR --output-format phylip 2>> $OUTPUT_LOG;
 end
 
 ### SEGUL ignore datatype ###
