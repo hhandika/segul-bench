@@ -3,7 +3,7 @@ On-line CPU(s) list:             0-23
 Model name:                      AMD Ryzen 9 5900X 12-Core Processor
 Thread(s) per core:              2
 Core(s) per socket:              12
-CPU(s) scaling MHz:              64%
+CPU(s) scaling MHz:              62%
 NUMA node0 CPU(s):               0-23
 5.16.11-1-default
 segul 0.19.0
@@ -19,7 +19,7 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 5640 100%
+0:00.00 5584 100%
 error: unrecognized subcommand 'concat'
 
   tip: a similar subcommand exists: 'contig'
@@ -29,7 +29,7 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 5512 100%
+0:00.00 5460 100%
 error: unrecognized subcommand 'concat'
 
   tip: a similar subcommand exists: 'contig'
@@ -39,67 +39,7 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 5588 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5396 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5656 80%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5648 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5528 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5596 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5768 100%
+0:00.00 5620 100%
 error: unrecognized subcommand 'concat'
 
   tip: a similar subcommand exists: 'contig'
@@ -110,179 +50,6 @@ Usage: segul [OPTIONS] <COMMAND>
 For more information, try '--help'.
 Command exited with non-zero status 2
 0:00.00 5520 100%
-Dataset path: alignments/shen_2018_loci_aa/
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 4756 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.01 4944 15%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 4728 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 4776 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 4816 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 4900 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 4752 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 4856 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 4752 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 4816 100%
-Benchmarking SEGUL ignore datatype
-Dataset path: alignments/wu_2018_aa_loci/
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5528 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5764 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5552 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5684 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5572 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5748 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5684 100%
 error: unrecognized subcommand 'concat'
 
   tip: a similar subcommand exists: 'contig'
@@ -302,7 +69,7 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 5524 100%
+0:00.00 5740 100%
 error: unrecognized subcommand 'concat'
 
   tip: a similar subcommand exists: 'contig'
@@ -312,7 +79,37 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 5716 100%
+0:00.00 5556 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5460 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5640 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5620 100%
 Dataset path: alignments/shen_2018_loci_aa/
 error: unrecognized subcommand 'concat'
 
@@ -323,7 +120,7 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 4664 100%
+0:00.00 4964 100%
 error: unrecognized subcommand 'concat'
 
   tip: a similar subcommand exists: 'contig'
@@ -333,17 +130,7 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 4784 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
-0:00.00 5032 100%
+0:00.00 4968 100%
 error: unrecognized subcommand 'concat'
 
   tip: a similar subcommand exists: 'contig'
@@ -363,7 +150,7 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 4720 100%
+0:00.00 5028 100%
 error: unrecognized subcommand 'concat'
 
   tip: a similar subcommand exists: 'contig'
@@ -373,7 +160,220 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 4780 100%
+0:00.00 4612 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4664 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4896 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4916 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4708 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4760 100%
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/wu_2018_aa_loci/
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5828 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5464 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5664 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5528 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5760 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5460 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5580 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5556 80%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5652 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5628 100%
+Dataset path: alignments/shen_2018_loci_aa/
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4896 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4776 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4904 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4756 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4900 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4728 100%
 error: unrecognized subcommand 'concat'
 
   tip: a similar subcommand exists: 'contig'
@@ -393,16 +393,6 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 4592 100%
-error: unrecognized subcommand 'concat'
-
-  tip: a similar subcommand exists: 'contig'
-  tip: to pass 'concat' as a value, use 'segul -- concat'
-
-Usage: segul [OPTIONS] <COMMAND>
-
-For more information, try '--help'.
-Command exited with non-zero status 2
 0:00.00 4840 100%
 error: unrecognized subcommand 'concat'
 
@@ -413,107 +403,24 @@ Usage: segul [OPTIONS] <COMMAND>
 
 For more information, try '--help'.
 Command exited with non-zero status 2
-0:00.00 4788 100%
+0:00.00 5092 100%
+error: unrecognized subcommand 'concat'
+
+  tip: a similar subcommand exists: 'contig'
+  tip: to pass 'concat' as a value, use 'segul -- concat'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4588 100%
 
 Benchmarking AMAS
 Dataset path: alignments/wu_2018_aa_loci/
-0:01.71 1170652 1038%
-0:01.75 1172644 1049%
-0:01.73 1170832 1052%
-0:01.75 1172664 1036%
-0:01.73 1170528 1061%
-0:01.76 1170780 1044%
-0:01.74 1170660 1053%
-0:01.73 1170312 1058%
-0:01.75 1172516 1052%
-0:01.73 1170516 1055%
-Dataset path: alignments/shen_2018_loci_aa/
-0:03.24 1773976 463%
-0:03.21 1775432 484%
-0:03.19 1773724 482%
-Process ForkPoolWorker-4:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-9:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-19:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-5:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-13:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-2:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 352, in get
-    res = self._reader.recv_bytes()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/connection.py", line 216, in recv_bytes
-    buf = self._recv_bytes(maxlength)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
-    buf = self._recv(4)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/connection.py", line 379, in _recv
-    chunk = read(handle, remaining)
-KeyboardInterrupt
-Process ForkPoolWorker-22:
+0:01.72 1172740 1048%
+0:01.76 1170624 1046%
+0:01.73 1170740 1066%
+Process ForkPoolWorker-8:
 Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
     self.run()
@@ -539,7 +446,7 @@ Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
 KeyboardInterrupt
-Process ForkPoolWorker-6:
+Process ForkPoolWorker-21:
 Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
     self.run()
@@ -552,7 +459,7 @@ Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
 KeyboardInterrupt
-Process ForkPoolWorker-7:
+Process ForkPoolWorker-9:
 Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
     self.run()
@@ -565,33 +472,7 @@ Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
 KeyboardInterrupt
-Process ForkPoolWorker-10:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-20:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-8:
+Process ForkPoolWorker-2:
 Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
     self.run()
@@ -617,7 +498,7 @@ Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
 KeyboardInterrupt
-Process ForkPoolWorker-21:
+Process ForkPoolWorker-24:
 Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
     self.run()
@@ -630,59 +511,7 @@ Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
 KeyboardInterrupt
-Process ForkPoolWorker-17:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-14:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-11:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-18:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-3:
+Process ForkPoolWorker-20:
 Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
     self.run()
@@ -721,6 +550,175 @@ Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
     return self._semlock.__enter__()
 KeyboardInterrupt
+Process ForkPoolWorker-13:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-17:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-18:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-7:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-14:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-10:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-6:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-3:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-22:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-5:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-4:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-11:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
+Process ForkPoolWorker-19:
+Traceback (most recent call last):
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
+    task = get()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
+    with self._rlock:
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
+    return self._semlock.__enter__()
+KeyboardInterrupt
 Process ForkPoolWorker-16:
 Traceback (most recent call last):
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
@@ -729,23 +727,14 @@ Traceback (most recent call last):
     self._target(*self._args, **self._kwargs)
   File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
     task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
-KeyboardInterrupt
-Process ForkPoolWorker-24:
-Traceback (most recent call last):
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
-    self.run()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/process.py", line 99, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/pool.py", line 110, in worker
-    task = get()
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 351, in get
-    with self._rlock:
-  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/synchronize.py", line 95, in __enter__
-    return self._semlock.__enter__()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/queues.py", line 352, in get
+    res = self._reader.recv_bytes()
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/hhandika/anaconda3/lib/python3.7/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
 KeyboardInterrupt
 Traceback (most recent call last):
   File "/home/hhandika/Program/AMAS.py", line 2075, in <module>
@@ -754,10 +743,10 @@ Traceback (most recent call last):
     meta_aln.write_out("concat", kwargs["out_format"])
   File "/home/hhandika/Program/AMAS.py", line 1986, in write_out
     self.write_concat(file_format)    
-  File "/home/hhandika/Program/AMAS.py", line 1923, in write_concat
-    self.write_formatted_file(file_format, file_name, concatenated_alignment)
-  File "/home/hhandika/Program/AMAS.py", line 1895, in write_formatted_file
-    out_file.write(self.print_phylip(alignment))
+  File "/home/hhandika/Program/AMAS.py", line 1920, in write_concat
+    concatenated_alignment = self.get_concatenated(self.parsed_alignments)[0]
+  File "/home/hhandika/Program/AMAS.py", line 1577, in get_concatenated
+    if taxon not in all_taxa:
 KeyboardInterrupt
 Error in atexit._run_exitfuncs:
 Traceback (most recent call last):
@@ -771,4 +760,4 @@ Traceback (most recent call last):
     inqueue._rlock.acquire()
 KeyboardInterrupt
 Command exited with non-zero status 1
-0:04.49 1774836 41%
+0:02.34 359596 17%
