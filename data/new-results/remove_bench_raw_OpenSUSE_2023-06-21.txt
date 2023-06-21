@@ -1,0 +1,108 @@
+Benchmarking SEGUL Remove
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:00.26 33372 2008%
+0:00.26 31072 2016%
+0:00.27 32588 1907%
+0:00.26 34336 1983%
+0:00.26 29964 1978%
+0:00.26 31268 1986%
+0:00.26 31864 2009%
+0:00.26 36604 2023%
+0:00.27 30492 1952%
+0:00.26 30712 2023%
+
+Benchmarking SEGUL ignore datatype
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5184 100%
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4992 100%
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4992 100%
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4992 100%
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4992 100%
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5184 100%
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4800 75%
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4800 100%
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 4800 100%
+error: unrecognized subcommand 'remove'
+
+Usage: segul [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5184 100%
+
+Benchmarking AMAS
+0:01.78 737408 1030%
+0:01.78 737336 1006%
+0:01.77 737468 1027%
+0:01.78 739296 1022%
+0:01.83 737856 1000%
+0:01.78 739196 1024%
+0:01.78 737368 1026%
+0:01.77 739324 1031%
+0:01.83 737596 987%
+0:01.78 739660 1019%
+
+Benchmarking AMAS Check Align
+3:35.08 741412 107%
+3:33.82 737424 107%
+3:30.63 740616 107%
+3:36.42 739260 107%
+3:35.60 739284 107%
+3:29.10 737788 107%
+3:33.98 741456 107%
+3:29.12 739596 108%
+3:31.75 737068 107%
+3:32.60 739520 107%
