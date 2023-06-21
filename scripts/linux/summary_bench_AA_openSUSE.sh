@@ -77,8 +77,3 @@ mv $OUTPUT_LOG data/$fname
 rm -r $OUTPUT_DIR
 rm *.log
 rm summary.txt
-
-### Push to Github ###
-
-git add -A && git commit -m "Add summary benchmark" && git push
-
