@@ -7,19 +7,22 @@ output: html_document
 This file contains all code to analyses SEGUL benchmark results. I use the R base pipe, required R version 4.1. If you are using R version <4.1, change the pipe "|>" to magrittr pipe "%>%".
 
 ```{r}
-library(here)
-library(ggplot2)
-library(readr)
-library(dplyr)
-library(stringr)
-library(RColorBrewer)
+if (!require(pacman)) {
+  install.packages(pacman)
+}
+
+pacman::p_load(here)
+pacman::p_load(ggplot2)
+pacman::p_load(readr)
+pacman::p_load(dplyr)
+pacman::p_load(stringr)
+pacman::p_load(RColorBrewer)
 ```
 
 
 ```{r}
-file_path <- here("data", "benchmark_results.csv")
-temp_path <- here("data", "initial-results.csv")
-bench <- readr::read_csv(temp_path) 
+file_path <- here("data", "revision_data.csv")
+bench <- readr::read_csv(file_path) 
 
 #|>
  # dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>

@@ -74,7 +74,7 @@ end
 
 ### AMAS with empty sequences ###
 
-echo -e "\nBenchmarking AMAS Check Align" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking AMAS (check align)" | tee -a $OUTPUT_LOG
 
 for i in (seq 10)
 rm reduced*

@@ -82,7 +82,7 @@ end
 
 ### AMAS Check Align ####
 
-echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking AMAS (--check-align)" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""
@@ -105,7 +105,7 @@ echo -e "\nWarming up..."
 
 goalign concat -i alignments/wu_2018_aa_loci/*.nex --nexus -o $OUTPUT_FILE
 
-echo -e "\nBenchmarking goalign nt" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking goalign (multi-core)" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""
@@ -127,7 +127,7 @@ echo -e "\nWarming up..."
 
 goalign concat -i alignments/wu_2018_aa_loci/*.nex --nexus -o $OUTPUT_FILE
 
-echo -e "\nBenchmarking goalign st" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking goalign (single-core)" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""

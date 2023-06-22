@@ -80,7 +80,7 @@ end
 
 ### AMAS Check Align ####
 
-echo -e "\nBenchmarking AMAS Check Align convert nexus to phylip" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking AMAS (check-align) convert nexus to phylip" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""

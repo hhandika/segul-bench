@@ -81,7 +81,7 @@ end
 
 ### AMAS Check Align ####
 
-echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking AMAS check align" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""

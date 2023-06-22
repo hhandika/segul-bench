@@ -156,7 +156,7 @@ Dataset path: alignments/chan_2020_loci/
 0:01.39 375740 753%
 0:01.39 374920 753%
 
-Benchmarking AMAS Check Align convert nexus to phylip
+Benchmarking AMAS Check align convert nexus to phylip
 
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:10.16 429184 196%

@@ -79,7 +79,7 @@ Dataset path: alignments/shen_2018_loci_aa/
 0:03.20 1779824 472%
 0:03.10 1778520 487%
 
-Benchmarking AMAS
+Benchmarking AMAS (--check-align)
 Dataset path: alignments/wu_2018_aa_loci/
 0:22.62 1170520 171%
 0:22.93 1168904 172%
@@ -103,7 +103,7 @@ Dataset path: alignments/shen_2018_loci_aa/
 8:24.91 1780512 102%
 8:33.60 1777188 102%
 
-Benchmarking goalign nt
+Benchmarking goalign (multi-core)
 
 Dataset path: alignments/wu_2018_aa_loci/
 0:03.67 1779228 105%
@@ -129,8 +129,7 @@ Dataset path: alignments/shen_2018_loci_aa/
 0:05.58 2632572 103%
 0:05.82 2632616 104%
 
-Benchmarking goalign st
-
+Benchmarking goalign (single-core)
 Dataset path: alignments/wu_2018_aa_loci/
 0:03.17 1809960 99%
 0:03.19 1549928 100%
