@@ -1,4 +1,4 @@
-align #!/usr/bin/env fish
+#!/usr/bin/env fish
 
 set INPUT_DIRS  "alignments/wu_2018_aa_loci/" "alignments/shen_2018_loci_aa/"
 set OUTPUT_DIR "summary_results"
@@ -31,7 +31,7 @@ echo -e "\nBenchmarking Summary Stats"
 echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
-echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+echo -e "Dataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo ""
@@ -55,7 +55,7 @@ echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""
-echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
+echo  -e "Dataset path: $dir" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm summary.txt
 echo ""
