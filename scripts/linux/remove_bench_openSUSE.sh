@@ -45,6 +45,7 @@ end
 ### SEGUL ignore datatype ###
 
 echo -e "\nBenchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
+echo "Dataset path: $INPUT_DIR" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm -r $OUTPUT_DIR;
 echo ""
@@ -64,7 +65,7 @@ echo -e "\nWarming up..."
 AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
-
+echo "Dataset path: $INPUT_DIR" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm reduced*
 echo ""
@@ -75,7 +76,7 @@ end
 ### AMAS with empty sequences ###
 
 echo -e "\nBenchmarking AMAS (check align)" | tee -a $OUTPUT_LOG
-
+echo "Dataset path: $INPUT_DIR" | tee -a $OUTPUT_LOG
 for i in (seq 10)
 rm reduced*
 echo ""
