@@ -1,22 +1,22 @@
 Analyses,OS_name,Apps,Execution_time_secs,RAM_usage_Mb,Percent_CPU_usage
 Alignment Concatenation,Linux,AMAS,2.0403333333333333,1700.5876933333334,791.2
-Alignment Concatenation,Linux,AMAS (--check-align),17.933333333333334,1700.4735716666667,191.76666666666668
-Alignment Concatenation,Linux,Phyluce,45.959,2045.5663125,100
+Alignment Concatenation,Linux,AMAS (--check-align),127.93333333333334,1700.4735716666667,191.76666666666668
+Alignment Concatenation,Linux,Phyluce,195.959,2045.5663125,100
 Alignment Concatenation,Linux,SEGUL,2.386,509.101041,156.86666666666667
 Alignment Concatenation,Linux,SEGUL (--datatype ignore),0.9373333333333334,509.01926983333334,239.1
 Alignment Concatenation,Linux,goalign (--multi-core),4.652,1956.1312400000002,103.95
 Alignment Concatenation,Linux,goalign (single-core),4.738166666666666,2380.37422,99.78333333333333
 Alignment Conversion,Linux,AMAS,1.3268333333333333,487.07838533333336,1083.25
-Alignment Conversion,Linux,AMAS (--check-align),18.007833333333334,487.0328133333333,194.69999999999996
+Alignment Conversion,Linux,AMAS (--check-align),134.00783333333334,487.0328133333333,194.69999999999996
 Alignment Conversion,Linux,SEGUL,0.29733333333333334,33.62519528333333,1634.4166666666667
 Alignment Conversion,Linux,SEGUL (--datatype ignore),0.3355,33.68020865,774.3666666666666
 Alignment Splitting,NA,AMAS,4.211,700.484371,100.5
 Alignment Splitting,NA,AMAS (--remove-empty),4.756,618.937496,99.8
 Alignment Splitting,NA,SEGUL,1.698,314.944925,166.4
 Alignment Splitting,NA,SEGUL (--datatype ignore),0.593,316.283985,267.5
-Sequence Removal,NA,AMAS,15.546000000000001,722.349024,560.6
-Sequence Removal,NA,SEGUL,0.47100000000000003,32.8980471,1140.3
-Sequence Removal,NA,SEGUL (--datatype ignore),0.525,32.2796877,561.8
-Summary Statistics,Linux,AMAS,32.849333333333334,1382.5653023333334,367.95
+Sequence Removal,Linux,AMAS,105.54599999999999,722.349024,560.6
+Sequence Removal,Linux,SEGUL,0.47100000000000003,32.8980471,1140.3
+Sequence Removal,Linux,SEGUL (--datatype ignore),0.525,32.2796877,561.8
+Summary Statistics,Linux,AMAS,48.849333333333334,1382.5653023333334,367.95
 Summary Statistics,Linux,Phyluce,25.17425,49.1203123,2269.675
 Summary Statistics,Linux,SEGUL,0.9448333333333333,301.92226675,1734.65

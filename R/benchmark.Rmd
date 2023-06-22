@@ -28,8 +28,7 @@ bench <- readr::read_csv(file_path)
  # dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>
  # dplyr::mutate_at("CPU_usage", readr::parse_number)
 
-latest_bench  <- bench |> 
-  dplyr::filter(Latest_bench == TRUE)
+latest_bench  <- bench 
 ```
 
 ## Summarize benchmark results
@@ -37,7 +36,8 @@ latest_bench  <- bench |>
 ```{r}
 bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage")
 
-latest_bench.pub <- latest_bench 
+latest_bench.pub <- latest_bench |>
+  dplyr::filter(Apps != "Phyluce")
 
 # Check the benchmark for each dataset contains 10 iterations
 counts <- latest_bench.pub |>
@@ -45,6 +45,8 @@ counts <- latest_bench.pub |>
 
 mean(counts$n)
 
+removal <- latest_bench |>
+  dplyr::filter(Analyses == "Sequence Removal")
 
 # Generate mean of each benchmark result
 
@@ -55,7 +57,7 @@ summary_by_os <- latest_bench |>
 
 readr::write_csv(summary_by_os, here("results", "mean_bench_by_os.csv"))
 
-summary_by_datasets <- latest_bench |>
+summary_by_datasets <- latest_bench.pub |>
   dplyr::group_by(Analyses, Datasets, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 

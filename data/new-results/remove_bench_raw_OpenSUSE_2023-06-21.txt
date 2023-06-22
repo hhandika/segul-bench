@@ -47,7 +47,7 @@ Dataset path: alignments/oliveros_2019_80p_trimmed
 0:01.78 737880 1013%
 0:01.89 739004 962%
 
-Benchmarking AMAS Check Align
+Benchmarking AMAS (check-align)
 Dataset path: alignments/oliveros_2019_80p_trimmed
 3:32.51 739224 107%
 3:23.24 736908 108%
