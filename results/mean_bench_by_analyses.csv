@@ -1,20 +1,35 @@
 Analyses,Apps,Execution_time_secs,RAM_usage_Mb,Percent_CPU_usage
-Alignment Concatenation,AMAS,2.0403333333333333,1700.5876933333334,791.2
-Alignment Concatenation,AMAS (--check-align),127.93333333333334,1700.4735716666667,191.76666666666668
-Alignment Concatenation,SEGUL,2.386,509.101041,156.86666666666667
-Alignment Concatenation,SEGUL (--datatype ignore),0.9373333333333334,509.01926983333334,239.1
-Alignment Concatenation,goalign (--multi-core),4.652,1956.1312400000002,103.95
-Alignment Concatenation,goalign (single-core),4.738166666666666,2380.37422,99.78333333333333
-Alignment Conversion,AMAS,1.3268333333333333,487.07838533333336,1083.25
-Alignment Conversion,AMAS (--check-align),134.00783333333334,487.0328133333333,194.69999999999996
-Alignment Conversion,SEGUL,0.29733333333333334,33.62519528333333,1634.4166666666667
-Alignment Conversion,SEGUL (--datatype ignore),0.3355,33.68020865,774.3666666666666
-Alignment Splitting,AMAS,4.211,700.484371,100.5
-Alignment Splitting,AMAS (--remove-empty),4.756,618.937496,99.8
-Alignment Splitting,SEGUL,1.698,314.944925,166.4
-Alignment Splitting,SEGUL (--datatype ignore),0.593,316.283985,267.5
-Sequence Removal,AMAS,105.54599999999999,722.349024,560.6
-Sequence Removal,SEGUL,0.47100000000000003,32.8980471,1140.3
-Sequence Removal,SEGUL (--datatype ignore),0.525,32.2796877,561.8
-Summary Statistics,AMAS,48.849333333333334,1382.5653023333334,367.95
-Summary Statistics,SEGUL,0.9448333333333333,301.92226675,1734.65
+Alignment Concatenation,AMAS,2.04,1700.59,791.20
+Alignment Concatenation,AMAS (--check-align),127.93,1700.47,191.77
+Alignment Concatenation,SEGUL,2.39,509.10,156.87
+Alignment Concatenation,SEGUL (--datatype ignore),0.94,509.02,239.10
+Alignment Concatenation,goalign (multi-core),4.65,1956.13,103.95
+Alignment Concatenation,goalign (single-core),4.74,2380.37,99.78
+Alignment Conversion,AMAS,1.33,487.08,1083.25
+Alignment Conversion,AMAS (--check-align),134.01,487.03,194.70
+Alignment Conversion,SEGUL,0.30,33.63,1634.42
+Alignment Conversion,SEGUL (--datatype ignore),0.34,33.68,774.37
+Alignment Splitting,AMAS,4.21,700.48,100.50
+Alignment Splitting,AMAS (--remove-empty),4.76,618.94,99.80
+Alignment Splitting,SEGUL,1.70,314.94,166.40
+Alignment Splitting,SEGUL (--datatype ignore),0.59,316.28,267.50
+Sequence Removal,AMAS,1.80,722.04,1013.90
+Sequence Removal,AMAS (--check-align),209.29,722.66,107.30
+Sequence Removal,SEGUL,0.47,32.90,1140.30
+Sequence Removal,SEGUL (--datatype ignore),0.53,32.28,561.80
+Summary Statistics,AMAS,48.85,1382.57,367.95
+Summary Statistics,SEGUL,0.94,301.92,1734.65
+,,,,
+,,,,
+Alignment concatenation,1.17,SEGUL slower,1.95,5.04
+Alignment concatenation,2.18,SEGUL faster,,
+Alignment Conversion,4.462443946,SEGUL faster,,
+Alignment Splitting,2.479976443,SEGUL faster,,
+Sequence Removal,3.819532909,SEGUL faster,,
+Summary Statistics,51.70153466,SEGUL faster,,4.71
+,,,,
+,,,,
+,,1.018522499,1.216878587,
+,,,1.150267785,
+,,,1.399736238,
+,,,fastmkuckgo,

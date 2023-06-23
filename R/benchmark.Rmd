@@ -104,11 +104,12 @@ segul_mem_sum <- segul_val |>
 
 diff_summary_by_analyses <- summary_by_analyses |>
   dplyr::mutate(diff_SEGUL_exe_con = Execution_time_secs / segul_exe_concat) |>
+  # We wanted to see percentage usage of less efficient program uses.
   dplyr::mutate(diff_SEGUL_mem_con = segul_mem_concat / RAM_usage_Mb) |>
   dplyr::mutate(diff_SEGUL_exe_ig_con = Execution_time_secs / segul_ig_exe_concat) |>
-  dplyr::mutate(diff_SEGUL_ig_mem_con = segul_ig_mem_concat / RAM_usage_Mb) |>
+  dplyr::mutate(diff_SEGUL_ig_mem_con = RAM_usage_Mb / segul_ig_mem_concat) |>
   dplyr::mutate(diff_SEGUL_exe_sum = Execution_time_secs / segul_exe_sum) |>
-  dplyr::mutate(diff_SEGUL_mem_sum = segul_mem_sum / RAM_usage_Mb)
+  dplyr::mutate(diff_SEGUL_mem_sum = RAM_usage_Mb / segul_mem_sum)
 
 readr::write_csv(diff_summary_by_analyses, here("results", "diff_mean_bench_by_analyses.csv"))
 ```
@@ -130,12 +131,12 @@ summary_by_datasets |>
     geom_point(size = 2.5, aes(color = Apps, shape = Datasets)) +
     facet_wrap(~ Analyses, scales = "free", ncol = 2) +
     scale_colour_brewer(palette = "Dark2") +
-    scale_shape_manual(values = c(15,16,17,18)) +
+    scale_shape_manual(values = c(15, 16, 17, 18, 19, 20)) +
     theme_classic() +
     labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 
-ggsave(here("figures", "summary_fig1.png"), width = 8, height = 4, units = "in")
-ggsave(here("figures", "summary_fig1.pdf"), width = 8, height = 4, units = "in")
+ggsave(here("figures", "summary_fig1.png"), width = 8, height = 6, units = "in")
+ggsave(here("figures", "summary_fig1.pdf"), width = 8, height = 6, units = "in")
 ```
 ## Re-plot for all
 
