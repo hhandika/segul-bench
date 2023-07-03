@@ -118,7 +118,7 @@ end
 end
 
 
-#### goalign st####
+#### goalign st ####
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
