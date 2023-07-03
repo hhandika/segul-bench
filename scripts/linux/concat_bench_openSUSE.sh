@@ -94,7 +94,8 @@ env time -f "%E %M %P" AMAS.py concat -i $dir/*.nex -f nexus -d dna -c $CORES -u
 end
 end
 
-#### goalign ####
+
+#### goalign nt ####
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end
@@ -103,7 +104,30 @@ echo -e "\nWarming up..."
 
 goalign concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex --nexus -o $OUTPUT_FILE
 
-echo -e "\nBenchmarking goalign st" | tee -a $OUTPUT_LOG
+echo -e "\nBenchmarking goalign (multi-core)" | tee -a $OUTPUT_LOG
+
+for dir in $INPUT_DIRS
+echo ""
+echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
+for i in (seq 10)
+rm $OUTPUT_FILE
+echo ""
+echo "Iteration $i"
+env time -f "%E %M %P" goalign concat -i $dir/*.nex --nexus -o $OUTPUT_FILE -t $CORES 2>> $OUTPUT_LOG;
+end
+end
+
+
+#### goalign st####
+if [ -d $OUTPUT_DIR ]
+rm -r $OUTPUT_DIR
+end
+
+echo -e "\nWarming up..."
+
+goalign concat -i alignments/esselstyn_2021_nexus_trimmed/*.nex --nexus -o $OUTPUT_FILE
+
+echo -e "\nBenchmarking goalign (single-core)" | tee -a $OUTPUT_LOG
 
 for dir in $INPUT_DIRS
 echo ""
@@ -113,31 +137,6 @@ rm $OUTPUT_FILE
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" goalign concat -i $dir/*.nex --nexus -o $OUTPUT_FILE 2>> $OUTPUT_LOG;
-end
-end
-
-#### Phyluce ####
-
-conda activate phyluce
-
-if [ -d $OUTPUT_DIR ]
-rm -r $OUTPUT_DIR
-end
-
-echo -e "\nWarming up..."
-
-phyluce_align_concatenate_alignments --alignments alignments/esselstyn_2021_nexus_trimmed --output $OUTPUT_DIR --phylip
-
-echo -e "\nBenchmarking Phyluce" | tee -a $OUTPUT_LOG
-
-for dir in $INPUT_DIRS
-echo ""
-echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
-rm -r $OUTPUT_DIR;
-echo ""
-echo "Iteration $i"
-env time -f "%E %M %P" phyluce_align_concatenate_alignments --alignments $dir --output $OUTPUT_DIR --phylip 2>> $OUTPUT_LOG;
 end
 end
 
@@ -155,8 +154,4 @@ mv $OUTPUT_LOG data/$fname
 rm -r $OUTPUT_DIR
 rm *.log
 rm concatenated.out && rm partitions.txt
-
-### Push to Github ###
-
-git add -A && git commit -m "Add concatenation benchmark" && git push
 
