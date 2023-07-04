@@ -57,47 +57,6 @@ summary_by_analyses <- latest_bench.pub |>
   dplyr::summarise_at(bench_results, mean)
 
 readr::write_csv(summary_by_analyses, here("results", "mean_bench_by_analyses.csv"))
-
-segul_val <- summary_by_analyses |>
-  filter(Apps == "SEGUL")
-
-segul_ig_val <- summary_by_analyses |>
-  filter(Apps == "SEGUL (--datatype ignore)")
-
-segul_exe_concat <- segul_val |>
-  filter(Analyses == "Alignment Concatenation")|>
-  pull(Execution_time_secs)
-
-segul_ig_exe_concat <- segul_ig_val |>
-  filter(Analyses == "Alignment Concatenation") |>
-  pull(Execution_time_secs)
-
-segul_mem_concat <- segul_val |>
-  filter(Analyses == "Alignment Concatenation") |>
-  pull(RAM_usage_Mb)
-
-segul_ig_mem_concat <- segul_ig_val |>
-  filter(Analyses == "Alignment Concatenation") |>
-  pull(RAM_usage_Mb)
-
-segul_exe_sum <- segul_val |>
-  filter(Analyses == "Summary Statistics") |>
-  pull(Execution_time_secs)
-
-segul_mem_sum <- segul_val |>
-  filter(Analyses == "Summary Statistics") |>
-  pull(RAM_usage_Mb)
-
-diff_summary_by_analyses <- summary_by_analyses |>
-  dplyr::mutate(diff_SEGUL_exe_con = Execution_time_secs / segul_exe_concat) |>
-  # We wanted to see percentage usage of less efficient program uses.
-  dplyr::mutate(diff_SEGUL_mem_con = segul_mem_concat / RAM_usage_Mb) |>
-  dplyr::mutate(diff_SEGUL_exe_ig_con = Execution_time_secs / segul_ig_exe_concat) |>
-  dplyr::mutate(diff_SEGUL_ig_mem_con = RAM_usage_Mb / segul_ig_mem_concat) |>
-  dplyr::mutate(diff_SEGUL_exe_sum = Execution_time_secs / segul_exe_sum) |>
-  dplyr::mutate(diff_SEGUL_mem_sum = RAM_usage_Mb / segul_mem_sum)
-
-readr::write_csv(diff_summary_by_analyses, here("results", "diff_mean_bench_by_analyses.csv"))
 ```
 
 
