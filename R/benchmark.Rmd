@@ -17,18 +17,15 @@ pacman::p_load(readr)
 pacman::p_load(dplyr)
 pacman::p_load(stringr)
 pacman::p_load(RColorBrewer)
+
+source(here::here("R", "utils.R"))
 ```
 
+## Load results for Handika & Esselstyn. In review
 
 ```{r}
 file_path <- here("data", "revision_data.csv")
 bench <- readr::read_csv(file_path) 
-
-#|>
- # dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>
- # dplyr::mutate_at("CPU_usage", readr::parse_number)
-
-latest_bench  <- bench 
 ```
 
 ## Summarize benchmark results
@@ -36,7 +33,7 @@ latest_bench  <- bench
 ```{r}
 bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage")
 
-latest_bench.pub <- latest_bench |>
+latest_bench.pub <- bench |>
   dplyr::filter(Apps != "Phyluce")
 
 # Check the benchmark for each dataset contains 10 iterations
@@ -45,24 +42,13 @@ counts <- latest_bench.pub |>
 
 mean(counts$n)
 
-removal <- latest_bench |>
-  dplyr::filter(Analyses == "Sequence Removal")
-
-# Generate mean of each benchmark result
-
-summary_by_os <- latest_bench |>
-  dplyr::group_by(Analyses, OS_name, Apps) |>
-  dplyr::summarise_at(bench_results, mean)
-
-
-readr::write_csv(summary_by_os, here("results", "mean_bench_by_os.csv"))
-
 summary_by_datasets <- latest_bench.pub |>
   dplyr::group_by(Analyses, Datasets, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 
 readr::write_csv(summary_by_datasets, here("results", "mean_bench_by_dataset.csv"))
 ```
+
 ## Mean summary by analyses
 
 ```{r}
@@ -120,155 +106,22 @@ readr::write_csv(diff_summary_by_analyses, here("results", "diff_mean_bench_by_a
 The plots generated below is used for Figure 1 in the manuscript.
 
 ```{r}
-# subset_apps <- c("AMAS (--check-align)", "goalign", "SEGUL (--datatype ignore)", "SEGUL", "AMAS")
-subset_apps <- c("goalign", "phyluce",  "SEGUL", "AMAS", "SEGUL (--datatype ignore)", "AMAS (--check-align)")
-subset_dataset <- c("Oliveros et al. 2019 (DNA)", "Chan et al. 2020 (DNA)", "Shen et al. 2018 (AA)")
-
 summary_by_datasets |>
   dplyr::filter(OS_name == "Linux") |>
-  dplyr::filter(Datasets %in% subset_dataset)|>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
-    geom_point(size = 2.5, aes(color = Apps, shape = Datasets)) +
+    geom_point(size = 3, aes(color = Apps, shape = Datasets)) +
     facet_wrap(~ Analyses, scales = "free", ncol = 2) +
-    scale_colour_brewer(palette = "Dark2") +
-    scale_shape_manual(values = c(15, 16, 17, 18, 19, 20)) +
+    scale_color_manual(values = accessible_palette) +
+    scale_shape_manual(values = point_shapes) +
+    coord_trans(x = "log") +
+    scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
     theme_classic() +
     labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 
-ggsave(here("figures", "summary_fig1.png"), width = 8, height = 6, units = "in")
-ggsave(here("figures", "summary_fig1.pdf"), width = 8, height = 6, units = "in")
-```
-## Re-plot for all
+.height <- 6
+.width <- 8
 
-```{r}
-summary_by_datasets |>
-  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
-    geom_point( size = 2) +
-    facet_wrap(~ Analyses + OS_name, scales = "free", ncol = 2) +
-    scale_colour_brewer(palette = "Dark2") +
-    theme_classic() +
-    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
-
-ggsave(here("figures", "summary_all.png"), width = 8, height = 8, units = "in")
-ggsave(here("figures", "summary_all.pdf"), width = 8, height = 8, units = "in")
-```
-
-
-## Generate plots summary for all
-
-```{r}
-summary_linux_dna <- latest_bench |>
-  dplyr::filter(Analyses == "Alignment concatenation") |>
-  dplyr::filter(OS_name == "Linux") |>
-  dplyr::filter(Datatype == "DNA") |>
-  dplyr::group_by(Analyses, Apps) |>
-  dplyr::summarise_at(bench_results, mean)
-
-summary_linux_dna |>
-  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Apps)) +
-    geom_point( size = 3) +
-    scale_shape_manual(values=c(0,1,2,5,6,15,17)) +
-    scale_colour_brewer(palette = "Dark2") +
-    theme_classic() +
-    labs(x = "Execution time (secs)", y = "RAM usage (Mb)")
-
-ggsave(here("figures", "summary_linux.png"), width = 8, height = 4, units = "in")
-ggsave(here("figures", "summary_linux.pdf"), width = 8, height = 4, units = "in")
-```
-## Randoms datasize check
-
-```{r}
-latest_bench |>
-  dplyr::filter(Analyses == "Alignment concatenation") |>
-  dplyr::filter(OS_name == "Linux") |>
-  dplyr::filter(Pubs == "Oliveros et al. 2019") |>
-  dplyr::group_by(Apps) |>
-  dplyr::summarise_at(bench_results, mean)
-  
-```
-
-
-## Generate bivariate plots for each benchmark result
-
-```{r}
-plot_bench <- function(.analyses, .os) {
-  latest_bench |>
-  dplyr::filter(Analyses == .analyses) |>
-  dplyr::filter(OS_name == .os) |>
-  dplyr::filter(Latest_bench == TRUE) |>
-  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
-    geom_point() +
-    theme_classic() +
-    scale_colour_brewer(palette = "Set1") +
-    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
-}
-```
-
-## Names
-
-```{r}
-os_1 <- "macOS"
-os_2 <- "Linux"
-os_3 <- "Windows (WSL)"
-
-fname <- function(os, analysis_name) {
-  paste0(os, "_", analysis_name)
-}
-```
-
-
-## Plot alignment summary
-
-```{r}
-stat_fname <- "summary_stats.png"
-
-## Benchmark 1
-plot_bench(.analyses = "Summary statistics", .os = os_1)
-stat_fname_1 <- fname(os_1, stat_fname)
-ggsave(here("figures", stat_fname_1), width = 8, height = 4, units = "in")
-
-## Benchmark 2
-plot_bench(.analyses = "Summary statistics", .os = os_2)
-stat_fname_2 <- fname(os_2, stat_fname)
-ggsave(here("figures", stat_fname_2), width = 8, height = 4, units = "in")
-
-## Benchmark 3
-plot_bench(.analyses = "Summary statistics", .os = os_3)
-stat_fname_3 <- fname("WindowsWSL", stat_fname)
-ggsave(here("figures", stat_fname_3), width = 8, height = 4, units = "in")
-```
-
-## Plot alignment concatenation
-
-```{r}
-concat_fname <- "concat_stats.png"
-
-## Benchmark 1
-plot_bench(.analyses = "Alignment concatenation", .os = os_1)
-concat_fname_1 <- fname(os_1, concat_fname)
-ggsave(here("figures", concat_fname_1), width = 8, height = 4, units = "in")
-
-## Benchmark 2
-plot_bench(.analyses = "Alignment concatenation", .os = os_2)
-concat_fname_2 <- fname(os_2, concat_fname)
-ggsave(here("figures", concat_fname_2), width = 8, height = 4, units = "in")
-
-## Benchmark 3
-plot_bench(.analyses = "Alignment concatenation", .os = os_3)
-concat_fname_3 <- fname("WindowsWSL", concat_fname)
-ggsave(here("figures", concat_fname_3), width = 8, height = 4, units = "in")
-```
-
-## Plot alignment splitting
-
-```{r}
-split_fname <- "split_alignment.png"
-
-## Benchmark 1
-
-## Benchmark 1
-plot_bench(.analyses = "Alignment splitting", .os = os_2)
-split_fname_2 <- fname(os_2, split_fname)
-ggsave(here("figures", split_fname_2), width = 8, height = 4, units = "in")
+ggsave(here("figures", "summary_fig1.png"), width = .width, height = .height, units = "in")
+ggsave(here("figures", "summary_fig1.pdf"), width = .width, height = .height, units = "in")
 ```
 

@@ -1,0 +1,155 @@
+---
+title: "Supplementary"
+author: "Heru Handika & Jacob A. Esselstyn"
+date: "2023-07-04"
+output: html_document
+---
+
+This file contains all code to analyses SEGUL benchmark results. I use the R base pipe, required R version 4.1. If you are using R version <4.1, change the pipe "|>" to magrittr pipe "%>%".
+
+```{r}
+if (!require(pacman)) {
+  install.packages(pacman)
+}
+
+pacman::p_load(here)
+pacman::p_load(ggplot2)
+pacman::p_load(readr)
+pacman::p_load(dplyr)
+pacman::p_load(stringr)
+pacman::p_load(RColorBrewer)
+
+source(here::here("R", "utils.R"))
+```
+
+## Code for supplementary using submission datasets
+
+```{r}
+supplementary.path <- here("data", "supplementary_data.csv")
+supplementary.bench <- readr::read_csv(supplementary.path) 
+```
+
+## Plot for all
+
+```{r}
+percent_usage <- "Percent_CPU_usage"
+
+bench_results <- c("Execution_time_secs", "RAM_usage_Mb", percent_usage)
+subset_apps <- c("AMAS", "AMAS (--check-align)", "goalign", "SEGUL (--datatype ignore)", "SEGUL")
+
+supplementary.df <- supplementary.bench |>
+  dplyr::filter(Apps != "Phyluce") |>
+  dplyr::mutate_at("CPU_usage", stringr::str_remove_all, "%") |>
+  dplyr::mutate_at("CPU_usage", readr::parse_number) |>
+  dplyr::rename(!!sym(percent_usage) := CPU_usage) |>
+  dplyr::filter(Latest_bench == TRUE) |>
+  dplyr::filter(Apps %in% subset_apps)
+
+# Check the benchmark for each dataset contains 10 iterations
+counts <- supplementary.df |>
+  dplyr::count(Analyses, Datasets, OS_name, Apps)
+
+mean(counts$n)
+
+summary_by_datasets <- supplementary.df |>
+  dplyr::group_by(Analyses, Datasets, OS_name, Apps) |>
+  dplyr::summarise_at(bench_results, mean)
+
+summary_by_datasets |>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
+    geom_point(size = 2) +
+    facet_wrap(~ Analyses + OS_name, scales = "free", ncol = 2) +
+    scale_colour_manual(values = accessible_palette) +
+    scale_shape_manual(values = point_shapes) +
+    coord_trans(x = "log") +
+    scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
+    theme_classic() +
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+
+ggsave(here("figures", "summary_all.png"), width = 8, height = 12, units = "in")
+ggsave(here("figures", "summary_all.pdf"), width = 8, height = 12, units = "in")
+```
+
+## Generate bivariate plots for each benchmark result
+
+```{r}
+plot_bench <- function(.analyses, .os) {
+  supplementary.df |>
+  dplyr::filter(Analyses == .analyses) |>
+  dplyr::filter(OS_name == .os) |>
+  dplyr::filter(Latest_bench == TRUE) |>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb, color = Apps, shape = Datasets)) +
+    geom_point(size = 3) +
+    theme_classic() +
+    coord_trans(x = "log") +
+    scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
+    scale_colour_brewer(palette = "Dark2") +
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+}
+```
+
+## Names
+
+```{r}
+os_1 <- "macOS"
+os_2 <- "Linux"
+os_3 <- "Windows (WSL)"
+
+fname <- function(os, analysis_name) {
+  paste0(os, "_", analysis_name)
+}
+```
+
+
+## Plot alignment summary
+
+```{r}
+stat_fname <- "summary_stats.png"
+
+## Benchmark 1
+plot_bench(.analyses = "Summary statistics", .os = os_1)
+stat_fname_1 <- fname(os_1, stat_fname)
+ggsave(here("figures", stat_fname_1), width = 8, height = 4, units = "in")
+
+## Benchmark 2
+plot_bench(.analyses = "Summary statistics", .os = os_2)
+stat_fname_2 <- fname(os_2, stat_fname)
+ggsave(here("figures", stat_fname_2), width = 8, height = 4, units = "in")
+
+## Benchmark 3
+plot_bench(.analyses = "Summary statistics", .os = os_3)
+stat_fname_3 <- fname("WindowsWSL", stat_fname)
+ggsave(here("figures", stat_fname_3), width = 8, height = 4, units = "in")
+```
+
+## Plot alignment concatenation
+
+```{r}
+concat_fname <- "concat_stats.png"
+
+## Benchmark 1
+plot_bench(.analyses = "Alignment concatenation", .os = os_1)
+concat_fname_1 <- fname(os_1, concat_fname)
+ggsave(here("figures", concat_fname_1), width = 8, height = 4, units = "in")
+
+## Benchmark 2
+plot_bench(.analyses = "Alignment concatenation", .os = os_2)
+concat_fname_2 <- fname(os_2, concat_fname)
+ggsave(here("figures", concat_fname_2), width = 8, height = 4, units = "in")
+
+## Benchmark 3
+plot_bench(.analyses = "Alignment concatenation", .os = os_3)
+concat_fname_3 <- fname("WindowsWSL", concat_fname)
+ggsave(here("figures", concat_fname_3), width = 8, height = 4, units = "in")
+```
+
+## Plot alignment splitting
+
+```{r}
+split_fname <- "split_alignment.png"
+
+plot_bench(.analyses = "Alignment splitting", .os = os_2)
+split_fname_2 <- fname(os_2, split_fname)
+ggsave(here("figures", split_fname_2), width = 8, height = 4, units = "in")
+```
+
