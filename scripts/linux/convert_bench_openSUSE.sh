@@ -4,6 +4,7 @@ set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_20
 set OUTPUT_DIR "other_results"
 set OUTPUT_LOG "data/convert_bench.txt"
 set CORES 24
+set NUM_ITERATIONS 5
 
 # Remove existing log file
 if test -f $OUTPUT_LOG
@@ -32,7 +33,7 @@ echo "Benchmarking SEGUL Convert Nexus to Phylip" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -47,7 +48,7 @@ echo -e "Benchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -70,7 +71,7 @@ echo -e "\nBenchmarking AMAS convert nexus to phylip" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm *out.phy
 echo ""
 echo "Iteration $i"
@@ -85,7 +86,7 @@ echo -e "\nBenchmarking AMAS (check-align) convert nexus to phylip" | tee -a $OU
 for dir in $INPUT_DIRS
 echo ""
 echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm *out.phy
 echo ""
 echo "Iteration $i"

@@ -5,6 +5,7 @@ set OUTPUT_DIR "concat_results_aa"
 set OUTPUT_FILE "concat"
 set OUTPUT_LOG "data/concat_bench_aa.txt"
 set CORES 24
+set NUM_ITERATIONS 5
 
 # Remove existing log file
 if test -f $OUTPUT_LOG
@@ -33,7 +34,7 @@ echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -48,7 +49,7 @@ echo -e "Benchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -72,7 +73,7 @@ echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm concatenated.out && rm partitions.txt
 echo ""
 echo "Iteration $i"
@@ -87,7 +88,7 @@ echo -e "\nBenchmarking AMAS (--check-align)" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm concatenated.out && rm partitions.txt
 echo ""
 echo "Iteration $i"
@@ -110,7 +111,7 @@ echo -e "\nBenchmarking goalign (multi-core)" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm $OUTPUT_FILE
 echo ""
 echo "Iteration $i"
@@ -132,7 +133,7 @@ echo -e "\nBenchmarking goalign (single-core)" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo -e "\nDataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm $OUTPUT_FILE
 echo ""
 echo "Iteration $i"
@@ -154,8 +155,3 @@ mv $OUTPUT_LOG data/$fname
 rm -r $OUTPUT_DIR
 rm *.log
 rm concatenated.out && rm partitions.txt
-
-### Push to Github ###
-
-#git add -A && git commit -m "Add concatenation benchmark" && git push
-

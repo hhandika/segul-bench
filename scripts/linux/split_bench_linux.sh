@@ -6,6 +6,7 @@ set OUTPUT_DIR "split_results"
 set OUTPUT_LOG "data/split_bench.txt"
 set AMAS_OUTPUT "alignments/chan_2020_all_combined/alignment_all-combined_*"
 set CORES 24
+set NUM_ITERATIONS 5
 
 # Remove existing log file
 if test -f $OUTPUT_LOG
@@ -36,7 +37,7 @@ echo -e "\nBenchmarking Alignment Splitting"
 
 echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 echo "Dataset path: $INPUT_FILE" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -49,7 +50,7 @@ end
 echo -e "\nBenchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
 echo "Dataset path: $INPUT_FILE" | tee -a $OUTPUT_LOG
 
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -69,7 +70,7 @@ AMAS.py split -i $INPUT_FILE -f phylip -d dna -l $PARTITION -d dna -u phylip -c 
 echo -e "\nBenchmarking AMAS (--remove-empty)" | tee -a $OUTPUT_LOG
 echo "Dataset path: $INPUT_FILE" | tee -a $OUTPUT_LOG
 
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm alignments/chan_2020_all_combined/alignment_all-combined_*
 echo ""
 echo "Iteration $i"
@@ -81,7 +82,7 @@ end
 echo -e "\nBenchmarking AMAS KEEP EMPTY" | tee -a $OUTPUT_LOG
 echo "Dataset path: $INPUT_FILE" | tee -a $OUTPUT_LOG
 
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm alignments/chan_2020_all_combined/alignment_all-combined_*
 echo ""
 echo "Iteration $i"

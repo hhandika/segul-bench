@@ -5,6 +5,7 @@ set RM_TAXA_LIST "Xenicus_gilviventris Xenops_minutus Zeledonia_coronata Zostero
 set OUTPUT_DIR "remove_results"
 set OUTPUT_LOG "data/remove_bench.txt"
 set CORES 24
+set NUM_ITERATIONS 5
 
 # Remove existing log file
 if test -f $OUTPUT_LOG
@@ -34,7 +35,7 @@ echo -e "\nBenchmarking Alignment Taxon Removal"
 
 echo "Benchmarking SEGUL Remove" | tee -a $OUTPUT_LOG
 echo "Dataset path: $INPUT_DIR" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -46,7 +47,7 @@ end
 
 echo -e "\nBenchmarking SEGUL ignore datatype" | tee -a $OUTPUT_LOG
 echo "Dataset path: $INPUT_DIR" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -66,7 +67,7 @@ AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip -c
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 echo "Dataset path: $INPUT_DIR" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm reduced*
 echo ""
 echo "Iteration $i"
@@ -77,7 +78,7 @@ end
 
 echo -e "\nBenchmarking AMAS (check align)" | tee -a $OUTPUT_LOG
 echo "Dataset path: $INPUT_DIR" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm reduced*
 echo ""
 echo "Iteration $i"

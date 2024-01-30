@@ -32,7 +32,7 @@ echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -56,35 +56,11 @@ echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm summary.txt
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py summary -i $dir/*.nex -f nexus -d dna -c $CORES 2>> $OUTPUT_LOG;
-end
-end
-
-#### Phyluce ####
-
-conda activate phyluce
-
-if [ -d $OUTPUT_DIR ]
-rm -r $OUTPUT_DIR
-end
-
-echo -e "\nWarming up..."
-
-phyluce_align_get_align_summary_data --alignments alignments/esselstyn_2021_nexus_trimmed --core $CORES
-
-echo -e "\nBenchmarking Phyluce" | tee -a $OUTPUT_LOG
-
-for dir in $INPUT_DIRS
-echo ""
-echo "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
-echo ""
-echo "Iteration $i"
-env time -f "%E %M %P" phyluce_align_get_align_summary_data --alignments $dir --core $CORES 2>> $OUTPUT_LOG;
 end
 end
 

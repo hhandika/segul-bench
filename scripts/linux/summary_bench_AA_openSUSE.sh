@@ -4,6 +4,7 @@ set INPUT_DIRS  "alignments/wu_2018_aa_loci/" "alignments/shen_2018_loci_aa/"
 set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "data/summary_bench.txt"
 set CORES 24
+set NUM_ITERATIONS 5
 
 git pull
 
@@ -32,7 +33,7 @@ echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo -e "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
@@ -56,7 +57,7 @@ echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
 echo ""
 echo  -e "Dataset path: $dir" | tee -a $OUTPUT_LOG
-for i in (seq 10)
+for i in (seq $NUM_ITERATIONS)
 rm summary.txt
 echo ""
 echo "Iteration $i"
