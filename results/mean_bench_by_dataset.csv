@@ -51,6 +51,14 @@ Alignment Conversion,Oliveros et al. 2019 (DNA),Linux,AMAS,1.9759999999999998,69
 Alignment Conversion,Oliveros et al. 2019 (DNA),Linux,AMAS (--check-align),211.37,693.009368,107.2
 Alignment Conversion,Oliveros et al. 2019 (DNA),Linux,SEGUL,0.384,31.7664064,1391
 Alignment Conversion,Oliveros et al. 2019 (DNA),Linux,SEGUL (--datatype ignore),0.608,32.4367188,570.2
+Alignment Conversion,Shen et al. 2018 (AA),Linux,AMAS,1.612,585.514058,828.6
+Alignment Conversion,Shen et al. 2018 (AA),Linux,AMAS (--check-align),511.008,583.542966,102
+Alignment Conversion,Shen et al. 2018 (AA),Linux,SEGUL,0.35200000000000004,66.442969,1928.2
+Alignment Conversion,Shen et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.244,65.6507818,1220
+Alignment Conversion,Wu et al. 2018 (AA),Linux,AMAS,1.514,348.860156,1183.2
+Alignment Conversion,Wu et al. 2018 (AA),Linux,AMAS (--check-align),22.42,349.98125,173
+Alignment Conversion,Wu et al. 2018 (AA),Linux,SEGUL,0.226,29.6718752,1597.8
+Alignment Conversion,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.20400000000000001,30.8609376,805
 Alignment Splitting,Chan et al. 2020 (DNA),Linux,AMAS,7.322,906.410156,100.4
 Alignment Splitting,Chan et al. 2020 (DNA),Linux,AMAS (--remove-empty),7.848,906.30625,99.4
 Alignment Splitting,Chan et al. 2020 (DNA),Linux,SEGUL,1.836,894.921102,158
@@ -75,6 +83,22 @@ Alignment Splitting,Wu et al. 2018 (AA),Linux,AMAS,10.426,801.407824,99.4
 Alignment Splitting,Wu et al. 2018 (AA),Linux,AMAS (--remove-empty),11.032,801.295312,100
 Alignment Splitting,Wu et al. 2018 (AA),Linux,SEGUL,2.768,794.660152,128.8
 Alignment Splitting,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.756,794.585148,209.8
+Sequence Removal,Chan et al. 2020 (DNA),NA,AMAS,2.384,383.05078199999997,449.6
+Sequence Removal,Chan et al. 2020 (DNA),NA,AMAS (--check-align),10.194,382.2875,181.6
+Sequence Removal,Chan et al. 2020 (DNA),NA,SEGUL,0.348,25.793750199999998,849.8
+Sequence Removal,Chan et al. 2020 (DNA),NA,SEGUL (--datatype ignore),0.374,25.9281248,567
+Sequence Removal,Esselstyn et al. 2021 (DNA),NA,AMAS,1.3739999999999999,424.219532,790.4
+Sequence Removal,Esselstyn et al. 2021 (DNA),NA,AMAS (--check-align),10.506,424.17266,190
+Sequence Removal,Esselstyn et al. 2021 (DNA),NA,SEGUL,0.286,27.2757816,1810.8
+Sequence Removal,Esselstyn et al. 2021 (DNA),NA,SEGUL (--datatype ignore),0.324,28.097656399999998,664.6
+Sequence Removal,Jarvis et al. 2014 (DNA),NA,AMAS,1.542,500.675,994.8
+Sequence Removal,Jarvis et al. 2014 (DNA),NA,AMAS (--check-align),5.188,500.76484800000003,364.8
+Sequence Removal,Jarvis et al. 2014 (DNA),NA,SEGUL,0.28400000000000003,24.632031599999998,1641.2
+Sequence Removal,Jarvis et al. 2014 (DNA),NA,SEGUL (--datatype ignore),0.372,23.9359376,689.6
+Sequence Removal,Oliveros et al. 2019 (DNA),NA,AMAS,2.1,720.11876,859.2
+Sequence Removal,Oliveros et al. 2019 (DNA),NA,AMAS (--check-align),213.354,720.637506,107
+Sequence Removal,Oliveros et al. 2019 (DNA),NA,SEGUL,0.432,33.467969,1154.8
+Sequence Removal,Oliveros et al. 2019 (DNA),NA,SEGUL (--datatype ignore),0.45399999999999996,34.0023438,753.6
 Summary Statistics,Chan et al. 2020 (DNA),Linux,AMAS,45.866,982.615628,332
 Summary Statistics,Chan et al. 2020 (DNA),Linux,SEGUL,0.71,234.72969,1531.4
 Summary Statistics,Esselstyn et al. 2021 (DNA),Linux,AMAS,51.26,1215.20002,319.6
