@@ -5,7 +5,7 @@ set RM_TAXA_LIST "Xenicus_gilviventris Xenops_minutus Zeledonia_coronata" \
 "Zosterops_lateralis Zosterops_luteus Zosterops_montanus Zosterops_olivaceus"
 
 set OUTPUT_DIR "remove_results"
-set OUTPUT_LOG "data/remove_bench.txt"
+set OUTPUT_LOG "data/remove_bench_aa.txt"
 set CORES 24
 set NUM_ITERATIONS 5
 
