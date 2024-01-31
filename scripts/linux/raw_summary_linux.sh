@@ -1,4 +1,4 @@
-#!/usr/bin/env fish
+o#!/usr/bin/env fish
 
 set INPUT_DIR "genomes"
 set OUTPUT_DIR "genome_result"
@@ -45,7 +45,7 @@ echo "Benchmarking SEGUL GUI (LINUX)" | tee -a $OUTPUT_LOG
 
 set Date (date +%F)
 
-set fname "split_bench_raw_OpenSUSE_$Date.txt"
+set fname "raw_bench_raw_OpenSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
