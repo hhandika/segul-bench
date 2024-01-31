@@ -1,11 +1,11 @@
 #!/usr/bin/env fish
 set INPUT_DIRS "alignments/chan_2020_loci/" "alignments/esselstyn_2021_nexus_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator" "alignments/oliveros_2019_80p_trimmed"
 
-set RM_TAXA_LIST "Xenicus_gilviventris Xenops_minutus Zeledonia_coronata" \
-"Zosterops_lateralis Zosterops_luteus Zosterops_montanus Zosterops_olivaceus" \
-"Zosterops_palpebrosus Zosterops_villosus Zosterops_virescens Zosterops_vitensis" \
-"Zosterops_vittatus Zosterops_vulcani Zosterops_wallacei Zosterops_atrirostris" \
-"Zosterops_culicivorus Zosterops_flavifrons Zosterops_luteirostris Zosterops_maderaspatanus"
+# Remove top tree in alphabetical orders.
+set RM_TAXA_LIST "Arthroleptis_variabilis_RMB19372 Boophis_tephraeomystax_CRH1675 Chiromantis_doriae_255213" \
+"CONGOPHILLIPSORUM_FMNH177682 CROGOLIATH_FMNH167692 CROBATAKORUM_KU165320" \
+"acanthisitta_chloris alligator_mississippiensis anas_platyrhynchos_domestica" \
+"Abroscopus_albogularis Acanthisitta_chloris Acanthiza_cinerea" 
 
 set OUTPUT_DIR "remove_results"
 set OUTPUT_LOG "data/remove_bench.txt"
@@ -34,7 +34,7 @@ end
 
 echo -e "Warming up..."
 
-segul sequence remove -i $INPUT_DIR/*.nex -f nexus --id $RM_TAXA_LIST -o $OUTPUT_DIR --output-format phylip
+segul sequence remove -i alignments/chan_2020_loci/*.nex -f nexus --id $RM_TAXA_LIST[1] -o $OUTPUT_DIR --output-format phylip
 
 echo -e "\nBenchmarking Alignment Taxon Removal"
 
@@ -48,7 +48,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log dir because gnu time output to STDERR
-env time -f "%E %M %P" segul sequence remove -i $INPUT_DIR/*.nex -f nexus --id $RM_TAXA_LIST[$index] -o $OUTPUT_DIR --output-format phylip 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul sequence remove -i $dir/*.nex -f nexus --id $RM_TAXA_LIST[$index] -o $OUTPUT_DIR --output-format phylip 2>> $OUTPUT_LOG;
 end
 end
 
@@ -64,7 +64,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log dir because gnu time output to STDERR
-env time -f "%E %M %P" segul sequence remove -i $INPUT_DIR/*.nex -f nexus --id $RM_TAXA_LIST[$index] -o $OUTPUT_DIR --output-format phylip --datatype ignore 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul sequence remove -i $dir/*.nex -f nexus --id $RM_TAXA_LIST[$index] -o $OUTPUT_DIR --output-format phylip --datatype ignore 2>> $OUTPUT_LOG;
 end
 end
 
@@ -77,7 +77,7 @@ end
 
 echo -e "\nWarming up..."
 
-AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST -f nexus -d dna -u phylip -c $CORES
+AMAS.py remove -i alignments/chan_2020_loci/*.nex -x $RM_TAXA_LIST[1] -f nexus -d dna -u phylip -c $CORES
 
 echo -e "\nBenchmarking AMAS" | tee -a $OUTPUT_LOG
 for dir in $INPUT_DIRS
@@ -88,7 +88,7 @@ for i in (seq $NUM_ITERATIONS)
 rm reduced*
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST[$index] -f nexus -d dna -u phylip -c $CORES 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py remove -i $dir/*.nex -x $RM_TAXA_LIST[$index] -f nexus -d dna -u phylip -c $CORES 2>> $OUTPUT_LOG;
 end
 end
 
@@ -103,7 +103,7 @@ for i in (seq $NUM_ITERATIONS)
 rm reduced*
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py remove -i $INPUT_DIR/*.nex -x $RM_TAXA_LIST[$index] -f nexus -d dna -u phylip --check-align -c $CORES 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py remove -i $dir/*.nex -x $RM_TAXA_LIST[$index] -f nexus -d dna -u phylip --check-align -c $CORES 2>> $OUTPUT_LOG;
 end
 end
 
