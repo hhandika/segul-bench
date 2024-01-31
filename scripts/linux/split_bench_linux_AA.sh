@@ -4,7 +4,7 @@ set INPUT_DIR "alignments/split_alignments"
 set INPUT_FILES "shen2018.nex" "wu2018.nex"
 set PARTITION "shen2018_partition.txt" "wu2018_partition.txt"
 set OUTPUT_DIR "split_results"
-set OUTPUT_LOG "data/split_bench.txt"
+set OUTPUT_LOG "data/split_bench_AA.txt"
 set CORES 24
 set NUM_ITERATIONS 5
 
@@ -39,6 +39,7 @@ echo "Benchmarking SEGUL" | tee -a $OUTPUT_LOG
 for file in $INPUT_FILES
 echo ""
 echo "Dataset path: $file" | tee -a $OUTPUT_LOG
+set index (contains -i -- $file $INPUT_FILES)
 for i in (seq $NUM_ITERATIONS)
 rm -r $OUTPUT_DIR;
 echo ""
@@ -106,7 +107,7 @@ end
 
 set Date (date +%F)
 
-set fname "split_bench_raw_OpenSUSE_$Date.txt"
+set fname "split_bench_raw_OpenSUSE_AA_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 

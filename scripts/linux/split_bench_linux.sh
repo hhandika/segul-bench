@@ -81,7 +81,6 @@ echo ""
 echo "Dataset path: $file" | tee -a $OUTPUT_LOG
 set index (contains -i -- $file $INPUT_FILES)
 for i in (seq $NUM_ITERATIONS)
-rm $INPUT_DIR/$file_*
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py split -i $INPUT_DIR/$file -f nexus -d dna -l $INPUT_DIR/$PARTITION[$index] -u nexus --remove-empty -c $CORES 2>> $OUTPUT_LOG;
@@ -96,7 +95,6 @@ echo ""
 echo "Dataset path: $file" | tee -a $OUTPUT_LOG
 set index (contains -i -- $file $INPUT_FILES)
 for i in (seq $NUM_ITERATIONS)
-rm a$INPUT_DIR/$file_*
 echo ""
 echo "Iteration $i"
 env time -f "%E %M %P" AMAS.py split -i $INPUT_DIR/$file -f nexus -d dna -l $INPUT_DIR/$PARTITION[$index] -u nexus -c $CORES 2>> $OUTPUT_LOG;
