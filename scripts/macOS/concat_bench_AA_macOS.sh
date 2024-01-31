@@ -5,8 +5,6 @@ set OUTPUT_DIR "concat_results_aa"
 set OUTPUT_LOG "data/concat_bench_aa.txt"
 set CORES 8
 
-git pull
-
 # Remove existing log file
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG

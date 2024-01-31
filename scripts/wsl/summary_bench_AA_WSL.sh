@@ -5,7 +5,7 @@ set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "data/summary_bench.txt"
 set CORES 24
 
-git pull
+
 
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG

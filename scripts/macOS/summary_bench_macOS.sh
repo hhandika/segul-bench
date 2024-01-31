@@ -5,7 +5,7 @@ set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "data/summary_bench.txt"
 set CORES 8
 
-git pull
+
 
 # Remove an existing log file
 if test -f $OUTPUT_LOG

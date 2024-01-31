@@ -4,7 +4,7 @@ set INPUT_DIRS "alignments/wu_2018_aa_loci/" "alignments/shen_2018_loci_aa/"
 set OUTPUT_DIR "summary_results_aa"
 set OUTPUT_LOG "data/summary_bench_aa.txt"
 
-git pull
+
 
 # Remove an existing log file
 if test -f $OUTPUT_LOG

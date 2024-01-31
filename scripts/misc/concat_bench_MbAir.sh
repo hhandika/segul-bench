@@ -5,7 +5,7 @@ set OUTPUT_DIR "concat_results"
 set OUTPUT_LOG "data/concat_bench.txt"
 set CORES 4
 
-git pull
+
 
 # Remove existing log file
 if test -f $OUTPUT_LOG

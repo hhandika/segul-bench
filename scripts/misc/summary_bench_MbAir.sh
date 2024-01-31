@@ -4,7 +4,7 @@ set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_20
 set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "data/summary_bench.txt"
 
-git pull
+
 
 # Remove an existing log file
 if test -f $OUTPUT_LOG

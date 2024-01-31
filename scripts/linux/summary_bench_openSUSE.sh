@@ -6,7 +6,7 @@ set OUTPUT_LOG "data/summary_bench.txt"
 set CORES 24
 set NUM_ITERATIONS 5
 
-git pull
+
 
 if test -f $OUTPUT_LOG
 rm $OUTPUT_LOG
