@@ -1,4 +1,4 @@
-o#!/usr/bin/env fish
+#!/usr/bin/env fish
 
 set INPUT_DIR "genomes"
 set OUTPUT_DIR "genome_result"
