@@ -1,5 +1,5 @@
 #!/usr/bin/env fish
-set INPUT_DIRS "alignments/chan_2020_loci/" "alignments/esselstyn_2021_nexus_trimmed" "alignments/jarvis_2014_uce_filtered_w_gator" "alignments/oliveros_2019_80p_trimmed"
+set INPUT_DIRS "alignments/shen_2018_loci_aa/" "alignments/wu_2018_aa_loci/"
 
 set RM_TAXA_LIST "Xenicus_gilviventris Xenops_minutus Zeledonia_coronata" \
 "Zosterops_lateralis Zosterops_luteus Zosterops_montanus Zosterops_olivaceus" \
