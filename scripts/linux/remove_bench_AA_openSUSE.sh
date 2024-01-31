@@ -61,7 +61,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log dir because gnu time output to STDERR
-env time -f "%E %M %P" segul sequence remove -i $dir/*.nex -f nexus --id $RM_TAXA_LIST[$index] --datatype aa -o $OUTPUT_DIR --output-format phylip --datatype ignore 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul sequence remove -i $dir/*.nex -f nexus --id $RM_TAXA_LIST[$index] $OUTPUT_DIR --output-format phylip --datatype ignore 2>> $OUTPUT_LOG;
 end
 end
 
@@ -108,7 +108,7 @@ end
 
 set Date (date +%F)
 
-set fname "remove_bench_raw_OpenSUSE_$Date.txt"
+set fname "remove_bench_raw_AA_OpenSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
