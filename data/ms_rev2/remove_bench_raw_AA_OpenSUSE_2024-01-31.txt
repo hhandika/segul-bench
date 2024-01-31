@@ -1,0 +1,115 @@
+Benchmarking SEGUL Remove
+Dataset path: alignments/shen_2018_loci_aa/
+0:00.35 73164 1927%
+0:00.35 72988 1947%
+0:00.35 70400 1922%
+0:00.35 64708 1947%
+0:00.34 65456 2006%
+Dataset path: alignments/wu_2018_aa_loci/
+0:00.25 29060 1430%
+0:00.23 31072 1591%
+0:00.32 29440 1100%
+0:00.23 31340 1510%
+0:00.22 31388 1653%
+
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/shen_2018_loci_aa/
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5184 100%
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5376 100%
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5376 100%
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5184 100%
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.00 5376 100%
+Dataset path: alignments/wu_2018_aa_loci/
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.01 7036 100%
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.01 6912 100%
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.01 6848 100%
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.01 6912 92%
+error: unexpected argument 'remove_results' found
+
+Usage: segul sequence remove [OPTIONS]
+
+For more information, try '--help'.
+Command exited with non-zero status 2
+0:00.01 7104 90%
+
+Benchmarking AMAS
+Dataset path: alignments/shen_2018_loci_aa/
+0:01.74 637832 767%
+0:01.72 635476 761%
+0:01.71 636880 780%
+0:01.71 635048 767%
+0:01.69 637636 787%
+Dataset path: alignments/wu_2018_aa_loci/
+0:01.70 371576 1053%
+0:01.80 368980 997%
+0:01.84 369808 972%
+0:01.70 370032 1038%
+0:01.71 371928 1052%
+
+Benchmarking AMAS (check align)
+Dataset path: alignments/shen_2018_loci_aa/
+8:40.41 636200 102%
+8:32.96 638984 102%
+8:31.83 634692 102%
+8:34.25 638180 102%
+8:04.55 635732 102%
+Dataset path: alignments/wu_2018_aa_loci/
+0:22.64 369620 171%
+0:22.09 369200 173%
+0:22.64 372056 172%
+0:22.43 371896 172%
+0:22.57 371252 172%
