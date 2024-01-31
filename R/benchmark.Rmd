@@ -24,7 +24,7 @@ source(here::here("R", "utils.R"))
 ## Load results for Handika & Esselstyn. In review
 
 ```{r}
-file_path <- here("data", "revision_data.csv")
+file_path <- here("data", "data_ms_rev2.csv")
 bench <- readr::read_csv(file_path) 
 ```
 
