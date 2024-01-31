@@ -1,7 +1,8 @@
 #!/usr/bin/env fish
 
-set INPUT_FILE "alignments/chan_2020_all_combined/alignment_all-combined.phy"
-set PARTITION "alignments/chan_2020_all_combined/partitions_all-combined.txt"
+set INPUT_DIR "alignments/split_alignments"
+set INPUT_FILE "esselstyn2021.nex" "oliveros2019.nex" "jarvis2014.nex" "chan2020.nex"
+set PARTITION "esselstyn2021_partition.txt" "oliveros2019_partition.txt" "jarvis2014_partition.txt" "chan2020_partition.txt"
 set OUTPUT_DIR "split_results"
 set OUTPUT_LOG "data/split_bench.txt"
 set AMAS_OUTPUT "alignments/chan_2020_all_combined/alignment_all-combined_*"
@@ -104,8 +105,3 @@ end
 
 rm *.log
 rm alignments/chan_2020_all_combined/alignment_all-combined_*
-
-### Push to Github ###
-
-git add -A && git commit -m "Add concatenation benchmark" && git push
-

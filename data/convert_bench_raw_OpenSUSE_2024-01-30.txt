@@ -1,0 +1,127 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 71%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL Convert Nexus to Phylip
+
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:00.34 26772 1546%
+0:00.40 26384 1301%
+0:00.31 28128 1679%
+0:00.31 28576 1688%
+0:00.32 29480 1643%
+
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:00.32 32504 1678%
+0:00.37 33120 1412%
+0:00.37 32896 1434%
+0:00.40 32716 1305%
+0:00.46 31408 1126%
+
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:00.28 22840 1681%
+0:00.29 25508 1620%
+0:00.28 23192 1685%
+0:00.51 24604 892%
+0:00.48 25660 936%
+
+Dataset path: alignments/chan_2020_loci/
+0:00.44 26848 733%
+0:00.41 27248 757%
+0:00.42 24432 742%
+0:00.40 26876 772%
+0:00.42 26748 733%
+Benchmarking SEGUL ignore datatype
+
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:00.47 30144 475%
+0:00.44 28508 505%
+0:00.47 28128 472%
+0:00.40 28716 568%
+0:00.40 28296 572%
+
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:00.59 33024 582%
+0:00.59 33732 595%
+0:00.64 33108 540%
+0:00.62 32920 557%
+0:00.60 33292 577%
+
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:00.48 22872 564%
+0:00.54 25164 500%
+0:00.60 25632 443%
+0:00.42 25524 636%
+0:00.48 25320 567%
+
+Dataset path: alignments/chan_2020_loci/
+0:00.38 24260 595%
+0:00.36 26676 590%
+0:00.39 27552 555%
+0:00.40 26396 554%
+0:00.34 26412 666%
+
+Benchmarking AMAS convert nexus to phylip
+
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:01.19 431332 926%
+0:01.19 430676 911%
+0:01.19 431508 915%
+0:01.19 429836 897%
+0:01.20 428628 926%
+
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:01.90 713436 971%
+0:01.91 710320 962%
+0:02.03 713804 891%
+0:02.01 711352 900%
+0:02.03 711228 892%
+
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:01.39 509716 1098%
+0:01.40 508780 1092%
+0:01.40 510512 1095%
+0:01.40 506580 1102%
+0:01.40 509128 1110%
+
+Dataset path: alignments/chan_2020_loci/
+0:01.84 377820 585%
+0:01.88 375300 593%
+0:01.84 378324 602%
+0:01.86 372432 594%
+0:01.98 374476 552%
+
+Benchmarking AMAS (check-align) convert nexus to phylip
+
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:10.27 429448 193%
+0:09.78 426248 201%
+0:10.11 430220 195%
+0:10.27 430480 195%
+0:10.14 424348 197%
+
+Dataset path: alignments/oliveros_2019_80p_trimmed
+3:26.10 710488 108%
+3:30.60 712140 107%
+3:31.50 706888 107%
+3:35.50 706244 107%
+3:33.15 712448 107%
+
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:04.97 510168 380%
+0:05.05 510996 375%
+0:04.97 511192 382%
+0:04.83 509988 388%
+0:05.08 515356 377%
+
+Dataset path: alignments/chan_2020_loci/
+0:09.42 375872 196%
+0:09.64 376364 195%
+0:09.23 375740 201%
+0:09.46 372404 197%
+0:09.60 374724 194%

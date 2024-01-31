@@ -4,6 +4,7 @@ set INPUT_DIRS "alignments/esselstyn_2021_nexus_trimmed" "alignments/oliveros_20
 set OUTPUT_DIR "summary_results"
 set OUTPUT_LOG "data/summary_bench.txt"
 set CORES 24
+set NUM_ITERATIONS 5
 
 git pull
 
@@ -77,8 +78,3 @@ mv $OUTPUT_LOG data/$fname
 rm -r $OUTPUT_DIR
 rm *.log
 rm summary.txt
-
-### Push to Github ###
-
-git add -A && git commit -m "Add summary benchmark" && git push
-

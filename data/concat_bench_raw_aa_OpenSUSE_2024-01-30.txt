@@ -1,0 +1,96 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 54%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+v0.3.5
+Benchmarking SEGUL
+Dataset path: alignments/wu_2018_aa_loci/
+0:01.85 351804 149%
+0:01.91 352196 152%
+0:01.90 354804 149%
+0:01.92 351456 143%
+0:01.85 351036 150%
+Dataset path: alignments/shen_2018_loci_aa/
+0:04.03 601972 124%
+0:03.80 604592 142%
+0:03.86 610776 140%
+0:03.82 600436 142%
+0:03.88 601860 141%
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/wu_2018_aa_loci/
+0:00.78 351832 226%
+0:00.79 354724 218%
+0:00.78 353468 216%
+0:00.79 350936 227%
+0:00.78 349636 225%
+Dataset path: alignments/shen_2018_loci_aa/
+0:01.30 605328 219%
+0:01.32 604284 222%
+0:01.30 591752 223%
+0:01.27 603316 224%
+0:01.30 604876 218%
+
+Benchmarking AMAS
+Dataset path: alignments/wu_2018_aa_loci/
+0:01.85 1171284 991%
+0:01.89 1170544 955%
+0:01.89 1170696 971%
+0:01.87 1168928 965%
+0:01.88 1169168 966%
+Dataset path: alignments/shen_2018_loci_aa/
+0:03.50 1776692 423%
+0:03.50 1776496 439%
+0:03.64 1774464 421%
+0:03.57 1774816 419%
+0:03.50 1776728 425%
+
+Benchmarking AMAS (--check-align)
+Dataset path: alignments/wu_2018_aa_loci/
+0:22.89 1168820 170%
+0:22.44 1169440 171%
+0:22.51 1171272 172%
+0:21.44 1168412 176%
+0:22.20 1168340 174%
+Dataset path: alignments/shen_2018_loci_aa/
+8:20.92 1776972 102%
+8:25.48 1780788 102%
+8:48.62 1779696 102%
+8:16.71 1778648 102%
+8:20.36 1779860 102%
+
+Benchmarking goalign (multi-core)
+
+Dataset path: alignments/wu_2018_aa_loci/
+0:03.69 1542696 105%
+0:03.67 1500000 105%
+0:03.84 1788332 104%
+0:03.55 1561124 103%
+0:03.69 1513424 105%
+
+Dataset path: alignments/shen_2018_loci_aa/
+0:05.79 2615516 103%
+0:05.92 2214460 103%
+0:06.00 2632852 104%
+0:05.81 2231044 103%
+0:05.60 2681056 104%
+
+Benchmarking goalign (single-core)
+
+Dataset path: alignments/wu_2018_aa_loci/
+0:03.20 1780108 100%
+0:03.22 1518020 100%
+0:03.18 1543660 100%
+0:03.29 1530608 100%
+0:03.17 1590496 100%
+
+Dataset path: alignments/shen_2018_loci_aa/
+0:05.31 1940876 100%
+0:05.46 2040992 100%
+0:05.25 2298632 100%
+0:05.40 2316824 100%
+0:05.49 2186364 100%

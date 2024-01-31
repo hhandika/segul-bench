@@ -1,0 +1,60 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 56%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:00.71 142892 1937%
+0:00.73 143504 1923%
+0:00.72 142792 1941%
+0:00.72 142656 1934%
+0:00.74 140760 1881%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:01.10 333540 1660%
+0:01.10 335448 1656%
+0:01.10 336088 1644%
+0:01.09 335496 1676%
+0:01.10 336060 1660%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:00.84 100980 2128%
+0:00.84 101280 2124%
+0:00.84 101420 2114%
+0:00.84 101628 2128%
+0:00.84 102284 2137%
+Dataset path: alignments/chan_2020_loci/
+0:00.71 238772 1537%
+0:00.71 240816 1527%
+0:00.71 241184 1529%
+0:00.71 239548 1532%
+0:00.71 241496 1532%
+
+Benchmarking AMAS
+Dataset path: alignments/esselstyn_2021_nexus_trimmed
+0:51.12 1244580 321%
+0:51.21 1246688 322%
+0:51.31 1243188 318%
+0:51.41 1244104 317%
+0:51.25 1243264 320%
+Dataset path: alignments/oliveros_2019_80p_trimmed
+1:31.68 2024100 302%
+1:31.86 2023964 304%
+1:31.95 2022340 304%
+1:31.23 2024332 309%
+1:31.76 2022076 304%
+Dataset path: alignments/jarvis_2014_uce_filtered_w_gator
+0:59.16 1476532 365%
+0:59.46 1473552 362%
+0:59.24 1473724 369%
+0:59.62 1475208 364%
+0:59.20 1473000 365%
+Dataset path: alignments/chan_2020_loci/
+0:45.62 1007476 332%
+0:45.78 1007588 336%
+0:46.36 1005828 331%
+0:45.59 1005724 331%
+0:45.98 1004376 330%

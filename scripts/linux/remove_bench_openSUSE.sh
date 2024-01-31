@@ -100,8 +100,3 @@ end
 
 rm *.log
 rm reduced*
-
-### Push to Github ###
-
-git add -A && git commit -m "Add remove benchmark" && git push
-

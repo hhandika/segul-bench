@@ -107,8 +107,3 @@ mv $OUTPUT_LOG data/$fname
 rm -r $OUTPUT_DIR
 rm *.log
 rm *out.phy
-
-### Push to Github ###
-
-git add -A && git commit -m "Add conversion benchmark" && git push
-
