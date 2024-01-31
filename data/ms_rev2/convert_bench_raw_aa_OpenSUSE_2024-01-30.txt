@@ -1,0 +1,71 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 54%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL Convert Nexus to Phylip
+
+Dataset path: alignments/wu_2018_aa_loci/
+0:00.24 29636 1506%
+0:00.22 28928 1658%
+0:00.23 28928 1538%
+0:00.22 31360 1665%
+0:00.22 33068 1622%
+
+Dataset path: alignments/shen_2018_loci_aa/
+0:00.35 66296 1941%
+0:00.39 71472 1732%
+0:00.34 65940 2014%
+0:00.34 68704 1984%
+0:00.34 67776 1970%
+Benchmarking SEGUL ignore datatype
+
+Dataset path: alignments/wu_2018_aa_loci/
+0:00.20 30768 827%
+0:00.21 31196 783%
+0:00.20 32712 813%
+0:00.20 31940 830%
+0:00.21 31392 772%
+
+Dataset path: alignments/shen_2018_loci_aa/
+0:00.28 71920 1023%
+0:00.20 65656 1477%
+0:00.22 62684 1319%
+0:00.23 67696 1277%
+0:00.29 68176 1004%
+
+Benchmarking AMAS convert nexus to phylip
+
+Dataset path: alignments/wu_2018_aa_loci/
+0:01.50 357836 1186%
+0:01.51 356004 1190%
+0:01.51 356760 1184%
+0:01.51 358792 1187%
+0:01.54 356772 1169%
+
+Dataset path: alignments/shen_2018_loci_aa/
+0:01.59 599596 856%
+0:01.61 598284 831%
+0:01.62 601928 836%
+0:01.59 597412 807%
+0:01.65 600612 813%
+
+Benchmarking AMAS (check-align) convert nexus to phylip
+
+Dataset path: alignments/wu_2018_aa_loci/
+0:22.77 359208 172%
+0:22.41 358388 172%
+0:22.42 359724 173%
+0:22.14 358708 174%
+0:22.36 355876 174%
+
+Dataset path: alignments/shen_2018_loci_aa/
+8:32.98 595468 102%
+8:36.13 597648 102%
+8:25.08 598884 102%
+8:37.23 595632 102%
+8:23.62 600108 102%
