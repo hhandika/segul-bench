@@ -61,7 +61,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log dir because gnu time output to STDERR
-env time -f "%E %M %P" segul sequence remove -i $dir/*.nex -f nexus --id $RM_TAXA_LIST[$index] $OUTPUT_DIR --output-format phylip --datatype ignore 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul sequence remove -i $dir/*.nex -f nexus --id $RM_TAXA_LIST[$index] -o $OUTPUT_DIR --output-format phylip --datatype ignore 2>> $OUTPUT_LOG;
 end
 end
 
