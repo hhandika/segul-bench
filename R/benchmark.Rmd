@@ -69,7 +69,7 @@ summary_by_datasets |>
   # dplyr::filter(OS_name == "Linux") |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
     geom_point(size = 3, aes(color = Apps, shape = Datasets)) +
-    facet_wrap(~ Analyses, scales = "free", ncol = 2) +
+    facet_wrap(~ Analyses, scales = "free", ncol = 3) +
     scale_color_manual(values = accessible_palette) +
     scale_shape_manual(values = point_shapes) +
     coord_trans(x = "log") +

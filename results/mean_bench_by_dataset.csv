@@ -167,3 +167,159 @@ Sequence Removal,Wu et al. 2018 (AA),Linux,AMAS,1.826,361.817188,984.2
 Sequence Removal,Wu et al. 2018 (AA),Linux,AMAS (--check-align),21.826,362.414844,174.4
 Sequence Removal,Wu et al. 2018 (AA),Linux,SEGUL,0.258,29.96875,1453.4
 Sequence Removal,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.266,29.852344,627.6
+concat-phylip,Chan et al. 2020 (DNA),Linux,AMAS,1.678,1261.67032,402.8
+concat-phylip,Chan et al. 2020 (DNA),Linux,AMAS (--check-align),9.142,1261.2367199999999,155.6
+concat-phylip,Chan et al. 2020 (DNA),Linux,SEGUL,1.494,375.814066,164
+concat-phylip,Chan et al. 2020 (DNA),Linux,SEGUL (--datatype ignore),0.854,373.882032,208
+concat-phylip,Chan et al. 2020 (DNA),Linux,goalign (multi-core),5.564,2088.05858,105.6
+concat-phylip,Chan et al. 2020 (DNA),Linux,goalign (single-core),5.008,2064.8367200000002,100
+concat-phylip,Esselstyn et al. 2021 (DNA),Linux,AMAS,1.534,2004.87578,390.8
+concat-phylip,Esselstyn et al. 2021 (DNA),Linux,AMAS (--check-align),10.498000000000001,2004.99142,142.2
+concat-phylip,Esselstyn et al. 2021 (DNA),Linux,SEGUL,2.954,572.962498,137.2
+concat-phylip,Esselstyn et al. 2021 (DNA),Linux,SEGUL (--datatype ignore),1.022,572.035158,208.2
+concat-phylip,Esselstyn et al. 2021 (DNA),Linux,goalign (multi-core),7.5360000000000005,3714.6586,103.6
+concat-phylip,Esselstyn et al. 2021 (DNA),Linux,goalign (single-core),7.026,4025.43204,100
+concat-phylip,Jarvis et al. 2014 (DNA),Linux,AMAS,1.3319999999999999,1798.67732,672.6
+concat-phylip,Jarvis et al. 2014 (DNA),Linux,AMAS (--check-align),4.8180000000000005,1798.64688,255.8
+concat-phylip,Jarvis et al. 2014 (DNA),Linux,SEGUL,2.2479999999999998,496.156254,157.6
+concat-phylip,Jarvis et al. 2014 (DNA),Linux,SEGUL (--datatype ignore),1.01,495.47265799999997,224
+concat-phylip,Jarvis et al. 2014 (DNA),Linux,goalign (multi-core),8.28,2627.86482,103.2
+concat-phylip,Jarvis et al. 2014 (DNA),Linux,goalign (single-core),7.79,2964.50936,100
+concat-phylip,Oliveros et al. 2019 (DNA),Linux,AMAS,3.24,2259.67032,353.6
+concat-phylip,Oliveros et al. 2019 (DNA),Linux,AMAS (--check-align),213.762,2260.05154,103.2
+concat-phylip,Oliveros et al. 2019 (DNA),Linux,SEGUL,2.5,607.4390539999999,169
+concat-phylip,Oliveros et al. 2019 (DNA),Linux,SEGUL (--datatype ignore),1.46,607.555468,217.6
+concat-phylip,Oliveros et al. 2019 (DNA),Linux,goalign (multi-core),9.792,3670.3234399999997,103.6
+concat-phylip,Oliveros et al. 2019 (DNA),Linux,goalign (single-core),9.256,3470.90314,100
+concat-phylip,Shen et al. 2018 (AA),Linux,AMAS,3.472,1738.8281399999998,267
+concat-phylip,Shen et al. 2018 (AA),Linux,AMAS (--check-align),497.412,1737.01094,101
+concat-phylip,Shen et al. 2018 (AA),Linux,SEGUL,3.848,494.568756,137.2
+concat-phylip,Shen et al. 2018 (AA),Linux,SEGUL (--datatype ignore),1.25,494.935154,214
+concat-phylip,Shen et al. 2018 (AA),Linux,goalign (multi-core),9.016,2678.54142,102.4
+concat-phylip,Shen et al. 2018 (AA),Linux,goalign (single-core),8.486,2837.5367,100
+concat-phylip,Wu et al. 2018 (AA),Linux,AMAS,1.476,1143.2797,335.2
+concat-phylip,Wu et al. 2018 (AA),Linux,AMAS (--check-align),21.574,1143.31718,115.8
+concat-phylip,Wu et al. 2018 (AA),Linux,SEGUL,1.914,332.835152,143.8
+concat-phylip,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.756,334.640622,211.4
+concat-phylip,Wu et al. 2018 (AA),Linux,goalign (multi-core),5.548,1855.25156,103.8
+concat-phylip,Wu et al. 2018 (AA),Linux,goalign (single-core),4.938,1869.78284,100
+convert-fasta,Chan et al. 2020 (DNA),Linux,AMAS,1.652,366.677344,375.8
+convert-fasta,Chan et al. 2020 (DNA),Linux,AMAS (--check-align),9.074,367.310158,150.6
+convert-fasta,Chan et al. 2020 (DNA),Linux,SEGUL,0.392,19.49375,602.6
+convert-fasta,Chan et al. 2020 (DNA),Linux,SEGUL (--datatype ignore),0.394,20.025,393.4
+convert-fasta,Esselstyn et al. 2021 (DNA),Linux,AMAS,0.996,420.503908,475.2
+convert-fasta,Esselstyn et al. 2021 (DNA),Linux,AMAS (--check-align),9.96,420.26563,137.8
+convert-fasta,Esselstyn et al. 2021 (DNA),Linux,SEGUL,0.28800000000000003,15.79375,1465.4
+convert-fasta,Esselstyn et al. 2021 (DNA),Linux,SEGUL (--datatype ignore),0.26,15.4828124,498.4
+convert-fasta,Jarvis et al. 2014 (DNA),Linux,AMAS,1.07,497.06172,721.8
+convert-fasta,Jarvis et al. 2014 (DNA),Linux,AMAS (--check-align),4.616,497.538282,243.2
+convert-fasta,Jarvis et al. 2014 (DNA),Linux,SEGUL,0.358,15.0789064,993.2
+convert-fasta,Jarvis et al. 2014 (DNA),Linux,SEGUL (--datatype ignore),0.518,14.91875,313
+convert-fasta,Oliveros et al. 2019 (DNA),Linux,AMAS,1.716,695.485926,534
+convert-fasta,Oliveros et al. 2019 (DNA),Linux,AMAS (--check-align),212.946,695.30547,103
+convert-fasta,Oliveros et al. 2019 (DNA),Linux,SEGUL,0.342,19.6460938,1106.4
+convert-fasta,Oliveros et al. 2019 (DNA),Linux,SEGUL (--datatype ignore),0.592,19.8882814,377.4
+convert-fasta,Shen et al. 2018 (AA),Linux,AMAS,1.416,584.727352,442
+convert-fasta,Shen et al. 2018 (AA),Linux,AMAS (--check-align),507.144,583.663282,101
+convert-fasta,Shen et al. 2018 (AA),Linux,SEGUL,0.292,27.0125,1967
+convert-fasta,Shen et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.224,26.7609376,868.8
+convert-fasta,Wu et al. 2018 (AA),Linux,AMAS,1.02,349.384376,392.2
+convert-fasta,Wu et al. 2018 (AA),Linux,AMAS (--check-align),21.64,350.595314,113
+convert-fasta,Wu et al. 2018 (AA),Linux,SEGUL,0.232,19.8687502,1249.6
+convert-fasta,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.306,19.862499800000002,356.4
+convert-phylip,Chan et al. 2020 (DNA),Linux,AMAS,2.5060000000000002,369.667964,303
+convert-phylip,Chan et al. 2020 (DNA),Linux,AMAS (--check-align),10.102,368.20391,149.8
+convert-phylip,Chan et al. 2020 (DNA),Linux,SEGUL,0.404,20.2132814,709.4
+convert-phylip,Chan et al. 2020 (DNA),Linux,SEGUL (--datatype ignore),0.412,20.1164064,472
+convert-phylip,Esselstyn et al. 2021 (DNA),Linux,AMAS,1.922,419.958594,335.4
+convert-phylip,Esselstyn et al. 2021 (DNA),Linux,AMAS (--check-align),10.634,419.58437599999996,141.4
+convert-phylip,Esselstyn et al. 2021 (DNA),Linux,SEGUL,0.28,16.0304689,1816
+convert-phylip,Esselstyn et al. 2021 (DNA),Linux,SEGUL (--datatype ignore),0.28,15.9101563,735.6
+convert-phylip,Jarvis et al. 2014 (DNA),Linux,AMAS,2.036,499.730466,473.4
+convert-phylip,Jarvis et al. 2014 (DNA),Linux,AMAS (--check-align),5.7219999999999995,497.407814,231.8
+convert-phylip,Jarvis et al. 2014 (DNA),Linux,SEGUL,0.378,14.5992188,1232.8
+convert-phylip,Jarvis et al. 2014 (DNA),Linux,SEGUL (--datatype ignore),0.314,14.6828124,799.8
+convert-phylip,Oliveros et al. 2019 (DNA),Linux,AMAS,3.19,693.29688,362.4
+convert-phylip,Oliveros et al. 2019 (DNA),Linux,AMAS (--check-align),213.102,694.614056,103.8
+convert-phylip,Oliveros et al. 2019 (DNA),Linux,SEGUL,0.374,20.887500199999998,1323.4
+convert-phylip,Oliveros et al. 2019 (DNA),Linux,SEGUL (--datatype ignore),0.41,20.8742188,772.2
+convert-phylip,Shen et al. 2018 (AA),Linux,AMAS,2.5020000000000002,587.53125,332.8
+convert-phylip,Shen et al. 2018 (AA),Linux,AMAS (--check-align),495.338,583.702348,101
+convert-phylip,Shen et al. 2018 (AA),Linux,SEGUL,0.332,27.3734376,1946.6
+convert-phylip,Shen et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.254,28.1695316,1039.8
+convert-phylip,Wu et al. 2018 (AA),Linux,AMAS,1.8,349.366404,296.2
+convert-phylip,Wu et al. 2018 (AA),Linux,AMAS (--check-align),22.003999999999998,349.148436,115.2
+convert-phylip,Wu et al. 2018 (AA),Linux,SEGUL,0.242,19.767969,1452
+convert-phylip,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.23600000000000002,19.9453126,669.6
+remove-fasta,Chan et al. 2020 (DNA),Linux,AMAS,2.31,384.914064,272.8
+remove-fasta,Chan et al. 2020 (DNA),Linux,AMAS (--check-align),9.618,384.21797,142.2
+remove-fasta,Chan et al. 2020 (DNA),Linux,SEGUL,0.408,20.6007814,576.8
+remove-fasta,Chan et al. 2020 (DNA),Linux,SEGUL (--datatype ignore),0.404,20.2570312,374.2
+remove-fasta,Esselstyn et al. 2021 (DNA),Linux,AMAS,1.19,423.628124,403.8
+remove-fasta,Esselstyn et al. 2021 (DNA),Linux,AMAS (--check-align),10.108,423.81094,134.8
+remove-fasta,Esselstyn et al. 2021 (DNA),Linux,SEGUL,0.28200000000000003,15.3554688,1509.4
+remove-fasta,Esselstyn et al. 2021 (DNA),Linux,SEGUL (--datatype ignore),0.252,15.0648437,512
+remove-fasta,Jarvis et al. 2014 (DNA),Linux,AMAS,1.292,500.41016,597.8
+remove-fasta,Jarvis et al. 2014 (DNA),Linux,AMAS (--check-align),4.942,500.34999799999997,230.4
+remove-fasta,Jarvis et al. 2014 (DNA),Linux,SEGUL,0.304,15.0242188,1116.4
+remove-fasta,Jarvis et al. 2014 (DNA),Linux,SEGUL (--datatype ignore),0.278,14.6835937,565.6
+remove-fasta,Oliveros et al. 2019 (DNA),Linux,AMAS,1.822,720.977342,499.4
+remove-fasta,Oliveros et al. 2019 (DNA),Linux,AMAS (--check-align),212.806,721.177354,103
+remove-fasta,Oliveros et al. 2019 (DNA),Linux,SEGUL,0.408,20.4421876,932.8
+remove-fasta,Oliveros et al. 2019 (DNA),Linux,SEGUL (--datatype ignore),0.456,19.847656399999998,492.4
+remove-fasta,Shen et al. 2018 (AA),Linux,AMAS,1.518,621.8898399999999,423.6
+remove-fasta,Shen et al. 2018 (AA),Linux,AMAS (--check-align),499.132,622.374998,101
+remove-fasta,Shen et al. 2018 (AA),Linux,SEGUL,0.294,26.586719,1937.4
+remove-fasta,Shen et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.23,27.1992188,842.8
+remove-fasta,Wu et al. 2018 (AA),Linux,AMAS,1.296,362.308598,308.2
+remove-fasta,Wu et al. 2018 (AA),Linux,AMAS (--check-align),22.044,362.112502,111.8
+remove-fasta,Wu et al. 2018 (AA),Linux,SEGUL,0.24,18.9375002,1199.4
+remove-fasta,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.232,19.8734376,456.6
+remove-phylip,Chan et al. 2020 (DNA),Linux,AMAS,2.312,384.797658,293
+remove-phylip,Chan et al. 2020 (DNA),Linux,AMAS (--check-align),10.042,383.76641,144.6
+remove-phylip,Chan et al. 2020 (DNA),Linux,SEGUL,0.412,20.559375199999998,698.8
+remove-phylip,Chan et al. 2020 (DNA),Linux,SEGUL (--datatype ignore),0.414,19.6203128,474.8
+remove-phylip,Esselstyn et al. 2021 (DNA),Linux,AMAS,1.232,423.514844,445.6
+remove-phylip,Esselstyn et al. 2021 (DNA),Linux,AMAS (--check-align),10.232,424.76640399999997,140.6
+remove-phylip,Esselstyn et al. 2021 (DNA),Linux,SEGUL,0.29400000000000004,15.401562799999999,1738
+remove-phylip,Esselstyn et al. 2021 (DNA),Linux,SEGUL (--datatype ignore),0.278,15.573437799999999,750.6
+remove-phylip,Jarvis et al. 2014 (DNA),Linux,AMAS,1.3719999999999999,500.457036,632
+remove-phylip,Jarvis et al. 2014 (DNA),Linux,AMAS (--check-align),4.876,500.629688,251.8
+remove-phylip,Jarvis et al. 2014 (DNA),Linux,SEGUL,0.3,14.6085938,1530.6
+remove-phylip,Jarvis et al. 2014 (DNA),Linux,SEGUL (--datatype ignore),0.298,14.23125,852.2
+remove-phylip,Oliveros et al. 2019 (DNA),Linux,AMAS,1.862,721.224994,540
+remove-phylip,Oliveros et al. 2019 (DNA),Linux,AMAS (--check-align),214.072,720.469522,103.2
+remove-phylip,Oliveros et al. 2019 (DNA),Linux,SEGUL,0.40199999999999997,20.4320314,1278.2
+remove-phylip,Oliveros et al. 2019 (DNA),Linux,SEGUL (--datatype ignore),0.508,20.4695312,657
+remove-phylip,Shen et al. 2018 (AA),Linux,AMAS,1.544,621.465614,478.4
+remove-phylip,Shen et al. 2018 (AA),Linux,AMAS (--check-align),494.822,622.450782,101
+remove-phylip,Shen et al. 2018 (AA),Linux,SEGUL,0.34400000000000003,27.3171878,1994.6
+remove-phylip,Shen et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.248,28.6492188,1178
+remove-phylip,Wu et al. 2018 (AA),Linux,AMAS,1.302,361.191404,353
+remove-phylip,Wu et al. 2018 (AA),Linux,AMAS (--check-align),21.644000000000002,362.116408,114.8
+remove-phylip,Wu et al. 2018 (AA),Linux,SEGUL,0.252,19.8382812,1411.6
+remove-phylip,Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.23,20.2234376,684.2
+summary-fasta,Chan et al. 2020 (DNA),Linux,AMAS,46.358,983.371092,320
+summary-fasta,Chan et al. 2020 (DNA),Linux,SEGUL,0.636,231.22422,1464.6
+summary-fasta,Esselstyn et al. 2021 (DNA),Linux,AMAS,51.532,1214.01878,306.8
+summary-fasta,Esselstyn et al. 2021 (DNA),Linux,SEGUL,0.628,134.013282,1902.8
+summary-fasta,Jarvis et al. 2014 (DNA),Linux,AMAS,59.76,1439.13672,349.6
+summary-fasta,Jarvis et al. 2014 (DNA),Linux,SEGUL,0.72,91.582033,2133.8
+summary-fasta,Oliveros et al. 2019 (DNA),Linux,AMAS,93.38799999999999,1974.96326,290.6
+summary-fasta,Oliveros et al. 2019 (DNA),Linux,SEGUL,0.944,321.132032,1662.2
+summary-fasta,Shen et al. 2018 (AA),Linux,AMAS,75.998,1684.7219,287.6
+summary-fasta,Shen et al. 2018 (AA),Linux,SEGUL,1.27,631.894534,1539.8
+summary-fasta,Wu et al. 2018 (AA),Linux,AMAS,42.554,978.003902,291.6
+summary-fasta,Wu et al. 2018 (AA),Linux,SEGUL,0.768,366.407812,1590
+summary-phylip,Chan et al. 2020 (DNA),Linux,AMAS,45.918,982.764066,323.6
+summary-phylip,Chan et al. 2020 (DNA),Linux,SEGUL,0.702,235.767968,1512.6
+summary-phylip,Esselstyn et al. 2021 (DNA),Linux,AMAS,50.966,1214.5797,309.8
+summary-phylip,Esselstyn et al. 2021 (DNA),Linux,SEGUL,0.7,134.748438,1957.4
+summary-phylip,Jarvis et al. 2014 (DNA),Linux,AMAS,60.132,1439.18828,350.8
+summary-phylip,Jarvis et al. 2014 (DNA),Linux,SEGUL,0.808,89.911718,2162.4
+summary-phylip,Oliveros et al. 2019 (DNA),Linux,AMAS,91.156,1974.74924,297
+summary-phylip,Oliveros et al. 2019 (DNA),Linux,SEGUL,1.108,339.522662,1661.2
+summary-phylip,Shen et al. 2018 (AA),Linux,AMAS,73.702,1684.16642,294.4
+summary-phylip,Shen et al. 2018 (AA),Linux,SEGUL,1.362,634.7890679999999,1595.4
+summary-phylip,Wu et al. 2018 (AA),Linux,AMAS,44.334,978.13983,284.6
+summary-phylip,Wu et al. 2018 (AA),Linux,SEGUL,0.822,369.517966,1641.2
