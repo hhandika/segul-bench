@@ -66,7 +66,7 @@ The plots generated below is used for Figure 1 in the manuscript.
 
 ```{r}
 summary_by_datasets |>
-  dplyr::filter(OS_name == "Linux") |>
+  # dplyr::filter(OS_name == "Linux") |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
     geom_point(size = 3, aes(color = Apps, shape = Datasets)) +
     facet_wrap(~ Analyses, scales = "free", ncol = 2) +
