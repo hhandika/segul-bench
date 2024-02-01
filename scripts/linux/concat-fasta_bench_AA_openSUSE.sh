@@ -104,7 +104,7 @@ end
 
 echo -e "\nWarming up..."
 
-goalign concat -i alignments/wu_2018_fasta/*.fas --fasta -o $OUTPUT_FILE
+goalign concat -i alignments/wu_2018_fasta/*.fas -o $OUTPUT_FILE
 
 echo -e "\nBenchmarking goalign (multi-core)" | tee -a $OUTPUT_LOG
 
@@ -115,7 +115,7 @@ for i in (seq $NUM_ITERATIONS)
 rm $OUTPUT_FILE
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" goalign concat -i $dir/*.fas --fasta -o $OUTPUT_FILE -t $CORES 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" goalign concat -i $dir/*.fas -o $OUTPUT_FILE -t $CORES 2>> $OUTPUT_LOG;
 end
 end
 
@@ -126,7 +126,7 @@ end
 
 echo -e "\nWarming up..."
 
-goalign concat -i alignments/wu_2018_fasta/*.fas --fasta -o $OUTPUT_FILE
+goalign concat -i alignments/wu_2018_fasta/*.fas -o $OUTPUT_FILE
 
 echo -e "\nBenchmarking goalign (single-core)" | tee -a $OUTPUT_LOG
 
@@ -137,7 +137,7 @@ for i in (seq $NUM_ITERATIONS)
 rm $OUTPUT_FILE
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" goalign concat -i $dir/*.fas --fasta -o $OUTPUT_FILE 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" goalign concat -i $dir/*.fas -o $OUTPUT_FILE 2>> $OUTPUT_LOG;
 end
 end
 
