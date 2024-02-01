@@ -146,7 +146,7 @@ end
 
 set Date (date +%F)
 
-set fname "concat-fasta_bench_raw_aa_OpenSUSE_$Date.txt"
+set fname "concat-phylip_bench_raw_aa_OpenSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
