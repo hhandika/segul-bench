@@ -25,7 +25,7 @@ end
 
 echo -e "Warming up..."
 
-segul align convert -i alignments/esselstyn_2021_phylip/*.fas -f phylip -o $OUTPUT_DIR -F fasta
+segul align convert -i alignments/esselstyn_2021_phylip/*.phy -f phylip -o $OUTPUT_DIR -F fasta
 
 echo -e "\nBenchmarking Alignment Conversion..."
 
@@ -38,7 +38,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul align convert -i $dir/*.fas -f phylip -o $OUTPUT_DIR -F fasta 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul align convert -i $dir/*.phy -f phylip -o $OUTPUT_DIR -F fasta 2>> $OUTPUT_LOG;
 end
 end
 
@@ -53,7 +53,7 @@ rm -r $OUTPUT_DIR;
 echo ""
 echo "Iteration $i"
 # We append the STDERR to the log file because gnu time output to STDERR
-env time -f "%E %M %P" segul align convert -i $dir/*.fas -f phylip -o $OUTPUT_DIR -F fasta --datatype ignore 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" segul align convert -i $dir/*.phy -f phylip -o $OUTPUT_DIR -F fasta --datatype ignore 2>> $OUTPUT_LOG;
 end
 end
 
@@ -64,7 +64,7 @@ end
 
 echo -e "\nWarming up..."
 
-AMAS.py convert -i alignments/esselstyn_2021_phylip/*.fas -f phylip -d dna -u fasta -c $CORES
+AMAS.py convert -i alignments/esselstyn_2021_phylip/*.phy -f phylip -d dna -u fasta -c $CORES
 
 echo -e "\nBenchmarking AMAS convert phylip to fasta" | tee -a $OUTPUT_LOG
 
@@ -75,7 +75,7 @@ for i in (seq $NUM_ITERATIONS)
 rm *out.phy
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py convert -i $dir/*.fas -f phylip -d dna -c $CORES -u fasta 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py convert -i $dir/*.phy -f phylip -d dna -c $CORES -u fasta 2>> $OUTPUT_LOG;
 end
 end
 
@@ -90,7 +90,7 @@ for i in (seq $NUM_ITERATIONS)
 rm *out.phy
 echo ""
 echo "Iteration $i"
-env time -f "%E %M %P" AMAS.py convert -i $dir/*.fas -f phylip -d dna -c $CORES -u fasta --check-align 2>> $OUTPUT_LOG;
+env time -f "%E %M %P" AMAS.py convert -i $dir/*.phy -f phylip -d dna -c $CORES -u fasta --check-align 2>> $OUTPUT_LOG;
 end
 end
 
