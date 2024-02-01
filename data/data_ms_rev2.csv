@@ -419,6 +419,46 @@ AMAS (--check-align),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4
 AMAS (--check-align),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Sequence Removal,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,3:34.54,737452,107,214.54,720.16797
 AMAS (--check-align),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Sequence Removal,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,3:36.27,737496,107,216.27,720.21094
 AMAS (--check-align),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Sequence Removal,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,3:33.95,736996,107,213.95,719.72266
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.44,417176,135,3.44,407.39844
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.42,421616,137,3.42,411.73438
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.44,416084,136,3.44,406.33203
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.40,419584,137,3.4,409.75
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.44,419380,136,3.44,409.55078
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.41,285744,128,2.41,279.04688
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.43,283860,128,2.43,277.20703
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.38,285536,127,2.38,278.84375
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.35,287796,131,2.35,281.05078
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.34,286156,133,2.34,279.44922
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.45,419764,401,0.45,409.92578
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.39,416848,458,0.39,407.07813
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.42,420088,398,0.42,410.2422
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.40,420640,427,0.4,410.78125
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.41,418236,409,0.41,408.4336
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.33,283536,321,0.33,276.89063
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.32,285804,353,0.32,279.10547
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.42,286156,242,0.42,279.44922
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.32,285756,339,0.32,279.0586
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.32,283684,317,0.32,277.03516
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.16,906908,101,5.16,885.65234
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.14,906888,101,5.14,885.6328
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.18,906900,100,5.18,885.64453
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.13,906976,101,5.13,885.71875
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.09,906744,101,5.09,885.4922
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.59,593956,101,3.59,580.03516
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.61,593464,101,3.61,579.5547
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.65,591884,100,3.65,578.0117
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.52,591776,101,3.52,577.90625
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.51,593784,101,3.51,579.8672
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:04.42,906816,102,4.42,885.5625
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:04.42,906520,101,4.42,885.27344
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:04.54,906756,99,4.54,885.5039
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:04.52,906520,100,4.52,885.27344
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:04.76,908684,100,4.76,887.3867
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.26,616896,101,3.26,602.4375
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.14,618968,102,3.14,604.46094
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.18,616800,100,3.18,602.34375
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.18,616976,100,3.18,602.5156
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.18,618824,101,3.18,604.3203
 SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting NEXUS,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.84,915096,156,1.84,893.64844
 SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting NEXUS,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.85,917244,155,1.85,895.7461
 SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting NEXUS,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.83,917036,157,1.83,895.54297
