@@ -1,4 +1,4 @@
-#!/usr/bin/envfish
+#!/usr/bin/env fish
 
 concat-fasta_bench_AA_openSUSE.sh
 concat-fasta_bench_openSUSE.sh
