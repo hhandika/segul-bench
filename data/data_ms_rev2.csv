@@ -419,6 +419,86 @@ AMAS (--check-align),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4
 AMAS (--check-align),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Sequence Removal,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,3:34.54,737452,107,214.54,720.16797
 AMAS (--check-align),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Sequence Removal,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,3:36.27,737496,107,216.27,720.21094
 AMAS (--check-align),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Sequence Removal,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,3:33.95,736996,107,213.95,719.72266
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:01.49,320676,168,1.49,313.16016
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:01.40,320136,175,1.4,312.6328
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:01.43,321208,176,1.43,313.6797
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:01.41,319960,175,1.41,312.46094
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:01.39,320596,173,1.39,313.08203
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.47,553084,149,2.47,540.1211
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.63,553276,137,2.63,540.3086
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.62,554872,138,2.62,541.8672
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.52,552884,141,2.52,539.9258
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.60,553364,138,2.6,540.39453
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.30,463224,147,2.3,452.3672
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.16,462632,156,2.16,451.78906
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.13,461608,157,2.13,450.78906
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.16,462312,151,2.16,451.47656
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.28,461788,149,2.28,450.96484
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.73,550112,151,2.73,537.21875
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.95,549808,142,2.95,536.9219
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.93,552500,144,2.93,539.5508
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.81,552212,150,2.81,539.26953
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:02.89,549876,144,2.89,536.9883
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.46,318448,354,0.46,310.98438
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.63,318100,237,0.63,310.64453
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.45,321236,369,0.45,313.70703
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.44,318280,337,0.44,310.8203
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.42,318316,368,0.42,310.85547
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.40,553180,379,0.4,540.21484
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.41,555536,361,0.41,542.5156
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.41,553080,371,0.41,540.1172
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.42,553232,374,0.42,540.2656
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.42,554376,371,0.42,541.3828
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.40,461964,400,0.4,451.13672
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.40,462208,395,0.4,451.375
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.43,461152,361,0.43,450.34375
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.40,462456,409,0.4,451.6172
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.40,461484,395,0.4,450.66797
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.56,550020,366,0.56,537.1289
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.61,552080,327,0.61,539.1406
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.73,552312,278,0.73,539.3672
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.77,550056,271,0.77,537.16406
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:00.63,549836,317,0.63,536.9492
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.86,629400,101,5.86,614.64844
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.91,629356,100,5.91,614.60547
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.93,631408,99,5.93,616.6094
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.97,631572,100,5.97,616.76953
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.87,631540,100,5.87,616.7383
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:07.27,1097636,101,7.27,1071.9102
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:07.18,1097624,100,7.18,1071.8984
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:07.04,1097436,101,7.04,1071.7148
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:07.19,1097652,100,7.19,1071.9258
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:07.15,1097816,100,7.15,1072.0859
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:08.01,927268,100,8.01,905.53516
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:07.91,927100,100,7.91,905.3711
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:08.15,927332,100,8.15,905.59766
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:08.07,929344,100,8.07,907.5625
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:07.90,927232,100,7.9,905.5
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:09.85,1164316,100,9.85,1137.0273
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:09.92,1164224,100,9.92,1136.9375
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:10.09,1164356,100,10.09,1137.0664
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:09.73,1164172,101,9.73,1136.8867
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:09.93,1164128,100,9.93,1136.8438
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.66,716796,100,5.66,699.9961
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.47,716680,100,5.47,699.8828
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.51,718672,101,5.51,701.8281
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.51,716692,101,5.51,699.89453
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:05.58,716704,100,5.58,699.90625
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:06.29,1146316,101,6.29,1119.4492
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:06.28,1143700,101,6.28,1116.8945
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:06.22,1144076,102,6.22,1117.2617
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:06.18,1146168,101,6.18,1119.3047
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:06.32,1144104,100,6.32,1117.2891
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:06.93,927108,100,6.93,905.3789
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:07.09,927508,100,7.09,905.76953
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:06.92,927116,100,6.92,905.3867
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:06.91,929096,100,6.91,907.3203
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:06.92,926948,100,6.92,905.22266
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:09.17,1186188,100,9.17,1158.3867
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:08.99,1186136,100,8.99,1158.3359
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:09.03,1186376,101,9.03,1158.5703
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:09.04,1186168,100,9.04,1158.3672
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:09.02,1186308,100,9.02,1158.5039
 SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.44,417176,135,3.44,407.39844
 SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.42,421616,137,3.42,411.73438
 SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.44,416084,136,3.44,406.33203
@@ -459,6 +539,126 @@ AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Split
 AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.18,616800,100,3.18,602.34375
 AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.18,616976,100,3.18,602.5156
 AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting FASTA,Desktop,,,01/31/2024,TRUE,0:03.18,618824,101,3.18,604.3203
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.72,322892,161,1.72,315.32422
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.73,322712,159,1.73,315.14844
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.68,323428,160,1.68,315.84766
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.75,323548,161,1.75,315.96484
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.77,322816,157,1.77,315.25
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.24,559628,132,3.24,546.5117
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.22,559444,133,3.22,546.33203
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.00,557744,137,3,544.6719
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.11,559988,136,3.11,546.8633
+SEGUL,v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.12,557456,137,3.12,544.3906
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.82,467604,139,2.82,456.64453
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.66,465632,146,2.66,454.71875
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.73,463560,145,2.73,452.6953
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.64,464788,146,2.64,453.89453
+SEGUL,v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.67,466532,145,2.67,455.59766
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.49,550768,142,3.49,537.8594
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.37,552908,149,3.37,539.9492
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.46,553028,145,3.46,540.0664
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.35,552176,148,3.35,539.2344
+SEGUL,v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.55,551956,140,3.55,539.01953
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.77,324664,230,0.77,317.0547
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.03,326312,188,1.03,318.66406
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.78,323512,252,0.78,315.9297
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.78,324380,230,0.78,316.77734
+SEGUL (--datatype ignore),v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.76,321356,247,0.76,313.82422
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.17,555728,192,1.17,542.7031
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.06,557556,206,1.06,544.4883
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.02,557804,214,1.02,544.73047
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.99,558124,219,0.99,545.04297
+SEGUL (--datatype ignore),v,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.06,559620,211,1.06,546.5039
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.07,466412,194,1.07,455.48047
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.87,466172,240,0.87,455.2461
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.87,466908,239,0.87,455.96484
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.87,466916,236,0.87,455.97266
+SEGUL (--datatype ignore),v,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.88,466048,244,0.88,455.125
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.22,552448,232,1.22,539.5
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.14,550360,245,1.14,537.46094
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.32,554512,218,1.32,541.5156
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.28,550392,221,1.28,537.4922
+SEGUL (--datatype ignore),v,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:01.15,553016,242,1.15,540.0547
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.74,633920,101,5.74,619.0625
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.65,633748,100,5.65,618.89453
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.77,634116,101,5.77,619.2539
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.69,633940,101,5.69,619.08203
+AMAS (--remove-empty),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.64,633732,100,5.64,618.8789
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.95,1102240,100,6.95,1076.4063
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:07.23,1102364,100,7.23,1076.5273
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:07.53,1102416,101,7.53,1076.5781
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:07.14,1102540,101,7.14,1076.6992
+AMAS (--remove-empty),v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:07.26,1102540,100,7.26,1076.6992
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:07.61,926968,100,7.61,905.2422
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:07.92,927256,101,7.92,905.52344
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:08.17,929172,100,8.17,907.39453
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:07.92,926984,100,7.92,905.2578
+AMAS (--remove-empty),v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:07.80,927020,100,7.8,905.29297
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:09.24,1164280,101,9.24,1136.9922
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:09.71,1163692,101,9.71,1136.418
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:09.65,1164048,100,9.65,1136.7656
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:09.78,1164024,100,9.78,1136.7422
+AMAS (--remove-empty),v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:09.55,1164068,101,9.55,1136.7852
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.40,716676,99,5.4,699.8789
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.28,718692,99,5.28,701.84766
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.15,716708,101,5.15,699.91016
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.42,716764,97,5.42,699.96484
+AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:05.24,716396,100,5.24,699.60547
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.09,1144260,101,6.09,1117.4414
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.10,1143952,101,6.1,1117.1406
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.13,1146064,101,6.13,1119.2031
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.14,1145828,101,6.14,1118.9727
+AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.03,1144052,102,6.03,1117.2383
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.84,927260,101,6.84,905.52734
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.91,927100,100,6.91,905.3711
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.72,927068,101,6.72,905.33984
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.88,927196,100,6.88,905.46484
+AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:06.90,929024,100,6.9,907.25
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:08.66,1186388,101,8.66,1158.582
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:08.86,1188528,100,8.86,1160.6719
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:08.79,1186148,101,8.79,1158.3477
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:08.79,1186256,101,8.79,1158.4531
+AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:08.76,1186472,100,8.76,1158.6641
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.75,421608,141,3.75,411.72656
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.83,421544,139,3.83,411.66406
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.75,421196,140,3.75,411.32422
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.81,421048,140,3.81,411.1797
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.86,420976,138,3.86,411.10938
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.59,288388,127,2.59,281.6289
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.53,286716,130,2.53,279.9961
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.61,288344,128,2.61,281.58594
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.62,288872,130,2.62,282.10156
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.60,286936,127,2.6,280.21094
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.87,419692,279,0.87,409.85547
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.79,421596,300,0.79,411.71484
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.81,421400,293,0.81,411.52344
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.92,419504,259,0.92,409.67188
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.86,419308,274,0.86,409.48047
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.58,288584,239,0.58,281.8203
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.64,286548,218,0.64,279.83203
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.62,286704,227,0.62,279.98438
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.59,289516,230,0.59,282.73047
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:00.64,288368,214,0.64,281.60938
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.61,906904,102,4.61,885.64844
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.73,906788,101,4.73,885.53516
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.82,906900,100,4.82,885.64453
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.74,906724,100,4.74,885.47266
+AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.84,908616,100,4.84,887.3203
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.11,591932,99,3.11,578.0586
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.39,593812,101,3.39,579.89453
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.30,593964,102,3.3,580.04297
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.39,591956,99,3.39,578.08203
+AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:03.38,591564,100,3.38,577.6992
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.01,908464,102,4.01,887.1719
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.06,906768,102,4.06,885.5156
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.06,906592,102,4.06,885.34375
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.01,906752,102,4.01,885.5
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:04.10,906376,100,4.1,885.1328
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.96,616936,102,2.96,602.47656
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.98,617072,99,2.98,602.6094
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.91,616868,102,2.91,602.41016
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.94,617204,99,2.94,602.7383
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting PHYLIP,Desktop,,,01/31/2024,TRUE,0:02.95,618912,101,2.95,604.40625
 SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting NEXUS,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.84,915096,156,1.84,893.64844
 SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting NEXUS,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.85,917244,155,1.85,895.7461
 SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting NEXUS,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.83,917036,157,1.83,895.54297
