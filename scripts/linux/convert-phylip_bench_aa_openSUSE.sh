@@ -97,7 +97,7 @@ end
 ### Final touches ###
 set Date (date +%F)
 
-set fname "convert-fasta_bench_raw_aa_OpenSUSE_$Date.txt"
+set fname "convert-phylip_bench_raw_aa_OpenSUSE_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 

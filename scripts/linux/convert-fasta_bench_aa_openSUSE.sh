@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-set INPUT_DIRS "alignments/wu_2018_fasta/" "alignments/shen_2018_fasta/"
+set INPUT_DIRS "alignments/shen_2018_fasta/" "alignments/wu_2018_fasta/"
 set OUTPUT_DIR "other_results"
 set OUTPUT_LOG "data/convert_bench.txt"
 set CORES 24
