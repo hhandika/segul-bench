@@ -21,10 +21,6 @@ uname -r  | tee -a $OUTPUT_LOG
 # Get segul version
 segul -V | tee -a $OUTPUT_LOG
 
-if test -f $OUTPUT_LOG
-rm $OUTPUT_LOG
-end
-
 if [ -d $OUTPUT_DIR ]
 rm -r $OUTPUT_DIR
 end

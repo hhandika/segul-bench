@@ -107,7 +107,7 @@ end
 
 set Date (date +%F)
 
-set fname "split_bench_raw_OpenSUSE_AA_$Date.txt"
+set fname "split-nexus_bench_raw_OpenSUSE_AA_$Date.txt"
 
 mv $OUTPUT_LOG data/$fname
 
