@@ -1,4 +1,64 @@
 Apps,Version,Pubs,Datasets,NTAX,Alignment_counts,Site_counts,Datatype,Analyses,Platform,OS_name,CPU,Benchmark_dates,Latest_bench,Execution_time,RAM_usage_kb,Percent_CPU_usage,Execution_time_secs,RAM_usage_Mb
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.85,351804,149,1.85,343.5586
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.91,352196,152,1.91,343.9414
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.90,354804,149,1.9,346.48828
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.92,351456,143,1.92,343.21875
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.85,351036,150,1.85,342.8086
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:04.03,601972,124,4.03,587.8633
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.80,604592,142,3.8,590.4219
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.86,610776,140,3.86,596.46094
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.82,600436,142,3.82,586.3633
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.88,601860,141,3.88,587.7539
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.78,351832,226,0.78,343.58594
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.79,354724,218,0.79,346.41016
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.78,353468,216,0.78,345.1836
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.79,350936,227,0.79,342.71094
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.78,349636,225,0.78,341.4414
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.30,605328,219,1.3,591.1406
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.32,604284,222,1.32,590.1211
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.30,591752,223,1.3,577.8828
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.27,603316,224,1.27,589.1758
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.30,604876,218,1.3,590.6992
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.85,1171284,991,1.85,1143.832
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.89,1170544,955,1.89,1143.1094
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.89,1170696,971,1.89,1143.2578
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.87,1168928,965,1.87,1141.5313
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.88,1169168,966,1.88,1141.7656
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.50,1776692,423,3.5,1735.0508
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.50,1776496,439,3.5,1734.8594
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.64,1774464,421,3.64,1732.875
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.57,1774816,419,3.57,1733.2188
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.50,1776728,425,3.5,1735.0859
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.89,1168820,170,22.89,1141.4258
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.44,1169440,171,22.44,1142.0313
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.51,1171272,172,22.51,1143.8203
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:21.44,1168412,176,21.44,1141.0273
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.20,1168340,174,22.2,1140.957
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:20.92,1776972,102,500.92,1735.3242
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:25.48,1780788,102,505.48,1739.0508
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:48.62,1779696,102,528.62,1737.9844
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:16.71,1778648,102,496.71,1736.9609
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:20.36,1779860,102,500.36,1738.1445
+goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.69,1542696,105,3.69,1506.5391
+goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.67,1500000,105,3.67,1464.8438
+goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.84,1788332,104,3.84,1746.418
+goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.55,1561124,103,3.55,1524.5352
+goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.69,1513424,105,3.69,1477.9531
+goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.79,2615516,103,5.79,2554.2148
+goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.92,2214460,103,5.92,2162.5586
+goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:06.00,2632852,104,6,2571.1445
+goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.81,2231044,103,5.81,2178.754
+goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.60,2681056,104,5.6,2618.2188
+goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.20,1780108,100,3.2,1738.3867
+goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.22,1518020,100,3.22,1482.4414
+goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.18,1543660,100,3.18,1507.4805
+goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.29,1530608,100,3.29,1494.7344
+goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.17,1590496,100,3.17,1553.2188
+goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.31,1940876,100,5.31,1895.3867
+goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.46,2040992,100,5.46,1993.1563
+goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.25,2298632,100,5.25,2244.7578
+goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.40,2316824,100,5.4,2262.5234
+goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.49,2186364,100,5.49,2135.121
 SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/29/2024,TRUE,0:02.81,613856,141,2.81,599.46875
 SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/29/2024,TRUE,0:02.82,607852,142,2.82,593.60547
 SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/29/2024,TRUE,0:02.82,609276,143,2.82,594.9961
@@ -119,66 +179,46 @@ goalign (single-core),,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,
 goalign (single-core),,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/29/2024,TRUE,0:03.40,1991308,100,3.4,1944.6367
 goalign (single-core),,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/29/2024,TRUE,0:03.53,1973984,100,3.53,1927.7188
 goalign (single-core),,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/29/2024,TRUE,0:03.42,2021124,100,3.42,1973.7539
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.85,351804,149,1.85,343.5586
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.91,352196,152,1.91,343.9414
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.90,354804,149,1.9,346.48828
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.92,351456,143,1.92,343.21875
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.85,351036,150,1.85,342.8086
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:04.03,601972,124,4.03,587.8633
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.80,604592,142,3.8,590.4219
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.86,610776,140,3.86,596.46094
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.82,600436,142,3.82,586.3633
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.88,601860,141,3.88,587.7539
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.78,351832,226,0.78,343.58594
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.79,354724,218,0.79,346.41016
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.78,353468,216,0.78,345.1836
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.79,350936,227,0.79,342.71094
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.78,349636,225,0.78,341.4414
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.30,605328,219,1.3,591.1406
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.32,604284,222,1.32,590.1211
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.30,591752,223,1.3,577.8828
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.27,603316,224,1.27,589.1758
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.30,604876,218,1.3,590.6992
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.85,1171284,991,1.85,1143.832
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.89,1170544,955,1.89,1143.1094
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.89,1170696,971,1.89,1143.2578
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.87,1168928,965,1.87,1141.5313
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.88,1169168,966,1.88,1141.7656
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.50,1776692,423,3.5,1735.0508
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.50,1776496,439,3.5,1734.8594
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.64,1774464,421,3.64,1732.875
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.57,1774816,419,3.57,1733.2188
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.50,1776728,425,3.5,1735.0859
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.89,1168820,170,22.89,1141.4258
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.44,1169440,171,22.44,1142.0313
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.51,1171272,172,22.51,1143.8203
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:21.44,1168412,176,21.44,1141.0273
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.20,1168340,174,22.2,1140.957
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:20.92,1776972,102,500.92,1735.3242
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:25.48,1780788,102,505.48,1739.0508
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:48.62,1779696,102,528.62,1737.9844
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:16.71,1778648,102,496.71,1736.9609
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:20.36,1779860,102,500.36,1738.1445
-goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.69,1542696,105,3.69,1506.5391
-goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.67,1500000,105,3.67,1464.8438
-goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.84,1788332,104,3.84,1746.418
-goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.55,1561124,103,3.55,1524.5352
-goalign (multi-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.69,1513424,105,3.69,1477.9531
-goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.79,2615516,103,5.79,2554.2148
-goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.92,2214460,103,5.92,2162.5586
-goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:06.00,2632852,104,6,2571.1445
-goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.81,2231044,103,5.81,2178.754
-goalign (multi-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.60,2681056,104,5.6,2618.2188
-goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.20,1780108,100,3.2,1738.3867
-goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.22,1518020,100,3.22,1482.4414
-goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.18,1543660,100,3.18,1507.4805
-goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.29,1530608,100,3.29,1494.7344
-goalign (single-core),,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.17,1590496,100,3.17,1553.2188
-goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.31,1940876,100,5.31,1895.3867
-goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.46,2040992,100,5.46,1993.1563
-goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.25,2298632,100,5.25,2244.7578
-goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.40,2316824,100,5.4,2262.5234
-goalign (single-core),,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Concatenation,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:05.49,2186364,100,5.49,2135.121
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.24,29636,1506,0.24,28.941406
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.22,28928,1658,0.22,28.25
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.23,28928,1538,0.23,28.25
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.22,31360,1665,0.22,30.625
+SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.22,33068,1622,0.22,32.29297
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.35,66296,1941,0.35,64.74219
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.39,71472,1732,0.39,69.796875
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.34,65940,2014,0.34,64.39453
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.34,68704,1984,0.34,67.09375
+SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.34,67776,1970,0.34,66.1875
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.20,30768,827,0.2,30.046875
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.21,31196,783,0.21,30.464844
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.20,32712,813,0.2,31.945313
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.20,31940,830,0.2,31.191406
+SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.21,31392,772,0.21,30.65625
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.28,71920,1023,0.28,70.234375
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.20,65656,1477,0.2,64.11719
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.22,62684,1319,0.22,61.214844
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.23,67696,1277,0.23,66.109375
+SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.29,68176,1004,0.29,66.578125
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.50,357836,1186,1.5,349.44922
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.51,356004,1190,1.51,347.66016
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.51,356760,1184,1.51,348.39844
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.51,358792,1187,1.51,350.3828
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.54,356772,1169,1.54,348.41016
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.59,599596,856,1.59,585.54297
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.61,598284,831,1.61,584.2617
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.62,601928,836,1.62,587.8203
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.59,597412,807,1.59,583.41016
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.65,600612,813,1.65,586.53516
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.77,359208,172,22.77,350.78906
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.41,358388,172,22.41,349.98828
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.42,359724,173,22.42,351.29297
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.14,358708,174,22.14,350.30078
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.36,355876,174,22.36,347.53516
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:32.98,595468,102,512.98,581.5117
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:36.13,597648,102,516.13,583.6406
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:25.08,598884,102,505.08,584.84766
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:37.23,595632,102,517.23,581.6719
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:23.62,600108,102,503.62,586.04297
 SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.34,26772,1546,0.34,26.144531
 SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.40,26384,1301,0.4,25.765625
 SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.31,28128,1679,0.31,27.46875
@@ -259,46 +299,46 @@ AMAS (--check-align),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180
 AMAS (--check-align),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:09.23,375740,201,9.23,366.9336
 AMAS (--check-align),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:09.46,372404,197,9.46,363.67578
 AMAS (--check-align),v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:09.60,374724,194,9.6,365.9414
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.24,29636,1506,0.24,28.941406
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.22,28928,1658,0.22,28.25
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.23,28928,1538,0.23,28.25
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.22,31360,1665,0.22,30.625
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.22,33068,1622,0.22,32.29297
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.35,66296,1941,0.35,64.74219
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.39,71472,1732,0.39,69.796875
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.34,65940,2014,0.34,64.39453
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.34,68704,1984,0.34,67.09375
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.34,67776,1970,0.34,66.1875
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.20,30768,827,0.2,30.046875
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.21,31196,783,0.21,30.464844
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.20,32712,813,0.2,31.945313
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.20,31940,830,0.2,31.191406
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.21,31392,772,0.21,30.65625
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.28,71920,1023,0.28,70.234375
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.20,65656,1477,0.2,64.11719
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.22,62684,1319,0.22,61.214844
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.23,67696,1277,0.23,66.109375
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.29,68176,1004,0.29,66.578125
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.50,357836,1186,1.5,349.44922
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.51,356004,1190,1.51,347.66016
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.51,356760,1184,1.51,348.39844
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.51,358792,1187,1.51,350.3828
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.54,356772,1169,1.54,348.41016
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.59,599596,856,1.59,585.54297
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.61,598284,831,1.61,584.2617
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.62,601928,836,1.62,587.8203
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.59,597412,807,1.59,583.41016
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.65,600612,813,1.65,586.53516
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.77,359208,172,22.77,350.78906
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.41,358388,172,22.41,349.98828
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.42,359724,173,22.42,351.29297
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.14,358708,174,22.14,350.30078
-AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:22.36,355876,174,22.36,347.53516
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:32.98,595468,102,512.98,581.5117
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:36.13,597648,102,516.13,583.6406
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:25.08,598884,102,505.08,584.84766
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:37.23,595632,102,517.23,581.6719
-AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Conversion,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,8:23.62,600108,102,503.62,586.04297
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.35,67832,1921,0.35,66.24219
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.35,69820,1917,0.35,68.18359
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.34,67964,1990,0.34,66.37109
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.34,65596,1983,0.34,64.05859
+SEGUL,v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.34,69180,2006,0.34,67.55859
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.23,31384,1537,0.23,30.648438
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.23,30452,1596,0.23,29.738281
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.39,31540,904,0.39,30.800781
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.21,29092,1691,0.21,28.410156
+SEGUL,v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.23,30972,1539,0.23,30.246094
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.19,71016,1561,0.19,69.35156
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.27,67396,1026,0.27,65.81641
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.32,69048,916,0.32,67.42969
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.22,72140,1293,0.22,70.44922
+SEGUL (--datatype ignore),v,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.24,68144,1172,0.24,66.546875
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.23,31184,731,0.23,30.453125
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.25,30020,631,0.25,29.316406
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.25,31752,641,0.25,31.007813
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.26,29128,646,0.26,28.445313
+SEGUL (--datatype ignore),v,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:00.34,30760,489,0.34,30.039063
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.69,635656,779,1.69,620.7578
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.71,636076,773,1.71,621.16797
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.59,635348,844,1.59,620.45703
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.59,636072,825,1.59,621.16406
+AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.59,636488,821,1.59,621.5703
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.81,369204,991,1.81,360.55078
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.81,369856,983,1.81,361.1875
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.81,369680,1001,1.81,361.01563
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.90,371860,947,1.9,363.14453
+AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:01.80,371904,999,1.8,363.1875
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,8:34.28,635424,102,514.28,620.53125
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,8:46.29,638512,102,526.29,623.5469
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,8:32.10,636604,102,512.1,621.6836
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,8:28.10,635156,102,508.1,620.26953
+AMAS (--check-align),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,8:20.05,635232,102,500.05,620.34375
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:22.10,371620,174,22.1,362.91016
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:22.18,369448,173,22.18,360.78906
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:22.05,371424,174,22.05,362.71875
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:21.41,371328,176,21.41,362.625
+AMAS (--check-align),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Sequence Removal,Desktop,,,01/31/2024,TRUE,0:21.39,371744,175,21.39,363.03125
 SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Sequence Removal,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.34,26404,853,0.34,25.785156
 SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Sequence Removal,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.35,26140,835,0.35,25.527344
 SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Sequence Removal,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.34,25996,873,0.34,25.386719
@@ -459,103 +499,4 @@ AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,
 AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:12.21,1611016,101,12.21,1573.2578
 AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:12.08,1610980,100,12.08,1573.2227
 AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:12.44,1610904,100,12.44,1573.1484
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:03.95,1177500,141,3.95,1149.9023
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:04.14,1177460,136,4.14,1149.8633
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:04.07,1177372,139,4.07,1149.7773
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:04.09,1177460,136,4.09,1149.8633
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:04.09,1177460,135,4.09,1149.8633
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:02.84,814180,132,2.84,795.09766
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:02.69,814096,131,2.69,795.0156
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:02.76,814172,126,2.76,795.08984
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:02.76,812032,127,2.76,793
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:02.79,814180,128,2.79,795.09766
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.04,1177372,256,1.04,1149.7773
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.07,1177492,258,1.07,1149.8945
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.05,1177648,252,1.05,1150.0469
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.09,1177500,236,1.09,1149.9023
-SEGUL (--datatype ignore),v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.04,1177460,252,1.04,1149.8633
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.79,814088,205,0.79,795.0078
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.76,814156,226,0.76,795.0742
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.74,813968,210,0.74,794.8906
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.77,814008,201,0.77,794.9297
-SEGUL (--datatype ignore),v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.72,812056,207,0.72,793.02344
-AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:07.31,1181100,100,7.31,1153.418
-AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:07.30,1181220,100,7.3,1153.5352
-AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:07.34,1181032,100,7.34,1153.3516
-AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:07.35,1181120,101,7.35,1153.4375
-AMAS (--remove-empty),v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:07.35,1181116,100,7.35,1153.4336
-AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:11.26,820648,100,11.26,801.41406
-AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:11.13,820700,100,11.13,801.46484
-AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:10.94,820348,100,10.94,801.1211
-AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:10.90,820416,100,10.9,801.1875
-AMAS (--remove-empty),v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:10.93,820520,100,10.93,801.28906
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:06.64,1181032,101,6.64,1153.3516
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:06.72,1181120,100,6.72,1153.4375
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:06.76,1181220,100,6.76,1153.5352
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:06.55,1181132,100,6.55,1153.4492
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:06.57,1181040,101,6.57,1153.3594
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:10.53,820596,99,10.53,801.3633
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:10.63,820464,100,10.63,801.2344
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:10.74,820664,100,10.74,801.4297
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:10.25,820780,99,10.25,801.54297
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Alignment Splitting,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:09.98,820704,99,9.98,801.46875
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.82,381960,1639,0.82,373.0078
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.83,382440,1636,0.83,373.47656
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.83,379076,1631,0.83,370.1914
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.83,378816,1625,0.83,369.9375
-SEGUL,v0.20.0,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.83,381132,1630,0.83,372.19922
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.40,656184,1537,1.4,640.8047
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.39,649328,1549,1.39,634.1094
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.40,655076,1540,1.4,639.72266
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.39,657528,1552,1.39,642.1172
-SEGUL,v0.20.0,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.40,659760,1538,1.4,644.2969
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:43.95,1001208,317,43.95,977.7422
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:42.03,1001860,326,42.03,978.3789
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:45.29,1001708,311,45.29,978.23047
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:42.43,1001664,325,42.43,978.1875
-AMAS,v1.02,Wu et al. 2018,Wu et al. 2018 (AA),90,5162,3050198,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:42.65,1001168,324,42.65,977.7031
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:12.93,1725384,304,72.93,1684.9453
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:14.17,1726128,300,74.17,1685.6719
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:13.20,1723940,302,73.2,1683.5352
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:13.69,1726456,301,73.69,1685.9922
-AMAS,v1.02,Shen et al. 2018,Shen et al. 2018 (AA),343,2408,1162805,AA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:13.04,1725040,304,73.03999999999999,1684.6094
-SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.71,142892,1937,0.71,139.54297
-SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.73,143504,1923,0.73,140.14063
-SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.72,142792,1941,0.72,139.44531
-SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.72,142656,1934,0.72,139.3125
-SEGUL,v0.20.0,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.74,140760,1881,0.74,137.46094
-SEGUL,v0.20.0,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.10,333540,1660,1.1,325.72266
-SEGUL,v0.20.0,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.10,335448,1656,1.1,327.58594
-SEGUL,v0.20.0,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.10,336088,1644,1.1,328.21094
-SEGUL,v0.20.0,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.09,335496,1676,1.09,327.6328
-SEGUL,v0.20.0,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:01.10,336060,1660,1.1,328.1836
-SEGUL,v0.20.0,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.84,100980,2128,0.84,98.61328
-SEGUL,v0.20.0,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.84,101280,2124,0.84,98.90625
-SEGUL,v0.20.0,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.84,101420,2114,0.84,99.04297
-SEGUL,v0.20.0,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.84,101628,2128,0.84,99.24609
-SEGUL,v0.20.0,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.84,102284,2137,0.84,99.88672
-SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.71,238772,1537,0.71,233.17578
-SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.71,240816,1527,0.71,235.17188
-SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.71,241184,1529,0.71,235.53125
-SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.71,239548,1532,0.71,233.9336
-SEGUL,v0.20.0,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:00.71,241496,1532,0.71,235.83594
-AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:51.12,1244580,321,51.12,1215.4102
-AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:51.21,1246688,322,51.21,1217.4688
-AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:51.31,1243188,318,51.31,1214.0508
-AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:51.41,1244104,317,51.41,1214.9453
-AMAS,v1.02,Esselstyn et al. 2021,Esselstyn et al. 2021 (DNA),102,4040,5398947,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:51.25,1243264,320,51.25,1214.125
-AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:31.68,2024100,302,91.68,1976.6602
-AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:31.86,2023964,304,91.86,1976.5273
-AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:31.95,2022340,304,91.95,1974.9414
-AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:31.23,2024332,309,91.23,1976.8867
-AMAS,v1.02,Oliveros et al. 2019,Oliveros et al. 2019 (DNA),221,4060,2464926,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,1:31.76,2022076,304,91.76,1974.6836
-AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:59.16,1476532,365,59.16,1441.9258
-AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:59.46,1473552,362,59.46,1439.0156
-AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:59.24,1473724,369,59.24,1439.1836
-AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:59.62,1475208,364,59.62,1440.6328
-AMAS,v1.02,Jarvis et al. 2014,Jarvis et al. 2014 (DNA),49,3679,9251694,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:59.20,1473000,365,59.2,1438.4766
-AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:45.62,1007476,332,45.62,983.8633
-AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:45.78,1007588,336,45.78,983.97266
-AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:46.36,1005828,331,46.36,982.2539
-AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:45.59,1005724,331,45.59,982.15234
-AMAS,v1.02,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Summary Statistics,Desktop,Linux,AMD Ryzen 9 5900X 12-Core Processor,01/30/2024,TRUE,0:45.98,1004376,330,45.98,980.83594
+SEGUL,v,Chan et al. 2020,Chan et al. 2020 (DNA),50,13181,6180393,DNA,Alignment Splitting,Desktop,,,01/31/2024,TRUE,thread,'main',panicked,
