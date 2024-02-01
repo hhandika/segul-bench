@@ -1,0 +1,112 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 53%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL Remove
+Dataset path: alignments/chan_2020_phylip/
+0:00.40 21160 716%
+0:00.41 21372 704%
+0:00.41 20976 699%
+0:00.43 21156 679%
+0:00.41 20600 696%
+Dataset path: alignments/esselstyn_2021_phylip
+0:00.28 17148 1808%
+0:00.28 14508 1801%
+0:00.34 17224 1487%
+0:00.29 14700 1779%
+0:00.28 15276 1815%
+Dataset path: alignments/jarvis_2014_phylip
+0:00.30 15320 1525%
+0:00.27 15548 1702%
+0:00.28 15328 1645%
+0:00.32 15352 1418%
+0:00.33 13248 1363%
+Dataset path: alignments/oliveros_2019_phylip
+0:00.36 21400 1421%
+0:00.36 21452 1425%
+0:00.41 19696 1235%
+0:00.48 21216 1047%
+0:00.40 20848 1263%
+
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/chan_2020_phylip/
+0:00.42 19256 473%
+0:00.42 21168 470%
+0:00.41 19064 472%
+0:00.39 20224 495%
+0:00.43 20744 464%
+Dataset path: alignments/esselstyn_2021_phylip
+0:00.28 16760 727%
+0:00.30 14892 703%
+0:00.30 14700 697%
+0:00.24 16956 856%
+0:00.27 16428 770%
+Dataset path: alignments/jarvis_2014_phylip
+0:00.27 14940 932%
+0:00.28 15540 921%
+0:00.31 13632 818%
+0:00.31 15312 807%
+0:00.32 13440 783%
+Dataset path: alignments/oliveros_2019_phylip
+0:00.46 21248 711%
+0:00.45 21620 738%
+0:00.56 21584 602%
+0:00.56 19120 576%
+0:00.51 21232 658%
+
+Benchmarking AMAS
+Dataset path: alignments/chan_2020_phylip/
+0:02.38 394476 282%
+0:02.35 394284 291%
+0:02.34 392676 288%
+0:02.24 393876 300%
+0:02.25 394852 304%
+Dataset path: alignments/esselstyn_2021_phylip
+0:01.29 433868 419%
+0:01.19 433916 461%
+0:01.19 433364 468%
+0:01.19 433988 446%
+0:01.30 433260 434%
+Dataset path: alignments/jarvis_2014_phylip
+0:01.29 511884 673%
+0:01.50 511152 575%
+0:01.39 513788 613%
+0:01.39 513404 628%
+0:01.29 512112 671%
+Dataset path: alignments/oliveros_2019_phylip
+0:01.82 739972 563%
+0:01.81 740236 543%
+0:01.92 736796 526%
+0:01.81 737556 550%
+0:01.95 738112 518%
+
+Benchmarking AMAS (check align)
+Dataset path: alignments/chan_2020_phylip/
+0:09.99 394848 145%
+0:10.09 392576 145%
+0:10.14 392876 144%
+0:10.01 391800 144%
+0:09.98 392784 145%
+Dataset path: alignments/esselstyn_2021_phylip
+0:10.36 437576 140%
+0:10.23 438128 141%
+0:10.08 433388 142%
+0:10.33 433172 139%
+0:10.16 432540 141%
+Dataset path: alignments/jarvis_2014_phylip
+0:04.73 511768 257%
+0:04.85 511484 253%
+0:04.93 511164 252%
+0:04.86 514304 249%
+0:05.01 514504 248%
+Dataset path: alignments/oliveros_2019_phylip
+3:32.07 737028 103%
+3:40.66 738796 103%
+3:33.54 737744 103%
+3:30.44 738120 104%
+3:33.65 737116 103%

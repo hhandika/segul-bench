@@ -1,0 +1,36 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 62%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL
+Dataset path: alignments/shen_2018_phylip/
+0:01.36 652532 1600%
+0:01.36 652316 1585%
+0:01.35 651388 1603%
+0:01.37 646268 1595%
+0:01.37 647616 1594%
+Dataset path: alignments/wu_2018_phylip/
+0:00.82 379220 1633%
+0:00.82 378340 1643%
+0:00.82 378504 1649%
+0:00.82 378584 1646%
+0:00.83 377284 1635%
+
+Benchmarking AMAS
+Dataset path: alignments/shen_2018_phylip/
+1:13.98 1724756 293%
+1:13.30 1723576 297%
+1:13.03 1723584 294%
+1:14.31 1726112 294%
+1:13.89 1724904 294%
+Dataset path: alignments/wu_2018_phylip/
+0:42.68 1000784 290%
+0:44.93 1001980 282%
+0:45.13 1001680 281%
+0:44.23 1000656 286%
+0:44.70 1002976 284%

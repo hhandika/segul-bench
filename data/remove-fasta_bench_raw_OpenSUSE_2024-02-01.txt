@@ -1,0 +1,112 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 56%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL Remove
+Dataset path: alignments/chan_2020_fasta/
+0:00.40 22372 586%
+0:00.41 20920 581%
+0:00.42 20744 563%
+0:00.40 20692 586%
+0:00.41 20748 568%
+Dataset path: alignments/esselstyn_2021_fasta
+0:00.27 16612 1582%
+0:00.29 16584 1455%
+0:00.27 16224 1568%
+0:00.28 14504 1551%
+0:00.30 14696 1391%
+Dataset path: alignments/jarvis_2014_fasta
+0:00.30 15356 1131%
+0:00.29 15736 1161%
+0:00.32 15332 1044%
+0:00.33 15340 1021%
+0:00.28 15160 1225%
+Dataset path: alignments/oliveros_2019_fasta
+0:00.35 20820 1094%
+0:00.41 21048 938%
+0:00.39 20796 967%
+0:00.43 21004 869%
+0:00.46 20996 796%
+
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/chan_2020_fasta/
+0:00.40 18828 372%
+0:00.43 20692 360%
+0:00.40 23140 371%
+0:00.41 20300 373%
+0:00.38 20756 395%
+Dataset path: alignments/esselstyn_2021_fasta
+0:00.25 14120 528%
+0:00.24 14312 557%
+0:00.25 15080 493%
+0:00.25 16836 507%
+0:00.27 16784 475%
+Dataset path: alignments/jarvis_2014_fasta
+0:00.27 15520 576%
+0:00.27 15304 582%
+0:00.26 15748 606%
+0:00.28 13248 554%
+0:00.31 15360 510%
+Dataset path: alignments/oliveros_2019_fasta
+0:00.36 18540 601%
+0:00.43 20600 516%
+0:00.40 20836 545%
+0:00.55 20668 400%
+0:00.54 20976 400%
+
+Benchmarking AMAS
+Dataset path: alignments/chan_2020_fasta/
+0:02.46 396512 261%
+0:02.37 392672 260%
+0:02.24 396344 279%
+0:02.24 392476 282%
+0:02.24 392756 282%
+Dataset path: alignments/esselstyn_2021_fasta
+0:01.19 433344 408%
+0:01.19 433712 399%
+0:01.19 433160 412%
+0:01.19 432556 392%
+0:01.19 436204 408%
+Dataset path: alignments/jarvis_2014_fasta
+0:01.29 511852 602%
+0:01.29 513852 586%
+0:01.30 511440 591%
+0:01.19 514064 650%
+0:01.39 510892 560%
+Dataset path: alignments/oliveros_2019_fasta
+0:01.80 738860 499%
+0:01.80 737660 503%
+0:01.81 737656 508%
+0:01.90 737616 476%
+0:01.80 739612 511%
+
+Benchmarking AMAS (check align)
+Dataset path: alignments/chan_2020_fasta/
+0:09.68 393308 142%
+0:09.53 392240 142%
+0:09.56 394328 144%
+0:09.53 392652 143%
+0:09.79 394668 140%
+Dataset path: alignments/esselstyn_2021_fasta
+0:10.08 433152 135%
+0:10.08 434620 135%
+0:10.27 433308 135%
+0:10.28 434032 133%
+0:09.83 434800 136%
+Dataset path: alignments/jarvis_2014_fasta
+0:05.02 512448 228%
+0:04.97 511752 227%
+0:04.86 512768 234%
+0:04.95 511640 231%
+0:04.91 513184 232%
+Dataset path: alignments/oliveros_2019_fasta
+3:27.24 739956 103%
+3:39.03 737404 103%
+3:34.51 740096 103%
+3:31.92 737584 103%
+3:31.33 737388 103%

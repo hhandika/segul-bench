@@ -1,0 +1,60 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 62%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL
+Dataset path: alignments/chan_2020_fasta/
+0:00.64 235224 1461%
+0:00.63 236472 1483%
+0:00.63 236428 1483%
+0:00.64 238808 1456%
+0:00.64 236936 1440%
+Dataset path: alignments/esselstyn_2021_fasta
+0:00.63 138380 1897%
+0:00.62 138468 1924%
+0:00.63 135428 1904%
+0:00.63 138656 1900%
+0:00.63 135216 1889%
+Dataset path: alignments/jarvis_2014_fasta
+0:00.72 94168 2140%
+0:00.72 93888 2129%
+0:00.72 94404 2129%
+0:00.72 94480 2138%
+0:00.72 91960 2133%
+Dataset path: alignments/oliveros_2019_fasta
+0:00.94 327484 1677%
+0:00.95 329340 1648%
+0:00.94 327976 1670%
+0:00.95 329884 1646%
+0:00.94 329512 1670%
+
+Benchmarking AMAS
+Dataset path: alignments/chan_2020_fasta/
+0:46.36 1007940 323%
+0:45.76 1006376 322%
+0:46.46 1008212 320%
+0:46.47 1005972 317%
+0:46.74 1006360 318%
+Dataset path: alignments/esselstyn_2021_fasta
+0:51.54 1243876 306%
+0:51.46 1242080 306%
+0:51.53 1244524 312%
+0:51.94 1242976 304%
+0:51.19 1242320 306%
+Dataset path: alignments/jarvis_2014_fasta
+1:00.09 1472476 347%
+0:59.79 1472480 350%
+0:59.69 1472168 349%
+0:59.75 1475352 353%
+0:59.48 1475904 349%
+Dataset path: alignments/oliveros_2019_fasta
+1:42.30 2023044 272%
+1:31.88 2021452 292%
+1:30.99 2023380 297%
+1:31.31 2021768 296%
+1:30.46 2022168 296%

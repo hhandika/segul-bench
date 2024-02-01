@@ -1,0 +1,96 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 62%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+v0.3.5
+Benchmarking SEGUL
+Dataset path: alignments/wu_2018_phylip/
+0:01.93 341800 143%
+0:01.94 341444 143%
+0:01.90 338580 144%
+0:01.90 341932 144%
+0:01.90 340360 145%
+Dataset path: alignments/shen_2018_phylip/
+0:03.87 505648 137%
+0:03.87 508156 137%
+0:03.88 503544 137%
+0:03.81 507992 137%
+0:03.81 506852 138%
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/wu_2018_phylip/
+0:00.77 341888 213%
+0:00.74 342152 216%
+0:00.74 341980 218%
+0:00.77 344852 202%
+0:00.76 342488 208%
+Dataset path: alignments/shen_2018_phylip/
+0:01.27 507788 210%
+0:01.25 508620 213%
+0:01.25 506824 215%
+0:01.25 505320 215%
+0:01.23 505516 217%
+
+Benchmarking AMAS
+Dataset path: alignments/wu_2018_phylip/
+0:01.48 1172448 331%
+0:01.49 1171260 338%
+0:01.48 1169304 333%
+0:01.47 1170880 332%
+0:01.46 1169700 342%
+Dataset path: alignments/shen_2018_phylip/
+0:03.48 1784304 265%
+0:03.55 1781584 263%
+0:03.42 1785836 268%
+0:03.53 1778092 271%
+0:03.38 1772984 268%
+
+Benchmarking AMAS (--check-align)
+Dataset path: alignments/wu_2018_phylip/
+0:21.69 1170532 116%
+0:21.43 1171968 116%
+0:21.84 1169672 116%
+0:21.69 1172048 115%
+0:21.22 1169564 116%
+Dataset path: alignments/shen_2018_phylip/
+8:11.14 1780624 101%
+8:20.15 1778944 101%
+8:02.71 1778984 101%
+8:21.82 1777716 101%
+8:31.24 1777228 101%
+
+Benchmarking goalign (multi-core)
+
+Dataset path: alignments/wu_2018_phylip/
+0:05.40 1783232 104%
+0:05.48 1778716 104%
+0:05.44 1770564 105%
+0:05.88 2041012 103%
+0:05.54 2125364 103%
+
+Dataset path: alignments/shen_2018_phylip/
+0:09.23 2846256 103%
+0:08.91 2829576 102%
+0:09.01 2798136 102%
+0:08.96 2401932 103%
+0:08.97 2838232 102%
+
+Benchmarking goalign (single-core)
+
+Dataset path: alignments/wu_2018_phylip/
+0:04.89 2066676 100%
+0:04.98 1817568 100%
+0:04.98 2090408 100%
+0:04.93 1749820 100%
+0:04.91 1848816 100%
+
+Dataset path: alignments/shen_2018_phylip/
+0:08.59 2883920 100%
+0:08.41 2884556 100%
+0:08.56 2918556 100%
+0:08.25 2918420 100%
+0:08.62 2922736 100%

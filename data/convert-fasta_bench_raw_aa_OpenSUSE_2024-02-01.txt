@@ -1,0 +1,71 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 59%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL Convert fasta to phylip
+
+Dataset path: alignments/shen_2018_fasta/
+0:00.29 26544 1993%
+0:00.29 28624 1989%
+0:00.29 27340 1968%
+0:00.30 28356 1916%
+0:00.29 27440 1969%
+
+Dataset path: alignments/wu_2018_fasta/
+0:00.25 20440 1167%
+0:00.24 20292 1190%
+0:00.23 20412 1258%
+0:00.22 20108 1302%
+0:00.22 20476 1331%
+Benchmarking SEGUL ignore datatype
+
+Dataset path: alignments/shen_2018_fasta/
+0:00.21 27884 954%
+0:00.23 27660 816%
+0:00.21 26532 922%
+0:00.24 27068 796%
+0:00.23 27872 856%
+
+Dataset path: alignments/wu_2018_fasta/
+0:00.30 20996 359%
+0:00.32 20292 356%
+0:00.31 20464 352%
+0:00.29 19876 361%
+0:00.31 20068 354%
+
+Benchmarking AMAS convert fasta to phylip
+
+Dataset path: alignments/shen_2018_fasta/
+0:01.52 596548 410%
+0:01.39 600176 437%
+0:01.39 595268 454%
+0:01.39 603952 456%
+0:01.39 597860 453%
+
+Dataset path: alignments/wu_2018_fasta/
+0:01.11 360564 362%
+0:01.00 358496 401%
+0:01.00 356204 402%
+0:00.99 356320 390%
+0:01.00 357264 406%
+
+Benchmarking AMAS (check-align) convert fasta to phylip
+
+Dataset path: alignments/shen_2018_fasta/
+8:16.01 596588 101%
+8:27.59 595684 101%
+8:34.82 597344 101%
+8:21.08 597632 101%
+8:36.22 601108 101%
+
+Dataset path: alignments/wu_2018_fasta/
+0:21.50 359500 113%
+0:21.81 358928 113%
+0:21.73 358556 112%
+0:21.68 357776 113%
+0:21.48 360288 114%
