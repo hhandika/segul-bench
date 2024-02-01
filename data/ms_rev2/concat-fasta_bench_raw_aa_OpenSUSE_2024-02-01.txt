@@ -1,0 +1,96 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 59%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+v0.3.5
+Benchmarking SEGUL
+Dataset path: alignments/wu_2018_fasta/
+0:01.61 341536 122%
+0:01.62 340676 119%
+0:01.63 341700 120%
+0:01.61 341560 122%
+0:01.62 339456 119%
+Dataset path: alignments/shen_2018_fasta/
+0:03.30 505444 116%
+0:03.43 507400 115%
+0:03.39 507768 116%
+0:03.40 507928 117%
+0:03.40 508144 114%
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/wu_2018_fasta/
+0:00.46 341404 160%
+0:00.45 342292 162%
+0:00.47 340588 178%
+0:00.46 339320 182%
+0:00.46 344004 163%
+Dataset path: alignments/shen_2018_fasta/
+0:00.73 507072 156%
+0:00.72 506680 178%
+0:00.73 506752 180%
+0:00.73 506880 175%
+0:00.73 506748 179%
+
+Benchmarking AMAS
+Dataset path: alignments/wu_2018_fasta/
+0:01.50 1170468 296%
+0:01.49 1169980 294%
+0:01.48 1169192 298%
+0:01.49 1170052 297%
+0:01.51 1168620 296%
+Dataset path: alignments/shen_2018_fasta/
+0:03.58 1782724 237%
+0:03.53 1782248 239%
+0:03.63 1773404 237%
+0:03.45 1784224 245%
+0:03.53 1772880 244%
+
+Benchmarking AMAS (--check-align)
+Dataset path: alignments/wu_2018_fasta/
+0:21.91 1169524 112%
+0:21.43 1169436 113%
+0:22.20 1172380 113%
+0:22.03 1169384 113%
+0:22.23 1169948 112%
+Dataset path: alignments/shen_2018_fasta/
+8:31.90 1777640 101%
+8:34.26 1780308 101%
+8:24.72 1776780 101%
+8:22.54 1777696 101%
+8:34.46 1778428 101%
+
+Benchmarking goalign (multi-core)
+
+Dataset path: alignments/wu_2018_fasta/
+0:04.89 2023012 103%
+0:04.85 1698976 103%
+0:04.82 2001648 103%
+0:04.88 1718748 104%
+0:04.82 1656660 104%
+
+Dataset path: alignments/shen_2018_fasta/
+0:08.09 2159212 103%
+0:08.11 2180360 102%
+0:08.12 2179988 103%
+0:08.31 2566016 102%
+0:07.94 2150120 103%
+
+Benchmarking goalign (single-core)
+
+Dataset path: alignments/wu_2018_fasta/
+0:04.47 1979564 100%
+0:04.46 1780316 100%
+0:04.43 1998780 100%
+0:04.44 1996452 100%
+0:04.44 1981588 100%
+
+Dataset path: alignments/shen_2018_fasta/
+0:07.67 2539160 100%
+0:07.67 2163440 100%
+0:07.73 2569000 100%
+0:07.57 2547976 100%
+0:07.74 2560452 100%
