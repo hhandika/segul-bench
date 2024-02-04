@@ -1,4 +1,40 @@
 Analyses,Datasets,OS_name,Apps,Execution_time_secs,RAM_usage_Mb,Percent_CPU_usage
+Alignment Concatenation (FASTA),Chan et al. 2020 (DNA),Linux,AMAS,1.618,1260.43124,384.2
+Alignment Concatenation (FASTA),Chan et al. 2020 (DNA),Linux,AMAS (--check-align),9.224,1261.35782,149.4
+Alignment Concatenation (FASTA),Chan et al. 2020 (DNA),Linux,SEGUL,1.224,374.673438,138
+Alignment Concatenation (FASTA),Chan et al. 2020 (DNA),Linux,SEGUL (--datatype ignore),0.572,375.298434,177.8
+Alignment Concatenation (FASTA),Chan et al. 2020 (DNA),Linux,goalign (multi-core),4.78,2058.4827999999998,103.2
+Alignment Concatenation (FASTA),Chan et al. 2020 (DNA),Linux,goalign (single-core),4.442,1949.9867199999999,100
+Alignment Concatenation (FASTA),Esselstyn et al. 2021 (DNA),Linux,AMAS,1.532,2005.2789,352.8
+Alignment Concatenation (FASTA),Esselstyn et al. 2021 (DNA),Linux,AMAS (--check-align),10.516,2004.7797,136.2
+Alignment Concatenation (FASTA),Esselstyn et al. 2021 (DNA),Linux,SEGUL,2.472,573.375004,112
+Alignment Concatenation (FASTA),Esselstyn et al. 2021 (DNA),Linux,SEGUL (--datatype ignore),0.608,571.183588,148.8
+Alignment Concatenation (FASTA),Esselstyn et al. 2021 (DNA),Linux,goalign (multi-core),6.264,3336.24218,103.8
+Alignment Concatenation (FASTA),Esselstyn et al. 2021 (DNA),Linux,goalign (single-core),5.914,3415.3961,100
+Alignment Concatenation (FASTA),Jarvis et al. 2014 (DNA),Linux,AMAS,1.286,1798.36952,617.4
+Alignment Concatenation (FASTA),Jarvis et al. 2014 (DNA),Linux,AMAS (--check-align),4.952,1798.4336,233
+Alignment Concatenation (FASTA),Jarvis et al. 2014 (DNA),Linux,SEGUL,1.736,495.854686,115.6
+Alignment Concatenation (FASTA),Jarvis et al. 2014 (DNA),Linux,SEGUL (--datatype ignore),0.484,495.03828,152
+Alignment Concatenation (FASTA),Jarvis et al. 2014 (DNA),Linux,goalign (multi-core),7.324,2714.1711,102.4
+Alignment Concatenation (FASTA),Jarvis et al. 2014 (DNA),Linux,goalign (single-core),6.838,2678.8023599999997,100
+Alignment Concatenation (FASTA),Oliveros et al. 2019 (DNA),Linux,AMAS,3.282,2262.32812,321.2
+Alignment Concatenation (FASTA),Oliveros et al. 2019 (DNA),Linux,AMAS (--check-align),217.668,2259.77114,103
+Alignment Concatenation (FASTA),Oliveros et al. 2019 (DNA),Linux,SEGUL,1.892,607.857808,132
+Alignment Concatenation (FASTA),Oliveros et al. 2019 (DNA),Linux,SEGUL (--datatype ignore),0.838,605.91016,168
+Alignment Concatenation (FASTA),Oliveros et al. 2019 (DNA),Linux,goalign (multi-core),8.668,3480.9172,103
+Alignment Concatenation (FASTA),Oliveros et al. 2019 (DNA),Linux,goalign (single-core),8.084,3835.6929999999998,100
+Alignment Concatenation (FASTA),Shen et al. 2018 (AA),Linux,AMAS,3.544,1737.39844,240.4
+Alignment Concatenation (FASTA),Shen et al. 2018 (AA),Linux,AMAS (--check-align),509.576,1736.4945400000001,101
+Alignment Concatenation (FASTA),Shen et al. 2018 (AA),Linux,SEGUL,3.384,495.446096,115.6
+Alignment Concatenation (FASTA),Shen et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.728,494.94766,173.6
+Alignment Concatenation (FASTA),Shen et al. 2018 (AA),Linux,goalign (multi-core),8.114,2194.47188,102.6
+Alignment Concatenation (FASTA),Shen et al. 2018 (AA),Linux,goalign (single-core),7.676,2417.9742,100
+Alignment Concatenation (FASTA),Wu et al. 2018 (AA),Linux,AMAS,1.494,1142.24846,296.2
+Alignment Concatenation (FASTA),Wu et al. 2018 (AA),Linux,AMAS (--check-align),21.96,1142.70936,112.6
+Alignment Concatenation (FASTA),Wu et al. 2018 (AA),Linux,SEGUL,1.618,332.99375,120.4
+Alignment Concatenation (FASTA),Wu et al. 2018 (AA),Linux,SEGUL (--datatype ignore),0.46,333.517188,169
+Alignment Concatenation (FASTA),Wu et al. 2018 (AA),Linux,goalign (multi-core),4.852,1777.15704,103.4
+Alignment Concatenation (FASTA),Wu et al. 2018 (AA),Linux,goalign (single-core),4.448,1901.69922,100
 Alignment Concatenation (NEXUS),Chan et al. 2020 (DNA),Linux,AMAS,1.632,1261.0039,658.8
 Alignment Concatenation (NEXUS),Chan et al. 2020 (DNA),Linux,AMAS (--check-align),9.112,1259.99688,198.4
 Alignment Concatenation (NEXUS),Chan et al. 2020 (DNA),Linux,SEGUL,1.578,379.235938,169.6

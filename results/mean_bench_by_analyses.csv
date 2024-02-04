@@ -1,4 +1,10 @@
 Analyses,Apps,Execution_time_secs,RAM_usage_Mb,Percent_CPU_usage
+Alignment Concatenation (FASTA),AMAS,2.126,1701.0091133333333,368.7
+Alignment Concatenation (FASTA),AMAS (--check-align),128.98266666666666,1700.5910266666667,139.2
+Alignment Concatenation (FASTA),SEGUL,2.054333333333333,480.03346366666665,122.26666666666667
+Alignment Concatenation (FASTA),SEGUL (--datatype ignore),0.615,479.315885,164.86666666666667
+Alignment Concatenation (FASTA),goalign (multi-core),6.667,2593.5737,103.06666666666666
+Alignment Concatenation (FASTA),goalign (single-core),6.233666666666666,2699.9252666666666,100
 Alignment Concatenation (NEXUS),AMAS,2.2720000000000002,1700.4445333333333,721.0666666666667
 Alignment Concatenation (NEXUS),AMAS (--check-align),127.425,1700.4020866666667,191.73333333333332
 Alignment Concatenation (NEXUS),SEGUL,2.505,509.62240033333336,154.83333333333334

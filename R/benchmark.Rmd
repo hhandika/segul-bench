@@ -77,8 +77,8 @@ summary_by_datasets |>
     theme_classic() +
     labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
 
-.height <- 6
-.width <- 8
+.height <- 8
+.width <- 10
 
 ggsave(here("figures", "summary_fig1.png"), width = .width, height = .height, units = "in")
 ggsave(here("figures", "summary_fig1.pdf"), width = .width, height = .height, units = "in")
