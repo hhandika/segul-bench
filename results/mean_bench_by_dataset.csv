@@ -287,7 +287,8 @@ Alignment Summary (PHYLIP),Shen et al. 2018 (AA),Linux,AMAS,73.702,1684.16642,29
 Alignment Summary (PHYLIP),Shen et al. 2018 (AA),Linux,SEGUL,1.362,634.7890679999999,1595.4
 Alignment Summary (PHYLIP),Wu et al. 2018 (AA),Linux,AMAS,44.334,978.13983,284.6
 Alignment Summary (PHYLIP),Wu et al. 2018 (AA),Linux,SEGUL,0.822,369.517966,1641.2
-Read Summary (FASTQ),SRR26062012 (UNKNOWN),Linux,SEGUL,996.738,9.03515626,198.4
+Read Summary (FASTQ),SRR26062012 (Whole Genome),Linux,SEGUL,996.738,9.03515626,198.4
+Read Summary (FASTQ),SRR26062012 (Whole Genome),Linux,SEGUL GUI,1004.2,196.733596,129
 Sequence Removal (FASTA),Chan et al. 2020 (DNA),Linux,AMAS,2.31,384.914064,272.8
 Sequence Removal (FASTA),Chan et al. 2020 (DNA),Linux,AMAS (--check-align),9.618,384.21797,142.2
 Sequence Removal (FASTA),Chan et al. 2020 (DNA),Linux,SEGUL,0.408,20.6007814,576.8

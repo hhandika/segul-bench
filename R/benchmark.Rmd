@@ -84,3 +84,23 @@ ggsave(here("figures", "summary_fig1.png"), width = .width, height = .height, un
 ggsave(here("figures", "summary_fig1.pdf"), width = .width, height = .height, units = "in")
 ```
 
+## Add raw read
+```{r}
+summary_by_datasets |>
+  dplyr::filter(Analyses == "Read Summary (FASTQ)") |>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
+    geom_point(size = 3, aes(color = Datasets, shape = Apps)) +
+    scale_color_manual(values = accessible_palette) +
+    scale_shape_manual(values = point_shapes) +
+    coord_trans(x = "log") +
+    scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
+    theme_classic() +
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+
+.height <- 8
+.width <- 10
+
+ggsave(here("figures", "summary_fig2.png"), width = .width, height = .height, units = "in")
+ggsave(here("figures", "summary_fig2.pdf"), width = .width, height = .height, units = "in")
+```
+
