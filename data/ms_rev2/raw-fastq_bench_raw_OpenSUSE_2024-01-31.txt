@@ -16,7 +16,7 @@ Dataset path:SRR26062012
 16:41.19 10156 197%
 
 #Manually added
-Benchmarking SEGUL GUI
+Benchmarking SEGUL GUI Linux
 Dataset path:SRR26062012
 16:47 193028 138%
 16:48 185192 200%
