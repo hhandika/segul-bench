@@ -33,17 +33,16 @@ bench <- readr::read_csv(file_path)
 ```{r}
 bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage")
 
-latest_bench.pub <- bench |>
-  dplyr::filter(Apps != "Phyluce")
-
 # Check the benchmark for each dataset contains 10 iterations
-counts <- latest_bench.pub |>
-  dplyr::count(Analyses, Datasets, OS_name, Apps)
+counts <- bench |>
+  dplyr::count(Analyses, Datasets, Platform, OS_name, Apps)
 
+# Check for parsing errors.
 mean(counts$n)
 
-summary_by_datasets <- latest_bench.pub |>
-  dplyr::group_by(Analyses, Datasets, OS_name, Apps) |>
+
+summary_by_datasets <- bench |>
+  dplyr::group_by(Analyses, Datasets, Platform, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 
 readr::write_csv(summary_by_datasets, here("results", "mean_bench_by_dataset.csv"))
@@ -52,7 +51,7 @@ readr::write_csv(summary_by_datasets, here("results", "mean_bench_by_dataset.csv
 ## Mean summary by analyses
 
 ```{r}
-summary_by_analyses <- latest_bench.pub |>
+summary_by_analyses <- bench |>
   dplyr::group_by(Analyses, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 
@@ -66,6 +65,7 @@ The plots generated below is used for Figure 1 in the manuscript.
 
 ```{r}
 summary_by_datasets |>
+  dplyr::filter(OS_name == "Linux") |>
   dplyr::filter(Analyses != "Read Summary (FASTQ)") |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
     geom_point(size = 3, aes(color = Datasets, shape = Apps)) +
@@ -86,16 +86,22 @@ ggsave(here("figures", "summary_fig1.pdf"), width = .width, height = .height, un
 
 ## Add raw read
 ```{r}
-summary_by_datasets |>
-  dplyr::filter(Analyses == "Read Summary (FASTQ)") |>
-  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
-    geom_point(size = 3, aes(shape = Apps)) +
-    scale_color_manual(values = accessible_palette) +
+apps <- c("SEGUL", "SEGUL GUI (Android)", "SEGUL GUI (iPadOS)")
+analyses <- c("Alignment Concatenation (NEXUS)", "Alignment Conversion (NEXUS)", "Alignment Splitting (NEXUS)", "Alignment Summary (NEXUS)", "Sequence Removal (NEXUS)")
+
+segul_compare <- summary_by_datasets |>
+  dplyr::filter(Apps %in% apps) |>
+  dplyr::filter(Analyses %in% analyses) |>
+  dplyr::mutate(Analyses = str_remove_all(Analyses, "\\(NEXUS\\)"))
+
+segul_compare |>
+  ggplot(aes(x = Analyses, y = Execution_time_secs, color = Apps)) +
+    geom_boxplot() +
+    scale_color_brewer(palette = "Dark2") +
     scale_shape_manual(values = point_shapes) +
-    coord_trans(x = "log") +
-    scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
+  scale_x_discrete(guide = guide_axis(angle = 45)) +
     theme_classic() +
-    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+    labs(y = "Execution time (secs)")
 
 .height <- 4
 .width <- 3
