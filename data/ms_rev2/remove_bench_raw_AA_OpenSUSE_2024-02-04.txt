@@ -44,6 +44,15 @@ Dataset path: alignments/shen_2018_loci_aa/
 0:4.2 0 0%
 0:4.5 0 0%
 
+# Manually added
+Benchmarking SEGUL GUI iPadOS
+Dataset path: alignments/shen_2018_loci_aa/
+0:3.7 0 0%
+0:3.3 0 0%
+0:3.0 0 0%
+0:3.0 0 0%
+0:3.1 0 0%
+
 Benchmarking AMAS
 Dataset path: alignments/shen_2018_loci_aa/
 0:01.69 636608 793%

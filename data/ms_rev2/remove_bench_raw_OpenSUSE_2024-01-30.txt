@@ -69,6 +69,15 @@ Dataset path: alignments/oliveros_2019_80p_trimmed
 0:3.5 0 0%
 0:3.6 0 0%
 
+# Manually added
+Benchmarking SEGUL GUI iPadOS
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:4.3 0 0%
+0:4.2 0 0%
+0:4.1 0 0%
+0:4.3 0 0%
+0:4.1 0 0%
+
 Benchmarking AMAS
 Dataset path: alignments/chan_2020_loci/
 0:02.35 392032 465%
