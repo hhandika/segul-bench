@@ -1,0 +1,64 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 66%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL Remove
+Dataset path: alignments/shen_2018_fasta/
+0:00.31 25672 1881%
+0:00.30 27920 1942%
+0:00.30 27620 1927%
+0:00.30 27604 1942%
+0:00.29 27796 1973%
+Dataset path: alignments/wu_2018_fasta/
+0:00.30 20256 852%
+0:00.25 19868 1180%
+0:00.25 20420 1171%
+0:00.24 20640 1213%
+0:00.30 20424 981%
+
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/shen_2018_fasta/
+0:00.21 28360 959%
+0:00.20 28008 1006%
+0:00.21 26188 965%
+0:00.21 28576 943%
+0:00.22 27776 872%
+Dataset path: alignments/wu_2018_fasta/
+0:00.22 20444 490%
+0:00.22 20880 472%
+0:00.23 20684 468%
+0:00.23 20420 486%
+0:00.32 18364 331%
+
+Benchmarking AMAS
+Dataset path: alignments/shen_2018_fasta/
+0:01.64 639488 392%
+0:01.62 636324 403%
+0:01.50 636244 433%
+0:01.61 636884 395%
+0:01.62 636860 406%
+Dataset path: alignments/wu_2018_fasta/
+0:01.40 370004 293%
+0:01.30 370556 323%
+0:01.30 369488 319%
+0:01.30 369040 309%
+0:01.40 369972 297%
+
+Benchmarking AMAS (check align)
+Dataset path: alignments/shen_2018_fasta/
+8:26.06 637184 101%
+8:42.20 636708 101%
+8:21.66 635840 101%
+8:46.59 637940 100%
+8:32.54 635700 101%
+Dataset path: alignments/wu_2018_fasta/
+0:22.35 369804 112%
+0:21.55 371216 113%
+0:21.60 370584 113%
+0:22.27 371824 112%
+0:21.73 372416 112%

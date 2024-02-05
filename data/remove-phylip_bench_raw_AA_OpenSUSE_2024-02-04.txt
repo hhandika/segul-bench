@@ -1,0 +1,64 @@
+CPU(s):                             24
+On-line CPU(s) list:                0-23
+Model name:                         AMD Ryzen 9 5900X 12-Core Processor
+Thread(s) per core:                 2
+Core(s) per socket:                 12
+CPU(s) scaling MHz:                 62%
+NUMA node0 CPU(s):                  0-23
+6.6.11-1-default
+segul 0.20.0
+Benchmarking SEGUL Remove
+Dataset path: alignments/shen_2018_phylip/
+0:00.35 29284 1942%
+0:00.35 29256 1991%
+0:00.35 26668 1946%
+0:00.34 27092 2016%
+0:00.34 26036 1999%
+Dataset path: alignments/wu_2018_phylip/
+0:00.31 21036 1026%
+0:00.24 21640 1485%
+0:00.24 21572 1475%
+0:00.25 18560 1464%
+0:00.34 19328 1061%
+
+Benchmarking SEGUL ignore datatype
+Dataset path: alignments/shen_2018_phylip/
+0:00.24 26396 1269%
+0:00.26 28208 1118%
+0:00.24 28068 1257%
+0:00.28 29724 991%
+0:00.24 26588 1238%
+Dataset path: alignments/wu_2018_phylip/
+0:00.24 21656 687%
+0:00.23 21212 727%
+0:00.23 20884 700%
+0:00.23 19136 694%
+0:00.32 18944 492%
+
+Benchmarking AMAS
+Dataset path: alignments/shen_2018_phylip/
+0:01.63 638020 459%
+0:01.63 641224 446%
+0:01.59 635876 457%
+0:01.64 635056 450%
+0:01.64 639284 451%
+Dataset path: alignments/wu_2018_phylip/
+0:01.40 370204 335%
+0:01.30 371988 352%
+0:01.30 370772 360%
+0:01.30 370164 344%
+0:01.40 371532 336%
+
+Benchmarking AMAS (check align)
+Dataset path: alignments/shen_2018_phylip/
+8:24.35 637944 101%
+8:28.13 637528 101%
+8:23.65 636796 101%
+8:45.59 636804 101%
+8:23.23 636148 101%
+Dataset path: alignments/wu_2018_phylip/
+0:22.07 370528 115%
+0:22.45 369500 114%
+0:21.78 369804 115%
+0:21.68 372104 115%
+0:21.63 370448 115%
