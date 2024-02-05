@@ -103,8 +103,8 @@ segul_compare |>
     theme_classic() +
     labs(y = "Execution time (secs)")
 
-.height <- 4
-.width <- 3
+ .height <- 4
+.width <- 6
 
 ggsave(here("figures", "summary_fig2.png"), width = .width, height = .height, units = "in")
 ggsave(here("figures", "summary_fig2.pdf"), width = .width, height = .height, units = "in")
