@@ -35,6 +35,15 @@ Dataset path: alignments/shen_2018_loci_aa/
 0:01.27 603316 224%
 0:01.30 604876 218%
 
+# Manually added
+Benchmarking SEGUL GUI Android
+Dataset path: alignments/shen_2018_loci_aa/
+0:17.5 0 0%
+0:17.0 0 0%
+0:17.0 0 0%
+0:17.0 0 0%
+0:17.2 0 0%
+
 Benchmarking AMAS
 Dataset path: alignments/wu_2018_aa_loci/
 0:01.85 1171284 991%

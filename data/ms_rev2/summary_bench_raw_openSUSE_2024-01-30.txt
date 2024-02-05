@@ -33,6 +33,15 @@ Dataset path: alignments/chan_2020_loci/
 0:00.71 239548 1532%
 0:00.71 241496 1532%
 
+# Manually added
+Benchmarking SEGUL GUI Android
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:14.2 0 0%
+0:14.3 0 0%
+0:14.4 0 0%
+0:14.1 0 0%
+0:14.2 0 0%
+
 Benchmarking AMAS
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:51.12 1244580 321%

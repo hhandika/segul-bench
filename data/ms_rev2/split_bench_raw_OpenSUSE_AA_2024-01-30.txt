@@ -35,6 +35,15 @@ Dataset path: wu2018.nex
 0:00.77 814008 201%
 0:00.72 812056 207%
 
+# Manually added
+Benchmarking SEGUL GUI Android
+Dataset path: alignments/shen_2018_loci_aa/
+0:14.4 0 0%
+0:14.4 0 0%
+0:14.4 0 0%
+0:15.2 0 0%
+0:14.2 0 0%
+
 Benchmarking AMAS (--remove-empty)
 Dataset path: shen2018.nex
 0:07.31 1181100 100%

@@ -66,6 +66,14 @@ Dataset path: alignments/chan_2020_loci/
 0:00.40 26396 554%
 0:00.34 26412 666%
 
+Benchmarking SEGUL GUI Android
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:3.4 0 0%
+0:3.8 0 0%
+0:3.9 0 0%
+0:3.6 0 0%
+0:3.5 0 0%
+
 Benchmarking AMAS convert nexus to phylip
 
 Dataset path: alignments/esselstyn_2021_nexus_trimmed

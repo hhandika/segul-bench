@@ -59,6 +59,15 @@ Dataset path: oliveros2019.nex
 0:01.55 1606328 206%
 0:01.58 1606248 197%
 
+# Manually added
+Benchmarking SEGUL GUI Android
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:15.3 0 0%
+0:15.3 0 0%
+0:13.9 0 0%
+0:13.8 0 0%
+0:14.2 0 0%
+
 Benchmarking AMAS (--remove-empty)
 Dataset path: chan2020.nex
 0:07.79 928148 100%

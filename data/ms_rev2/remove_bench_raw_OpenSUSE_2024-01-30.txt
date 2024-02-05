@@ -60,6 +60,15 @@ Dataset path: alignments/oliveros_2019_80p_trimmed
 0:00.37 36128 908%
 0:00.47 34452 701%
 
+# Manually added
+Benchmarking SEGUL GUI Android
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:3.4 0 0%
+0:3.5 0 0%
+0:3.5 0 0%
+0:3.5 0 0%
+0:3.6 0 0%
+
 Benchmarking AMAS
 Dataset path: alignments/chan_2020_loci/
 0:02.35 392032 465%
