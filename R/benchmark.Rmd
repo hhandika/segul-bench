@@ -61,7 +61,7 @@ readr::write_csv(summary_by_analyses, here("results", "mean_bench_by_analyses.cs
 
 ## Generate plots using the mean of benchmark results for each datasets
 
-The plots generated below is used for Figure 1 in the manuscript.
+Figure 1. 
 
 ```{r}
 summary_by_datasets |>
@@ -70,12 +70,12 @@ summary_by_datasets |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
     geom_point(size = 3, aes(color = Datasets, shape = Apps)) +
     facet_wrap(~ Analyses, scales = "free", ncol = 3) +
-    scale_color_manual(values = accessible_palette) +
+    scale_color_manual(values = ai_2024) +
     scale_shape_manual(values = point_shapes) +
     coord_trans(x = "log") +
     scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
-    theme_classic() +
-    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+    theme_minimal() +
+    labs(x = "Mean execution time (secs)", y = "Mean memory usage (Mb)")
 
 .height <- 8
 .width <- 10
@@ -83,30 +83,55 @@ summary_by_datasets |>
 ggsave(here("figures", "summary_fig1.png"), width = .width, height = .height, units = "in")
 ggsave(here("figures", "summary_fig1.pdf"), width = .width, height = .height, units = "in")
 ```
+## Figure 2 SEGUL GUI versus CLI performance for genome analyses
 
-## Add raw read
 ```{r}
-apps <- c("SEGUL", "SEGUL GUI (Android)", "SEGUL GUI (iPadOS)")
+bench |>
+  dplyr::filter(OS_name == "Linux") |>
+  dplyr::filter(Analyses == "Read Summary (FASTQ)") |>
+  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
+    geom_point(size = 3, aes(color = Apps, shape = Apps)) +
+    scale_color_manual(values = ai_2024) +
+    scale_shape_manual(values = point_shapes) +
+    coord_trans(x = "log") +
+    scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
+    theme_minimal() +
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+
+.height <- 3
+.width <- 4
+
+ggsave(here("figures", "summary_fig2.png"), width = .width, height = .height, units = "in")
+ggsave(here("figures", "summary_fig2.pdf"), width = .width, height = .height, units = "in")
+```
+
+
+## Figure 3 Execution time comparison across different SEGUL
+
+```{r}
+apps <- c("SEGUL CLI", "SEGUL GUI (Linux)", "SEGUL GUI (Android)", "SEGUL GUI (iPadOS)")
 analyses <- c("Alignment Concatenation (NEXUS)", "Alignment Conversion (NEXUS)", "Alignment Splitting (NEXUS)", "Alignment Summary (NEXUS)", "Sequence Removal (NEXUS)")
+dataset <- c("Oliveros et al. 2019 (DNA)", "Shen et al. 2018 (AA)")
 
 segul_compare <- summary_by_datasets |>
   dplyr::filter(Apps %in% apps) |>
   dplyr::filter(Analyses %in% analyses) |>
+  dplyr::filter(Datasets %in% dataset) |>
   dplyr::mutate(Analyses = str_remove_all(Analyses, "\\(NEXUS\\)"))
 
 segul_compare |>
-  ggplot(aes(x = Analyses, y = Execution_time_secs, color = Apps)) +
-    geom_boxplot() +
-    scale_color_brewer(palette = "Dark2") +
-    scale_shape_manual(values = point_shapes) +
-  scale_x_discrete(guide = guide_axis(angle = 45)) +
-    theme_classic() +
-    labs(y = "Execution time (secs)")
+  ggplot(aes(x = Analyses, y = Execution_time_secs, fill = Apps)) +
+    geom_bar(stat = "identity", position=position_dodge()) +
+    facet_wrap(~ Datasets,  ncol = 3) +
+    scale_fill_manual(values = ai_2024_4) +
+  scale_x_discrete(guide = guide_axis(angle = 60)) +
+    theme_minimal() +
+    labs(y = "Mean execution time (secs)")
 
- .height <- 4
-.width <- 6
+.height <- 6
+.width <- 8
 
-ggsave(here("figures", "summary_fig2.png"), width = .width, height = .height, units = "in")
-ggsave(here("figures", "summary_fig2.pdf"), width = .width, height = .height, units = "in")
+ggsave(here("figures", "summary_fig3.png"), width = .width, height = .height, units = "in")
+ggsave(here("figures", "summary_fig3.pdf"), width = .width, height = .height, units = "in")
 ```
 
