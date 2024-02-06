@@ -56,6 +56,15 @@ Dataset path: alignments/shen_2018_loci_aa/
 0:3.1 0 0%
 0:2.9 0 0%
 
+# Manually added
+Benchmarking SEGUL GUI Linux
+Dataset path: alignments/shen_2018_loci_aa/
+0:00.46 270624 67%
+0:00.50 256944 52%
+0:00.47 258544 59%
+0:00.47 253244 66%
+0:00.50 261280 43%
+
 Benchmarking AMAS convert nexus to phylip
 
 Dataset path: alignments/wu_2018_aa_loci/

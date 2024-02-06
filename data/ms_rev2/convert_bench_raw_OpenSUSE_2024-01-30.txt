@@ -84,6 +84,15 @@ Dataset path: alignments/oliveros_2019_80p_trimmed
 0:5.4 0 0%
 0:4.1 0 0%
 
+# Manually added
+Benchmarking SEGUL GUI Linux
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:00.39 227916 57%
+0:00.40 225804 46%
+0:00.43 228404 55%
+0:00.40 233052 57%
+0:00.43 226124 41%
+
 Benchmarking AMAS convert nexus to phylip
 
 Dataset path: alignments/esselstyn_2021_nexus_trimmed

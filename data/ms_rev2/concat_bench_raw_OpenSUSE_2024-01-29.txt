@@ -77,6 +77,15 @@ Dataset path: alignments/oliveros_2019_80p_trimmed
 0:6.1 0 0%
 0:6.1 0 0%
 
+# Manually added
+Benchmarking SEGUL GUI Linux
+Dataset path: alignments/oliveros_2019_80p_trimmed
+0:3.5 896760 23%
+0:3.7 887848 21%
+0:3.5 887848 21%
+0:3.6 887848 21%
+0:3.5 887848 21%
+
 Benchmarking AMAS
 Dataset path: alignments/esselstyn_2021_nexus_trimmed
 0:01.58 2053588 713%
