@@ -147,6 +147,10 @@ segul_compare <- summary_by_datasets |>
   dplyr::filter(Datasets %in% dataset) |>
   dplyr::mutate(Analyses = str_remove_all(Analyses, "\\(NEXUS\\)"))
 
+segul_compare_by_analyses <- segul_compare |>
+  dplyr::group_by(Analyses,  Apps) |>
+  dplyr::summarise_at(bench_results, mean)
+
 segul_compare |>
   ggplot(aes(x = Analyses, y = Execution_time_secs, fill = Apps)) +
     geom_bar(stat = "identity", position=position_dodge()) +
