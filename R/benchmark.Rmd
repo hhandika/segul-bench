@@ -25,13 +25,19 @@ source(here::here("R", "utils.R"))
 
 ```{r}
 file_path <- here("data", "data_ms_rev2.csv")
-bench <- readr::read_csv(file_path) 
+bench <- readr::read_csv(file_path) |>
+  # ignore SEGUL GUI (Linux) Percent_CPU_usage. 
+  # Not relevant for the paper and it does not seem to show the actual usage
+  dplyr::mutate(Percent_CPU_usage = ifelse(Apps == "SEGUL GUI (Linux)", 0, Percent_CPU_usage)) |>
+  dplyr::select(-Latest_bench)
+
+readr::write_csv(bench, here("results", "benchmark.csv"), na = "")
 ```
 
 ## Summarize benchmark results
 
 ```{r}
-bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage")
+bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage") 
 
 # Check the benchmark for each dataset contains 10 iterations
 counts <- bench |>
@@ -40,22 +46,44 @@ counts <- bench |>
 # Check for parsing errors.
 mean(counts$n)
 
-
 summary_by_datasets <- bench |>
   dplyr::group_by(Analyses, Datasets, Platform, OS_name, Apps) |>
-  dplyr::summarise_at(bench_results, mean)
+  dplyr::summarise_at(bench_results, mean) |>
+  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0)) |>
+  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0))
 
-readr::write_csv(summary_by_datasets, here("results", "mean_bench_by_dataset.csv"))
+readr::write_csv(summary_by_datasets, here("results", "mean_bench_by_dataset.csv"), na = "")
 ```
 
 ## Mean summary by analyses
 
 ```{r}
-summary_by_analyses <- bench |>
-  dplyr::group_by(Analyses, Apps) |>
-  dplyr::summarise_at(bench_results, mean)
+analyses.df <- bench |>
+  # Create a analyses type column by removing input format
+  dplyr::mutate(AnalysesType = str_extract(Analyses, "^[^(]+")) 
 
-readr::write_csv(summary_by_analyses, here("results", "mean_bench_by_analyses.csv"))
+summary_by_analyses_type <- analyses.df |>
+  dplyr::group_by(AnalysesType, Apps) |>
+  dplyr::summarise_at(bench_results, mean) |>
+  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0)) |>
+  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0))
+
+summary_by_analyses <- analyses.df |>
+  dplyr::group_by(AnalysesType, Datasets, Apps) |>
+  dplyr::summarise_at(bench_results, mean) |>
+  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0)) |>
+  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0))
+
+
+summary_by_input_format <- analyses.df |>
+  # Create a input format column by removing analyses names
+  dplyr::mutate(format = str_extract(Analyses, "(?<=\\()([^)]+)(?=\\))")) |>
+  dplyr::group_by(AnalysesType, format, Platform, OS_name, Apps) |>
+  dplyr::summarise_at(bench_results, mean) |>
+  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0)) |>
+  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0))
+
+readr::write_csv(summary_by_analyses_type, here("results", "mean_bench_by_analyses.csv"), na = "")
 ```
 
 

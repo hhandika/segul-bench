@@ -57,20 +57,20 @@ Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,AMAS,3.
 Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,AMAS (--check-align),211.238,2260.28828,107
 Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL CLI,2.512,637.528914,176.2
 Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL CLI (--datatype ignore),1.478,638.173446,227.6
-Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),3.56,868.779688,21.4
+Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),3.56,868.779688,
 Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,goalign (multi-core),7.5920000000000005,3005.32968,104.2
 Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,goalign (single-core),7.07,3137.51014,100
-Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),16.32,0,0
-Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.16,0,0
+Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),16.32,,
+Alignment Concatenation (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.16,,
 Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,AMAS,3.542,1734.2179800000001,425.4
 Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,AMAS (--check-align),506.418,1737.49296,102
 Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI,3.878,589.7726680000001,137.8
 Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI (--datatype ignore),1.298,587.8039,221.2
-Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),4.94,766.0718760000001,35.8
+Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),4.94,766.0718760000001,
 Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,goalign (multi-core),5.824,2416.97814,103.4
 Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,goalign (single-core),5.382,2106.18904,100
-Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),17.14,0,0
-Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.9,0,0
+Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),17.14,,
+Alignment Concatenation (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.9,,
 Alignment Concatenation (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,AMAS,1.876,1142.69922,969.6
 Alignment Concatenation (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,AMAS (--check-align),22.296,1141.8523400000001,172.6
 Alignment Concatenation (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,SEGUL CLI,1.886,344.003126,148.6
@@ -153,16 +153,16 @@ Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,AMAS,1.975
 Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,AMAS (--check-align),211.37,693.009368,107.2
 Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL CLI,0.384,31.7664064,1391
 Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL CLI (--datatype ignore),0.608,32.4367188,570.2
-Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),0.41000000000000003,222.910156,51.2
-Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),3.64,0,0
-Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),4.98,0,0
+Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),0.41000000000000003,222.910156,
+Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),3.64,,
+Alignment Conversion (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),4.98,,
 Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,AMAS,1.612,585.514058,828.6
 Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,AMAS (--check-align),511.008,583.542966,102
 Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI,0.35200000000000004,66.442969,1928.2
 Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI (--datatype ignore),0.244,65.6507818,1220
-Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),0.48,254.030472,57.4
-Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),3.62,0,0
-Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),3.52,0,0
+Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),0.48,254.030472,
+Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),3.62,,
+Alignment Conversion (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),3.52,,
 Alignment Conversion (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,AMAS,1.514,348.860156,1183.2
 Alignment Conversion (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,AMAS (--check-align),22.42,349.98125,173
 Alignment Conversion (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,SEGUL CLI,0.226,29.6718752,1597.8
@@ -231,16 +231,16 @@ Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,AMAS,12.234
 Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,AMAS (--remove-empty),12.792,1573.35626,100.2
 Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL CLI,3.538,1568.66092,148.4
 Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL CLI (--datatype ignore),1.544,1568.63674,205
-Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),4.82,1737.40624,30.8
-Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),14.5,0,0
-Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.6000000000000005,0,0
+Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),4.82,1737.40624,
+Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),14.5,,
+Alignment Splitting (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.6000000000000005,,
 Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,AMAS,6.648,1153.42658,100.4
 Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,AMAS (--remove-empty),7.33,1153.43518,100.2
 Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI,4.068,1149.8539,137.4
 Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI (--datatype ignore),1.058,1149.89686,250.8
-Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),4.9,1085.160954,25.4
-Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),14.52,0,0
-Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.74,0,0
+Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),4.9,1085.160954,
+Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),14.52,,
+Alignment Splitting (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.74,,
 Alignment Splitting (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,AMAS,10.426,801.407824,99.4
 Alignment Splitting (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,AMAS (--remove-empty),11.032,801.295312,100
 Alignment Splitting (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,SEGUL CLI,2.768,794.660152,128.8
@@ -289,14 +289,14 @@ Alignment Summary (NEXUS),Jarvis et al. 2014 (DNA),Desktop,Linux,AMAS,59.336,143
 Alignment Summary (NEXUS),Jarvis et al. 2014 (DNA),Desktop,Linux,SEGUL CLI,0.84,99.139062,2126.2
 Alignment Summary (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,AMAS,91.696,1975.93984,304.6
 Alignment Summary (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL CLI,1.098,327.467188,1659.2
-Alignment Summary (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),1.198,516.679678,118.4
-Alignment Summary (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),14.24,0,0
-Alignment Summary (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),7.7,0,0
+Alignment Summary (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),1.198,516.679678,
+Alignment Summary (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),14.24,,
+Alignment Summary (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),7.7,,
 Alignment Summary (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,AMAS,73.406,1684.9508,302.2
 Alignment Summary (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI,1.396,640.21017200000006,1543.2
-Alignment Summary (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),1.478,820.457032,129.8
-Alignment Summary (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),13.3,0,0
-Alignment Summary (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.52,0,0
+Alignment Summary (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),1.478,820.457032,
+Alignment Summary (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),13.3,,
+Alignment Summary (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),6.52,,
 Alignment Summary (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,AMAS,43.27,978.048434,320.6
 Alignment Summary (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,SEGUL CLI,0.828,371.762496,1632.2
 Alignment Summary (PHYLIP),Chan et al. 2020 (DNA),Desktop,Linux,AMAS,45.918,982.764066,323.6
@@ -312,7 +312,7 @@ Alignment Summary (PHYLIP),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI,1.362,6
 Alignment Summary (PHYLIP),Wu et al. 2018 (AA),Desktop,Linux,AMAS,44.334,978.13983,284.6
 Alignment Summary (PHYLIP),Wu et al. 2018 (AA),Desktop,Linux,SEGUL CLI,0.822,369.517966,1641.2
 Read Summary (FASTQ),SRR26062012 (Whole Genome),Desktop,Linux,SEGUL CLI,996.738,9.03515626,198.4
-Read Summary (FASTQ),SRR26062012 (Whole Genome),Desktop,Linux,SEGUL GUI (Linux),1008.8,187.851562,160.8
+Read Summary (FASTQ),SRR26062012 (Whole Genome),Desktop,Linux,SEGUL GUI (Linux),1008.8,187.851562,
 Sequence Removal (FASTA),Chan et al. 2020 (DNA),Desktop,Linux,AMAS,2.31,384.914064,272.8
 Sequence Removal (FASTA),Chan et al. 2020 (DNA),Desktop,Linux,AMAS (--check-align),9.618,384.21797,142.2
 Sequence Removal (FASTA),Chan et al. 2020 (DNA),Desktop,Linux,SEGUL CLI,0.408,20.6007814,576.8
@@ -353,16 +353,16 @@ Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,AMAS,2.1,720.1
 Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,AMAS (--check-align),213.354,720.637506,107
 Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL CLI,0.432,33.467969,1154.8
 Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL CLI (--datatype ignore),0.45399999999999996,34.0023438,753.6
-Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),0.42,226.475002,40.6
-Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),3.5,0,0
-Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),4.2,0,0
+Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Desktop,Linux,SEGUL GUI (Linux),0.42,226.475002,
+Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Mobile,Android,SEGUL GUI (Android),3.5,,
+Sequence Removal (NEXUS),Oliveros et al. 2019 (DNA),Mobile,iPadOS,SEGUL GUI (iPadOS),4.2,,
 Sequence Removal (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,AMAS,1.702,621.155468,782.8
 Sequence Removal (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,AMAS (--check-align),501.598,622.541406,102
 Sequence Removal (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI,0.348,66.603124,1963.8
 Sequence Removal (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL CLI (--datatype ignore),0.248,68.349999,1182
-Sequence Removal (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),0.46599999999999997,255.635938,52.6
-Sequence Removal (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),4.38,0,0
-Sequence Removal (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),3.22,0,0
+Sequence Removal (NEXUS),Shen et al. 2018 (AA),Desktop,Linux,SEGUL GUI (Linux),0.46599999999999997,255.635938,
+Sequence Removal (NEXUS),Shen et al. 2018 (AA),Mobile,Android,SEGUL GUI (Android),4.38,,
+Sequence Removal (NEXUS),Shen et al. 2018 (AA),Mobile,iPadOS,SEGUL GUI (iPadOS),3.22,,
 Sequence Removal (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,AMAS,1.808,360.83047,997.4
 Sequence Removal (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,AMAS (--check-align),22.078,361.668752,173.8
 Sequence Removal (NEXUS),Wu et al. 2018 (AA),Desktop,Linux,SEGUL CLI,0.258,30.076562799999998,1394.8
