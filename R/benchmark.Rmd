@@ -39,7 +39,7 @@ readr::write_csv(bench, here("results", "benchmark.csv"), na = "")
 ```{r}
 bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage") 
 
-# Check the benchmark for each dataset contains 10 iterations
+# Check the benchmark for each dataset contains 5 iterations
 counts <- bench |>
   dplyr::count(Analyses, Datasets, Platform, OS_name, Apps)
 
