@@ -24,7 +24,7 @@ git clone https://github.com/hhandika/segul-bench
 
 ## Running the benchmark scripts
 
-The scripts are written in [FISH SHELL](https://fishshell.com/). The latest revision of manuscripts only conducted automatic benchmarks on Linux. The GUI benchmark was done manually and inputted later into the automatic benchmark results.
+The scripts are written in [FISH SHELL](https://fishshell.com/). The latest revision of the manuscript only conducted automatic benchmarks on Linux. The GUI benchmark was done manually and inputted later into the automatic benchmark results.
 
 ### Download the data
 
