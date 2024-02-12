@@ -28,7 +28,9 @@ file_path <- here("data", "data_ms_rev2.csv")
 bench <- readr::read_csv(file_path) |>
   # ignore SEGUL GUI (Linux) Percent_CPU_usage. 
   # Not relevant for the paper and it does not seem to show the actual usage
-  dplyr::mutate(Percent_CPU_usage = ifelse(Apps == "SEGUL GUI (Linux)", 0, Percent_CPU_usage)) |>
+  dplyr::mutate(Percent_CPU_usage = ifelse(Apps == "SEGUL GUI (Linux)", NA, Percent_CPU_usage)) |>
+  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0.0)) |>
+  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0.0)) |>
   dplyr::select(-Latest_bench)
 
 readr::write_csv(bench, here("results", "benchmark.csv"), na = "")
@@ -48,9 +50,10 @@ mean(counts$n)
 
 summary_by_datasets <- bench |>
   dplyr::group_by(Analyses, Datasets, Platform, OS_name, Apps) |>
-  dplyr::summarise_at(bench_results, mean) |>
-  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0)) |>
-  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0))
+    dplyr::summarise(
+    across(bench_results, ~ mean(.x, na.rm = TRUE), .names = "Mean_{.col}"),
+    across(bench_results, ~ sd(.x, na.rm = TRUE), .names = "SD_{.col}"),
+    )
 
 readr::write_csv(summary_by_datasets, here("results", "mean_bench_by_dataset.csv"), na = "")
 ```
@@ -62,26 +65,24 @@ analyses.df <- bench |>
   # Create a analyses type column by removing input format
   dplyr::mutate(AnalysesType = str_extract(Analyses, "^[^(]+")) 
 
+# Calculate mean and sd for each column
 summary_by_analyses_type <- analyses.df |>
   dplyr::group_by(AnalysesType, Apps) |>
-  dplyr::summarise_at(bench_results, mean) |>
-  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0)) |>
-  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0))
-
+  dplyr::summarise(
+    across(bench_results, ~ mean(.x, na.rm = TRUE), .names = "Mean_{.col}"),
+    across(bench_results, ~ sd(.x, na.rm = TRUE), .names = "SD_{.col}"),
+    )
+  
 summary_by_analyses <- analyses.df |>
   dplyr::group_by(AnalysesType, Datasets, Apps) |>
-  dplyr::summarise_at(bench_results, mean) |>
-  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0)) |>
-  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0))
+  dplyr::summarise_at(bench_results, mean)
 
 
 summary_by_input_format <- analyses.df |>
   # Create a input format column by removing analyses names
   dplyr::mutate(format = str_extract(Analyses, "(?<=\\()([^)]+)(?=\\))")) |>
   dplyr::group_by(AnalysesType, format, Platform, OS_name, Apps) |>
-  dplyr::summarise_at(bench_results, mean) |>
-  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0)) |>
-  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0))
+  dplyr::summarise_at(bench_results, mean)
 
 readr::write_csv(summary_by_analyses_type, here("results", "mean_bench_by_analyses.csv"), na = "")
 ```
@@ -95,7 +96,7 @@ Figure 1.
 summary_by_datasets |>
   dplyr::filter(OS_name == "Linux") |>
   dplyr::filter(Analyses != "Read Summary (FASTQ)") |>
-  ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
+  ggplot(aes(x = Mean_Execution_time_secs, y = Mean_RAM_usage_Mb)) +
     geom_point(size = 3, aes(color = Datasets, shape = Apps)) +
     facet_wrap(~ Analyses, scales = "free", ncol = 3) +
     scale_color_manual(values = ai_2024, guide = guide_legend(nrow = 6)) +
@@ -104,7 +105,7 @@ summary_by_datasets |>
     scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
     theme_minimal() +
     theme(legend.position = "bottom") +
-    labs(x = "Mean execution time (secs)", y = "Mean memory usage (Mb)")
+    labs(x = "Mean execution time (secs)", y = "Mean RAM usage (Mb)")
 
 .height <- 8
 .width <- 10
