@@ -1,83 +1,75 @@
 # segul-bench
 
-This repo hosts benchmark results that compare [SEGUL](https://github.com/hhandika/segul) performance with other similar programs. The main focus is comparing to AMAS. AMAS is the fastest app available for alignment manipulation and generating alignment summary statistics (see [Borowiec, 2016](https://peerj.com/articles/1660/)). We also include [Phyluce](https://github.com/faircloth-lab/phyluce) for some benchmarks out of curiosity. It is not quite similar app because Phyluce does more than SEGUL, but has some overlap functions.
+This repo hosts scripts and data for Handika and Esselstyn. [In review](https://www.authorea.com/doi/full/10.22541/au.165167823.30911834/v1).
 
-The benchmark is conducted in all three major operating system (Linux, macOS, and Windows). For Windows, we benchmark on Windows Subsystem for Linux because it tends to be the default choice when using bioinformatics command-line application.
+## Requirements
 
-## Folder structure
+- [Fish Shell](https://fishshell.com/)
+- [Git](https://git-scm.com/)
+- [GH CLI](https://cli.github.com/)
+- [R](https://www.r-project.org/)
+- [RStudio](https://www.rstudio.com/)
 
-```Bash
-.
-├── R # R scripts to analyses the data
-├── data # Benchmark results
-│   ├── misc # Miscellaneous files from benchmarks (e.g., panic error messages)
-│   └── raw # Raw results piped from GNU Time
-├── figures # All the plots
-└── scripts # All the SHELL scripts to run the benchmarks
-    ├── concat
-    ├── segul-dev
-    ├── split
-    └── summary
+## Cloning the repository
+
+```bash
+gh repo clone hhandika/segul-bench
 ```
 
-## Results
+Or using git:
 
-### Summary statistics
+```bash
+git clone https://github.com/hhandika/segul-bench
+```
 
-#### Benchmark 1
+## Running the benchmark scripts
 
-Test bench: MacMini (M1 2020)
+The scripts are written in [FISH SHELL](https://fishshell.com/). The latest revision of manuscripts only conducted automatic benchmarks on Linux. The GUI benchmark was done manually and inputted later into the automatic benchmark results.
 
-OS: macOS Monterey v12.1
+### Download the data
 
-![results](figures/macOS_summary_stats.png)
+Follow the link in the manuscript to download the data. The data is not included in this repository.
 
-#### Benchmark 2
+Create a `alignments` directory in the root of the repository. Then, move the data to the `alignments` directory.
 
-Test bench: Desktop PC (AMD Ryzen 3900x)
+```bash
+cd segul-bench
+```
 
-OS: openSUSE Tumbleweed x86_64
+```bash
+mkdir alignments
+```
 
-![results](figures/Linux_summary_stats.png)
+### Benchmarking
 
-#### Benchmark 3
+We recommend copying the scripts to the same PATH environment of your Linux machine. The scripts are optimized for FISH SHELL. The scripts files are named based on the type of analysis and data type.
 
-Test bench: Desktop PC (AMD Ryzen 3900x)
+```bash
+cp scripts/linux/* [PATH-ENV]
+```
 
-OS: Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406
+Then, run the scripts in the directory where the data is located.
 
-![results](figures/WindowsWSL_summary_stats.png)
+For example, to run concatenation benchmark for DNA data:
 
-### Concat statistics
+```bash
+concat_bench_openSUSE.sh
+```
 
-#### Benchmark 1
+Running multiple scripts at once:
 
-Test bench: MacMini (M1 2020)
+```bash
+concat_bench_openSUSE.sh && concat_bench_AA_openSUSE.sh
+```
 
-OS: macOS Monterey v12.1
+## Analyzing the results
 
-![results](figures/macOS_concat_stats.png)
+The latest version of the manuscript uses the data in `data/ms_rev2`. The data was parsed using [bench-parser](https://github.com/hhandika/bench-parser). The result is saved as `data/data_ms_rev2.csv`. You can use the data to reproduce the analysis in the manuscript. The scripts should work on any operating system where R and RStudio are installed. We use RMarkdown to write the R scripts.
 
-#### Benchmark 2
+### Steps
 
-Test bench: Desktop PC (AMD Ryzen 3900x)
+1. Open `segul-bench.Rproj` in RStudio.
 
-OS: openSUSE Tumbleweed x86_64
+2. Open `R/benchmark.Rmd` in RStudio.
 
-![results](figures/Linux_concat_stats.png)
-
-#### Benchmark 3
-
-Test bench: Desktop PC (AMD Ryzen 3900x)
-
-OS: Ubuntu 20.04.3 LTS on Windows 11 21H2 build 22000.406
-
-![results](figures/WindowsWSL_concat_stats.png)
-
-### Alignment Splitting
-
-Test bench: Desktop PC (AMD Ryzen 3900x)
-
-OS: openSUSE Tumbleweed x86_64
-
-![results](figures/Linux_split_alignment.png)
+3. Run the script.

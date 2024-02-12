@@ -4,7 +4,7 @@ author: Heru Handika
 output: html_document
 ---
 
-This file contains all code to analyses SEGUL benchmark results. I use the R base pipe, required R version 4.1. If you are using R version <4.1, change the pipe "|>" to magrittr pipe "%>%".
+This file contains all code to analyses SEGUL benchmark results. I use the R base pipe (required R version 4.1). If you are using R version <4.1, change the pipe "|>" to magrittr pipe "%>%".
 
 ```{r}
 if (!require(pacman)) {
@@ -21,7 +21,9 @@ pacman::p_load(RColorBrewer)
 source(here::here("R", "utils.R"))
 ```
 
-## Load results for Handika & Esselstyn. In review
+## Load benchmark results for Handika & Esselstyn. In review.
+
+The CSV files is generated using [benc-parser](https://github.com/hhandika/bench-parser). Below, we clean the file and change any values in zero to NA and write the cleaned data frame into a new CSV file.s
 
 ```{r}
 file_path <- here("data", "data_ms_rev2.csv")
@@ -31,12 +33,17 @@ bench <- readr::read_csv(file_path) |>
   dplyr::mutate(Percent_CPU_usage = ifelse(Apps == "SEGUL GUI (Linux)", NA, Percent_CPU_usage)) |>
   dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0.0)) |>
   dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0.0)) |>
+  # Latest bench is irrelevant since everything is the latest now.
   dplyr::select(-Latest_bench)
 
 readr::write_csv(bench, here("results", "benchmark.csv"), na = "")
 ```
 
 ## Summarize benchmark results
+
+We check the benchmark result. Latest benchmark only generate 5 replicates. Hence, we check if each datasets for each feature test contains 5 replicates. Any unmatched values may be a result of parsing errors or issues with the raw files generated in our automatic test bench. Go back to the raw files to find out about the errors.
+
+The next step is to generate means and standard deviation for each dataset. Then, save the file as CSV.
 
 ```{r}
 bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage") 
@@ -59,6 +66,8 @@ readr::write_csv(summary_by_datasets, here("results", "mean_bench_by_dataset.csv
 ```
 
 ## Mean summary by analyses
+
+We also generate summary per type of analyses (i.e., per benchmark test), per input format. We only need summary per analyses type as CSV that we use for the Table 4 in the manuscript. This comparison provide general performance of tested applications across features and input formats.
 
 ```{r}
 analyses.df <- bench |>
@@ -84,13 +93,14 @@ summary_by_input_format <- analyses.df |>
   dplyr::group_by(AnalysesType, format, Platform, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
 
+# Only summary by type is needed. The rest is for exploratory only.
 readr::write_csv(summary_by_analyses_type, here("results", "mean_bench_by_analyses.csv"), na = "")
 ```
 
 
 ## Generate plots using the mean of benchmark results for each datasets
 
-Figure 1. 
+This result is for Figure 1. We exclude the read summary. We used it separately for Figure 2. 
 
 ```{r}
 summary_by_datasets |>
@@ -147,6 +157,7 @@ segul_compare <- bench |>
   dplyr::filter(Apps %in% apps) |>
   dplyr::filter(Analyses %in% analyses) |>
   dplyr::filter(Datasets %in% dataset) |>
+  # Both dataset will be NEXUS, so don't need to display it in the plot.
   dplyr::mutate(Analyses = str_remove_all(Analyses, "\\(NEXUS\\)"))
 
 segul_compare_by_analyses <- segul_compare |>
