@@ -149,7 +149,7 @@ segul_compare <- bench |>
   dplyr::mutate(Analyses = str_remove_all(Analyses, "\\(NEXUS\\)"))
 
 segul_compare_by_analyses <- segul_compare |>
-  dplyr::group_by(Analyses,  Apps, Datasets) |>
+  dplyr::group_by(Analyses, Apps, Datasets) |>
   dplyr::summarise(
     mean_execution = mean(Execution_time_secs),
     sd_execution = sd(Execution_time_secs),
