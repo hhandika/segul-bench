@@ -6,7 +6,7 @@ This repo hosts scripts and data for Handika and Esselstyn. [In review](https://
 
 - [Fish Shell](https://fishshell.com/)
 - [Git](https://git-scm.com/)
-- [GH CLI](https://cli.github.com/)
+- [GH CLI (optional)](https://cli.github.com/)
 - [R](https://www.r-project.org/)
 - [RStudio](https://www.rstudio.com/)
 
@@ -64,7 +64,7 @@ concat_bench_openSUSE.sh && concat_bench_AA_openSUSE.sh
 
 ## Analyzing the results
 
-The latest version of the manuscript uses the data in `data/ms_rev2`. The data was parsed using [bench-parser](https://github.com/hhandika/bench-parser). The result is saved as `data/data_ms_rev2.csv`. You can use the data to reproduce the analysis in the manuscript. The scripts should work on any operating system where R and RStudio are installed. We use RMarkdown to write the R scripts.
+The latest version of the manuscript uses the data in `data/ms_rev2`. The data was parsed using [bench-parser](https://github.com/hhandika/bench-parser). The result is saved as `data/data_ms_rev2.csv`. You can use the data to reproduce the analysis in the manuscript. The scripts should work on any operating system where R and RStudio are installed. We use RMarkdown to write the main R scripts.
 
 ### Steps
 
