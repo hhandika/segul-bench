@@ -107,7 +107,7 @@ summary_by_datasets |>
     theme(legend.position = "bottom") +
     labs(x = "Mean execution time (secs)", y = "Mean RAM usage (Mb)")
 
-.height <- 8
+.height <- 9
 .width <- 10
 
 ggsave(here("figures", "summary_fig1.png"), width = .width, height = .height, units = "in")
@@ -141,7 +141,7 @@ ggsave(here("figures", "summary_fig2.pdf"), width = .width, height = .height, un
 ```{r}
 apps <- c("SEGUL CLI", "SEGUL GUI (Linux)", "SEGUL GUI (Android)", "SEGUL GUI (iPadOS)")
 analyses <- c("Alignment Concatenation (NEXUS)", "Alignment Conversion (NEXUS)", "Alignment Splitting (NEXUS)", "Alignment Summary (NEXUS)", "Sequence Removal (NEXUS)")
-dataset <- c("Oliveros et al. 2019 (DNA)", "Shen et al. 2018 (AA)")
+dataset <- c("Oliveros et al. 2019 (522.5 MBases, DNA)", "Shen et al. 2018 (398.8 MBases, AA)")
 
 segul_compare <- bench |>
   dplyr::filter(Apps %in% apps) |>
