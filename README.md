@@ -1,6 +1,6 @@
 # segul-bench
 
-This repo hosts scripts and data for Handika and Esselstyn. [In review](https://www.authorea.com/doi/full/10.22541/au.165167823.30911834/v1).
+This repo hosts scripts and data for Handika and Esselstyn ([In review](https://www.authorea.com/doi/full/10.22541/au.165167823.30911834/v1)).
 
 ## Requirements
 
