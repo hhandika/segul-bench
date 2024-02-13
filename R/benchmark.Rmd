@@ -240,7 +240,7 @@ segul_compare_by_analyses_docs |>
     scale_x_discrete(guide = guide_axis(angle = 60)) +
     theme_minimal() +
     theme(legend.position="none") +
-    labs(y = "Mean execution time (secs)")
+    labs(y = "Mean RAM usage (Mb)")
 
 
 .height <- 6
