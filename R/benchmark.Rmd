@@ -4,7 +4,7 @@ author: Heru Handika
 output: html_document
 ---
 
-This file contains all code to analyses SEGUL benchmark results. I use the R base pipe (required R version 4.1). If you are using R version <4.1, change the pipe "|>" to magrittr pipe "%>%".
+This file contains all code for Handika and Esselstyn (in review) manuscript. I use the R base pipe (required R version 4.1). If you are using R version <4.1, change the pipe "|>" to magrittr pipe "%>%".
 
 ```{r}
 if (!require(pacman)) {
@@ -48,11 +48,11 @@ The next step is to generate means and standard deviation for each dataset. Then
 ```{r}
 bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage") 
 
-# Check the benchmark for each dataset contains 5 iterations
+# Get replicate counts
 counts <- bench |>
   dplyr::count(Analyses, Datasets, Platform, OS_name, Apps)
 
-# Check for parsing errors.
+# Check each contains 5 iterations
 mean(counts$n)
 
 summary_by_datasets <- bench |>
@@ -129,6 +129,7 @@ ggsave(here("figures", "summary_fig1.pdf"), width = .width, height = .height, un
 bench |>
   dplyr::filter(OS_name == "Linux") |>
   dplyr::filter(Analyses == "Read Summary (FASTQ)") |>
+  dplyr::mutate(Apps = ifelse(Apps == "SEGUL GUI (Linux)", "SEGUL GUI", Apps)) |>
   ggplot(aes(x = Execution_time_secs, y = RAM_usage_Mb)) +
     geom_point(size = 3, aes(color = Apps, shape = Apps)) +
     scale_color_manual(values = ai_2024) +
@@ -158,7 +159,8 @@ segul_compare <- bench |>
   dplyr::filter(Analyses %in% analyses) |>
   dplyr::filter(Datasets %in% dataset) |>
   # Both dataset will be NEXUS, so don't need to display it in the plot.
-  dplyr::mutate(Analyses = str_remove_all(Analyses, "\\(NEXUS\\)"))
+  dplyr::mutate(Analyses = str_remove_all(Analyses, "\\(NEXUS\\)")) |>
+  dplyr::mutate(Apps = ifelse(Apps == "SEGUL CLI", "SEGUL CLI (Linux)", Apps))
 
 segul_compare_by_analyses <- segul_compare |>
   dplyr::group_by(Analyses, Apps, Datasets) |>
