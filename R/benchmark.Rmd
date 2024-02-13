@@ -186,4 +186,67 @@ segul_compare_by_analyses |>
 ggsave(here("figures", "summary_fig3.png"), width = .width, height = .height, units = "in")
 ggsave(here("figures", "summary_fig3.pdf"), width = .width, height = .height, units = "in")
 ```
+## Extra figures for documentation
+
+```{r}
+analyses <- c("Alignment Concatenation (NEXUS)")
+apps <- c("SEGUL CLI", "AMAS", "SEGUL GUI (Linux)", "SEGUL CLI (--datatype ignore)", "SEGUL GUI (Android)", "SEGUL GUI (iPadOS)", "goalign (single-core)")
+apps_mem_usage <- c("SEGUL CLI", "AMAS", "SEGUL GUI (Linux)", "SEGUL CLI (--datatype ignore)", "goalign (single-core)")
+dataset <- c("Oliveros et al. 2019 (522.5 MBases, DNA)", "Shen et al. 2018 (398.8 MBases, AA)")
+
+segul_compare_docs <- bench |>
+  dplyr::filter(Apps %in% apps) |>
+  dplyr::filter(Analyses == "Alignment Concatenation (NEXUS)") |>
+  dplyr::filter(Datasets %in% dataset) |>
+  # Both dataset will be NEXUS, so don't need to display it in the plot.
+  dplyr::mutate(Analyses = str_remove_all(Analyses, "\\(NEXUS\\)"))
+
+segul_compare_by_analyses_docs <- segul_compare_docs |>
+  dplyr::group_by(Analyses, Apps, Datasets) |>
+  dplyr::summarise(
+    mean_execution = mean(Execution_time_secs),
+    sd_execution = sd(Execution_time_secs),
+    mean_ram_usage = mean(RAM_usage_Mb),
+    sd_ram_usage = sd(RAM_usage_Mb),
+    lower = mean_execution - sd_execution,
+    upper = mean_execution + sd_execution,
+    lower_ram_usage = mean_ram_usage - sd_ram_usage,
+    upper_ram_usage = mean_ram_usage + sd_ram_usage
+  )
+
+# Execution time
+segul_compare_by_analyses_docs |>
+  ggplot(aes(x = Apps, y = mean_execution, fill = Datasets)) +
+    geom_bar(stat = "identity", position=position_dodge()) +
+    geom_errorbar(aes(ymin = lower, ymax = upper), position=position_dodge()) +
+    facet_wrap(~ Datasets,  ncol = 4) +
+    scale_fill_manual(values = ai_2024_4) +
+    scale_x_discrete(guide = guide_axis(angle = 60)) +
+    theme_minimal() +
+    theme(legend.position="none") +
+    labs(y = "Mean execution time (secs)")
+
+ggsave(here("figures", "summary_docs1.png"), width = .width, height = .height, units = "in")
+ggsave(here("figures", "summary_docs1.pdf"), width = .width, height = .height, units = "in")
+
+# Execution time
+segul_compare_by_analyses_docs |>
+  dplyr::filter(Apps %in% apps_mem_usage) |>
+  ggplot(aes(x = Apps, y = mean_ram_usage, fill = Datasets)) +
+    geom_bar(stat = "identity", position=position_dodge()) +
+    geom_errorbar(aes(ymin = lower_ram_usage, ymax = upper_ram_usage), position=position_dodge()) +
+    facet_wrap(~ Datasets,  ncol = 4) +
+    scale_fill_manual(values = ai_2024_4) +
+    scale_x_discrete(guide = guide_axis(angle = 60)) +
+    theme_minimal() +
+    theme(legend.position="none") +
+    labs(y = "Mean execution time (secs)")
+
+
+.height <- 6
+.width <- 8
+
+ggsave(here("figures", "summary_docs2.png"), width = .width, height = .height, units = "in")
+ggsave(here("figures", "summary_docs2.pdf"), width = .width, height = .height, units = "in")
+```
 
