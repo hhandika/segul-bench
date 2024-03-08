@@ -218,14 +218,15 @@ segul_compare_by_analyses_docs <- segul_compare_docs |>
 
 # Execution time
 segul_compare_by_analyses_docs |>
-  ggplot(aes(x = Apps, y = mean_execution, fill = Datasets)) +
+  dplyr::mutate(AppGroup = ifelse(str_detect(Apps, pattern="SEGUL"), "SEGUL", Apps)) |>
+  ggplot(aes(x = Apps, y = mean_execution, fill = AppGroup)) +
     geom_bar(stat = "identity", position=position_dodge()) +
     geom_errorbar(aes(ymin = lower, ymax = upper), position=position_dodge()) +
     facet_wrap(~ Datasets,  ncol = 4) +
     scale_fill_manual(values = ai_2024_4) +
     scale_x_discrete(guide = guide_axis(angle = 60)) +
     theme_minimal() +
-    theme(legend.position="none") +
+    theme(legend.position = "none") +
     labs(y = "Mean execution time (secs)")
 
 ggsave(here("figures", "summary_docs1.png"), width = .width, height = .height, units = "in")
@@ -241,12 +242,12 @@ segul_compare_by_analyses_docs |>
     scale_fill_manual(values = ai_2024_4) +
     scale_x_discrete(guide = guide_axis(angle = 60)) +
     theme_minimal() +
-    theme(legend.position="none") +
+    theme(legend.position = "bottom") +
     labs(y = "Mean RAM usage (Mb)")
 
 
-.height <- 6
-.width <- 8
+.height <- 4
+.width <- 6
 
 ggsave(here("figures", "summary_docs2.png"), width = .width, height = .height, units = "in")
 ggsave(here("figures", "summary_docs2.pdf"), width = .width, height = .height, units = "in")
