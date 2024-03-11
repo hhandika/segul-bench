@@ -17,6 +17,8 @@ pacman::p_load(readr)
 pacman::p_load(dplyr)
 pacman::p_load(stringr)
 pacman::p_load(RColorBrewer)
+pacman::p_load(ggExtra)
+pacman::p_load(patchwork)
 
 source(here::here("R", "utils.R"))
 ```
@@ -103,7 +105,7 @@ readr::write_csv(summary_by_analyses_type, here("results", "mean_bench_by_analys
 This result is for Figure 1. We exclude the read summary. We used it separately for Figure 2. 
 
 ```{r}
-summary_by_datasets |>
+figure_1 <- summary_by_datasets |>
   dplyr::filter(OS_name == "Linux") |>
   dplyr::filter(Analyses != "Read Summary (FASTQ)") |>
   ggplot(aes(x = Mean_Execution_time_secs, y = Mean_RAM_usage_Mb)) +
@@ -115,7 +117,7 @@ summary_by_datasets |>
     scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
     theme_minimal() +
     theme(legend.position = "bottom") +
-    labs(x = "Mean execution time (secs)", y = "Mean RAM usage (Mb)")
+    labs(x = "Mean execution time (secs)", y = "Mean RAM usage (Mb)") 
 
 .height <- 9
 .width <- 10
@@ -126,7 +128,7 @@ ggsave(here("figures", "summary_fig1.pdf"), width = .width, height = .height, un
 ## Figure 2 SEGUL GUI versus CLI performance for genome analyses
 
 ```{r}
-bench |>
+figure_2 <- bench |>
   dplyr::filter(OS_name == "Linux") |>
   dplyr::filter(Analyses == "Read Summary (FASTQ)") |>
   dplyr::mutate(Apps = ifelse(Apps == "SEGUL GUI (Linux)", "SEGUL GUI", Apps)) |>
@@ -137,7 +139,9 @@ bench |>
     coord_trans(x = "log") +
     scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
     theme_minimal() +
-    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")
+    labs(x = "Execution time (secs)", y = "Memory usage (Mb)")  +
+    ggtitle("a)")
+
 
 .height <- 3
 .width <- 4
@@ -171,22 +175,24 @@ segul_compare_by_analyses <- segul_compare |>
     upper = mean_execution + sd_execution
   )
 
-segul_compare_by_analyses |>
+figure_3 <- segul_compare_by_analyses |>
   ggplot(aes(x = Analyses, y = mean_execution, fill = Apps)) +
     geom_bar(stat = "identity", position=position_dodge()) +
     geom_errorbar(aes(ymin = lower, ymax = upper), position=position_dodge()) +
-    facet_wrap(~ Datasets,  ncol = 4) +
+    facet_wrap(~ Datasets,  ncol = 1) +
     scale_fill_manual(values = ai_2024_4) +
     scale_x_discrete(guide = guide_axis(angle = 60)) +
     theme_minimal() +
-    labs(y = "Mean execution time (secs)")
+    labs(y = "Mean execution time (secs)") +
+    ggtitle("b)")
 
+figure_2 / figure_3
 
-.height <- 6
-.width <- 8
+.height <- 8
+.width <- 6
 
-ggsave(here("figures", "summary_fig3.png"), width = .width, height = .height, units = "in")
-ggsave(here("figures", "summary_fig3.pdf"), width = .width, height = .height, units = "in")
+ggsave(here("figures", "summary_fig2_combined.png"), width = .width, height = .height, units = "in")
+ggsave(here("figures", "summary_fig2_combined.pdf"), width = .width, height = .height, units = "in")
 ```
 ## Extra figures for documentation
 
