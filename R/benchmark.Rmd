@@ -33,8 +33,9 @@ bench <- readr::read_csv(file_path) |>
   # ignore SEGUL GUI (Linux) Percent_CPU_usage. 
   # Not relevant for the paper and it does not seem to show the actual usage
   dplyr::mutate(Percent_CPU_usage = ifelse(Apps == "SEGUL GUI (Linux)", NA, Percent_CPU_usage)) |>
-  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, 0.0)) |>
-  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, 0.0)) |>
+  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, NA)) |>
+  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, NA)) |>
+  dplyr::mutate(CPU_Hours = Execution_time_secs * (Percent_CPU_usage / 100)) |>
   # Latest bench is irrelevant since everything is the latest now.
   dplyr::select(-Latest_bench)
 
@@ -48,7 +49,7 @@ We check the benchmark result. Latest benchmark only generate 5 replicates. Henc
 The next step is to generate means and standard deviation for each dataset. Then, save the file as CSV.
 
 ```{r}
-bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage") 
+bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage", "CPU_Hours") 
 
 # Get replicate counts
 counts <- bench |>
@@ -105,10 +106,13 @@ readr::write_csv(summary_by_analyses_type, here("results", "mean_bench_by_analys
 This result is for Figure 1. We exclude the read summary. We used it separately for Figure 2. 
 
 ```{r}
-figure_1 <- summary_by_datasets |>
+plot_data <- summary_by_datasets |>
   dplyr::filter(OS_name == "Linux") |>
-  dplyr::filter(Analyses != "Read Summary (FASTQ)") |>
-  ggplot(aes(x = Mean_Execution_time_secs, y = Mean_RAM_usage_Mb)) +
+  dplyr::filter(Apps != "SEGUL GUI (Linux)") |>
+  dplyr::filter(Analyses != "Read Summary (FASTQ)")
+
+plot_data |>
+  ggplot(aes(x = Mean_CPU_Hours, y = Mean_RAM_usage_Mb)) +
     geom_point(size = 3, aes(color = Datasets, shape = Apps)) +
     facet_wrap(~ Analyses, scales = "free", ncol = 3) +
     scale_color_manual(values = ai_2024, guide = guide_legend(nrow = 6)) +
@@ -117,7 +121,7 @@ figure_1 <- summary_by_datasets |>
     scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
     theme_minimal() +
     theme(legend.position = "bottom") +
-    labs(x = "Mean execution time (secs)", y = "Mean RAM usage (Mb)") 
+    labs(x = "Mean CPU Hours (secs)", y = "Mean RAM usage (Mb)") 
 
 .height <- 9
 .width <- 10
