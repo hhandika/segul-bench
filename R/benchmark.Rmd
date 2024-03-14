@@ -35,7 +35,7 @@ bench <- readr::read_csv(file_path) |>
   dplyr::mutate(Percent_CPU_usage = ifelse(Apps == "SEGUL GUI (Linux)", NA, Percent_CPU_usage)) |>
   dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, NA)) |>
   dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, NA)) |>
-  dplyr::mutate(CPU_Hours = Execution_time_secs * (Percent_CPU_usage / 100)) |>
+  dplyr::mutate(CPU_Time = Execution_time_secs * (Percent_CPU_usage / 100)) |>
   # Latest bench is irrelevant since everything is the latest now.
   dplyr::select(-Latest_bench)
 
@@ -49,7 +49,7 @@ We check the benchmark result. Latest benchmark only generate 5 replicates. Henc
 The next step is to generate means and standard deviation for each dataset. Then, save the file as CSV.
 
 ```{r}
-bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage", "CPU_Hours") 
+bench_results <- c("Execution_time_secs", "RAM_usage_Mb", "Percent_CPU_usage", "CPU_Time") 
 
 # Get replicate counts
 counts <- bench |>
@@ -112,7 +112,7 @@ plot_data <- summary_by_datasets |>
   dplyr::filter(Analyses != "Read Summary (FASTQ)")
 
 plot_data |>
-  ggplot(aes(x = Mean_CPU_Hours, y = Mean_RAM_usage_Mb)) +
+  ggplot(aes(x = Mean_CPU_Time, y = Mean_RAM_usage_Mb)) +
     geom_point(size = 3, aes(color = Datasets, shape = Apps)) +
     facet_wrap(~ Analyses, scales = "free", ncol = 3) +
     scale_color_manual(values = ai_2024, guide = guide_legend(nrow = 6)) +
@@ -121,7 +121,7 @@ plot_data |>
     scale_x_continuous(guide = guide_axis(check.overlap = TRUE)) +
     theme_minimal() +
     theme(legend.position = "bottom") +
-    labs(x = "Mean CPU Hours (secs)", y = "Mean RAM usage (Mb)") 
+    labs(x = "Mean CPU time (secs)", y = "Mean RAM usage (Mb)") 
 
 .height <- 9
 .width <- 10
