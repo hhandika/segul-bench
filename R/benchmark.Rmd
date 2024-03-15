@@ -37,7 +37,7 @@ bench <- readr::read_csv(file_path) |>
   # dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, NA)) |>
   dplyr::mutate(CPU_Time = Execution_time_secs * (Percent_CPU_usage / 100)) |>
   dplyr::mutate_all(na_if, NA) |>
-  dplyr::mutate_all(na_if(.x, .x < 0), NA) |>
+  dplyr::mutate_all(~if_else(.x == 0, NA, .x)) |>
   # Latest bench is irrelevant since everything is the latest now.
   dplyr::select(-Latest_bench)
 
@@ -96,7 +96,9 @@ summary_by_analyses_type <- analyses.df |>
   dplyr::summarise(
     across(bench_results, ~ mean(.x, na.rm = TRUE), .names = "Mean_{.col}"),
     across(bench_results, ~ sd(.x, na.rm = TRUE), .names = "SD_{.col}"),
-    )
+    ) |>
+  # Change NaN value to NA, so we can leave it empty in the export csv.
+  dplyr::mutate_all(~ifelse(is.nan(.x), NA, .x))
 
 # Only summary by type is needed. The rest is for exploratory only.
 readr::write_csv(summary_by_analyses_type, here("results", "mean_bench_by_analyses.csv"), na = "")
