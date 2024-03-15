@@ -33,9 +33,11 @@ bench <- readr::read_csv(file_path) |>
   # ignore SEGUL GUI (Linux) Percent_CPU_usage. 
   # Not relevant for the paper and it does not seem to show the actual usage
   dplyr::mutate(Percent_CPU_usage = ifelse(Apps == "SEGUL GUI (Linux)", NA, Percent_CPU_usage)) |>
-  dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, NA)) |>
-  dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, NA)) |>
+  # dplyr::mutate(RAM_usage_Mb = na_if(RAM_usage_Mb, NA)) |>
+  # dplyr::mutate(Percent_CPU_usage = na_if(Percent_CPU_usage, NA)) |>
   dplyr::mutate(CPU_Time = Execution_time_secs * (Percent_CPU_usage / 100)) |>
+  dplyr::mutate_all(na_if, NA) |>
+  dplyr::mutate_all(na_if(.x, .x < 0), NA) |>
   # Latest bench is irrelevant since everything is the latest now.
   dplyr::select(-Latest_bench)
 
@@ -77,14 +79,6 @@ analyses.df <- bench |>
   # Create a analyses type column by removing input format
   dplyr::mutate(AnalysesType = str_extract(Analyses, "^[^(]+")) 
 
-# Calculate mean and sd for each column
-summary_by_analyses_type <- analyses.df |>
-  dplyr::group_by(AnalysesType, Apps) |>
-  dplyr::summarise(
-    across(bench_results, ~ mean(.x, na.rm = TRUE), .names = "Mean_{.col}"),
-    across(bench_results, ~ sd(.x, na.rm = TRUE), .names = "SD_{.col}"),
-    )
-  
 summary_by_analyses <- analyses.df |>
   dplyr::group_by(AnalysesType, Datasets, Apps) |>
   dplyr::summarise_at(bench_results, mean)
@@ -95,6 +89,14 @@ summary_by_input_format <- analyses.df |>
   dplyr::mutate(format = str_extract(Analyses, "(?<=\\()([^)]+)(?=\\))")) |>
   dplyr::group_by(AnalysesType, format, Platform, OS_name, Apps) |>
   dplyr::summarise_at(bench_results, mean)
+
+# Calculate mean and sd for each column
+summary_by_analyses_type <- analyses.df |>
+  dplyr::group_by(AnalysesType, Apps) |>
+  dplyr::summarise(
+    across(bench_results, ~ mean(.x, na.rm = TRUE), .names = "Mean_{.col}"),
+    across(bench_results, ~ sd(.x, na.rm = TRUE), .names = "SD_{.col}"),
+    )
 
 # Only summary by type is needed. The rest is for exploratory only.
 readr::write_csv(summary_by_analyses_type, here("results", "mean_bench_by_analyses.csv"), na = "")
